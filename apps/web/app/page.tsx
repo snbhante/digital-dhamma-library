@@ -1,5 +1,6 @@
 import Link from "next/link";
 import corpus from "../../../data/corpus.json";
+import SearchBox from "../components/SearchBox";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
           Read, search, study, and research Buddhist texts through stable,
           source-aware digital records.
         </p>
+        <SearchBox />
         <div className="actions">
           <Link className="button primary" href="/read/mn10/">Open MN 10</Link>
           <Link className="button" href="#library">Explore library</Link>
@@ -36,6 +38,24 @@ export default function Home() {
             </Link>
           ))}
         </div>
+      </section>
+
+      <section className="section feature-grid">
+        <article className="feature-card">
+          <span className="feature-number">01</span>
+          <h3>Stable citations</h3>
+          <p>Every paragraph has a durable identifier that can be linked, quoted, and cited.</p>
+        </article>
+        <article className="feature-card">
+          <span className="feature-number">02</span>
+          <h3>Source-aware data</h3>
+          <p>Provenance, edition, and licensing metadata are part of the data model from the beginning.</p>
+        </article>
+        <article className="feature-card">
+          <span className="feature-number">03</span>
+          <h3>Open architecture</h3>
+          <p>The public reader is designed to grow into dictionaries, commentaries, research tools, and APIs.</p>
+        </article>
       </section>
 
       <section className="section">

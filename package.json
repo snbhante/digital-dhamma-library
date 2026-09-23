@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "npm --workspace @digital-dhamma-library/web run dev",
     "build": "npm run validate:data && npm --workspace @digital-dhamma-library/web run build",
-    "typecheck": "npm -ws run typecheck",
+    "typecheck": "npm run typecheck --workspaces",
     "validate:data": "node scripts/validate-data.mjs"
   },
   "workspaces": [

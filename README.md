@@ -64,8 +64,7 @@ The first milestone is a working public reader that can:
 2. Display Pāḷi with stable paragraph IDs.
 3. Display English/Bangla translations when licensed data is available.
 4. Search the local corpus.
-5. Open a dictionary entry.
-6. Copy a stable citation/link.
+5. Copy a stable citation/link.
 7. Work responsively on mobile and desktop.
 8. Deploy as a static site through GitHub Pages.
 
@@ -79,11 +78,11 @@ A text being available on the internet does **not** automatically mean it can be
 
 Requirements:
 
-- Node.js 20+
-- npm 10+
+- Node.js 24.21.0 LTS
+- npm 12.1.0
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 

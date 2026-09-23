@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import corpus from "../../../../../data/corpus.json";
+import CopyCitationButton from "../../../components/CopyCitationButton";
 
 export function generateStaticParams() {
   return corpus.map((work) => ({ workId: work.id }));
@@ -20,7 +21,10 @@ export default async function WorkPage({
     <main className="reader-shell">
       <nav className="topbar">
         <Link href="/">← Digital Dhamma Library</Link>
-        <span>{work.collection}</span>
+        <div className="topbar-actions">
+          <Link href="/search/">Search</Link>
+          <span>{work.collection}</span>
+        </div>
       </nav>
 
       <header className="reader-header">
@@ -31,13 +35,21 @@ export default async function WorkPage({
           <span>Language: {work.language}</span>
           <span>Type: {work.type}</span>
           <span>Edition: {work.edition}</span>
+          <span>{work.paragraphs.length} paragraphs</span>
         </div>
       </header>
 
-      <section className="text-column">
+      <section className="text-column" aria-label={`${work.title} text`}>
         {work.paragraphs.map((paragraph) => (
           <article className="paragraph" id={paragraph.id} key={paragraph.id}>
-            <div className="paragraph-id">{paragraph.id}</div>
+            <div className="paragraph-head">
+              <div className="paragraph-id">{paragraph.id}</div>
+              <CopyCitationButton
+                workTitle={work.title}
+                paragraphId={paragraph.id}
+                edition={work.edition}
+              />
+            </div>
             <p className="pali">{paragraph.pali}</p>
             {paragraph.english && <p className="translation">{paragraph.english}</p>}
             {paragraph.bangla && <p className="translation bangla">{paragraph.bangla}</p>}
