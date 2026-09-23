@@ -1,0 +1,221 @@
+[
+  {
+    "id": "dhamma",
+    "headword": "dhamma",
+    "variants": [
+      "dhammaṃ",
+      "dhammā"
+    ],
+    "grammar": "noun; masculine/neuter depending on sense; context determines inflection",
+    "meanings": [
+      {
+        "english": "phenomenon; principle; teaching; Dhamma; quality or state",
+        "bangla": "ধর্ম; নীতি; শিক্ষা; স্বভাব বা অবস্থা; প্রসঙ্গভেদে ধম্ম"
+      }
+    ],
+    "note": "A highly polysemous term. A research dictionary must preserve contextual senses rather than force one Bengali or English equivalent.",
+    "sources": [
+      "SN 56.11",
+      "MN 22",
+      "Dhammapada"
+    ]
+  },
+  {
+    "id": "mettā",
+    "headword": "mettā",
+    "variants": [
+      "metta",
+      "mettāya",
+      "mettācitta"
+    ],
+    "grammar": "feminine noun",
+    "meanings": [
+      {
+        "english": "goodwill; benevolent friendliness; an attitude wishing welfare",
+        "bangla": "মঙ্গলকামনা; কল্যাণমুখী সদিচ্ছা; সকলের হিতকামনাময় চিত্ত"
+      }
+    ],
+    "note": "The application should distinguish the lexical sense from later technical meditation instructions and their commentarial expansions.",
+    "sources": [
+      "Khp 9",
+      "Visuddhimagga"
+    ]
+  },
+  {
+    "id": "dukkha",
+    "headword": "dukkha",
+    "variants": [
+      "dukkhaṃ",
+      "dukkhatā"
+    ],
+    "grammar": "neuter noun",
+    "meanings": [
+      {
+        "english": "suffering; unsatisfactoriness; painful or unreliable conditioned experience",
+        "bangla": "দুঃখ; অসন্তোষজনকতা; পীড়াদায়ক বা অনির্ভরযোগ্য সংসারিক অভিজ্ঞতা"
+      }
+    ],
+    "note": "Its translation depends strongly on doctrinal and grammatical context; the Four Noble Truths use it in several related but distinguishable ways.",
+    "sources": [
+      "SN 56.11",
+      "SN 22.59"
+    ]
+  },
+  {
+    "id": "anicca",
+    "headword": "anicca",
+    "variants": [
+      "aniccā",
+      "aniccatā"
+    ],
+    "grammar": "adjective / substantive adjective",
+    "meanings": [
+      {
+        "english": "impermanent; changing; not lasting",
+        "bangla": "অনিত্য; পরিবর্তনশীল; স্থায়ী নয় এমন"
+      }
+    ],
+    "note": "In the three-characteristic framework it is paired with dukkha and anattā as a mode of examining conditioned phenomena.",
+    "sources": [
+      "SN 22.59"
+    ]
+  },
+  {
+    "id": "anattā",
+    "headword": "anattā",
+    "variants": [
+      "anatta",
+      "anattānaṃ"
+    ],
+    "grammar": "adjective / substantive adjective",
+    "meanings": [
+      {
+        "english": "not-self; not an enduring self or essence",
+        "bangla": "অনাত্ম; স্থায়ী আত্মা বা আত্মসত্তা নয় এমন"
+      }
+    ],
+    "note": "Avoid treating anattā as a simple metaphysical slogan; context, grammatical case and the object under examination matter.",
+    "sources": [
+      "SN 22.59",
+      "MN 22"
+    ]
+  },
+  {
+    "id": "nibbāna",
+    "headword": "nibbāna",
+    "variants": [
+      "nibbānaṃ",
+      "nibbānadhātu"
+    ],
+    "grammar": "neuter noun",
+    "meanings": [
+      {
+        "english": "Nibbāna; extinguishing/release; the unconditioned goal described in the early Buddhist path",
+        "bangla": "নিব্বান; নির্বাপণ/মুক্তি; আর্যপথের অসংখত লক্ষ্য"
+      }
+    ],
+    "note": "The interface should link this headword to occurrences, doctrinal concepts, and commentarial discussions rather than provide only a one-line translation.",
+    "sources": [
+      "SN 56.11",
+      "Udāna"
+    ]
+  },
+  {
+    "id": "sacca",
+    "headword": "sacca",
+    "variants": [
+      "saccaṃ",
+      "saccāni"
+    ],
+    "grammar": "neuter noun",
+    "meanings": [
+      {
+        "english": "truth; reality; a true statement or principle",
+        "bangla": "সত্য; বাস্তবতা; সত্য অবস্থা বা সত্যনীতি"
+      }
+    ],
+    "note": "In cattāri ariyasaccāni, the term is technical and should be read together with the fourfold structure and its tasks.",
+    "sources": [
+      "SN 56.11"
+    ]
+  },
+  {
+    "id": "paññā",
+    "headword": "paññā",
+    "variants": [
+      "paññāya",
+      "paññavā"
+    ],
+    "grammar": "feminine noun",
+    "meanings": [
+      {
+        "english": "wisdom; discernment; penetrative understanding",
+        "bangla": "প্রজ্ঞা; বিচক্ষণ জ্ঞান; অনুধাবনমূলক প্রজ্ঞা"
+      }
+    ],
+    "note": "A research view should distinguish paññā as a broad faculty from its specific role in the noble path and threefold training.",
+    "sources": [
+      "SN 56.11",
+      "Dhammapada"
+    ]
+  },
+  {
+    "id": "sīla",
+    "headword": "sīla",
+    "variants": [
+      "sīlaṃ",
+      "sīlena"
+    ],
+    "grammar": "neuter noun",
+    "meanings": [
+      {
+        "english": "ethical conduct; virtue; disciplined behaviour",
+        "bangla": "শীল; নৈতিক আচরণ; সংযত ও শৃঙ্খলাবদ্ধ আচরণ"
+      }
+    ],
+    "note": "The database should eventually distinguish individual precepts, restraint, and higher-training contexts instead of treating every occurrence as identical.",
+    "sources": [
+      "Khp 6",
+      "Dhammapada"
+    ]
+  },
+  {
+    "id": "samādhi",
+    "headword": "samādhi",
+    "variants": [
+      "samādhinā",
+      "samādhissa"
+    ],
+    "grammar": "masculine noun",
+    "meanings": [
+      {
+        "english": "concentration; collectedness; mental unification",
+        "bangla": "সমাধি; একাগ্রতা; চিত্তের সংহতি"
+      }
+    ],
+    "note": "Later data should connect occurrences to jhāna, samādhi training, and Abhidhamma/commentarial taxonomies.",
+    "sources": [
+      "SN 56.11",
+      "Khp 6"
+    ]
+  },
+  {
+    "id": "sati",
+    "headword": "sati",
+    "variants": [
+      "satimā",
+      "satiyā"
+    ],
+    "grammar": "feminine noun",
+    "meanings": [
+      {
+        "english": "mindfulness; recollective awareness; attentive presence",
+        "bangla": "সতি; স্মরণশীল সচেতনতা; মনোযোগী উপস্থিতি"
+      }
+    ],
+    "note": "The exact rendering depends on context; the research engine should eventually expose occurrences in the Satipaṭṭhāna and other frameworks side by side.",
+    "sources": [
+      "MN 10"
+    ]
+  }
+]

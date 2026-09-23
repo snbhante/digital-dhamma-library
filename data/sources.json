@@ -1,0 +1,18 @@
+[
+  {
+    "id": "starter-corpus-2026-09",
+    "title": "Digital Dhamma Library Phase 1.2 Starter Corpus",
+    "kind": "PROJECT_CURATED_DATASET",
+    "edition": "STARTER-CORPUS-2026-09",
+    "licenseStatus": "Project code and metadata are MIT-oriented; text/translations require per-record rights verification.",
+    "provenance": "Manually curated starter records for reader/search testing. Not a critical edition."
+  },
+  {
+    "id": "future-public-domain-canonical",
+    "title": "Future Canonical/Public-Domain Import Source",
+    "kind": "PLANNED_DATASET",
+    "edition": "TO_BE_VERIFIED",
+    "licenseStatus": "Not yet imported. License and edition must be verified before redistribution.",
+    "provenance": "Placeholder registry record only; no text is distributed under this source ID."
+  }
+]

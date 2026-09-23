@@ -22,3 +22,12 @@ Each released dataset should eventually contain:
 - human-review status
 
 Internet availability alone is never treated as permission to redistribute copyrighted editions or translations.
+
+
+## Phase 1.3 data layers
+
+- `corpus.json` — starter text corpus.
+- `dictionary.json` — small project-curated research dictionary prototype; not a third-party dictionary.
+- `sources.json` — stable source/provenance registry for future imports.
+
+All data remains subject to record-level provenance and license review.

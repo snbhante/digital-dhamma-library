@@ -56,7 +56,7 @@ supabase/
   workflows/
 ```
 
-## Phase 1.2 target
+## Phase 1.3 target
 
 The first milestone is a working public reader that can:
 
@@ -67,10 +67,12 @@ The first milestone is a working public reader that can:
 5. Filter by collection, type, and language.
 6. Copy a stable citation/link.
 7. Toggle reader languages and adjust text size/line spacing.
-8. Keep reader preferences locally on the device.
-9. Validate data, typecheck, build, and deploy through GitHub Actions + GitHub Pages.
+8. Browse a library index and source/provenance registry.
+9. Search a starter Pāḷi research dictionary.
+10. Keep reader preferences locally on the device.
+11. Validate data, typecheck, build, and deploy through GitHub Actions + GitHub Pages.
 
-Authentication, bookmarks, notes, collections, contributions, administration, dictionaries, commentaries, and research APIs are planned for later phases. The public corpus remains source-aware and license-aware from the start.
+Authentication, bookmarks, notes, collections, contributions, administration, full dictionaries, commentaries, and research APIs are planned for later phases. Phase 1.3 includes only a small starter dictionary and source registry so the research architecture can be tested early. The public corpus remains source-aware and license-aware from the start.
 
 ## Important legal rule
 

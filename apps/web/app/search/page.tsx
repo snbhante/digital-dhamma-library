@@ -52,7 +52,7 @@ export default function SearchPage() {
     const max = Number(limit) || 100;
     const output: Array<{
       workId: string; workTitle: string; collection: string; paragraphId: string;
-      number: number; pali: string; english?: string; bangla?: string;
+      number: number; pali: string; english?: string; bangla?: string; score: number;
     }> = [];
 
     const matches = (paragraph: Work["paragraphs"][number], work: Work) => {
@@ -67,17 +67,27 @@ export default function SearchPage() {
         metadata: normalize([work.id, work.collection, work.title, work.description].join(" ")),
       };
       const haystack = field === "all" ? Object.values(fields).join(" ") : fields[field];
-      return terms.every((term) => haystack.includes(term)) && phraseMatches.every((phrase) => haystack.includes(phrase));
+      if (!terms.every((term) => haystack.includes(term)) || !phraseMatches.every((phrase) => haystack.includes(phrase))) return false;
+      return true;
     };
 
-    outer: for (const work of corpus) {
+    for (const work of corpus) {
       for (const paragraph of work.paragraphs) {
         if (!matches(paragraph, work)) continue;
-        output.push({ workId: work.id, workTitle: work.title, collection: work.collection, paragraphId: paragraph.id, number: paragraph.number, pali: paragraph.pali, english: paragraph.english, bangla: paragraph.bangla });
-        if (output.length >= max) break outer;
+        const fields = {
+          pali: normalize(paragraph.pali),
+          english: normalize(paragraph.english ?? ""),
+          bangla: normalize(paragraph.bangla ?? ""),
+          metadata: normalize([work.id, work.collection, work.title, work.description].join(" ")),
+        };
+        const score = terms.reduce((total, term) => {
+          const fieldNames = field === "all" ? (Object.keys(fields) as Array<keyof typeof fields>) : [field];
+          return total + fieldNames.reduce((s, key) => s + (fields[key].includes(term) ? (fields[key].startsWith(term) ? 4 : 2) : 0), 0);
+        }, 0) + phraseMatches.length * 3;
+        output.push({ workId: work.id, workTitle: work.title, collection: work.collection, paragraphId: paragraph.id, number: paragraph.number, pali: paragraph.pali, english: paragraph.english, bangla: paragraph.bangla, score });
       }
     }
-    return output;
+    return output.sort((a, b) => b.score - a.score || a.paragraphId.localeCompare(b.paragraphId)).slice(0, max);
   }, [query, field, collection, type, language, limit]);
 
   function submit(event: FormEvent<HTMLFormElement>) {
@@ -98,9 +108,9 @@ export default function SearchPage() {
     <main className="shell search-page">
       <nav className="topbar"><Link href="/">← Digital Dhamma Library</Link><span>Research Search</span></nav>
       <header className="reader-header search-header">
-        <p className="eyebrow">PHASE 1.2 RESEARCH SEARCH</p>
+        <p className="eyebrow">PHASE 1.3 RESEARCH SEARCH</p>
         <h1>Search the Dhamma</h1>
-        <p>Search titles, metadata, Pāḷi, English, and বাংলা with phrase matching and corpus filters.</p>
+        <p>Search titles, metadata, Pāḷi, English, and বাংলা with phrase matching, filters, and lightweight relevance ordering.</p>
       </header>
 
       <form className="search-form large" onSubmit={submit} role="search">
@@ -121,7 +131,7 @@ export default function SearchPage() {
         {!query ? <div className="notice"><strong>Search tips:</strong> use quotes for an exact phrase, for example <code>"sabbaṃ ādittaṃ"</code>. Filters can be combined.</div> : <>
           <div className="section-heading"><div><p className="eyebrow">RESULTS</p><h2>{results.length} matching paragraph{results.length === 1 ? "" : "s"}</h2></div><span className="badge">“{query}”</span></div>
           {results.length === 0 ? <div className="notice">No matching paragraph was found with the current query and filters.</div> : <div className="result-list">{results.map((result) => <Link className="result-card" key={`${result.workId}-${result.paragraphId}`} href={`/read/${result.workId}/#${result.paragraphId}`}>
-            <div className="result-meta"><span>{result.collection}</span><span>{result.paragraphId}</span></div>
+            <div className="result-meta"><span>{result.collection}</span><span>{result.paragraphId}</span><span>relevance {result.score}</span></div>
             <h3>{result.workTitle}</h3><p className="pali result-pali">{result.pali}</p>{result.english && <p>{result.english}</p>}{result.bangla && <p className="bangla">{result.bangla}</p>}<span className="card-link">Open paragraph →</span>
           </Link>)}</div>}
         </>}

@@ -1,13 +1,19 @@
+# Dependencies
 node_modules/
+
+# Next.js / build output
 .next/
 out/
-dist/
-coverage/
+*.tsbuildinfo
 
+# Local environment
 .env
 .env.local
-.env.*
-!.env.example
+.env.*.local
 
+# OS / editor
 .DS_Store
-*.log
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json

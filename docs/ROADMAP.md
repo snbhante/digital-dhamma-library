@@ -28,9 +28,18 @@
 - [x] Reader line-spacing controls
 - [x] Persistent local reader preferences
 - [x] CI validation/typecheck/build gate
+
+## Phase 1.3 — Research Foundation
+- [x] Relevance-ordered local search
+- [x] Library index
+- [x] Source/provenance registry
+- [x] Starter dictionary UI and dataset
+- [x] Dictionary validation
+- [x] Reader previous/next navigation
+- [x] Reader settings reset
 - [ ] Full licensed Tipiṭaka corpus
 - [ ] Edition comparison
-- [ ] Dictionary UI
+- [ ] Full dictionary imports
 
 ## Phase 2 — Research engine
 - [ ] Aṭṭhakathā
