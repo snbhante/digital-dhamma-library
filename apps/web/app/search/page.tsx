@@ -5,17 +5,28 @@ import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type FormEvent } from "react";
 import corpus from "../../../../data/corpus.json";
 
+type Work = (typeof corpus)[number];
+type SearchField = "all" | "pali" | "english" | "bangla" | "metadata";
+
 function normalize(value: string) {
-  return value
-    .normalize("NFKC")
-    .toLocaleLowerCase()
-    .replace(/[–—]/g, "-")
-    .trim();
+  return value.normalize("NFKC").toLocaleLowerCase().replace(/[–—]/g, "-").trim();
+}
+
+function termsFromQuery(value: string) {
+  const phraseMatches = [...value.matchAll(/"([^\"]+)"/g)].map((m) => normalize(m[1]));
+  const withoutPhrases = value.replace(/"([^\"]+)"/g, " ");
+  const terms = withoutPhrases.split(/\s+/).map(normalize).filter(Boolean);
+  return { phraseMatches, terms };
 }
 
 export default function SearchPage() {
   const [query, setQuery] = useState("");
   const [input, setInput] = useState("");
+  const [field, setField] = useState<SearchField>("all");
+  const [collection, setCollection] = useState("all");
+  const [type, setType] = useState("all");
+  const [language, setLanguage] = useState("all");
+  const [limit, setLimit] = useState("100");
   const router = useRouter();
 
   useEffect(() => {
@@ -23,127 +34,97 @@ export default function SearchPage() {
     const initial = params.get("q") ?? "";
     setQuery(initial);
     setInput(initial);
+    setField((params.get("field") as SearchField) || "all");
+    setCollection(params.get("collection") || "all");
+    setType(params.get("type") || "all");
+    setLanguage(params.get("language") || "all");
+    setLimit(params.get("limit") || "100");
   }, []);
+
+  const collections = useMemo(() => [...new Set(corpus.map((work) => work.collection))].sort(), []);
+  const types = useMemo(() => [...new Set(corpus.map((work) => work.type))].sort(), []);
+  const languages = useMemo(() => [...new Set(corpus.map((work) => work.language))].sort(), []);
 
   const results = useMemo(() => {
     const q = normalize(query);
     if (!q) return [];
-
-    const terms = q.split(/\s+/).filter(Boolean);
+    const { phraseMatches, terms } = termsFromQuery(q);
+    const max = Number(limit) || 100;
     const output: Array<{
-      workId: string;
-      workTitle: string;
-      collection: string;
-      paragraphId: string;
-      number: number;
-      pali: string;
-      english?: string;
-      bangla?: string;
+      workId: string; workTitle: string; collection: string; paragraphId: string;
+      number: number; pali: string; english?: string; bangla?: string;
     }> = [];
 
-    for (const work of corpus) {
-      for (const paragraph of work.paragraphs) {
-        const haystack = normalize([
-          work.id,
-          work.collection,
-          work.title,
-          work.description,
-          paragraph.pali,
-          paragraph.english ?? "",
-          paragraph.bangla ?? "",
-        ].join(" "));
+    const matches = (paragraph: Work["paragraphs"][number], work: Work) => {
+      if (collection !== "all" && work.collection !== collection) return false;
+      if (type !== "all" && work.type !== type) return false;
+      if (language !== "all" && work.language !== language) return false;
 
-        if (terms.every((term) => haystack.includes(term))) {
-          output.push({
-            workId: work.id,
-            workTitle: work.title,
-            collection: work.collection,
-            paragraphId: paragraph.id,
-            number: paragraph.number,
-            pali: paragraph.pali,
-            english: paragraph.english,
-            bangla: paragraph.bangla,
-          });
-        }
+      const fields = {
+        pali: normalize(paragraph.pali),
+        english: normalize(paragraph.english ?? ""),
+        bangla: normalize(paragraph.bangla ?? ""),
+        metadata: normalize([work.id, work.collection, work.title, work.description].join(" ")),
+      };
+      const haystack = field === "all" ? Object.values(fields).join(" ") : fields[field];
+      return terms.every((term) => haystack.includes(term)) && phraseMatches.every((phrase) => haystack.includes(phrase));
+    };
+
+    outer: for (const work of corpus) {
+      for (const paragraph of work.paragraphs) {
+        if (!matches(paragraph, work)) continue;
+        output.push({ workId: work.id, workTitle: work.title, collection: work.collection, paragraphId: paragraph.id, number: paragraph.number, pali: paragraph.pali, english: paragraph.english, bangla: paragraph.bangla });
+        if (output.length >= max) break outer;
       }
     }
-
     return output;
-  }, [query]);
+  }, [query, field, collection, type, language, limit]);
 
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const value = input.trim();
     setQuery(value);
-    const url = value ? `/search/?q=${encodeURIComponent(value)}` : "/search/";
-    router.replace(url);
+    const params = new URLSearchParams();
+    if (value) params.set("q", value);
+    if (field !== "all") params.set("field", field);
+    if (collection !== "all") params.set("collection", collection);
+    if (type !== "all") params.set("type", type);
+    if (language !== "all") params.set("language", language);
+    if (limit !== "100") params.set("limit", limit);
+    router.replace(params.toString() ? `/search/?${params.toString()}` : "/search/");
   }
 
   return (
     <main className="shell search-page">
-      <nav className="topbar">
-        <Link href="/">← Digital Dhamma Library</Link>
-        <span>Corpus Search</span>
-      </nav>
-
+      <nav className="topbar"><Link href="/">← Digital Dhamma Library</Link><span>Research Search</span></nav>
       <header className="reader-header search-header">
-        <p className="eyebrow">RESEARCH SEARCH</p>
+        <p className="eyebrow">PHASE 1.2 RESEARCH SEARCH</p>
         <h1>Search the Dhamma</h1>
-        <p>Search across titles, metadata, Pāḷi, English, and বাংলা text in the published local corpus.</p>
+        <p>Search titles, metadata, Pāḷi, English, and বাংলা with phrase matching and corpus filters.</p>
       </header>
 
       <form className="search-form large" onSubmit={submit} role="search">
         <label className="sr-only" htmlFor="corpus-search">Search corpus</label>
-        <input
-          id="corpus-search"
-          value={input}
-          onChange={(event) => setInput(event.target.value)}
-          placeholder="Try: satipaṭṭhāna, Nibbāna, দুঃখ, MN 10…"
-          autoFocus
-        />
+        <input id="corpus-search" value={input} onChange={(event) => setInput(event.target.value)} placeholder={'Try: satipaṭṭhāna, "nibbāna", দুঃখ, MN 10…'} autoFocus />
         <button className="button primary" type="submit">Search</button>
       </form>
 
-      <section className="section search-results" aria-live="polite">
-        {!query ? (
-          <div className="notice">
-            <strong>Search tip:</strong> enter a word or phrase. The current Phase 1 corpus is intentionally small; additional licensed texts will be added in later data releases.
-          </div>
-        ) : (
-          <>
-            <div className="section-heading">
-              <div>
-                <p className="eyebrow">RESULTS</p>
-                <h2>{results.length} matching paragraph{results.length === 1 ? "" : "s"}</h2>
-              </div>
-              <span className="badge">“{query}”</span>
-            </div>
+      <section className="filters" aria-label="Search filters">
+        <label>Field<select value={field} onChange={(e) => setField(e.target.value as SearchField)}><option value="all">All fields</option><option value="pali">Pāḷi</option><option value="english">English</option><option value="bangla">বাংলা</option><option value="metadata">Metadata</option></select></label>
+        <label>Collection<select value={collection} onChange={(e) => setCollection(e.target.value)}><option value="all">All collections</option>{collections.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
+        <label>Type<select value={type} onChange={(e) => setType(e.target.value)}><option value="all">All types</option>{types.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
+        <label>Language<select value={language} onChange={(e) => setLanguage(e.target.value)}><option value="all">All languages</option>{languages.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
+        <label>Limit<select value={limit} onChange={(e) => setLimit(e.target.value)}><option value="25">25</option><option value="50">50</option><option value="100">100</option><option value="250">250</option></select></label>
+      </section>
 
-            {results.length === 0 ? (
-              <div className="notice">No matching paragraph was found in the current corpus.</div>
-            ) : (
-              <div className="result-list">
-                {results.map((result) => (
-                  <Link
-                    className="result-card"
-                    key={`${result.workId}-${result.paragraphId}`}
-                    href={`/read/${result.workId}/#${result.paragraphId}`}
-                  >
-                    <div className="result-meta">
-                      <span>{result.collection}</span>
-                      <span>{result.paragraphId}</span>
-                    </div>
-                    <h3>{result.workTitle}</h3>
-                    <p className="pali result-pali">{result.pali}</p>
-                    {result.english && <p>{result.english}</p>}
-                    {result.bangla && <p className="bangla">{result.bangla}</p>}
-                    <span className="card-link">Open paragraph →</span>
-                  </Link>
-                ))}
-              </div>
-            )}
-          </>
-        )}
+      <section className="section search-results" aria-live="polite">
+        {!query ? <div className="notice"><strong>Search tips:</strong> use quotes for an exact phrase, for example <code>"sabbaṃ ādittaṃ"</code>. Filters can be combined.</div> : <>
+          <div className="section-heading"><div><p className="eyebrow">RESULTS</p><h2>{results.length} matching paragraph{results.length === 1 ? "" : "s"}</h2></div><span className="badge">“{query}”</span></div>
+          {results.length === 0 ? <div className="notice">No matching paragraph was found with the current query and filters.</div> : <div className="result-list">{results.map((result) => <Link className="result-card" key={`${result.workId}-${result.paragraphId}`} href={`/read/${result.workId}/#${result.paragraphId}`}>
+            <div className="result-meta"><span>{result.collection}</span><span>{result.paragraphId}</span></div>
+            <h3>{result.workTitle}</h3><p className="pali result-pali">{result.pali}</p>{result.english && <p>{result.english}</p>}{result.bangla && <p className="bangla">{result.bangla}</p>}<span className="card-link">Open paragraph →</span>
+          </Link>)}</div>}
+        </>}
       </section>
     </main>
   );

@@ -1,18 +1,33 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-1.1",
+  "release": "phase-1.2",
   "baseline_date": "2026-09-23",
-  "runtime": {"node": "24.21.0", "channel": "LTS", "npm": "12.1.0"},
-  "framework": {"next": "16.3.6", "react": "19.3.0", "react_dom": "19.3.0"},
-  "language": {"typescript": "7.0.2"},
-  "styling": {"tailwindcss": "4.3.0", "postcss": "@tailwindcss/postcss 4.3.0"},
-  "phase_1_1_features": [
-    "Static GitHub Pages export",
-    "Local corpus search",
-    "Stable paragraph anchors",
-    "Copy citation control",
-    "Responsive reader UI",
-    "404 page",
-    "Source and licensing principle"
+  "runtime": {
+    "node": "24.21.0",
+    "channel": "LTS",
+    "npm": "12.1.0"
+  },
+  "framework": {
+    "next": "16.3.6",
+    "react": "19.3.0",
+    "react_dom": "19.3.0"
+  },
+  "language": {
+    "typescript": "7.0.2"
+  },
+  "styling": {
+    "tailwindcss": "4.3.0",
+    "postcss": "@tailwindcss/postcss 4.3.0"
+  },
+  "phase_1_2_features": [
+    "Expanded starter corpus",
+    "Phrase search",
+    "Field filters",
+    "Collection/type/language filters",
+    "Reader language toggles",
+    "Reader font and line-spacing controls",
+    "Persistent local reader preferences",
+    "CI quality gate",
+    "Stronger corpus validation"
   ]
 }

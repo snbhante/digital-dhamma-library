@@ -2,7 +2,15 @@
 
 Only publish data that the project has the legal right to redistribute.
 
-Each dataset should eventually contain:
+## Current starter corpus
+
+`corpus.json` is intentionally larger in Phase 1.2 so that search, reader navigation, multilingual display, filtering, and stable-ID behavior can be tested against a more realistic dataset. It is a **structured starter corpus**, not a claim of a complete critical edition or a replacement for a licensed Tipiṭaka edition.
+
+The Pāḷi passages are ancient canonical material; the project-curated English and Bangla translations in this starter dataset are written for application testing. Each record carries provenance and a redistribution-rights warning so that future imports can replace or supplement these records with explicitly verified editions.
+
+## Future dataset contract
+
+Each released dataset should eventually contain:
 
 - `dataset.json`
 - `sources.json`
@@ -11,5 +19,6 @@ Each dataset should eventually contain:
 - machine-readable records
 - checksums
 - import/version metadata
+- human-review status
 
-The included `corpus.json` is a small demonstration dataset, not a claim that it is a complete canonical edition.
+Internet availability alone is never treated as permission to redistribute copyrighted editions or translations.

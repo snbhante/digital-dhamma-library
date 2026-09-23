@@ -56,19 +56,21 @@ supabase/
   workflows/
 ```
 
-## Phase 1 target
+## Phase 1.2 target
 
 The first milestone is a working public reader that can:
 
-1. Open a work such as MN 10.
+1. Open works such as MN 10, MN 21, SN 56.11, AN 3.65, and selected Khuddakapāṭha/Dhammapada/Udāna records.
 2. Display Pāḷi with stable paragraph IDs.
-3. Display English/Bangla translations when licensed data is available.
-4. Search the local corpus.
-5. Copy a stable citation/link.
-7. Work responsively on mobile and desktop.
-8. Deploy as a static site through GitHub Pages.
+3. Display project-curated English/Bangla starter translations.
+4. Search the local corpus with phrase matching and field filters.
+5. Filter by collection, type, and language.
+6. Copy a stable citation/link.
+7. Toggle reader languages and adjust text size/line spacing.
+8. Keep reader preferences locally on the device.
+9. Validate data, typecheck, build, and deploy through GitHub Actions + GitHub Pages.
 
-Authentication, bookmarks, notes, collections, contributions, and administration are designed into the data model and will be enabled in later phases through Supabase.
+Authentication, bookmarks, notes, collections, contributions, administration, dictionaries, commentaries, and research APIs are planned for later phases. The public corpus remains source-aware and license-aware from the start.
 
 ## Important legal rule
 

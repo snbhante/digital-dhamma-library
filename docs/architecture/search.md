@@ -1,39 +1,45 @@
 # Search Architecture
 
-## Phase 1
+## Phase 1.2
 
-Use a generated local index over the repository dataset.
+The public reader uses a generated local search over the versioned `data/corpus.json` dataset. The browser search is intentionally dependency-free so the static GitHub Pages deployment remains simple.
 
 Search pipeline:
 
 ```text
 Query
  ↓
-Unicode normalization
+Unicode NFKC normalization
  ↓
-Pāḷi/Bengali transliteration normalization
+Phrase extraction for quoted text
  ↓
-Tokenization
+Term matching
  ↓
-Exact/prefix matching
+Field selection
  ↓
-Metadata filtering
+Collection/type/language filters
  ↓
-Ranked results
+Result limit
  ↓
-Stable citation
+Stable paragraph link
 ```
 
-## Required query types
+## Supported query behavior
 
-- exact
-- phrase
-- prefix
-- boolean
-- metadata filtered
+- all-field search
+- Pāḷi-only search
+- English-only search
+- বাংলা-only search
+- metadata search
+- quoted phrase search
+- AND matching for multiple terms
+- collection filter
+- type filter
+- language filter
+- result limit
 
-## Future
+## Future search layers
 
-PostgreSQL full-text search can become the primary structured search layer. A dedicated search engine can be introduced later if corpus size and fuzzy/semantic requirements justify it.
+The current browser search is appropriate for the starter corpus. As the corpus grows, search should move to a generated static index and eventually PostgreSQL full-text search or a dedicated search engine. Fuzzy, morphological, and semantic search should be added only after the authoritative source data and stable identifiers are mature.
 
 Search indexes must always be generated from versioned source data; they are never the authoritative source.

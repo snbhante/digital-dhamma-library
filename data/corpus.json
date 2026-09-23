@@ -3,10 +3,15 @@
     "id": "mn10",
     "collection": "Majjhima Nikāya",
     "title": "MN 10 — Satipaṭṭhāna Sutta",
-    "description": "Phase-1 demonstration record for the Digital Dhamma Library reader.",
+    "description": "A structured starter excerpt from the Satipaṭṭhāna Sutta for testing multilingual reading, stable anchors, and search.",
     "language": "Pāḷi",
     "type": "CANONICAL",
-    "edition": "DEMO-EDITION-001",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
     "paragraphs": [
       {
         "id": "mn10.p001",
@@ -19,36 +24,839 @@
         "id": "mn10.p002",
         "number": 2,
         "pali": "Ekāyano ayaṃ, bhikkhave, maggo sattānaṃ visuddhiyā sokaparidevānaṃ samatikkamāya dukkhadomanassānaṃ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya.",
-        "english": "This is the direct path for the purification of beings, for overcoming sorrow and lamentation, for the disappearance of pain and grief, for attaining the true way, for the realization of Nibbāna.",
+        "english": "This is the direct path for the purification of beings, for overcoming sorrow and lamentation, for the disappearance of pain and grief, for attaining the true way, for realizing Nibbāna.",
         "bangla": "ভিক্ষুগণ, এটি প্রাণীদের বিশুদ্ধির জন্য, শোক ও বিলাপ অতিক্রমের জন্য, দুঃখ ও দৌর্মনস্যের বিলয়ের জন্য, ন্যায়পথ লাভের জন্য এবং নির্বাণ সাক্ষাতের জন্য একায়ন পথ।"
       },
       {
         "id": "mn10.p003",
         "number": 3,
-        "pali": "Yadidaṃ cattāro satipaṭṭhānā. Katame cattāro? Idha, bhikkhave, bhikkhu kāye kāyānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
-        "english": "Namely, the four establishments of mindfulness. What four? Here, monks, a monk dwells contemplating the body as a body, ardent, fully aware, and mindful, having put away covetousness and grief for the world.",
-        "bangla": "অর্থাৎ চারটি সতিপট্ঠান। কোন চারটি? এখানে, ভিক্ষুগণ, ভিক্ষু শরীরকে শরীর হিসেবে পর্যবেক্ষণ করে থাকে, উদ্যমী, সম্পূর্ণ সচেতন ও সতর্ক, জগতের প্রতি লোভ ও দুঃখ দূর করে।"
+        "pali": "Yadidaṃ cattāro satipaṭṭhānā. Katame cattāro?",
+        "english": "Namely, the four establishments of mindfulness. What four?",
+        "bangla": "অর্থাৎ চারটি সতিপট্ঠান। কোন চারটি?"
       },
       {
         "id": "mn10.p004",
         "number": 4,
-        "pali": "Vedanāsu vedanānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
-        "english": "He dwells contemplating feelings as feelings, ardent, fully aware, and mindful, having put away covetousness and grief for the world.",
-        "bangla": "সে অনুভূতিকে অনুভূতি হিসেবে পর্যবেক্ষণ করে থাকে, উদ্যমী, সম্পূর্ণ সচেতন ও সতর্ক, জগতের প্রতি লোভ ও দুঃখ দূর করে।"
+        "pali": "Idha, bhikkhave, bhikkhu kāye kāyānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
+        "english": "Here, monks, a monk dwells contemplating the body as a body, ardent, clearly comprehending, and mindful, having removed covetousness and displeasure concerning the world.",
+        "bangla": "এখানে, ভিক্ষুগণ, ভিক্ষু শরীরকে শরীর হিসেবে পর্যবেক্ষণ করে থাকে—উদ্যমী, সম্পূর্ণ সচেতন ও স্মৃতিমান; জগতের প্রতি অভিলাষ ও দৌর্মনস্য দূর করে।"
       },
       {
         "id": "mn10.p005",
         "number": 5,
-        "pali": "Citte cittānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
-        "english": "He dwells contemplating mind as mind, ardent, fully aware, and mindful, having put away covetousness and grief for the world.",
-        "bangla": "সে মনকে মন হিসেবে পর্যবেক্ষণ করে থাকে, উদ্যমী, সম্পূর্ণ সচেতন ও সতর্ক, জগতের প্রতি লোভ ও দুঃখ দূর করে।"
+        "pali": "Vedanāsu vedanānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
+        "english": "He dwells contemplating feelings as feelings, ardent, clearly comprehending, and mindful, having removed covetousness and displeasure concerning the world.",
+        "bangla": "সে বেদনাকে বেদনা হিসেবে পর্যবেক্ষণ করে থাকে—উদ্যমী, সম্পূর্ণ সচেতন ও স্মৃতিমান; জগতের প্রতি অভিলাষ ও দৌর্মনস্য দূর করে।"
       },
       {
         "id": "mn10.p006",
         "number": 6,
+        "pali": "Citte cittānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
+        "english": "He dwells contemplating mind as mind, ardent, clearly comprehending, and mindful, having removed covetousness and displeasure concerning the world.",
+        "bangla": "সে চিত্তকে চিত্ত হিসেবে পর্যবেক্ষণ করে থাকে—উদ্যমী, সম্পূর্ণ সচেতন ও স্মৃতিমান; জগতের প্রতি অভিলাষ ও দৌর্মনস্য দূর করে।"
+      },
+      {
+        "id": "mn10.p007",
+        "number": 7,
         "pali": "Dhammesu dhammānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
-        "english": "He dwells contemplating phenomena as phenomena, ardent, fully aware, and mindful, having put away covetousness and grief for the world.",
-        "bangla": "সে ধর্মকে ধর্ম হিসেবে পর্যবেক্ষণ করে থাকে, উদ্যমী, সম্পূর্ণ সচেতন ও সতর্ক, জগতের প্রতি লোভ ও দুঃখ দূর করে।"
+        "english": "He dwells contemplating phenomena as phenomena, ardent, clearly comprehending, and mindful, having removed covetousness and displeasure concerning the world.",
+        "bangla": "সে ধম্মকে ধম্ম হিসেবে পর্যবেক্ষণ করে থাকে—উদ্যমী, সম্পূর্ণ সচেতন ও স্মৃতিমান; জগতের প্রতি অভিলাষ ও দৌর্মনস্য দূর করে।"
+      }
+    ]
+  },
+  {
+    "id": "mn21",
+    "collection": "Majjhima Nikāya",
+    "title": "MN 21 — Kakacūpama Sutta",
+    "description": "The Simile of the Saw: a compact set of passages on patience, speech, and goodwill.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
+    "paragraphs": [
+      {
+        "id": "mn21.p001",
+        "number": 1,
+        "pali": "Evaṃ me sutaṃ — ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme.",
+        "english": "Thus have I heard: on one occasion the Blessed One was staying at Sāvatthī, in Jeta’s Grove, Anāthapiṇḍika’s Park.",
+        "bangla": "এভাবে আমি শুনেছি—এক সময় ভগবান শ্রাবস্তীর জেতবনে অনাথপিণ্ডিকের আরামে অবস্থান করছিলেন।"
+      },
+      {
+        "id": "mn21.p002",
+        "number": 2,
+        "pali": "Mettacittā bhavissāma, na dosantarā.",
+        "english": "We shall remain with a mind of loving-kindness, not giving rise to hatred.",
+        "bangla": "আমরা মেত্তাচিত্তে থাকব, বিদ্বেষকে অন্তরে স্থান দেব না।"
+      },
+      {
+        "id": "mn21.p003",
+        "number": 3,
+        "pali": "Na ceva pāpakaṃ vācaṃ bhāsissāma, na ca dosantarā.",
+        "english": "We will not speak evil words, nor give rise to hatred.",
+        "bangla": "আমরা মন্দ বাক্য বলব না এবং বিদ্বেষকে অন্তরে উদয় হতে দেব না।"
+      },
+      {
+        "id": "mn21.p004",
+        "number": 4,
+        "pali": "Karunacittā bhavissāma, na dosantarā.",
+        "english": "We shall remain with a mind of compassion, not giving rise to hatred.",
+        "bangla": "আমরা করুণাচিত্তে থাকব, বিদ্বেষকে অন্তরে স্থান দেব না।"
+      },
+      {
+        "id": "mn21.p005",
+        "number": 5,
+        "pali": "Mettacittā bhavissāma, na byāpannacittā.",
+        "english": "We shall remain with a mind of loving-kindness, not with a mind of ill will.",
+        "bangla": "আমরা মেত্তাচিত্তে থাকব, ব্যাপাদপূর্ণ চিত্তে নয়।"
+      },
+      {
+        "id": "mn21.p006",
+        "number": 6,
+        "pali": "Tassa ca bhikkhave bhikkhuno evaṃ sikkhitabbaṃ: na ceva me cittaṃ vipariṇamissati, na ca pāpikaṃ vācaṃ bhāsissāmi.",
+        "english": "A monk should train thus: “My mind will not change, and I will not utter evil words.”",
+        "bangla": "ভিক্ষুকে এভাবে শিক্ষা গ্রহণ করতে হবে—“আমার চিত্ত পরিবর্তিত হবে না এবং আমি পাপময় বাক্য উচ্চারণ করব না।”"
+      }
+    ]
+  },
+  {
+    "id": "mn22",
+    "collection": "Majjhima Nikāya",
+    "title": "MN 22 — Alagaddūpama Sutta",
+    "description": "A starter excerpt on the simile of the snake, attachment to views, and the raft simile.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
+    "paragraphs": [
+      {
+        "id": "mn22.p001",
+        "number": 1,
+        "pali": "Kullūpamaṃ vo, bhikkhave, dhammaṃ desessāmi nittharaṇatthāya no gahaṇatthāya.",
+        "english": "I will teach you the Dhamma as a raft, for crossing over, not for holding on to.",
+        "bangla": "ভিক্ষুগণ, আমি তোমাদের কুল্লূপম ধম্ম শিক্ষা দেব পার হওয়ার জন্য, আঁকড়ে ধরার জন্য নয়।"
+      },
+      {
+        "id": "mn22.p002",
+        "number": 2,
+        "pali": "Kullūpamo mayā, bhikkhave, dhammo desito nittharaṇatthāya no gahaṇatthāya.",
+        "english": "The Dhamma has been taught by me as a raft, for crossing over, not for holding on to.",
+        "bangla": "ভিক্ষুগণ, আমি ধম্মকে কুল্লূপম হিসেবে শিক্ষা দিয়েছি পার হওয়ার জন্য, আঁকড়ে ধরার জন্য নয়।"
+      },
+      {
+        "id": "mn22.p003",
+        "number": 3,
+        "pali": "Kullaṃ vo, bhikkhave, dhammaṃ desessāmi nittharaṇatthāya no gahaṇatthāya.",
+        "english": "I will teach you the Dhamma as a raft for crossing over, not for grasping.",
+        "bangla": "আমি তোমাদের ধম্মকে কুল্লূপম হিসেবে শিক্ষা দেব পার হওয়ার জন্য, ধারণ করে রাখার জন্য নয়।"
+      },
+      {
+        "id": "mn22.p004",
+        "number": 4,
+        "pali": "Dhammāpi vo pahātabbā pageva adhammā.",
+        "english": "You should abandon even dhammas, how much more what is contrary to Dhamma.",
+        "bangla": "তোমাদের ধম্মও ত্যাগ করতে হবে; অধম্ম তো অবশ্যই।"
+      },
+      {
+        "id": "mn22.p005",
+        "number": 5,
+        "pali": "Seyyathāpi, bhikkhave, puriso addhānamaggappaṭipanno puratthimāya disāya gaccheyya.",
+        "english": "Suppose a person were traveling along a road toward the eastern direction.",
+        "bangla": "ধরা যাক, কোনো ব্যক্তি পূর্বদিকে যাওয়ার জন্য দীর্ঘ পথযাত্রায় প্রবৃত্ত হয়েছে।"
+      },
+      {
+        "id": "mn22.p006",
+        "number": 6,
+        "pali": "Nāvissajjeyya, bhikkhave, taṃ dhammaṃ gahaṇatthāya, na nittharaṇatthāya.",
+        "english": "One should not cling to the Dhamma for the purpose of holding it, rather than for crossing over.",
+        "bangla": "পার হওয়ার পরিবর্তে ধরে রাখার উদ্দেশ্যে ধম্মকে আঁকড়ে ধরা উচিত নয়।"
+      }
+    ]
+  },
+  {
+    "id": "sn56.11",
+    "collection": "Saṃyutta Nikāya",
+    "title": "SN 56.11 — Dhammacakkappavattana Sutta",
+    "description": "A foundational excerpt presenting the middle way and the four noble truths.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
+    "paragraphs": [
+      {
+        "id": "sn56.11.p001",
+        "number": 1,
+        "pali": "Evaṃ me sutaṃ — ekaṃ samayaṃ bhagavā bārāṇasiyaṃ viharati isipatane migadāye.",
+        "english": "Thus have I heard: on one occasion the Blessed One was staying near Bārāṇasī in the Deer Park at Isipatana.",
+        "bangla": "এভাবে আমি শুনেছি—এক সময় ভগবান বারাণসীর নিকট ইসিপতনে মিগদায়ে অবস্থান করছিলেন।"
+      },
+      {
+        "id": "sn56.11.p002",
+        "number": 2,
+        "pali": "Dve me, bhikkhave, antā pabbajitena na sevitabbā.",
+        "english": "There are these two extremes that should not be followed by one who has gone forth.",
+        "bangla": "ভিক্ষুগণ, প্রব্রজিত ব্যক্তির জন্য এই দুই অন্ত অনুসরণ করা উচিত নয়।"
+      },
+      {
+        "id": "sn56.11.p003",
+        "number": 3,
+        "pali": "Kāmesu kāmasukhallikānuyogo hīno gammo pothujjaniko anariyo anatthasaṃhito.",
+        "english": "Devotion to sensual pleasure is low, vulgar, worldly, ignoble, and unbeneficial.",
+        "bangla": "কামসুখে আসক্তি নীচ, গ্রাম্য, পুথুজ্জনসুলভ, অনার্য এবং অনর্থকর।"
+      },
+      {
+        "id": "sn56.11.p004",
+        "number": 4,
+        "pali": "Attakilamathānuyogo dukkho anariyo anatthasaṃhito.",
+        "english": "Devotion to self-mortification is painful, ignoble, and unbeneficial.",
+        "bangla": "আত্মক্লেশের অনুশীলন দুঃখকর, অনার্য এবং অনর্থকর।"
+      },
+      {
+        "id": "sn56.11.p005",
+        "number": 5,
+        "pali": "Majjhimā paṭipadā tathāgatena abhisambuddhā cakkhukaraṇī ñāṇakaraṇī upasamāya abhiññāya sambodhāya nibbānāya saṃvattati.",
+        "english": "The middle way awakened to by the Tathāgata gives rise to vision and knowledge, leading to peace, higher knowledge, awakening, and Nibbāna.",
+        "bangla": "তথাগত যে মধ্যম প্রতিপদা অভিসম্বুদ্ধ হয়েছেন তা দর্শন ও জ্ঞান উৎপন্ন করে এবং প্রশান্তি, অভিজ্ঞা, সম্বোধি ও নির্বাণের দিকে নিয়ে যায়।"
+      },
+      {
+        "id": "sn56.11.p006",
+        "number": 6,
+        "pali": "Idaṃ dukkhaṃ ariyasaccaṃ.",
+        "english": "This is the noble truth of suffering.",
+        "bangla": "এটি দুঃখ আর্যসত্য।"
+      },
+      {
+        "id": "sn56.11.p007",
+        "number": 7,
+        "pali": "Idaṃ dukkhasamudayaṃ ariyasaccaṃ.",
+        "english": "This is the noble truth of the origin of suffering.",
+        "bangla": "এটি দুঃখসমুদয় আর্যসত্য।"
+      },
+      {
+        "id": "sn56.11.p008",
+        "number": 8,
+        "pali": "Idaṃ dukkhanirodhaṃ ariyasaccaṃ.",
+        "english": "This is the noble truth of the cessation of suffering.",
+        "bangla": "এটি দুঃখনিরোধ আর্যসত্য।"
+      },
+      {
+        "id": "sn56.11.p009",
+        "number": 9,
+        "pali": "Idaṃ dukkhanirodhagāminī paṭipadā ariyasaccaṃ.",
+        "english": "This is the noble truth of the way leading to the cessation of suffering.",
+        "bangla": "এটি দুঃখনিরোধগামিনী প্রতিপদা আর্যসত্য।"
+      }
+    ]
+  },
+  {
+    "id": "sn22.59",
+    "collection": "Saṃyutta Nikāya",
+    "title": "SN 22.59 — Anattalakkhaṇa Sutta",
+    "description": "A starter excerpt on the five aggregates and the characteristic of not-self.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
+    "paragraphs": [
+      {
+        "id": "sn22.59.p001",
+        "number": 1,
+        "pali": "Rūpaṃ, bhikkhave, anattā. Rūpañca hidaṃ, bhikkhave, attā abhavissa, na yidaṃ rūpaṃ ābādhāya saṃvatteyya.",
+        "english": "Form, monks, is not-self. If form were self, this form would not lead to affliction.",
+        "bangla": "ভিক্ষুগণ, রূপ অনাত্মা। রূপ যদি আত্মা হতো, তবে এই রূপ পীড়ার কারণ হতো না।"
+      },
+      {
+        "id": "sn22.59.p002",
+        "number": 2,
+        "pali": "Vedanā anattā.",
+        "english": "Feeling is not-self.",
+        "bangla": "বেদনা অনাত্মা।"
+      },
+      {
+        "id": "sn22.59.p003",
+        "number": 3,
+        "pali": "Saññā anattā.",
+        "english": "Perception is not-self.",
+        "bangla": "সঞ্ঞা অনাত্মা।"
+      },
+      {
+        "id": "sn22.59.p004",
+        "number": 4,
+        "pali": "Saṅkhārā anattā.",
+        "english": "Volitional formations are not-self.",
+        "bangla": "সংখার অনাত্মা।"
+      },
+      {
+        "id": "sn22.59.p005",
+        "number": 5,
+        "pali": "Viññāṇaṃ anattā.",
+        "english": "Consciousness is not-self.",
+        "bangla": "বিঞ্ঞাণ অনাত্মা।"
+      },
+      {
+        "id": "sn22.59.p006",
+        "number": 6,
+        "pali": "Taṃ kiṃ maññatha, bhikkhave, rūpaṃ niccaṃ vā aniccaṃ vā?",
+        "english": "What do you think, monks: is form permanent or impermanent?",
+        "bangla": "ভিক্ষুগণ, তোমরা কী মনে কর—রূপ নিত্য, না অনিত্য?"
+      },
+      {
+        "id": "sn22.59.p007",
+        "number": 7,
+        "pali": "Aniccaṃ, bhante.",
+        "english": "Impermanent, venerable sir.",
+        "bangla": "অনিত্য, ভন্তে।"
+      },
+      {
+        "id": "sn22.59.p008",
+        "number": 8,
+        "pali": "Yadaniccaṃ dukkhaṃ vā taṃ sukhaṃ vā?",
+        "english": "What is impermanent—is that suffering or happiness?",
+        "bangla": "যা অনিত্য, তা কি দুঃখ, না সুখ?"
+      }
+    ]
+  },
+  {
+    "id": "sn35.28",
+    "collection": "Saṃyutta Nikāya",
+    "title": "SN 35.28 — Ādittapariyāya Sutta",
+    "description": "The Fire Discourse: a concise teaching on the burning of the six sense bases.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
+    "paragraphs": [
+      {
+        "id": "sn35.28.p001",
+        "number": 1,
+        "pali": "Sabbaṃ, bhikkhave, ādittaṃ.",
+        "english": "All is burning, monks.",
+        "bangla": "ভিক্ষুগণ, সবই জ্বলছে।"
+      },
+      {
+        "id": "sn35.28.p002",
+        "number": 2,
+        "pali": "Kiñca, bhikkhave, sabbaṃ ādittaṃ? Cakkhu ādittaṃ, rūpā ādittā, cakkhuviññāṇaṃ ādittaṃ.",
+        "english": "What is all that is burning? The eye is burning, forms are burning, eye-consciousness is burning.",
+        "bangla": "কী সব জ্বলছে? চোখ জ্বলছে, রূপ জ্বলছে, চক্ষুবিঞ্ঞাণ জ্বলছে।"
+      },
+      {
+        "id": "sn35.28.p003",
+        "number": 3,
+        "pali": "Sotaṃ ādittaṃ, saddā ādittā, sotaviññāṇaṃ ādittaṃ.",
+        "english": "The ear is burning, sounds are burning, ear-consciousness is burning.",
+        "bangla": "কান জ্বলছে, শব্দ জ্বলছে, শ্রোত্রবিঞ্ঞাণ জ্বলছে।"
+      },
+      {
+        "id": "sn35.28.p004",
+        "number": 4,
+        "pali": "Ghānaṃ ādittaṃ, gandhā ādittā, ghānaviññāṇaṃ ādittaṃ.",
+        "english": "The nose is burning, odors are burning, nose-consciousness is burning.",
+        "bangla": "নাক জ্বলছে, গন্ধ জ্বলছে, ঘ্রাণবিঞ্ঞাণ জ্বলছে।"
+      },
+      {
+        "id": "sn35.28.p005",
+        "number": 5,
+        "pali": "Jivhā ādittā, rasā ādittā, jivhāviññāṇaṃ ādittaṃ.",
+        "english": "The tongue is burning, flavors are burning, tongue-consciousness is burning.",
+        "bangla": "জিহ্বা জ্বলছে, রস জ্বলছে, জিহ্বাবিঞ্ঞাণ জ্বলছে।"
+      },
+      {
+        "id": "sn35.28.p006",
+        "number": 6,
+        "pali": "Kāyo ādittō, phoṭṭhabbā ādittā, kāyaviññāṇaṃ ādittaṃ.",
+        "english": "The body is burning, tactile objects are burning, body-consciousness is burning.",
+        "bangla": "শরীর জ্বলছে, স্পর্শযোগ্য বস্তু জ্বলছে, কায়বিঞ্ঞাণ জ্বলছে।"
+      },
+      {
+        "id": "sn35.28.p007",
+        "number": 7,
+        "pali": "Mano ādittaṃ, dhammā ādittā, manoviññāṇaṃ ādittaṃ.",
+        "english": "The mind is burning, mental phenomena are burning, mind-consciousness is burning.",
+        "bangla": "মন জ্বলছে, মানসিক ধম্ম জ্বলছে, মনোবিঞ্ঞাণ জ্বলছে।"
+      }
+    ]
+  },
+  {
+    "id": "an3.65",
+    "collection": "Aṅguttara Nikāya",
+    "title": "AN 3.65 — Kesamutti Sutta",
+    "description": "A starter excerpt on examining claims through experience, consequences, and wholesome qualities.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
+    "paragraphs": [
+      {
+        "id": "an3.65.p001",
+        "number": 1,
+        "pali": "Mā anussavena, mā paramparāya, mā itikirāya, mā piṭakasampadānena.",
+        "english": "Do not go merely by oral tradition, lineage, hearsay, a collection of texts.",
+        "bangla": "শুধু শ্রুতি, পরম্পরা, জনশ্রুতি বা পিটকের সংকলনমাত্রের ভিত্তিতে গ্রহণ করো না।"
+      },
+      {
+        "id": "an3.65.p002",
+        "number": 2,
+        "pali": "Mā takkahetu, mā nayahetu, mā ākāraparivitakkena, mā diṭṭhinijjhānakkhantiya.",
+        "english": "Do not go merely by reasoning, inference, reflection on appearances, or agreement with a view after pondering it.",
+        "bangla": "শুধু তর্ক, অনুমান, বাহ্যরূপের বিচার বা কোনো মতকে চিন্তা করে গ্রহণযোগ্য মনে হওয়ার ভিত্তিতেও গ্রহণ করো না।"
+      },
+      {
+        "id": "an3.65.p003",
+        "number": 3,
+        "pali": "Yadā tumhe, kālāmā, attanāva jāneyyātha: ime dhammā akusalā, ime dhammā sāvajjā.",
+        "english": "When you know for yourselves: these qualities are unwholesome and blameworthy…",
+        "bangla": "যখন তোমরা নিজেরাই জানবে—এই ধম্মগুলো অকুশল ও নিন্দনীয়…"
+      },
+      {
+        "id": "an3.65.p004",
+        "number": 4,
+        "pali": "Pahātabbāti, kālāmā, pahātabbaṃ.",
+        "english": "They are to be abandoned, Kālāmas.",
+        "bangla": "হে কালামগণ, সেগুলো পরিত্যাগ করা উচিত।"
+      },
+      {
+        "id": "an3.65.p005",
+        "number": 5,
+        "pali": "Yadā tumhe, kālāmā, attanāva jāneyyātha: ime dhammā kusalā, ime dhammā anavajjā.",
+        "english": "When you know for yourselves: these qualities are wholesome and blameless…",
+        "bangla": "যখন তোমরা নিজেরাই জানবে—এই ধম্মগুলো কুশল ও অনবজ্জ…"
+      },
+      {
+        "id": "an3.65.p006",
+        "number": 6,
+        "pali": "Upasampajja viharathāti, kālāmā, upasampajja viharitabbaṃ.",
+        "english": "Having entered upon them, Kālāmas, you should dwell in them.",
+        "bangla": "হে কালামগণ, সেগুলো অর্জন করে তাতেই অবস্থান করা উচিত।"
+      }
+    ]
+  },
+  {
+    "id": "khp5",
+    "collection": "Khuddakapāṭha",
+    "title": "Khp 5 — Maṅgala Sutta",
+    "description": "The Mangala Sutta in a structured starter selection of its well-known blessings.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
+    "paragraphs": [
+      {
+        "id": "khp5.p001",
+        "number": 1,
+        "pali": "Evaṃ me sutaṃ — ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme.",
+        "english": "Thus have I heard: on one occasion the Blessed One was staying at Sāvatthī, in Jeta’s Grove, Anāthapiṇḍika’s Park.",
+        "bangla": "এভাবে আমি শুনেছি—এক সময় ভগবান শ্রাবস্তীর জেতবনে অনাথপিণ্ডিকের আরামে অবস্থান করছিলেন।"
+      },
+      {
+        "id": "khp5.p002",
+        "number": 2,
+        "pali": "Asevanā ca bālānaṃ paṇḍitānañca sevanā, pūjā ca pūjaneyyānaṃ, etaṃ maṅgalamuttamaṃ.",
+        "english": "Not associating with fools, associating with the wise, and honoring those worthy of honor: this is supreme blessing.",
+        "bangla": "মূর্খের সঙ্গ না করা, পণ্ডিতের সেবা করা এবং পূজনীয়কে পূজা করা—এটাই পরম মঙ্গল।"
+      },
+      {
+        "id": "khp5.p003",
+        "number": 3,
+        "pali": "Patirūpadesavāso ca pubbe ca katapuññatā, attasammāpaṇidhi ca, etaṃ maṅgalamuttamaṃ.",
+        "english": "Living in a suitable place, past good deeds, and rightly directing oneself: this is supreme blessing.",
+        "bangla": "উপযুক্ত স্থানে বাস, পূর্বকৃত পুণ্য এবং নিজেকে সম্যকভাবে স্থাপন করা—এটাই পরম মঙ্গল।"
+      },
+      {
+        "id": "khp5.p004",
+        "number": 4,
+        "pali": "Bāhusaccañca sippañca vinayo ca susikkhito, subhāsitā ca yā vācā, etaṃ maṅgalamuttamaṃ.",
+        "english": "Great learning, skill, well-trained discipline, and well-spoken speech: this is supreme blessing.",
+        "bangla": "বহুশ্রুতা, শিল্পদক্ষতা, সুশিক্ষিত বিনয় এবং সুবচন—এটাই পরম মঙ্গল।"
+      },
+      {
+        "id": "khp5.p005",
+        "number": 5,
+        "pali": "Mātāpitu upaṭṭhānaṃ puttadārassa saṅgaho, anākulā ca kammantā, etaṃ maṅgalamuttamaṃ.",
+        "english": "Supporting mother and father, caring for spouse and children, and work that is not chaotic: this is supreme blessing.",
+        "bangla": "মাতা-পিতার সেবা, সন্তান ও দারার পরিচর্যা এবং অশান্তিহীন কর্ম—এটাই পরম মঙ্গল।"
+      },
+      {
+        "id": "khp5.p006",
+        "number": 6,
+        "pali": "Phuṭṭhassa lokadhammehi cittaṃ yassa na kampati, asokaṃ virajaṃ khemaṃ, etaṃ maṅgalamuttamaṃ.",
+        "english": "When touched by worldly conditions, whose mind does not shake—sorrowless, stainless, secure: this is supreme blessing.",
+        "bangla": "লোকধর্মে স্পর্শিত হয়েও যার চিত্ত বিচলিত হয় না—শোকহীন, রজহীন, ক্ষেম—এটাই পরম মঙ্গল।"
+      }
+    ]
+  },
+  {
+    "id": "khp6",
+    "collection": "Khuddakapāṭha",
+    "title": "Khp 6 — Ratana Sutta",
+    "description": "A starter selection from the Ratana Sutta on the Three Jewels and the qualities of the noble Dhamma.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
+    "paragraphs": [
+      {
+        "id": "khp6.p001",
+        "number": 1,
+        "pali": "Yānīdha bhūtāni samāgatāni, bhummāni vā yāni va antalikkhe.",
+        "english": "Whatever beings have gathered here, whether earthly or in the sky,",
+        "bangla": "এখানে সমবেত যে সকল ভূত, ভূমিস্থ বা আকাশস্থ—"
+      },
+      {
+        "id": "khp6.p002",
+        "number": 2,
+        "pali": "Sabbeva bhūtā sumanā bhavantu, athopi sakkacca suṇantu bhāsitaṃ.",
+        "english": "may all beings be happy, and may they carefully listen to what is said.",
+        "bangla": "তারা সকলে প্রফুল্লচিত্ত হোক এবং মনোযোগসহকারে এই বাণী শুনুক।"
+      },
+      {
+        "id": "khp6.p003",
+        "number": 3,
+        "pali": "Yaṃ kiñci vittaṃ idha vā huraṃ vā, saggesu vā yaṃ ratanaṃ paṇītaṃ.",
+        "english": "Whatever wealth there is here or beyond, or whatever precious treasure in the heavens,",
+        "bangla": "এখানে বা পরলোকে যে সম্পদই থাকুক, স্বর্গসমূহে যে উৎকৃষ্ট রত্নই থাকুক—"
+      },
+      {
+        "id": "khp6.p004",
+        "number": 4,
+        "pali": "Na no samaṃ atthi tathāgatena, idampi buddhe ratanaṃ paṇītaṃ.",
+        "english": "There is nothing equal to the Tathāgata; this excellent jewel is in the Buddha.",
+        "bangla": "তথাগতের সমতুল্য কিছুই নেই; এটিও বুদ্ধের উৎকৃষ্ট রত্ন।"
+      },
+      {
+        "id": "khp6.p005",
+        "number": 5,
+        "pali": "Khayaṃ virāgaṃ amataṃ paṇītaṃ, yad ajjhagā sakyamunī samāhito.",
+        "english": "The Sakyan sage, concentrated, realized the excellent deathless, destruction and dispassion.",
+        "bangla": "সমাহিত শাক্যমুনি উৎকৃষ্ট ক্ষয়, বিরাগ ও অমৃত পদ উপলব্ধি করেছেন।"
+      },
+      {
+        "id": "khp6.p006",
+        "number": 6,
+        "pali": "Idampi dhamme ratanaṃ paṇītaṃ, etena saccena suvatthi hotu.",
+        "english": "This excellent jewel is in the Dhamma; by this truth may there be well-being.",
+        "bangla": "এটিও ধম্মের উৎকৃষ্ট রত্ন; এই সত্যের দ্বারা কল্যাণ হোক।"
+      }
+    ]
+  },
+  {
+    "id": "khp9",
+    "collection": "Khuddakapāṭha",
+    "title": "Khp 9 — Karaṇīyamettā Sutta",
+    "description": "The Metta Sutta in a structured starter selection focused on conduct and boundless goodwill.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
+    "paragraphs": [
+      {
+        "id": "khp9.p001",
+        "number": 1,
+        "pali": "Karaṇīyam atthakusalena, yantaṃ santaṃ padaṃ abhisamecca.",
+        "english": "What should be done by one skilled in goodness who has understood the peaceful state:",
+        "bangla": "শান্ত পদ উপলব্ধিকারী কুশলদক্ষ ব্যক্তির যা করা উচিত—"
+      },
+      {
+        "id": "khp9.p002",
+        "number": 2,
+        "pali": "Sakko ujū ca suhujū ca, sūvaco cassa mudu anatimānī.",
+        "english": "Let one be capable, upright, very upright, easy to speak to, gentle, and not conceited.",
+        "bangla": "সে সক্ষম, ঋজু, অতিশয় ঋজু, সুবচনগ্রাহী, কোমল এবং অহংকারহীন হোক।"
+      },
+      {
+        "id": "khp9.p003",
+        "number": 3,
+        "pali": "Santussako ca subharo ca, appakicco ca sallahukavutti.",
+        "english": "Contented, easy to support, with few duties and a simple way of living.",
+        "bangla": "সে সন্তুষ্ট, সহজে প্রতিপালনীয়, অল্প কর্তব্যসম্পন্ন এবং সরল জীবনযাপনকারী হোক।"
+      },
+      {
+        "id": "khp9.p004",
+        "number": 4,
+        "pali": "Na paro paraṃ nikubbetha, nātimaññetha katthaci na kañci.",
+        "english": "Let no one deceive another or despise anyone anywhere.",
+        "bangla": "কেউ যেন কাউকে প্রতারণা না করে এবং কোথাও কাউকে তুচ্ছ না করে।"
+      },
+      {
+        "id": "khp9.p005",
+        "number": 5,
+        "pali": "Sukhino vā khemino hontu, sabbe sattā bhavantu sukhitattā.",
+        "english": "May they be happy and secure; may all beings be happy at heart.",
+        "bangla": "সকলেই সুখী ও ক্ষেমে থাকুক; সকল প্রাণী সুখীচিত্ত হোক।"
+      },
+      {
+        "id": "khp9.p006",
+        "number": 6,
+        "pali": "Mātā yathā niyaṃ puttaṃ āyusā ekaputtam anurakkhe.",
+        "english": "As a mother would protect with her life her own child, her only child,",
+        "bangla": "যেমন মা নিজের একমাত্র সন্তানকে প্রাণ দিয়ে রক্ষা করেন—"
+      },
+      {
+        "id": "khp9.p007",
+        "number": 7,
+        "pali": "Evaṃ pi sabbabhūtesu mānasaṃ bhāvaye aparimāṇaṃ.",
+        "english": "so toward all beings one should cultivate an immeasurable mind.",
+        "bangla": "তেমনি সকল ভূতের প্রতি অপরিমেয় চিত্তভাবনা করা উচিত।"
+      }
+    ]
+  },
+  {
+    "id": "dhp1",
+    "collection": "Dhammapada",
+    "title": "Dhp 1 — Yamakavagga",
+    "description": "Opening verses of the Dhammapada, emphasizing the role of mind in experience.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
+    "paragraphs": [
+      {
+        "id": "dhp1.p001",
+        "number": 1,
+        "pali": "Manopubbaṅgamā dhammā, manoseṭṭhā manomayā.",
+        "english": "Mind precedes phenomena; mind is their chief; they are made by mind.",
+        "bangla": "মন ধম্মসমূহের পূর্বগামী; মনই শ্রেষ্ঠ; মনোময়ই তারা।"
+      },
+      {
+        "id": "dhp1.p002",
+        "number": 2,
+        "pali": "Manasā ce paduṭṭhena bhāsati vā karoti vā, tato naṃ dukkham anveti cakkaṃ va vahato padaṃ.",
+        "english": "If one speaks or acts with a corrupted mind, suffering follows, as the wheel follows the foot of the ox.",
+        "bangla": "দূষিত চিত্তে কেউ কথা বলে বা কাজ করলে দুঃখ তাকে অনুসরণ করে—যেমন গরুর পায়ের পেছনে চাকা চলে।"
+      },
+      {
+        "id": "dhp1.p003",
+        "number": 3,
+        "pali": "Manasā ce pasannena bhāsati vā karoti vā, tato naṃ sukham anveti chāyā va anapāyinī.",
+        "english": "If one speaks or acts with a clear mind, happiness follows, like a shadow that does not depart.",
+        "bangla": "প্রসন্ন চিত্তে কেউ কথা বলে বা কাজ করলে সুখ তাকে অনুসরণ করে—যেমন অনপায়ী ছায়া।"
+      },
+      {
+        "id": "dhp1.p004",
+        "number": 4,
+        "pali": "Akkocchi maṃ avadhi maṃ ajini maṃ ahāsi me.",
+        "english": "“He abused me, he struck me, he defeated me, he robbed me.”",
+        "bangla": "“সে আমাকে গালি দিয়েছে, আমাকে আঘাত করেছে, আমাকে পরাজিত করেছে, আমার সম্পদ নিয়েছে।”"
+      },
+      {
+        "id": "dhp1.p005",
+        "number": 5,
+        "pali": "Ye ca taṃ upanayhanti veraṃ tesaṃ na sammati.",
+        "english": "For those who harbor such thoughts, hatred is not appeased.",
+        "bangla": "যারা এভাবে বিদ্বেষ ধারণ করে, তাদের বিদ্বেষ প্রশমিত হয় না।"
+      },
+      {
+        "id": "dhp1.p006",
+        "number": 6,
+        "pali": "Akkocchi maṃ avadhi maṃ ajini maṃ ahāsi me; ye taṃ na upanayhanti veraṃ tesūpasammati.",
+        "english": "“He abused me…” For those who do not harbor such thoughts, hatred is appeased.",
+        "bangla": "“সে আমাকে গালি দিয়েছে…” যারা এভাবে বিদ্বেষ ধারণ করে না, তাদের মধ্যে বিদ্বেষ প্রশমিত হয়।"
+      }
+    ]
+  },
+  {
+    "id": "dhp183",
+    "collection": "Dhammapada",
+    "title": "Dhp 183 — Buddhāna Sāsana",
+    "description": "The famous concise formulation of the Buddhas’ teaching.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
+    "paragraphs": [
+      {
+        "id": "dhp183.p001",
+        "number": 1,
+        "pali": "Sabbapāpassa akaraṇaṃ, kusalassa upasampadā.",
+        "english": "Not doing any evil; undertaking what is wholesome.",
+        "bangla": "সব পাপের অকরণ; কুশলের উপসম্পদ।"
+      },
+      {
+        "id": "dhp183.p002",
+        "number": 2,
+        "pali": "Sacittapariyodapanaṃ — etaṃ buddhāna sāsanaṃ.",
+        "english": "Purification of one’s own mind: this is the teaching of the Buddhas.",
+        "bangla": "নিজ চিত্তের পরিশুদ্ধি—এটাই বুদ্ধদের শিক্ষা।"
+      },
+      {
+        "id": "dhp183.p003",
+        "number": 3,
+        "pali": "Khantī paramaṃ tapo titikkhā, nibbānaṃ paramaṃ vadanti buddhā.",
+        "english": "Patient endurance is the supreme austerity; the Buddhas say Nibbāna is supreme.",
+        "bangla": "ক্ষান্তি ও সহিষ্ণুতা পরম তপস্যা; বুদ্ধগণ নির্বাণকে পরম বলেছেন।"
+      },
+      {
+        "id": "dhp183.p004",
+        "number": 4,
+        "pali": "Na hi pabbajito parūpaghātī, samaṇo hoti paraṃ viheṭhayanto.",
+        "english": "One who harms another is not a true renunciant; one who harasses another is not a recluse.",
+        "bangla": "যে অন্যকে ক্ষতি করে সে প্রকৃত প্রব্রজিত নয়; যে অন্যকে কষ্ট দেয় সে প্রকৃত সমণ নয়।"
+      },
+      {
+        "id": "dhp183.p005",
+        "number": 5,
+        "pali": "Anūpavādo anūpaghāto, pātimokkhe ca saṃvaro.",
+        "english": "Not blaming, not harming, restraint according to the Pātimokkha.",
+        "bangla": "নিন্দা না করা, ক্ষতি না করা এবং পাতিমোক্খে সংবর।"
+      }
+    ]
+  },
+  {
+    "id": "ud1.10",
+    "collection": "Udāna",
+    "title": "Ud 1.10 — Bāhiya Sutta",
+    "description": "A starter selection from the Bāhiya teaching on seeing, hearing, sensing, and knowing without proliferation.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
+    "paragraphs": [
+      {
+        "id": "ud1.10.p001",
+        "number": 1,
+        "pali": "Tasmātiha te, bāhiya, evaṃ sikkhitabbaṃ: diṭṭhamattaṃ bhavissati diṭṭhaṃ.",
+        "english": "Therefore, Bāhiya, you should train thus: in the seen there will be only the seen.",
+        "bangla": "অতএব, বাহিয়, তোমার এভাবে শিক্ষা গ্রহণ করা উচিত—দৃষ্টের ক্ষেত্রে শুধু দৃষ্টই থাকবে।"
+      },
+      {
+        "id": "ud1.10.p002",
+        "number": 2,
+        "pali": "Sutamattaṃ bhavissati sutaṃ, mutamattaṃ bhavissati mutaṃ, viññātamattaṃ bhavissati viññātaṃ.",
+        "english": "In the heard there will be only the heard; in the sensed only the sensed; in the cognized only the cognized.",
+        "bangla": "শ্রুতের ক্ষেত্রে শুধু শ্রুত, অনুভূত ক্ষেত্রে শুধু অনুভূত, জ্ঞাতের ক্ষেত্রে শুধু জ্ঞাত থাকবে।"
+      },
+      {
+        "id": "ud1.10.p003",
+        "number": 3,
+        "pali": "Yato kho te, bāhiya, diṭṭhamattaṃ diṭṭhaṃ bhavissati, sutaṃ sutaṃ bhavissati, mutaṃ mutaṃ bhavissati, viññātaṃ viññātaṃ bhavissati.",
+        "english": "When, Bāhiya, for you there is only the seen as seen, the heard as heard, the sensed as sensed, and the cognized as cognized,",
+        "bangla": "বাহিয়, যখন তোমার কাছে দৃষ্ট শুধু দৃষ্ট, শ্রুত শুধু শ্রুত, অনুভূত শুধু অনুভূত এবং জ্ঞাত শুধু জ্ঞাত হবে—"
+      },
+      {
+        "id": "ud1.10.p004",
+        "number": 4,
+        "pali": "Tato tvaṃ, bāhiya, na tena.",
+        "english": "then, Bāhiya, you will not be by that.",
+        "bangla": "তখন, বাহিয়, তুমি তার দ্বারা আবদ্ধ থাকবে না।"
+      },
+      {
+        "id": "ud1.10.p005",
+        "number": 5,
+        "pali": "Yato tvaṃ, bāhiya, na tena, tato tvaṃ, bāhiya, na tattha.",
+        "english": "When you are not by that, then you are not there in relation to it.",
+        "bangla": "যখন তুমি তার দ্বারা আবদ্ধ নও, তখন তার মধ্যে তুমি অবস্থান করবে না।"
+      },
+      {
+        "id": "ud1.10.p006",
+        "number": 6,
+        "pali": "Yato tvaṃ, bāhiya, na tattha, tato tvaṃ, bāhiya, nevidha na huraṃ na ubhayamantarena.",
+        "english": "When you are not there, Bāhiya, you are neither here nor there nor between the two.",
+        "bangla": "যখন তুমি সেখানে নেই, বাহিয়, তখন তুমি না এখানে, না সেখানে, না উভয়ের মধ্যবর্তী কোথাও।"
+      }
+    ]
+  },
+  {
+    "id": "dn16",
+    "collection": "Dīgha Nikāya",
+    "title": "DN 16 — Mahāparinibbāna Sutta",
+    "description": "A starter excerpt on impermanence, self-reliance in Dhamma, and careful attention to practice.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "STARTER-CORPUS-2026-09",
+    "source": {
+      "basis": "Ancient canonical text; project-curated starter transcription and translations.",
+      "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+      "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing."
+    },
+    "paragraphs": [
+      {
+        "id": "dn16.p001",
+        "number": 1,
+        "pali": "Vayadhammā saṅkhārā; appamādena sampādetha.",
+        "english": "Conditioned things are subject to decay; accomplish your purpose with diligence.",
+        "bangla": "সংখারসমূহ ক্ষয়ধর্মী; অপ্রমাদে সম্পাদন করো।"
+      },
+      {
+        "id": "dn16.p002",
+        "number": 2,
+        "pali": "Attadīpā, bhikkhave, viharatha attasaraṇā anaññasaraṇā, dhammadīpā dhammasaraṇā anaññasaraṇā.",
+        "english": "Dwell as islands unto yourselves, as your own refuge, with the Dhamma as your island and refuge, not seeking another refuge.",
+        "bangla": "ভিক্ষুগণ, নিজেদেরই দ্বীপ ও আশ্রয় করে, অন্য কোনো আশ্রয় না নিয়ে, ধম্মকে দ্বীপ ও আশ্রয় করে অবস্থান করো।"
+      },
+      {
+        "id": "dn16.p003",
+        "number": 3,
+        "pali": "Dhammadīpā viharatha dhammā saraṇā anaññasaraṇā.",
+        "english": "Dwell with the Dhamma as your island and refuge, without another refuge.",
+        "bangla": "ধম্মকে দ্বীপ ও আশ্রয় করে, অন্য কোনো আশ্রয় না নিয়ে অবস্থান করো।"
+      },
+      {
+        "id": "dn16.p004",
+        "number": 4,
+        "pali": "Kāye kāyānupassī viharati ātāpī sampajāno satimā.",
+        "english": "He dwells contemplating the body as a body, ardent, clearly comprehending, and mindful.",
+        "bangla": "সে শরীরকে শরীর হিসেবে পর্যবেক্ষণ করে—উদ্যমী, সম্পূর্ণ সচেতন ও স্মৃতিমান।"
+      },
+      {
+        "id": "dn16.p005",
+        "number": 5,
+        "pali": "Vedanāsu vedanānupassī viharati ātāpī sampajāno satimā.",
+        "english": "He dwells contemplating feelings as feelings, ardent, clearly comprehending, and mindful.",
+        "bangla": "সে বেদনাকে বেদনা হিসেবে পর্যবেক্ষণ করে—উদ্যমী, সম্পূর্ণ সচেতন ও স্মৃতিমান।"
+      },
+      {
+        "id": "dn16.p006",
+        "number": 6,
+        "pali": "Citte cittānupassī viharati ātāpī sampajāno satimā.",
+        "english": "He dwells contemplating mind as mind, ardent, clearly comprehending, and mindful.",
+        "bangla": "সে চিত্তকে চিত্ত হিসেবে পর্যবেক্ষণ করে—উদ্যমী, সম্পূর্ণ সচেতন ও স্মৃতিমান।"
       }
     ]
   }

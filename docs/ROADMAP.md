@@ -13,9 +13,23 @@
 - [x] Pāḷi rendering
 - [x] Paragraph anchors
 - [x] English/Bangla translation fields
+- [x] Local corpus search
+- [x] Citation copy controls
+- [x] Responsive reader UI
+
+## Phase 1.2 — Research Reader & Search
+- [x] Expanded structured starter corpus
+- [x] Phrase search
+- [x] Field filters
+- [x] Collection/type/language filters
+- [x] Result limit
+- [x] Reader language toggles
+- [x] Reader font-size controls
+- [x] Reader line-spacing controls
+- [x] Persistent local reader preferences
+- [x] CI validation/typecheck/build gate
 - [ ] Full licensed Tipiṭaka corpus
-- [ ] Advanced search UI
-- [ ] Citation copy controls
+- [ ] Edition comparison
 - [ ] Dictionary UI
 
 ## Phase 2 — Research engine
@@ -59,7 +73,7 @@
 
 ## Phase 7 — Advanced research
 - [ ] Pāḷi morphology
-- [ ] semantic search
-- [ ] knowledge graph
+- [ ] Semantic search
+- [ ] Knowledge graph
 - [ ] OCR correction workflow
-- [ ] citation-first RAG / Ask Dhamma
+- [ ] Citation-first RAG / Ask Dhamma
