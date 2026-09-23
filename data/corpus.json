@@ -1,0 +1,55 @@
+[
+  {
+    "id": "mn10",
+    "collection": "Majjhima Nikāya",
+    "title": "MN 10 — Satipaṭṭhāna Sutta",
+    "description": "Phase-1 demonstration record for the Digital Dhamma Library reader.",
+    "language": "Pāḷi",
+    "type": "CANONICAL",
+    "edition": "DEMO-EDITION-001",
+    "paragraphs": [
+      {
+        "id": "mn10.p001",
+        "number": 1,
+        "pali": "Evaṃ me sutaṃ — ekaṃ samayaṃ bhagavā kurūsu viharati kammasadhammaṃ nāma kurūnaṃ nigamo.",
+        "english": "Thus have I heard: on one occasion the Blessed One was staying among the Kurus at a town of the Kurus named Kammāsadhamma.",
+        "bangla": "এভাবে আমি শুনেছি—এক সময় ভগবান কুরূদের মধ্যে কুরূদের একটি নিগম কাম্মাসধম্মে অবস্থান করছিলেন।"
+      },
+      {
+        "id": "mn10.p002",
+        "number": 2,
+        "pali": "Ekāyano ayaṃ, bhikkhave, maggo sattānaṃ visuddhiyā sokaparidevānaṃ samatikkamāya dukkhadomanassānaṃ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya.",
+        "english": "This is the direct path for the purification of beings, for overcoming sorrow and lamentation, for the disappearance of pain and grief, for attaining the true way, for the realization of Nibbāna.",
+        "bangla": "ভিক্ষুগণ, এটি প্রাণীদের বিশুদ্ধির জন্য, শোক ও বিলাপ অতিক্রমের জন্য, দুঃখ ও দৌর্মনস্যের বিলয়ের জন্য, ন্যায়পথ লাভের জন্য এবং নির্বাণ সাক্ষাতের জন্য একায়ন পথ।"
+      },
+      {
+        "id": "mn10.p003",
+        "number": 3,
+        "pali": "Yadidaṃ cattāro satipaṭṭhānā. Katame cattāro? Idha, bhikkhave, bhikkhu kāye kāyānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
+        "english": "Namely, the four establishments of mindfulness. What four? Here, monks, a monk dwells contemplating the body as a body, ardent, fully aware, and mindful, having put away covetousness and grief for the world.",
+        "bangla": "অর্থাৎ চারটি সতিপট্ঠান। কোন চারটি? এখানে, ভিক্ষুগণ, ভিক্ষু শরীরকে শরীর হিসেবে পর্যবেক্ষণ করে থাকে, উদ্যমী, সম্পূর্ণ সচেতন ও সতর্ক, জগতের প্রতি লোভ ও দুঃখ দূর করে।"
+      },
+      {
+        "id": "mn10.p004",
+        "number": 4,
+        "pali": "Vedanāsu vedanānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
+        "english": "He dwells contemplating feelings as feelings, ardent, fully aware, and mindful, having put away covetousness and grief for the world.",
+        "bangla": "সে অনুভূতিকে অনুভূতি হিসেবে পর্যবেক্ষণ করে থাকে, উদ্যমী, সম্পূর্ণ সচেতন ও সতর্ক, জগতের প্রতি লোভ ও দুঃখ দূর করে।"
+      },
+      {
+        "id": "mn10.p005",
+        "number": 5,
+        "pali": "Citte cittānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
+        "english": "He dwells contemplating mind as mind, ardent, fully aware, and mindful, having put away covetousness and grief for the world.",
+        "bangla": "সে মনকে মন হিসেবে পর্যবেক্ষণ করে থাকে, উদ্যমী, সম্পূর্ণ সচেতন ও সতর্ক, জগতের প্রতি লোভ ও দুঃখ দূর করে।"
+      },
+      {
+        "id": "mn10.p006",
+        "number": 6,
+        "pali": "Dhammesu dhammānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
+        "english": "He dwells contemplating phenomena as phenomena, ardent, fully aware, and mindful, having put away covetousness and grief for the world.",
+        "bangla": "সে ধর্মকে ধর্ম হিসেবে পর্যবেক্ষণ করে থাকে, উদ্যমী, সম্পূর্ণ সচেতন ও সতর্ক, জগতের প্রতি লোভ ও দুঃখ দূর করে।"
+      }
+    ]
+  }
+]
