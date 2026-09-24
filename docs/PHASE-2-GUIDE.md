@@ -1,4 +1,4 @@
-# Phase 2 — Detailed Upgrade Guide
+# Phase 2.0.2 — Detailed Upgrade Guide
 
 ## 1. Purpose
 
@@ -117,3 +117,7 @@ GitHub Actions should then build and deploy the static site.
 - [ ] Comparison route works
 - [ ] GitHub Pages deployment succeeds
 - [ ] Source/licensing notes are reviewed before adding third-party datasets
+
+## 13. Occurrence index identity
+
+The occurrence generator counts every token match in `count`, but stores each stable `workId + paragraphId` reference only once. `paragraphCount` records the number of unique paragraphs containing the token. This prevents duplicate React keys when a token appears multiple times in the same paragraph.

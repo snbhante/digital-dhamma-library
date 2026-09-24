@@ -2,6 +2,7 @@
   {
     "token": "ābādhāya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -13,6 +14,7 @@
   {
     "token": "abhavissa",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -24,6 +26,7 @@
   {
     "token": "abhijjhādomanassaṃ",
     "count": 4,
+    "paragraphCount": 4,
     "references": [
       {
         "workId": "mn10",
@@ -50,6 +53,7 @@
   {
     "token": "abhiññāya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -61,6 +65,7 @@
   {
     "token": "abhisambuddhā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -72,6 +77,7 @@
   {
     "token": "abhisamecca",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -83,6 +89,7 @@
   {
     "token": "addhānamaggappaṭipanno",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -94,6 +101,7 @@
   {
     "token": "adhammā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -105,6 +113,7 @@
   {
     "token": "adhigamāya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -116,6 +125,7 @@
   {
     "token": "āditt",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -127,6 +137,7 @@
   {
     "token": "ādittā",
     "count": 7,
+    "paragraphCount": 6,
     "references": [
       {
         "workId": "sn35.28",
@@ -142,11 +153,6 @@
         "workId": "sn35.28",
         "paragraphId": "sn35.28.p004",
         "number": 4
-      },
-      {
-        "workId": "sn35.28",
-        "paragraphId": "sn35.28.p005",
-        "number": 5
       },
       {
         "workId": "sn35.28",
@@ -168,6 +174,7 @@
   {
     "token": "ādittaṃ",
     "count": 12,
+    "paragraphCount": 7,
     "references": [
       {
         "workId": "sn35.28",
@@ -181,28 +188,8 @@
       },
       {
         "workId": "sn35.28",
-        "paragraphId": "sn35.28.p002",
-        "number": 2
-      },
-      {
-        "workId": "sn35.28",
-        "paragraphId": "sn35.28.p002",
-        "number": 2
-      },
-      {
-        "workId": "sn35.28",
         "paragraphId": "sn35.28.p003",
         "number": 3
-      },
-      {
-        "workId": "sn35.28",
-        "paragraphId": "sn35.28.p003",
-        "number": 3
-      },
-      {
-        "workId": "sn35.28",
-        "paragraphId": "sn35.28.p004",
-        "number": 4
       },
       {
         "workId": "sn35.28",
@@ -223,17 +210,13 @@
         "workId": "sn35.28",
         "paragraphId": "sn35.28.p007",
         "number": 7
-      },
-      {
-        "workId": "sn35.28",
-        "paragraphId": "sn35.28.p007",
-        "number": 7
       }
     ]
   },
   {
     "token": "ahāsi",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
@@ -250,6 +233,7 @@
   {
     "token": "ajini",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
@@ -266,6 +250,7 @@
   {
     "token": "ajjhagā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -277,6 +262,7 @@
   {
     "token": "akaraṇaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -288,6 +274,7 @@
   {
     "token": "ākāraparivitakkena",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -299,6 +286,7 @@
   {
     "token": "akkocchi",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
@@ -315,6 +303,7 @@
   {
     "token": "akusalā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -326,6 +315,7 @@
   {
     "token": "amataṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -337,6 +327,7 @@
   {
     "token": "anākulā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -348,12 +339,8 @@
   {
     "token": "anaññasaraṇā",
     "count": 3,
+    "paragraphCount": 2,
     "references": [
-      {
-        "workId": "dn16",
-        "paragraphId": "dn16.p002",
-        "number": 2
-      },
       {
         "workId": "dn16",
         "paragraphId": "dn16.p002",
@@ -369,6 +356,7 @@
   {
     "token": "anapāyinī",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -380,6 +368,7 @@
   {
     "token": "anariyo",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "sn56.11",
@@ -396,6 +385,7 @@
   {
     "token": "anāthapiṇḍikassa",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn21",
@@ -412,6 +402,7 @@
   {
     "token": "anatimānī",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -423,6 +414,7 @@
   {
     "token": "anattā",
     "count": 5,
+    "paragraphCount": 5,
     "references": [
       {
         "workId": "sn22.59",
@@ -454,6 +446,7 @@
   {
     "token": "anatthasaṃhito",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "sn56.11",
@@ -470,6 +463,7 @@
   {
     "token": "anavajjā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -481,6 +475,7 @@
   {
     "token": "aniccaṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "sn22.59",
@@ -497,6 +492,7 @@
   {
     "token": "antā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -508,6 +504,7 @@
   {
     "token": "antalikkhe",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -519,6 +516,7 @@
   {
     "token": "anūpaghāto",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -530,6 +528,7 @@
   {
     "token": "anūpavādo",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -541,6 +540,7 @@
   {
     "token": "anurakkhe",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -552,6 +552,7 @@
   {
     "token": "anussavena",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -563,6 +564,7 @@
   {
     "token": "anveti",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
@@ -579,6 +581,7 @@
   {
     "token": "aparimāṇaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -590,6 +593,7 @@
   {
     "token": "appakicco",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -601,6 +605,7 @@
   {
     "token": "appamādena",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dn16",
@@ -612,6 +617,7 @@
   {
     "token": "ārāme",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn21",
@@ -628,6 +634,7 @@
   {
     "token": "ariyasaccaṃ",
     "count": 4,
+    "paragraphCount": 4,
     "references": [
       {
         "workId": "sn56.11",
@@ -654,6 +661,7 @@
   {
     "token": "asevanā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -665,6 +673,7 @@
   {
     "token": "asokaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -676,6 +685,7 @@
   {
     "token": "ātāpī",
     "count": 7,
+    "paragraphCount": 7,
     "references": [
       {
         "workId": "mn10",
@@ -717,6 +727,7 @@
   {
     "token": "athopi",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -728,6 +739,7 @@
   {
     "token": "attā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -739,6 +751,7 @@
   {
     "token": "attadīpā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dn16",
@@ -750,6 +763,7 @@
   {
     "token": "attakilamathānuyogo",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -761,6 +775,7 @@
   {
     "token": "attanāva",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "an3.65",
@@ -777,6 +792,7 @@
   {
     "token": "attasammāpaṇidhi",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -788,6 +804,7 @@
   {
     "token": "attasaraṇā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dn16",
@@ -799,6 +816,7 @@
   {
     "token": "atthakusalena",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -810,6 +828,7 @@
   {
     "token": "atthaṅgamāya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -821,6 +840,7 @@
   {
     "token": "atthi",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -832,6 +852,7 @@
   {
     "token": "avadhi",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
@@ -848,6 +869,7 @@
   {
     "token": "ayaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -859,6 +881,7 @@
   {
     "token": "āyusā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -870,6 +893,7 @@
   {
     "token": "bāhiya",
     "count": 7,
+    "paragraphCount": 5,
     "references": [
       {
         "workId": "ud1.10",
@@ -893,16 +917,6 @@
       },
       {
         "workId": "ud1.10",
-        "paragraphId": "ud1.10.p005",
-        "number": 5
-      },
-      {
-        "workId": "ud1.10",
-        "paragraphId": "ud1.10.p006",
-        "number": 6
-      },
-      {
-        "workId": "ud1.10",
         "paragraphId": "ud1.10.p006",
         "number": 6
       }
@@ -911,6 +925,7 @@
   {
     "token": "bāhusaccañca",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -922,6 +937,7 @@
   {
     "token": "bālānaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -933,6 +949,7 @@
   {
     "token": "bārāṇasiyaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -944,6 +961,7 @@
   {
     "token": "bhagavā",
     "count": 4,
+    "paragraphCount": 4,
     "references": [
       {
         "workId": "mn10",
@@ -970,6 +988,7 @@
   {
     "token": "bhante",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -981,6 +1000,7 @@
   {
     "token": "bhāsati",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
@@ -997,6 +1017,7 @@
   {
     "token": "bhāsissāma",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn21",
@@ -1008,6 +1029,7 @@
   {
     "token": "bhāsissāmi",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn21",
@@ -1019,6 +1041,7 @@
   {
     "token": "bhāsitaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -1030,6 +1053,7 @@
   {
     "token": "bhavantu",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "khp6",
@@ -1046,6 +1070,7 @@
   {
     "token": "bhāvaye",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -1057,6 +1082,7 @@
   {
     "token": "bhavissāma",
     "count": 3,
+    "paragraphCount": 3,
     "references": [
       {
         "workId": "mn21",
@@ -1078,6 +1104,7 @@
   {
     "token": "bhavissati",
     "count": 8,
+    "paragraphCount": 3,
     "references": [
       {
         "workId": "ud1.10",
@@ -1091,31 +1118,6 @@
       },
       {
         "workId": "ud1.10",
-        "paragraphId": "ud1.10.p002",
-        "number": 2
-      },
-      {
-        "workId": "ud1.10",
-        "paragraphId": "ud1.10.p002",
-        "number": 2
-      },
-      {
-        "workId": "ud1.10",
-        "paragraphId": "ud1.10.p003",
-        "number": 3
-      },
-      {
-        "workId": "ud1.10",
-        "paragraphId": "ud1.10.p003",
-        "number": 3
-      },
-      {
-        "workId": "ud1.10",
-        "paragraphId": "ud1.10.p003",
-        "number": 3
-      },
-      {
-        "workId": "ud1.10",
         "paragraphId": "ud1.10.p003",
         "number": 3
       }
@@ -1124,6 +1126,7 @@
   {
     "token": "bhikkhave",
     "count": 15,
+    "paragraphCount": 14,
     "references": [
       {
         "workId": "mn10",
@@ -1169,11 +1172,6 @@
         "workId": "sn56.11",
         "paragraphId": "sn56.11.p002",
         "number": 2
-      },
-      {
-        "workId": "sn22.59",
-        "paragraphId": "sn22.59.p001",
-        "number": 1
       },
       {
         "workId": "sn22.59",
@@ -1205,6 +1203,7 @@
   {
     "token": "bhikkhu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -1216,6 +1215,7 @@
   {
     "token": "bhikkhuno",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn21",
@@ -1227,6 +1227,7 @@
   {
     "token": "bhummāni",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -1238,6 +1239,7 @@
   {
     "token": "bhūtā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -1249,6 +1251,7 @@
   {
     "token": "bhūtāni",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -1260,6 +1263,7 @@
   {
     "token": "buddhā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -1271,6 +1275,7 @@
   {
     "token": "buddhāna",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -1282,6 +1287,7 @@
   {
     "token": "buddhe",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -1293,6 +1299,7 @@
   {
     "token": "byāpannacittā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn21",
@@ -1304,6 +1311,7 @@
   {
     "token": "ca",
     "count": 18,
+    "paragraphCount": 10,
     "references": [
       {
         "workId": "mn21",
@@ -1316,16 +1324,6 @@
         "number": 6
       },
       {
-        "workId": "mn21",
-        "paragraphId": "mn21.p006",
-        "number": 6
-      },
-      {
-        "workId": "khp5",
-        "paragraphId": "khp5.p002",
-        "number": 2
-      },
-      {
         "workId": "khp5",
         "paragraphId": "khp5.p002",
         "number": 2
@@ -1334,21 +1332,6 @@
         "workId": "khp5",
         "paragraphId": "khp5.p003",
         "number": 3
-      },
-      {
-        "workId": "khp5",
-        "paragraphId": "khp5.p003",
-        "number": 3
-      },
-      {
-        "workId": "khp5",
-        "paragraphId": "khp5.p003",
-        "number": 3
-      },
-      {
-        "workId": "khp5",
-        "paragraphId": "khp5.p004",
-        "number": 4
       },
       {
         "workId": "khp5",
@@ -1364,21 +1347,6 @@
         "workId": "khp9",
         "paragraphId": "khp9.p002",
         "number": 2
-      },
-      {
-        "workId": "khp9",
-        "paragraphId": "khp9.p002",
-        "number": 2
-      },
-      {
-        "workId": "khp9",
-        "paragraphId": "khp9.p003",
-        "number": 3
-      },
-      {
-        "workId": "khp9",
-        "paragraphId": "khp9.p003",
-        "number": 3
       },
       {
         "workId": "khp9",
@@ -1400,6 +1368,7 @@
   {
     "token": "cakkaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -1411,6 +1380,7 @@
   {
     "token": "cakkhu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -1422,6 +1392,7 @@
   {
     "token": "cakkhukaraṇī",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -1433,6 +1404,7 @@
   {
     "token": "cakkhuviññāṇaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -1444,6 +1416,7 @@
   {
     "token": "cassa",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -1455,12 +1428,8 @@
   {
     "token": "cattāro",
     "count": 2,
+    "paragraphCount": 1,
     "references": [
-      {
-        "workId": "mn10",
-        "paragraphId": "mn10.p003",
-        "number": 3
-      },
       {
         "workId": "mn10",
         "paragraphId": "mn10.p003",
@@ -1471,6 +1440,7 @@
   {
     "token": "ce",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
@@ -1487,6 +1457,7 @@
   {
     "token": "ceva",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn21",
@@ -1503,6 +1474,7 @@
   {
     "token": "chāyā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -1514,6 +1486,7 @@
   {
     "token": "cittaṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn21",
@@ -1530,6 +1503,7 @@
   {
     "token": "cittānupassī",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn10",
@@ -1546,6 +1520,7 @@
   {
     "token": "citte",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn10",
@@ -1562,6 +1537,7 @@
   {
     "token": "desessāmi",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn22",
@@ -1578,6 +1554,7 @@
   {
     "token": "desito",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -1589,6 +1566,7 @@
   {
     "token": "dhammā",
     "count": 7,
+    "paragraphCount": 5,
     "references": [
       {
         "workId": "sn35.28",
@@ -1599,16 +1577,6 @@
         "workId": "an3.65",
         "paragraphId": "an3.65.p003",
         "number": 3
-      },
-      {
-        "workId": "an3.65",
-        "paragraphId": "an3.65.p003",
-        "number": 3
-      },
-      {
-        "workId": "an3.65",
-        "paragraphId": "an3.65.p005",
-        "number": 5
       },
       {
         "workId": "an3.65",
@@ -1630,6 +1598,7 @@
   {
     "token": "dhammadīpā",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dn16",
@@ -1646,6 +1615,7 @@
   {
     "token": "dhammaṃ",
     "count": 3,
+    "paragraphCount": 3,
     "references": [
       {
         "workId": "mn22",
@@ -1667,6 +1637,7 @@
   {
     "token": "dhammānupassī",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -1678,6 +1649,7 @@
   {
     "token": "dhammāpi",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -1689,6 +1661,7 @@
   {
     "token": "dhammasaraṇā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dn16",
@@ -1700,6 +1673,7 @@
   {
     "token": "dhamme",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -1711,6 +1685,7 @@
   {
     "token": "dhammesu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -1722,6 +1697,7 @@
   {
     "token": "dhammo",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -1733,6 +1709,7 @@
   {
     "token": "disāya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -1744,6 +1721,7 @@
   {
     "token": "diṭṭhaṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "ud1.10",
@@ -1760,6 +1738,7 @@
   {
     "token": "diṭṭhamattaṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "ud1.10",
@@ -1776,6 +1755,7 @@
   {
     "token": "diṭṭhinijjhānakkhantiya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -1787,6 +1767,7 @@
   {
     "token": "dosantarā",
     "count": 3,
+    "paragraphCount": 3,
     "references": [
       {
         "workId": "mn21",
@@ -1808,6 +1789,7 @@
   {
     "token": "dukkhadomanassānaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -1819,6 +1801,7 @@
   {
     "token": "dukkham",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -1830,6 +1813,7 @@
   {
     "token": "dukkhaṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "sn56.11",
@@ -1846,6 +1830,7 @@
   {
     "token": "dukkhanirodhagāminī",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -1857,6 +1842,7 @@
   {
     "token": "dukkhanirodhaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -1868,6 +1854,7 @@
   {
     "token": "dukkhasamudayaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -1879,6 +1866,7 @@
   {
     "token": "dukkho",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -1890,6 +1878,7 @@
   {
     "token": "dve",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -1901,6 +1890,7 @@
   {
     "token": "ekaṃ",
     "count": 4,
+    "paragraphCount": 4,
     "references": [
       {
         "workId": "mn10",
@@ -1927,6 +1917,7 @@
   {
     "token": "ekaputtam",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -1938,6 +1929,7 @@
   {
     "token": "ekāyano",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -1949,6 +1941,7 @@
   {
     "token": "etaṃ",
     "count": 6,
+    "paragraphCount": 6,
     "references": [
       {
         "workId": "khp5",
@@ -1985,6 +1978,7 @@
   {
     "token": "etena",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -1996,6 +1990,7 @@
   {
     "token": "evaṃ",
     "count": 7,
+    "paragraphCount": 7,
     "references": [
       {
         "workId": "mn10",
@@ -2037,6 +2032,7 @@
   {
     "token": "gaccheyya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -2048,6 +2044,7 @@
   {
     "token": "gahaṇatthāya",
     "count": 4,
+    "paragraphCount": 4,
     "references": [
       {
         "workId": "mn22",
@@ -2074,6 +2071,7 @@
   {
     "token": "gammo",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -2085,6 +2083,7 @@
   {
     "token": "gandhā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -2096,6 +2095,7 @@
   {
     "token": "ghānaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -2107,6 +2107,7 @@
   {
     "token": "ghānaviññāṇaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -2118,6 +2119,7 @@
   {
     "token": "hi",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -2129,6 +2131,7 @@
   {
     "token": "hidaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -2140,6 +2143,7 @@
   {
     "token": "hīno",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -2151,6 +2155,7 @@
   {
     "token": "hontu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -2162,6 +2167,7 @@
   {
     "token": "hoti",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -2173,6 +2179,7 @@
   {
     "token": "hotu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -2184,6 +2191,7 @@
   {
     "token": "huraṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "khp6",
@@ -2200,6 +2208,7 @@
   {
     "token": "idaṃ",
     "count": 4,
+    "paragraphCount": 4,
     "references": [
       {
         "workId": "sn56.11",
@@ -2226,6 +2235,7 @@
   {
     "token": "idampi",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "khp6",
@@ -2242,6 +2252,7 @@
   {
     "token": "idha",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn10",
@@ -2258,21 +2269,12 @@
   {
     "token": "ime",
     "count": 4,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "an3.65",
         "paragraphId": "an3.65.p003",
         "number": 3
-      },
-      {
-        "workId": "an3.65",
-        "paragraphId": "an3.65.p003",
-        "number": 3
-      },
-      {
-        "workId": "an3.65",
-        "paragraphId": "an3.65.p005",
-        "number": 5
       },
       {
         "workId": "an3.65",
@@ -2284,6 +2286,7 @@
   {
     "token": "isipatane",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -2295,6 +2298,7 @@
   {
     "token": "itikirāya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -2306,6 +2310,7 @@
   {
     "token": "jāneyyātha",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "an3.65",
@@ -2322,6 +2327,7 @@
   {
     "token": "jetavane",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn21",
@@ -2338,6 +2344,7 @@
   {
     "token": "jivhā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -2349,6 +2356,7 @@
   {
     "token": "jivhāviññāṇaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -2360,6 +2368,7 @@
   {
     "token": "kālāmā",
     "count": 4,
+    "paragraphCount": 4,
     "references": [
       {
         "workId": "an3.65",
@@ -2386,6 +2395,7 @@
   {
     "token": "kāmasukhallikānuyogo",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -2397,6 +2407,7 @@
   {
     "token": "kāmesu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -2408,6 +2419,7 @@
   {
     "token": "kammantā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -2419,6 +2431,7 @@
   {
     "token": "kammasadhammaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -2430,6 +2443,7 @@
   {
     "token": "kampati",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -2441,6 +2455,7 @@
   {
     "token": "kañci",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -2452,6 +2467,7 @@
   {
     "token": "karaṇīyam",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -2463,6 +2479,7 @@
   {
     "token": "karoti",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
@@ -2479,6 +2496,7 @@
   {
     "token": "karunacittā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn21",
@@ -2490,6 +2508,7 @@
   {
     "token": "katame",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -2501,6 +2520,7 @@
   {
     "token": "katapuññatā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -2512,6 +2532,7 @@
   {
     "token": "katthaci",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -2523,6 +2544,7 @@
   {
     "token": "kāyānupassī",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn10",
@@ -2539,6 +2561,7 @@
   {
     "token": "kāyaviññāṇaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -2550,6 +2573,7 @@
   {
     "token": "kāye",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn10",
@@ -2566,6 +2590,7 @@
   {
     "token": "kāyo",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -2577,6 +2602,7 @@
   {
     "token": "khantī",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -2588,6 +2614,7 @@
   {
     "token": "khayaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -2599,6 +2626,7 @@
   {
     "token": "khemaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -2610,6 +2638,7 @@
   {
     "token": "khemino",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -2621,6 +2650,7 @@
   {
     "token": "kho",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "ud1.10",
@@ -2632,6 +2662,7 @@
   {
     "token": "kiṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -2643,6 +2674,7 @@
   {
     "token": "kiñca",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -2654,6 +2686,7 @@
   {
     "token": "kiñci",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -2665,6 +2698,7 @@
   {
     "token": "kullaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -2676,6 +2710,7 @@
   {
     "token": "kullūpamaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -2687,6 +2722,7 @@
   {
     "token": "kullūpamo",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -2698,6 +2734,7 @@
   {
     "token": "kurūnaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -2709,6 +2746,7 @@
   {
     "token": "kurūsu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -2720,6 +2758,7 @@
   {
     "token": "kusalā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -2731,6 +2770,7 @@
   {
     "token": "kusalassa",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -2742,6 +2782,7 @@
   {
     "token": "lokadhammehi",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -2753,6 +2794,7 @@
   {
     "token": "loke",
     "count": 4,
+    "paragraphCount": 4,
     "references": [
       {
         "workId": "mn10",
@@ -2779,41 +2821,12 @@
   {
     "token": "mā",
     "count": 8,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "an3.65",
         "paragraphId": "an3.65.p001",
         "number": 1
-      },
-      {
-        "workId": "an3.65",
-        "paragraphId": "an3.65.p001",
-        "number": 1
-      },
-      {
-        "workId": "an3.65",
-        "paragraphId": "an3.65.p001",
-        "number": 1
-      },
-      {
-        "workId": "an3.65",
-        "paragraphId": "an3.65.p001",
-        "number": 1
-      },
-      {
-        "workId": "an3.65",
-        "paragraphId": "an3.65.p002",
-        "number": 2
-      },
-      {
-        "workId": "an3.65",
-        "paragraphId": "an3.65.p002",
-        "number": 2
-      },
-      {
-        "workId": "an3.65",
-        "paragraphId": "an3.65.p002",
-        "number": 2
       },
       {
         "workId": "an3.65",
@@ -2825,6 +2838,7 @@
   {
     "token": "maggo",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -2836,6 +2850,7 @@
   {
     "token": "majjhimā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -2847,31 +2862,12 @@
   {
     "token": "maṃ",
     "count": 6,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
         "paragraphId": "dhp1.p004",
         "number": 4
-      },
-      {
-        "workId": "dhp1",
-        "paragraphId": "dhp1.p004",
-        "number": 4
-      },
-      {
-        "workId": "dhp1",
-        "paragraphId": "dhp1.p004",
-        "number": 4
-      },
-      {
-        "workId": "dhp1",
-        "paragraphId": "dhp1.p006",
-        "number": 6
-      },
-      {
-        "workId": "dhp1",
-        "paragraphId": "dhp1.p006",
-        "number": 6
       },
       {
         "workId": "dhp1",
@@ -2883,6 +2879,7 @@
   {
     "token": "manasā",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
@@ -2899,6 +2896,7 @@
   {
     "token": "mānasaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -2910,6 +2908,7 @@
   {
     "token": "maṅgalamuttamaṃ",
     "count": 5,
+    "paragraphCount": 5,
     "references": [
       {
         "workId": "khp5",
@@ -2941,6 +2940,7 @@
   {
     "token": "maññatha",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -2952,6 +2952,7 @@
   {
     "token": "mano",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -2963,6 +2964,7 @@
   {
     "token": "manomayā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -2974,6 +2976,7 @@
   {
     "token": "manopubbaṅgamā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -2985,6 +2988,7 @@
   {
     "token": "manoseṭṭhā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -2996,6 +3000,7 @@
   {
     "token": "manoviññāṇaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -3007,6 +3012,7 @@
   {
     "token": "mātā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -3018,6 +3024,7 @@
   {
     "token": "mātāpitu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -3029,6 +3036,7 @@
   {
     "token": "mayā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -3040,6 +3048,7 @@
   {
     "token": "me",
     "count": 8,
+    "paragraphCount": 8,
     "references": [
       {
         "workId": "mn10",
@@ -3086,6 +3095,7 @@
   {
     "token": "mettacittā",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn21",
@@ -3102,6 +3112,7 @@
   {
     "token": "migadāye",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -3113,6 +3124,7 @@
   {
     "token": "mudu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -3124,16 +3136,12 @@
   {
     "token": "mutaṃ",
     "count": 3,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "ud1.10",
         "paragraphId": "ud1.10.p002",
         "number": 2
-      },
-      {
-        "workId": "ud1.10",
-        "paragraphId": "ud1.10.p003",
-        "number": 3
       },
       {
         "workId": "ud1.10",
@@ -3145,6 +3153,7 @@
   {
     "token": "mutamattaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "ud1.10",
@@ -3156,16 +3165,12 @@
   {
     "token": "na",
     "count": 23,
+    "paragraphCount": 17,
     "references": [
       {
         "workId": "mn21",
         "paragraphId": "mn21.p002",
         "number": 2
-      },
-      {
-        "workId": "mn21",
-        "paragraphId": "mn21.p003",
-        "number": 3
       },
       {
         "workId": "mn21",
@@ -3181,11 +3186,6 @@
         "workId": "mn21",
         "paragraphId": "mn21.p005",
         "number": 5
-      },
-      {
-        "workId": "mn21",
-        "paragraphId": "mn21.p006",
-        "number": 6
       },
       {
         "workId": "mn21",
@@ -3215,11 +3215,6 @@
       {
         "workId": "khp6",
         "paragraphId": "khp6.p004",
-        "number": 4
-      },
-      {
-        "workId": "khp9",
-        "paragraphId": "khp9.p004",
         "number": 4
       },
       {
@@ -3254,21 +3249,6 @@
       },
       {
         "workId": "ud1.10",
-        "paragraphId": "ud1.10.p005",
-        "number": 5
-      },
-      {
-        "workId": "ud1.10",
-        "paragraphId": "ud1.10.p006",
-        "number": 6
-      },
-      {
-        "workId": "ud1.10",
-        "paragraphId": "ud1.10.p006",
-        "number": 6
-      },
-      {
-        "workId": "ud1.10",
         "paragraphId": "ud1.10.p006",
         "number": 6
       }
@@ -3277,6 +3257,7 @@
   {
     "token": "naṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
@@ -3293,6 +3274,7 @@
   {
     "token": "nāma",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -3304,6 +3286,7 @@
   {
     "token": "ñāṇakaraṇī",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -3315,6 +3298,7 @@
   {
     "token": "nātimaññetha",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -3326,6 +3310,7 @@
   {
     "token": "nāvissajjeyya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -3337,6 +3322,7 @@
   {
     "token": "nayahetu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -3348,6 +3334,7 @@
   {
     "token": "ñāyassa",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -3359,6 +3346,7 @@
   {
     "token": "nevidha",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "ud1.10",
@@ -3370,6 +3358,7 @@
   {
     "token": "nibbānaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -3381,6 +3370,7 @@
   {
     "token": "nibbānassa",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -3392,6 +3382,7 @@
   {
     "token": "nibbānāya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -3403,6 +3394,7 @@
   {
     "token": "niccaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -3414,6 +3406,7 @@
   {
     "token": "nigamo",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -3425,6 +3418,7 @@
   {
     "token": "nikubbetha",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -3436,6 +3430,7 @@
   {
     "token": "nittharaṇatthāya",
     "count": 4,
+    "paragraphCount": 4,
     "references": [
       {
         "workId": "mn22",
@@ -3462,6 +3457,7 @@
   {
     "token": "niyaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -3473,6 +3469,7 @@
   {
     "token": "no",
     "count": 4,
+    "paragraphCount": 4,
     "references": [
       {
         "workId": "mn22",
@@ -3499,6 +3496,7 @@
   {
     "token": "pabbajitena",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -3510,6 +3508,7 @@
   {
     "token": "pabbajito",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -3521,6 +3520,7 @@
   {
     "token": "padaṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "khp9",
@@ -3537,6 +3537,7 @@
   {
     "token": "paduṭṭhena",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -3548,6 +3549,7 @@
   {
     "token": "pageva",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -3559,6 +3561,7 @@
   {
     "token": "pahātabbā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -3570,6 +3573,7 @@
   {
     "token": "pahātabbaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -3581,6 +3585,7 @@
   {
     "token": "pahātabbāti",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -3592,6 +3597,7 @@
   {
     "token": "paṇḍitānañca",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -3603,6 +3609,7 @@
   {
     "token": "paṇītaṃ",
     "count": 4,
+    "paragraphCount": 4,
     "references": [
       {
         "workId": "khp6",
@@ -3629,6 +3636,7 @@
   {
     "token": "pāpakaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn21",
@@ -3640,6 +3648,7 @@
   {
     "token": "pāpikaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn21",
@@ -3651,6 +3660,7 @@
   {
     "token": "paraṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "khp9",
@@ -3667,12 +3677,8 @@
   {
     "token": "paramaṃ",
     "count": 2,
+    "paragraphCount": 1,
     "references": [
-      {
-        "workId": "dhp183",
-        "paragraphId": "dhp183.p003",
-        "number": 3
-      },
       {
         "workId": "dhp183",
         "paragraphId": "dhp183.p003",
@@ -3683,6 +3689,7 @@
   {
     "token": "paramparāya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -3694,6 +3701,7 @@
   {
     "token": "paro",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -3705,6 +3713,7 @@
   {
     "token": "parūpaghātī",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -3716,6 +3725,7 @@
   {
     "token": "pasannena",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -3727,6 +3737,7 @@
   {
     "token": "pātimokkhe",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -3738,6 +3749,7 @@
   {
     "token": "paṭipadā",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "sn56.11",
@@ -3754,6 +3766,7 @@
   {
     "token": "patirūpadesavāso",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -3765,6 +3778,7 @@
   {
     "token": "phoṭṭhabbā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -3776,6 +3790,7 @@
   {
     "token": "phuṭṭhassa",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -3787,6 +3802,7 @@
   {
     "token": "pi",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -3798,6 +3814,7 @@
   {
     "token": "piṭakasampadānena",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -3809,6 +3826,7 @@
   {
     "token": "pothujjaniko",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -3820,6 +3838,7 @@
   {
     "token": "pubbe",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -3831,6 +3850,7 @@
   {
     "token": "pūjā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -3842,6 +3862,7 @@
   {
     "token": "pūjaneyyānaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -3853,6 +3874,7 @@
   {
     "token": "puratthimāya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -3864,6 +3886,7 @@
   {
     "token": "puriso",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -3875,6 +3898,7 @@
   {
     "token": "puttadārassa",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -3886,6 +3910,7 @@
   {
     "token": "puttaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -3897,6 +3922,7 @@
   {
     "token": "rasā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -3908,6 +3934,7 @@
   {
     "token": "ratanaṃ",
     "count": 3,
+    "paragraphCount": 3,
     "references": [
       {
         "workId": "khp6",
@@ -3929,6 +3956,7 @@
   {
     "token": "rūpā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -3940,12 +3968,8 @@
   {
     "token": "rūpaṃ",
     "count": 3,
+    "paragraphCount": 2,
     "references": [
-      {
-        "workId": "sn22.59",
-        "paragraphId": "sn22.59.p001",
-        "number": 1
-      },
       {
         "workId": "sn22.59",
         "paragraphId": "sn22.59.p001",
@@ -3961,6 +3985,7 @@
   {
     "token": "rūpañca",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -3972,6 +3997,7 @@
   {
     "token": "sabbabhūtesu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -3983,6 +4009,7 @@
   {
     "token": "sabbaṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "sn35.28",
@@ -3999,6 +4026,7 @@
   {
     "token": "sabbapāpassa",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -4010,6 +4038,7 @@
   {
     "token": "sabbe",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -4021,6 +4050,7 @@
   {
     "token": "sabbeva",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -4032,6 +4062,7 @@
   {
     "token": "saccena",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -4043,6 +4074,7 @@
   {
     "token": "sacchikiriyāya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -4054,6 +4086,7 @@
   {
     "token": "sacittapariyodapanaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -4065,6 +4098,7 @@
   {
     "token": "saddā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -4076,6 +4110,7 @@
   {
     "token": "saggesu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -4087,6 +4122,7 @@
   {
     "token": "sakkacca",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -4098,6 +4134,7 @@
   {
     "token": "sakko",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -4109,6 +4146,7 @@
   {
     "token": "sakyamunī",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -4120,6 +4158,7 @@
   {
     "token": "sallahukavutti",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -4131,6 +4170,7 @@
   {
     "token": "samāgatāni",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -4142,6 +4182,7 @@
   {
     "token": "samāhito",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -4153,6 +4194,7 @@
   {
     "token": "samaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -4164,6 +4206,7 @@
   {
     "token": "samaṇo",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -4175,6 +4218,7 @@
   {
     "token": "samatikkamāya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -4186,6 +4230,7 @@
   {
     "token": "samayaṃ",
     "count": 4,
+    "paragraphCount": 4,
     "references": [
       {
         "workId": "mn10",
@@ -4212,6 +4257,7 @@
   {
     "token": "sambodhāya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -4223,6 +4269,7 @@
   {
     "token": "sammati",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -4234,6 +4281,7 @@
   {
     "token": "sampādetha",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dn16",
@@ -4245,6 +4293,7 @@
   {
     "token": "sampajāno",
     "count": 7,
+    "paragraphCount": 7,
     "references": [
       {
         "workId": "mn10",
@@ -4286,6 +4335,7 @@
   {
     "token": "saṃvaro",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -4297,6 +4347,7 @@
   {
     "token": "saṃvattati",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -4308,6 +4359,7 @@
   {
     "token": "saṃvatteyya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -4319,6 +4371,7 @@
   {
     "token": "saṅgaho",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -4330,6 +4383,7 @@
   {
     "token": "saṅkhārā",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "sn22.59",
@@ -4346,6 +4400,7 @@
   {
     "token": "saññā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -4357,6 +4412,7 @@
   {
     "token": "santaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -4368,6 +4424,7 @@
   {
     "token": "santussako",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -4379,6 +4436,7 @@
   {
     "token": "saraṇā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dn16",
@@ -4390,6 +4448,7 @@
   {
     "token": "sāsanaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -4401,6 +4460,7 @@
   {
     "token": "satimā",
     "count": 7,
+    "paragraphCount": 7,
     "references": [
       {
         "workId": "mn10",
@@ -4442,6 +4502,7 @@
   {
     "token": "satipaṭṭhānā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -4453,6 +4514,7 @@
   {
     "token": "sattā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -4464,6 +4526,7 @@
   {
     "token": "sattānaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -4475,6 +4538,7 @@
   {
     "token": "sāvajjā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -4486,6 +4550,7 @@
   {
     "token": "sāvatthiyaṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn21",
@@ -4502,6 +4567,7 @@
   {
     "token": "sevanā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -4513,6 +4579,7 @@
   {
     "token": "sevitabbā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -4524,6 +4591,7 @@
   {
     "token": "seyyathāpi",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn22",
@@ -4535,6 +4603,7 @@
   {
     "token": "sikkhitabbaṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn21",
@@ -4551,6 +4620,7 @@
   {
     "token": "sippañca",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -4562,6 +4632,7 @@
   {
     "token": "sokaparidevānaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -4573,6 +4644,7 @@
   {
     "token": "sotaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -4584,6 +4656,7 @@
   {
     "token": "sotaviññāṇaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn35.28",
@@ -4595,6 +4668,7 @@
   {
     "token": "subharo",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -4606,6 +4680,7 @@
   {
     "token": "subhāsitā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -4617,6 +4692,7 @@
   {
     "token": "suhujū",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -4628,6 +4704,7 @@
   {
     "token": "sukham",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -4639,6 +4716,7 @@
   {
     "token": "sukhaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -4650,6 +4728,7 @@
   {
     "token": "sukhino",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -4661,6 +4740,7 @@
   {
     "token": "sukhitattā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -4672,6 +4752,7 @@
   {
     "token": "sumanā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -4683,6 +4764,7 @@
   {
     "token": "suṇantu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -4694,6 +4776,7 @@
   {
     "token": "susikkhito",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -4705,6 +4788,7 @@
   {
     "token": "sutaṃ",
     "count": 7,
+    "paragraphCount": 6,
     "references": [
       {
         "workId": "mn10",
@@ -4735,17 +4819,13 @@
         "workId": "ud1.10",
         "paragraphId": "ud1.10.p003",
         "number": 3
-      },
-      {
-        "workId": "ud1.10",
-        "paragraphId": "ud1.10.p003",
-        "number": 3
       }
     ]
   },
   {
     "token": "sutamattaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "ud1.10",
@@ -4757,6 +4837,7 @@
   {
     "token": "sūvaco",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -4768,6 +4849,7 @@
   {
     "token": "suvatthi",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -4779,6 +4861,7 @@
   {
     "token": "takkahetu",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -4790,6 +4873,7 @@
   {
     "token": "taṃ",
     "count": 5,
+    "paragraphCount": 5,
     "references": [
       {
         "workId": "mn22",
@@ -4821,6 +4905,7 @@
   {
     "token": "tapo",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -4832,6 +4917,7 @@
   {
     "token": "tasmātiha",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "ud1.10",
@@ -4843,6 +4929,7 @@
   {
     "token": "tassa",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn21",
@@ -4854,6 +4941,7 @@
   {
     "token": "tathāgatena",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "sn56.11",
@@ -4870,6 +4958,7 @@
   {
     "token": "tato",
     "count": 5,
+    "paragraphCount": 5,
     "references": [
       {
         "workId": "dhp1",
@@ -4901,6 +4990,7 @@
   {
     "token": "tattha",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "ud1.10",
@@ -4917,6 +5007,7 @@
   {
     "token": "te",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "ud1.10",
@@ -4933,6 +5024,7 @@
   {
     "token": "tena",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "ud1.10",
@@ -4949,6 +5041,7 @@
   {
     "token": "tesaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -4960,6 +5053,7 @@
   {
     "token": "tesūpasammati",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -4971,6 +5065,7 @@
   {
     "token": "titikkhā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -4982,6 +5077,7 @@
   {
     "token": "tumhe",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "an3.65",
@@ -4998,6 +5094,7 @@
   {
     "token": "tvaṃ",
     "count": 5,
+    "paragraphCount": 3,
     "references": [
       {
         "workId": "ud1.10",
@@ -5011,16 +5108,6 @@
       },
       {
         "workId": "ud1.10",
-        "paragraphId": "ud1.10.p005",
-        "number": 5
-      },
-      {
-        "workId": "ud1.10",
-        "paragraphId": "ud1.10.p006",
-        "number": 6
-      },
-      {
-        "workId": "ud1.10",
         "paragraphId": "ud1.10.p006",
         "number": 6
       }
@@ -5029,6 +5116,7 @@
   {
     "token": "ubhayamantarena",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "ud1.10",
@@ -5040,6 +5128,7 @@
   {
     "token": "ujū",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -5051,6 +5140,7 @@
   {
     "token": "upanayhanti",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
@@ -5067,6 +5157,7 @@
   {
     "token": "upasamāya",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn56.11",
@@ -5078,6 +5169,7 @@
   {
     "token": "upasampadā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -5089,12 +5181,8 @@
   {
     "token": "upasampajja",
     "count": 2,
+    "paragraphCount": 1,
     "references": [
-      {
-        "workId": "an3.65",
-        "paragraphId": "an3.65.p006",
-        "number": 6
-      },
       {
         "workId": "an3.65",
         "paragraphId": "an3.65.p006",
@@ -5105,6 +5193,7 @@
   {
     "token": "upaṭṭhānaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -5116,6 +5205,7 @@
   {
     "token": "va",
     "count": 3,
+    "paragraphCount": 3,
     "references": [
       {
         "workId": "khp6",
@@ -5137,21 +5227,12 @@
   {
     "token": "vā",
     "count": 13,
+    "paragraphCount": 7,
     "references": [
       {
         "workId": "sn22.59",
         "paragraphId": "sn22.59.p006",
         "number": 6
-      },
-      {
-        "workId": "sn22.59",
-        "paragraphId": "sn22.59.p006",
-        "number": 6
-      },
-      {
-        "workId": "sn22.59",
-        "paragraphId": "sn22.59.p008",
-        "number": 8
       },
       {
         "workId": "sn22.59",
@@ -5162,16 +5243,6 @@
         "workId": "khp6",
         "paragraphId": "khp6.p001",
         "number": 1
-      },
-      {
-        "workId": "khp6",
-        "paragraphId": "khp6.p003",
-        "number": 3
-      },
-      {
-        "workId": "khp6",
-        "paragraphId": "khp6.p003",
-        "number": 3
       },
       {
         "workId": "khp6",
@@ -5190,16 +5261,6 @@
       },
       {
         "workId": "dhp1",
-        "paragraphId": "dhp1.p002",
-        "number": 2
-      },
-      {
-        "workId": "dhp1",
-        "paragraphId": "dhp1.p003",
-        "number": 3
-      },
-      {
-        "workId": "dhp1",
         "paragraphId": "dhp1.p003",
         "number": 3
       }
@@ -5208,6 +5269,7 @@
   {
     "token": "vācā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -5219,6 +5281,7 @@
   {
     "token": "vācaṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn21",
@@ -5235,6 +5298,7 @@
   {
     "token": "vadanti",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -5246,6 +5310,7 @@
   {
     "token": "vahato",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp1",
@@ -5257,6 +5322,7 @@
   {
     "token": "vayadhammā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dn16",
@@ -5268,6 +5334,7 @@
   {
     "token": "vedanā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -5279,6 +5346,7 @@
   {
     "token": "vedanānupassī",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn10",
@@ -5295,6 +5363,7 @@
   {
     "token": "vedanāsu",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "mn10",
@@ -5311,6 +5380,7 @@
   {
     "token": "veraṃ",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
@@ -5327,6 +5397,7 @@
   {
     "token": "viharatha",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dn16",
@@ -5343,6 +5414,7 @@
   {
     "token": "viharathāti",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -5354,6 +5426,7 @@
   {
     "token": "viharati",
     "count": 11,
+    "paragraphCount": 11,
     "references": [
       {
         "workId": "mn10",
@@ -5415,6 +5488,7 @@
   {
     "token": "viharitabbaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "an3.65",
@@ -5426,6 +5500,7 @@
   {
     "token": "viheṭhayanto",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "dhp183",
@@ -5437,6 +5512,7 @@
   {
     "token": "vinayo",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -5448,6 +5524,7 @@
   {
     "token": "vineyya",
     "count": 4,
+    "paragraphCount": 4,
     "references": [
       {
         "workId": "mn10",
@@ -5474,6 +5551,7 @@
   {
     "token": "viññāṇaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -5485,16 +5563,12 @@
   {
     "token": "viññātaṃ",
     "count": 3,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "ud1.10",
         "paragraphId": "ud1.10.p002",
         "number": 2
-      },
-      {
-        "workId": "ud1.10",
-        "paragraphId": "ud1.10.p003",
-        "number": 3
       },
       {
         "workId": "ud1.10",
@@ -5506,6 +5580,7 @@
   {
     "token": "viññātamattaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "ud1.10",
@@ -5517,6 +5592,7 @@
   {
     "token": "vipariṇamissati",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn21",
@@ -5528,6 +5604,7 @@
   {
     "token": "virāgaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -5539,6 +5616,7 @@
   {
     "token": "virajaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -5550,6 +5628,7 @@
   {
     "token": "visuddhiyā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -5561,6 +5640,7 @@
   {
     "token": "vittaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -5572,6 +5652,7 @@
   {
     "token": "vo",
     "count": 3,
+    "paragraphCount": 3,
     "references": [
       {
         "workId": "mn22",
@@ -5593,6 +5674,7 @@
   {
     "token": "yā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -5604,6 +5686,7 @@
   {
     "token": "yad",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -5615,6 +5698,7 @@
   {
     "token": "yadā",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "an3.65",
@@ -5631,6 +5715,7 @@
   {
     "token": "yadaniccaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",
@@ -5642,6 +5727,7 @@
   {
     "token": "yadidaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "mn10",
@@ -5653,12 +5739,8 @@
   {
     "token": "yaṃ",
     "count": 2,
+    "paragraphCount": 1,
     "references": [
-      {
-        "workId": "khp6",
-        "paragraphId": "khp6.p003",
-        "number": 3
-      },
       {
         "workId": "khp6",
         "paragraphId": "khp6.p003",
@@ -5669,6 +5751,7 @@
   {
     "token": "yāni",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -5680,6 +5763,7 @@
   {
     "token": "yānīdha",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp6",
@@ -5691,6 +5775,7 @@
   {
     "token": "yantaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -5702,6 +5787,7 @@
   {
     "token": "yassa",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp5",
@@ -5713,6 +5799,7 @@
   {
     "token": "yathā",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "khp9",
@@ -5724,6 +5811,7 @@
   {
     "token": "yato",
     "count": 3,
+    "paragraphCount": 3,
     "references": [
       {
         "workId": "ud1.10",
@@ -5745,6 +5833,7 @@
   {
     "token": "ye",
     "count": 2,
+    "paragraphCount": 2,
     "references": [
       {
         "workId": "dhp1",
@@ -5761,6 +5850,7 @@
   {
     "token": "yidaṃ",
     "count": 1,
+    "paragraphCount": 1,
     "references": [
       {
         "workId": "sn22.59",

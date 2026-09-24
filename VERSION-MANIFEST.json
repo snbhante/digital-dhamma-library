@@ -1,8 +1,8 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-2.0.1",
-  "baseline_date": "2026-09-24",
-  "version": "0.5.1",
+  "release": "phase-2.0.2",
+  "baseline_date": "2026-09-25",
+  "version": "0.5.2",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -39,6 +39,8 @@
     "Static-export dynamic routes explicitly use dynamicParams=false",
     "Dictionary entries use ASCII URL slugs while preserving Pāḷi headwords and stable IDs",
     "Search results are deduplicated by stable work/paragraph identity",
-    "Reader paragraph React keys are globally unique within rendered work context"
+    "Reader paragraph React keys are globally unique within rendered work context",
+    "Occurrence index references are deduplicated by stable work/paragraph identity",
+    "Occurrence validation rejects duplicate paragraph references and verifies paragraphCount"
   ]
 }

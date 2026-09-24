@@ -58,13 +58,24 @@ for (const work of corpus) {
   for (const paragraph of work.paragraphs) {
     for (const match of paragraph.pali.matchAll(tokenPattern)) {
       const token = match[0].toLowerCase();
-      const references = occurrenceMap.get(token) ?? [];
-      references.push({ workId: work.id, paragraphId: paragraph.id, number: paragraph.number });
-      occurrenceMap.set(token, references);
+      const record = occurrenceMap.get(token) ?? { count: 0, references: new Map() };
+      record.count += 1;
+      const referenceKey = `${work.id}-${paragraph.id}`;
+      if (!record.references.has(referenceKey)) {
+        record.references.set(referenceKey, { workId: work.id, paragraphId: paragraph.id, number: paragraph.number });
+      }
+      occurrenceMap.set(token, record);
     }
   }
 }
-const occurrences = [...occurrenceMap.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([token, references]) => ({ token, count: references.length, references }));
+const occurrences = [...occurrenceMap.entries()]
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([token, record]) => ({
+    token,
+    count: record.count,
+    paragraphCount: record.references.size,
+    references: [...record.references.values()]
+  }));
 
 writeJson("data/editions.json", editions);
 writeJson("data/translations.json", translations);

@@ -51,7 +51,21 @@ const sourceIds = new Set(); for (const source of sources) { if (!source.id || !
 const editionIds = new Set(); for (const edition of editions) { if (!edition.id || !edition.edition || !edition.status || !edition.licenseStatus || !edition.provenance) errors.push(`Edition ${edition.id ?? "<unknown>"} is incomplete.`); if (editionIds.has(edition.id)) errors.push(`Duplicate edition id: ${edition.id}`); editionIds.add(edition.id); }
 const translationIds = new Set(); for (const t of translations) { if (!t.id || !t.language || !t.label || !t.licenseStatus) errors.push(`Translation ${t.id ?? "<unknown>"} is incomplete.`); if (translationIds.has(t.id)) errors.push(`Duplicate translation id: ${t.id}`); translationIds.add(t.id); }
 const morphologyIds = new Set(); for (const m of morphology) { if (!m.id || !m.lemma || !Array.isArray(m.forms) || !m.analysis || !m.confidence) errors.push(`Morphology record ${m.id ?? "<unknown>"} is incomplete.`); if (morphologyIds.has(m.id)) errors.push(`Duplicate morphology id: ${m.id}`); morphologyIds.add(m.id); }
-const occurrenceTokens = new Set(); for (const o of occurrences) { if (!o.token || typeof o.count !== "number" || !Array.isArray(o.references)) errors.push(`Occurrence record ${o.token ?? "<unknown>"} is incomplete.`); if (occurrenceTokens.has(o.token)) errors.push(`Duplicate occurrence token: ${o.token}`); occurrenceTokens.add(o.token); for (const ref of o.references ?? []) if (!workIds.has(ref.workId) || !paragraphIds.has(ref.paragraphId)) errors.push(`Occurrence ${o.token}: invalid reference ${ref.workId}/${ref.paragraphId}`); }
+const occurrenceTokens = new Set();
+for (const o of occurrences) {
+  if (!o.token || typeof o.count !== "number" || !Array.isArray(o.references)) errors.push(`Occurrence record ${o.token ?? "<unknown>"} is incomplete.`);
+  if (occurrenceTokens.has(o.token)) errors.push(`Duplicate occurrence token: ${o.token}`);
+  occurrenceTokens.add(o.token);
+  const referenceIds = new Set();
+  for (const ref of o.references ?? []) {
+    const referenceId = `${ref.workId}-${ref.paragraphId}`;
+    if (!workIds.has(ref.workId) || !paragraphIds.has(ref.paragraphId)) errors.push(`Occurrence ${o.token}: invalid reference ${ref.workId}/${ref.paragraphId}`);
+    if (referenceIds.has(referenceId)) errors.push(`Occurrence ${o.token}: duplicate paragraph reference ${referenceId}`);
+    referenceIds.add(referenceId);
+  }
+  if (typeof o.paragraphCount !== "number") errors.push(`Occurrence ${o.token}: paragraphCount is required.`);
+  if (typeof o.paragraphCount === "number" && o.paragraphCount !== referenceIds.size) errors.push(`Occurrence ${o.token}: paragraphCount must equal unique reference count.`);
+}
 const refIds = new Set(); for (const ref of crossReferences) { if (!ref.id || !ref.from || !ref.to || !ref.relation) errors.push(`Cross-reference is incomplete.`); if (refIds.has(ref.id)) errors.push(`Duplicate cross-reference id: ${ref.id}`); refIds.add(ref.id); if (!workIds.has(ref.from) || !workIds.has(ref.to)) errors.push(`Cross-reference ${ref.id}: unknown target.`); }
 
 if (errors.length) { console.error("Data validation failed:"); for (const error of errors) console.error(`- ${error}`); process.exit(1); }

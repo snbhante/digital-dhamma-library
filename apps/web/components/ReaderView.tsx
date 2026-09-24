@@ -33,6 +33,16 @@ export default function ReaderView({ work }: { work: Work }) {
 
   const paragraphStyle = useMemo(() => ({ "--reader-scale": scale, "--reader-line-height": lineHeight } as CSSProperties), [scale, lineHeight]);
 
+  const uniqueParagraphs = useMemo(() => {
+    const seen = new Set<string>();
+    return work.paragraphs.filter((paragraph) => {
+      const key = `${work.id}-${paragraph.id}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }, [work.id, work.paragraphs]);
+
   return <>
     <div className="reader-tools" aria-label="Reader controls">
       <div className="tool-group"><strong>Languages</strong>
@@ -44,7 +54,7 @@ export default function ReaderView({ work }: { work: Work }) {
     </div>
 
     <section className="text-column" aria-label={`${work.title} text`} style={paragraphStyle}>
-      {work.paragraphs.map((paragraph) => <article className="paragraph" id={paragraph.id} key={`${work.id}-${paragraph.id}`}>
+      {uniqueParagraphs.map((paragraph) => <article className="paragraph" id={paragraph.id} key={`${work.id}-${paragraph.id}`}>
         <div className="paragraph-head"><div className="paragraph-id">{paragraph.id}</div><div className="citation-actions"><CopyCitationButton workTitle={work.title} paragraphId={paragraph.id} edition={work.edition} /><CitationTools workTitle={work.title} workId={work.id} paragraphId={paragraph.id} edition={work.edition} /></div></div>
         {showPali && <p className="pali reader-pali">{paragraph.pali}</p>}
         {showEnglish && paragraph.english && <p className="translation">{paragraph.english}</p>}
