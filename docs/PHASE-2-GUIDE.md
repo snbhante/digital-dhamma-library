@@ -38,6 +38,7 @@ npm run dev
 - `/occurrences/` — exact Pāḷi occurrence index
 - `/dictionary/` — dictionary index
 - `/dictionary/dhamma/` — lexical detail example
+- Dictionary detail routes use ASCII-safe slugs (for example `/dictionary/metta/` for mettā) so static export remains robust while preserving diacritics in the displayed headword.
 - `/compare/mn10/` — side-by-side text comparison
 - `/search/` — multilingual research search
 - `/sources/` — provenance registry

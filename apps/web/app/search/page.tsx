@@ -87,7 +87,8 @@ export default function SearchPage() {
         output.push({ workId: work.id, workTitle: work.title, collection: work.collection, paragraphId: paragraph.id, number: paragraph.number, pali: paragraph.pali, english: paragraph.english, bangla: paragraph.bangla, score });
       }
     }
-    return output.sort((a, b) => b.score - a.score || a.paragraphId.localeCompare(b.paragraphId)).slice(0, max);
+    const unique = Array.from(new Map(output.map((item) => [`${item.workId}-${item.paragraphId}`, item])).values());
+    return unique.sort((a, b) => b.score - a.score || a.paragraphId.localeCompare(b.paragraphId)).slice(0, max);
   }, [query, field, collection, type, language, limit]);
 
   function submit(event: FormEvent<HTMLFormElement>) {

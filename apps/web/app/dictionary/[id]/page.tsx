@@ -4,15 +4,21 @@ import dictionary from "../../../../../data/dictionary.json";
 import morphology from "../../../../../data/morphology.json";
 import occurrences from "../../../../../data/occurrences.json";
 
-export function generateStaticParams() { return dictionary.map((entry) => ({ id: entry.id })); }
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return dictionary.map((entry) => ({ id: entry.slug }));
+}
 
 export default async function DictionaryEntryPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const entry = dictionary.find((item) => item.id === id);
+  const entry = dictionary.find((item) => item.slug === id);
   if (!entry) notFound();
-  const morph = morphology.find((item) => item.id === id);
+
+  const morph = morphology.find((item) => item.id === entry.id);
   const occurrenceMap = new Map(occurrences.map((item) => [item.token, item]));
   const exact = occurrenceMap.get(entry.headword.toLowerCase());
+
   return <main className="shell">
     <nav className="topbar"><Link href="/dictionary/">← Dictionary</Link><span>{entry.headword}</span></nav>
     <header className="reader-header"><p className="eyebrow">LEXICAL RECORD</p><h1>{entry.headword}</h1><p>{entry.note}</p></header>

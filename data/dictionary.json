@@ -18,7 +18,8 @@
       "SN 56.11",
       "MN 22",
       "Dhammapada"
-    ]
+    ],
+    "slug": "dhamma"
   },
   {
     "id": "mettā",
@@ -39,7 +40,8 @@
     "sources": [
       "Khp 9",
       "Visuddhimagga"
-    ]
+    ],
+    "slug": "metta"
   },
   {
     "id": "dukkha",
@@ -59,7 +61,8 @@
     "sources": [
       "SN 56.11",
       "SN 22.59"
-    ]
+    ],
+    "slug": "dukkha"
   },
   {
     "id": "anicca",
@@ -78,7 +81,8 @@
     "note": "In the three-characteristic framework it is paired with dukkha and anattā as a mode of examining conditioned phenomena.",
     "sources": [
       "SN 22.59"
-    ]
+    ],
+    "slug": "anicca"
   },
   {
     "id": "anattā",
@@ -98,7 +102,8 @@
     "sources": [
       "SN 22.59",
       "MN 22"
-    ]
+    ],
+    "slug": "anatta"
   },
   {
     "id": "nibbāna",
@@ -118,7 +123,8 @@
     "sources": [
       "SN 56.11",
       "Udāna"
-    ]
+    ],
+    "slug": "nibbana"
   },
   {
     "id": "sacca",
@@ -137,7 +143,8 @@
     "note": "In cattāri ariyasaccāni, the term is technical and should be read together with the fourfold structure and its tasks.",
     "sources": [
       "SN 56.11"
-    ]
+    ],
+    "slug": "sacca"
   },
   {
     "id": "paññā",
@@ -157,7 +164,8 @@
     "sources": [
       "SN 56.11",
       "Dhammapada"
-    ]
+    ],
+    "slug": "panna"
   },
   {
     "id": "sīla",
@@ -177,7 +185,8 @@
     "sources": [
       "Khp 6",
       "Dhammapada"
-    ]
+    ],
+    "slug": "sila"
   },
   {
     "id": "samādhi",
@@ -197,7 +206,8 @@
     "sources": [
       "SN 56.11",
       "Khp 6"
-    ]
+    ],
+    "slug": "samadhi"
   },
   {
     "id": "sati",
@@ -216,6 +226,7 @@
     "note": "The exact rendering depends on context; the research engine should eventually expose occurrences in the Satipaṭṭhāna and other frameworks side by side.",
     "sources": [
       "MN 10"
-    ]
+    ],
+    "slug": "sati"
   }
 ]

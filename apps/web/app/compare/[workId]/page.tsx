@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import corpus from "../../../../../data/corpus.json";
 import translations from "../../../../../data/translations.json";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() { return corpus.map((work) => ({ workId: work.id })); }
 
 export default async function ComparePage({ params }: { params: Promise<{ workId: string }> }) {

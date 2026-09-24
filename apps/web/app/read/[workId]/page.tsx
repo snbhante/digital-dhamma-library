@@ -5,6 +5,8 @@ import ReaderView from "../../../components/ReaderView";
 
 type Work = (typeof corpus)[number];
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return corpus.map((work) => ({ workId: work.id }));
 }

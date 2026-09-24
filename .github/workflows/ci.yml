@@ -22,6 +22,9 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
+      - name: Build research indexes
+        run: npm run build:research-index
+
       - name: Validate data
         run: npm run validate:data
       - name: Type check

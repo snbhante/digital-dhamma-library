@@ -37,9 +37,12 @@ for (const work of corpus) {
 }
 
 const dictionaryIds = new Set();
+const dictionarySlugs = new Set();
 for (const entry of dictionary) {
-  if (!entry.id || !entry.headword || !entry.grammar || !Array.isArray(entry.variants) || !Array.isArray(entry.meanings) || !Array.isArray(entry.sources)) errors.push(`Dictionary entry ${entry.id ?? "<unknown>"} is incomplete.`);
+  if (!entry.id || !entry.slug || !entry.headword || !entry.grammar || !Array.isArray(entry.variants) || !Array.isArray(entry.meanings) || !Array.isArray(entry.sources)) errors.push(`Dictionary entry ${entry.id ?? "<unknown>"} is incomplete.`);
   if (dictionaryIds.has(entry.id)) errors.push(`Duplicate dictionary id: ${entry.id}`); dictionaryIds.add(entry.id);
+  if (dictionarySlugs.has(entry.slug)) errors.push(`Duplicate dictionary slug: ${entry.slug}`); dictionarySlugs.add(entry.slug);
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(entry.slug ?? "")) errors.push(`Dictionary entry ${entry.id}: slug must be URL-safe ASCII.`);
   if (!entry.meanings.length) errors.push(`Dictionary entry ${entry.id}: at least one meaning is required.`);
   for (const meaning of entry.meanings) if (!meaning.english || !meaning.bangla) errors.push(`Dictionary entry ${entry.id}: meaning requires English and Bangla.`);
 }
