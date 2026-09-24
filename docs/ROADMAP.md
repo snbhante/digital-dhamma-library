@@ -1,88 +1,51 @@
-# Roadmap
+# Digital Dhamma Library Roadmap
 
-## Phase 0 — Foundation
-- [x] Monorepo structure
-- [x] Stable-ID policy
-- [x] Provenance model
-- [x] License-aware data policy
-- [x] GitHub Pages workflow
-- [x] Supabase core schema
+## Completed
 
-## Phase 1 — Reader
-- [x] Static reader demonstration
-- [x] Pāḷi rendering
-- [x] Paragraph anchors
-- [x] English/Bangla translation fields
-- [x] Local corpus search
-- [x] Citation copy controls
-- [x] Responsive reader UI
+- Phase 1.1 — reader/search foundation
+- Phase 1.2 — multilingual starter corpus and research search
+- Phase 1.3 — library, source registry, starter dictionary
+- Phase 2 — research engine foundation
 
-## Phase 1.2 — Research Reader & Search
-- [x] Expanded structured starter corpus
-- [x] Phrase search
-- [x] Field filters
-- [x] Collection/type/language filters
-- [x] Result limit
-- [x] Reader language toggles
-- [x] Reader font-size controls
-- [x] Reader line-spacing controls
-- [x] Persistent local reader preferences
-- [x] CI validation/typecheck/build gate
+## Phase 2 completed foundation
 
-## Phase 1.3 — Research Foundation
-- [x] Relevance-ordered local search
-- [x] Library index
-- [x] Source/provenance registry
-- [x] Starter dictionary UI and dataset
-- [x] Dictionary validation
-- [x] Reader previous/next navigation
-- [x] Reader settings reset
-- [ ] Full licensed Tipiṭaka corpus
-- [ ] Edition comparison
-- [ ] Full dictionary imports
+1. Canonical work/paragraph stable IDs
+2. Edition registry
+3. Translation registry
+4. Dictionary detail architecture
+5. Exact word occurrence index
+6. Starter morphology index
+7. Cross-reference registry
+8. Commentary/Ṭīkā metadata architecture
+9. Citation export formats
+10. PostgreSQL/Supabase research schema
 
-## Phase 2 — Research engine
-- [ ] Aṭṭhakathā
-- [ ] Ṭīkā
-- [ ] Dictionary datasets
-- [ ] Cross references
-- [ ] Edition comparison
-- [ ] Research exports
+## Phase 2.1 next implementation target
 
-## Phase 3 — User platform
-- [ ] Supabase authentication
-- [ ] Dashboard
-- [ ] Bookmarks
-- [ ] Notes
-- [ ] Collections
-- [ ] Reading history
-- [ ] Saved searches
+- Add sentence segmentation without changing paragraph IDs
+- Add edition comparison across multiple editions
+- Add translation alignment records
+- Add dictionary-source adapters
+- Add lemma-aware occurrence search
+- Add Pāḷi compound/derivation metadata
+- Add citation templates (SuttaCentral-style IDs only where licensing/attribution allows; do not copy protected databases without permission)
 
-## Phase 4 — Editorial platform
-- [ ] Admin panel
-- [ ] Contribution workflow
-- [ ] Review queue
-- [ ] Moderation
-- [ ] Audit interface
-- [ ] Source/license manager
+## Phase 3
 
-## Phase 5 — Media
-- [ ] Audio metadata
-- [ ] Video metadata
-- [ ] Image records
-- [ ] Audio-text synchronization
+Authenticated user platform: Supabase Auth, profile, bookmarks, notes, collections, history, saved searches.
 
-## Phase 6 — Developer platform
-- [ ] REST API
-- [ ] OpenAPI
-- [ ] API keys
-- [ ] Rate limiting
-- [ ] Public dataset releases
-- [ ] SDK
+## Phase 4
 
-## Phase 7 — Advanced research
-- [ ] Pāḷi morphology
-- [ ] Semantic search
-- [ ] Knowledge graph
-- [ ] OCR correction workflow
-- [ ] Citation-first RAG / Ask Dhamma
+Editorial platform: RBAC, contributor workflow, review queue, moderation, source/license manager, audit log.
+
+## Phase 5
+
+Audio, video, image records, external media, and text/media synchronization.
+
+## Phase 6
+
+Public API, OpenAPI specification, API keys, rate limiting, developer documentation, dataset releases.
+
+## Phase 7
+
+Knowledge graph, semantic search, OCR correction, morphology models, and citation-first research assistant/RAG.

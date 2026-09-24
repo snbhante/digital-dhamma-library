@@ -10,9 +10,7 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
   allowedDevOrigins,
-  images: {
-    unoptimized: true
-  }
+  images: { unoptimized: true }
 };
 
 export default nextConfig;

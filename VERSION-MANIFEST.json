@@ -1,7 +1,8 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-1.3",
+  "release": "phase-2",
   "baseline_date": "2026-09-24",
+  "version": "0.5.0",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -20,14 +21,18 @@
     "postcss": "@tailwindcss/postcss 4.3.0"
   },
   "features": [
-    "Phase 1.2 merged baseline",
-    "Relevance-ordered local search",
-    "Library index",
-    "Source/provenance registry",
-    "Starter Pali research dictionary",
-    "Dictionary validation",
-    "Reader previous/next navigation",
-    "Reader settings reset",
-    "Configurable LAN development origin"
+    "Phase 1.3 merged baseline",
+    "Research Workbench",
+    "Edition registry",
+    "Translation registry",
+    "Dictionary detail records",
+    "Exact Pali occurrence index",
+    "Starter morphology index",
+    "Cross-reference registry",
+    "Commentary metadata architecture",
+    "Text comparison",
+    "Plain/Markdown/BibTeX citation tools",
+    "Phase 2 Supabase/PostgreSQL schema",
+    "Expanded validation"
   ]
 }

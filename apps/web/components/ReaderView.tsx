@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import CopyCitationButton from "./CopyCitationButton";
+import CitationTools from "./CitationTools";
 
 type Paragraph = { id: string; number: number; pali: string; english?: string; bangla?: string };
 type Work = { id: string; title: string; edition: string; paragraphs: Paragraph[] };
@@ -44,7 +45,7 @@ export default function ReaderView({ work }: { work: Work }) {
 
     <section className="text-column" aria-label={`${work.title} text`} style={paragraphStyle}>
       {work.paragraphs.map((paragraph) => <article className="paragraph" id={paragraph.id} key={paragraph.id}>
-        <div className="paragraph-head"><div className="paragraph-id">{paragraph.id}</div><CopyCitationButton workTitle={work.title} paragraphId={paragraph.id} edition={work.edition} /></div>
+        <div className="paragraph-head"><div className="paragraph-id">{paragraph.id}</div><div className="citation-actions"><CopyCitationButton workTitle={work.title} paragraphId={paragraph.id} edition={work.edition} /><CitationTools workTitle={work.title} workId={work.id} paragraphId={paragraph.id} edition={work.edition} /></div></div>
         {showPali && <p className="pali reader-pali">{paragraph.pali}</p>}
         {showEnglish && paragraph.english && <p className="translation">{paragraph.english}</p>}
         {showBangla && paragraph.bangla && <p className="translation bangla">{paragraph.bangla}</p>}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "project-english-2026-09",
+    "language": "English",
+    "label": "Project-curated English starter translation",
+    "type": "PROJECT_CURATED",
+    "status": "STARTER",
+    "licenseStatus": "Verify record-level rights before redistribution.",
+    "scope": "English fields embedded in the starter corpus."
+  },
+  {
+    "id": "project-bangla-2026-09",
+    "language": "বাংলা",
+    "label": "Project-curated Bangla starter translation",
+    "type": "PROJECT_CURATED",
+    "status": "STARTER",
+    "licenseStatus": "Verify record-level rights before redistribution.",
+    "scope": "Bangla fields embedded in the starter corpus."
+  }
+]

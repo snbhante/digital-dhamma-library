@@ -1,0 +1,18 @@
+[
+  {
+    "id": "commentary-registry",
+    "title": "Commentary registry",
+    "type": "COMMENTARY_REGISTRY",
+    "status": "ARCHITECTURE_ONLY",
+    "licenseStatus": "No commentary text redistributed in this starter record.",
+    "note": "Use this registry to attach verified Aṭṭhakathā/Ṭīkā records later."
+  },
+  {
+    "id": "commentary-segment-template",
+    "title": "Commentary segment template",
+    "type": "SEGMENT_SCHEMA",
+    "status": "TEMPLATE",
+    "licenseStatus": "N/A",
+    "note": "Schema placeholder for source-aware commentary segments with stable IDs and citations."
+  }
+]

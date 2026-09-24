@@ -1,0 +1,5772 @@
+[
+  {
+    "token": "ābādhāya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "abhavissa",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "abhijjhādomanassaṃ",
+    "count": 4,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p004",
+        "number": 4
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p005",
+        "number": 5
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p006",
+        "number": 6
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "abhiññāya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "abhisambuddhā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "abhisamecca",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "addhānamaggappaṭipanno",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "adhammā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "adhigamāya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "āditt",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "ādittā",
+    "count": 7,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p002",
+        "number": 2
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p003",
+        "number": 3
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p004",
+        "number": 4
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p005",
+        "number": 5
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p005",
+        "number": 5
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "ādittaṃ",
+    "count": 12,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p002",
+        "number": 2
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p002",
+        "number": 2
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p002",
+        "number": 2
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p003",
+        "number": 3
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p003",
+        "number": 3
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p004",
+        "number": 4
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p004",
+        "number": 4
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p005",
+        "number": 5
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p007",
+        "number": 7
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "ahāsi",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p004",
+        "number": 4
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "ajini",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p004",
+        "number": 4
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "ajjhagā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "akaraṇaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "ākāraparivitakkena",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "akkocchi",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p004",
+        "number": 4
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "akusalā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "amataṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "anākulā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "anaññasaraṇā",
+    "count": 3,
+    "references": [
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p002",
+        "number": 2
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p002",
+        "number": 2
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "anapāyinī",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "anariyo",
+    "count": 2,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p003",
+        "number": 3
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "anāthapiṇḍikassa",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p001",
+        "number": 1
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "anatimānī",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "anattā",
+    "count": 5,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p002",
+        "number": 2
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p003",
+        "number": 3
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p004",
+        "number": 4
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "anatthasaṃhito",
+    "count": 2,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p003",
+        "number": 3
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "anavajjā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "aniccaṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "antā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "antalikkhe",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "anūpaghāto",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "anūpavādo",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "anurakkhe",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "anussavena",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "anveti",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "aparimāṇaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "appakicco",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "appamādena",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "ārāme",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p001",
+        "number": 1
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "ariyasaccaṃ",
+    "count": 4,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p007",
+        "number": 7
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p008",
+        "number": 8
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p009",
+        "number": 9
+      }
+    ]
+  },
+  {
+    "token": "asevanā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "asokaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "ātāpī",
+    "count": 7,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p004",
+        "number": 4
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p005",
+        "number": 5
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p006",
+        "number": 6
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p007",
+        "number": 7
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p004",
+        "number": 4
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p005",
+        "number": 5
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "athopi",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "attā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "attadīpā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "attakilamathānuyogo",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "attanāva",
+    "count": 2,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p003",
+        "number": 3
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "attasammāpaṇidhi",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "attasaraṇā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "atthakusalena",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "atthaṅgamāya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "atthi",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "avadhi",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p004",
+        "number": 4
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "ayaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "āyusā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "bāhiya",
+    "count": 7,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p001",
+        "number": 1
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p004",
+        "number": 4
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p005",
+        "number": 5
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p005",
+        "number": 5
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p006",
+        "number": 6
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "bāhusaccañca",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "bālānaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "bārāṇasiyaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "bhagavā",
+    "count": 4,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p001",
+        "number": 1
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "bhante",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "bhāsati",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "bhāsissāma",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "bhāsissāmi",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "bhāsitaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "bhavantu",
+    "count": 2,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p002",
+        "number": 2
+      },
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "bhāvaye",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "bhavissāma",
+    "count": 3,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p002",
+        "number": 2
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p004",
+        "number": 4
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "bhavissati",
+    "count": 8,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p001",
+        "number": 1
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p002",
+        "number": 2
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p002",
+        "number": 2
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p002",
+        "number": 2
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "bhikkhave",
+    "count": 15,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p004",
+        "number": 4
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p002",
+        "number": 2
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p003",
+        "number": 3
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p005",
+        "number": 5
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p002",
+        "number": 2
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p002",
+        "number": 2
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "bhikkhu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "bhikkhuno",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "bhummāni",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "bhūtā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "bhūtāni",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "buddhā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "buddhāna",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "buddhe",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "byāpannacittā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "ca",
+    "count": 18,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p003",
+        "number": 3
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p002",
+        "number": 2
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p002",
+        "number": 2
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p004",
+        "number": 4
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p004",
+        "number": 4
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p005",
+        "number": 5
+      },
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p002",
+        "number": 2
+      },
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p002",
+        "number": 2
+      },
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p003",
+        "number": 3
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p005",
+        "number": 5
+      },
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "cakkaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "cakkhu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "cakkhukaraṇī",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "cakkhuviññāṇaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "cassa",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "cattāro",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p003",
+        "number": 3
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "ce",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "ceva",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p003",
+        "number": 3
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "chāyā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "cittaṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "cittānupassī",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p006",
+        "number": 6
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "citte",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p006",
+        "number": 6
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "desessāmi",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "desito",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "dhammā",
+    "count": 7,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p007",
+        "number": 7
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p003",
+        "number": 3
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p003",
+        "number": 3
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p005",
+        "number": 5
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p005",
+        "number": 5
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p001",
+        "number": 1
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "dhammadīpā",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p002",
+        "number": 2
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "dhammaṃ",
+    "count": 3,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p003",
+        "number": 3
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "dhammānupassī",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "dhammāpi",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "dhammasaraṇā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "dhamme",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "dhammesu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "dhammo",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "disāya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "diṭṭhaṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p001",
+        "number": 1
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "diṭṭhamattaṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p001",
+        "number": 1
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "diṭṭhinijjhānakkhantiya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "dosantarā",
+    "count": 3,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p002",
+        "number": 2
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p003",
+        "number": 3
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "dukkhadomanassānaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "dukkham",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "dukkhaṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p008",
+        "number": 8
+      }
+    ]
+  },
+  {
+    "token": "dukkhanirodhagāminī",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p009",
+        "number": 9
+      }
+    ]
+  },
+  {
+    "token": "dukkhanirodhaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p008",
+        "number": 8
+      }
+    ]
+  },
+  {
+    "token": "dukkhasamudayaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "dukkho",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "dve",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "ekaṃ",
+    "count": 4,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p001",
+        "number": 1
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "ekaputtam",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "ekāyano",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "etaṃ",
+    "count": 6,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p002",
+        "number": 2
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p004",
+        "number": 4
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p005",
+        "number": 5
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p006",
+        "number": 6
+      },
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "etena",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "evaṃ",
+    "count": 7,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p001",
+        "number": 1
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p001",
+        "number": 1
+      },
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p007",
+        "number": 7
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "gaccheyya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "gahaṇatthāya",
+    "count": 4,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p002",
+        "number": 2
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p003",
+        "number": 3
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "gammo",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "gandhā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "ghānaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "ghānaviññāṇaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "hi",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "hidaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "hīno",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "hontu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "hoti",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "hotu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "huraṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p003",
+        "number": 3
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "idaṃ",
+    "count": 4,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p007",
+        "number": 7
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p008",
+        "number": 8
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p009",
+        "number": 9
+      }
+    ]
+  },
+  {
+    "token": "idampi",
+    "count": 2,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p004",
+        "number": 4
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "idha",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p004",
+        "number": 4
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "ime",
+    "count": 4,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p003",
+        "number": 3
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p003",
+        "number": 3
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p005",
+        "number": 5
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "isipatane",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "itikirāya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "jāneyyātha",
+    "count": 2,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p003",
+        "number": 3
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "jetavane",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p001",
+        "number": 1
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "jivhā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "jivhāviññāṇaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "kālāmā",
+    "count": 4,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p003",
+        "number": 3
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p004",
+        "number": 4
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p005",
+        "number": 5
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "kāmasukhallikānuyogo",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "kāmesu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "kammantā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "kammasadhammaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "kampati",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "kañci",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "karaṇīyam",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "karoti",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "karunacittā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "katame",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "katapuññatā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "katthaci",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "kāyānupassī",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p004",
+        "number": 4
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "kāyaviññāṇaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "kāye",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p004",
+        "number": 4
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "kāyo",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "khantī",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "khayaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "khemaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "khemino",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "kho",
+    "count": 1,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "kiṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "kiñca",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "kiñci",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "kullaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "kullūpamaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "kullūpamo",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "kurūnaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "kurūsu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "kusalā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "kusalassa",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "lokadhammehi",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "loke",
+    "count": 4,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p004",
+        "number": 4
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p005",
+        "number": 5
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p006",
+        "number": 6
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "mā",
+    "count": 8,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p001",
+        "number": 1
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p001",
+        "number": 1
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p001",
+        "number": 1
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p001",
+        "number": 1
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p002",
+        "number": 2
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p002",
+        "number": 2
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p002",
+        "number": 2
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "maggo",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "majjhimā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "maṃ",
+    "count": 6,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p004",
+        "number": 4
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p004",
+        "number": 4
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p004",
+        "number": 4
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "manasā",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "mānasaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "maṅgalamuttamaṃ",
+    "count": 5,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p002",
+        "number": 2
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p004",
+        "number": 4
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p005",
+        "number": 5
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "maññatha",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "mano",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "manomayā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "manopubbaṅgamā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "manoseṭṭhā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "manoviññāṇaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "mātā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "mātāpitu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "mayā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "me",
+    "count": 8,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p002",
+        "number": 2
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p001",
+        "number": 1
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p004",
+        "number": 4
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "mettacittā",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p002",
+        "number": 2
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "migadāye",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "mudu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "mutaṃ",
+    "count": 3,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p002",
+        "number": 2
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "mutamattaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "na",
+    "count": 23,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p002",
+        "number": 2
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p003",
+        "number": 3
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p003",
+        "number": 3
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p004",
+        "number": 4
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p005",
+        "number": 5
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p002",
+        "number": 2
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p001",
+        "number": 1
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p006",
+        "number": 6
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p004",
+        "number": 4
+      },
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p004",
+        "number": 4
+      },
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p004",
+        "number": 4
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p005",
+        "number": 5
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      },
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p004",
+        "number": 4
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p004",
+        "number": 4
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p005",
+        "number": 5
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p005",
+        "number": 5
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p006",
+        "number": 6
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p006",
+        "number": 6
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "naṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "nāma",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "ñāṇakaraṇī",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "nātimaññetha",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "nāvissajjeyya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "nayahetu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "ñāyassa",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "nevidha",
+    "count": 1,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "nibbānaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "nibbānassa",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "nibbānāya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "niccaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "nigamo",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "nikubbetha",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "nittharaṇatthāya",
+    "count": 4,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p002",
+        "number": 2
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p003",
+        "number": 3
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "niyaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "no",
+    "count": 4,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p002",
+        "number": 2
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "pabbajitena",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "pabbajito",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "padaṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p001",
+        "number": 1
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "paduṭṭhena",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "pageva",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "pahātabbā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "pahātabbaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "pahātabbāti",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "paṇḍitānañca",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "paṇītaṃ",
+    "count": 4,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p004",
+        "number": 4
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p005",
+        "number": 5
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "pāpakaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "pāpikaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "paraṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p004",
+        "number": 4
+      },
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "paramaṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p003",
+        "number": 3
+      },
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "paramparāya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "paro",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "parūpaghātī",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "pasannena",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "pātimokkhe",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "paṭipadā",
+    "count": 2,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p005",
+        "number": 5
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p009",
+        "number": 9
+      }
+    ]
+  },
+  {
+    "token": "patirūpadesavāso",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "phoṭṭhabbā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "phuṭṭhassa",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "pi",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "piṭakasampadānena",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "pothujjaniko",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "pubbe",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "pūjā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "pūjaneyyānaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "puratthimāya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "puriso",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "puttadārassa",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "puttaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "rasā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "ratanaṃ",
+    "count": 3,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p004",
+        "number": 4
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "rūpā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "rūpaṃ",
+    "count": 3,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "rūpañca",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "sabbabhūtesu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "sabbaṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "sabbapāpassa",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "sabbe",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "sabbeva",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "saccena",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "sacchikiriyāya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "sacittapariyodapanaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "saddā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "saggesu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "sakkacca",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "sakko",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "sakyamunī",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "sallahukavutti",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "samāgatāni",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "samāhito",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "samaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "samaṇo",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "samatikkamāya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "samayaṃ",
+    "count": 4,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p001",
+        "number": 1
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "sambodhāya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "sammati",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "sampādetha",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "sampajāno",
+    "count": 7,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p004",
+        "number": 4
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p005",
+        "number": 5
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p006",
+        "number": 6
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p007",
+        "number": 7
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p004",
+        "number": 4
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p005",
+        "number": 5
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "saṃvaro",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "saṃvattati",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "saṃvatteyya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "saṅgaho",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "saṅkhārā",
+    "count": 2,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p004",
+        "number": 4
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "saññā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "santaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "santussako",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "saraṇā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "sāsanaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "satimā",
+    "count": 7,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p004",
+        "number": 4
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p005",
+        "number": 5
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p006",
+        "number": 6
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p007",
+        "number": 7
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p004",
+        "number": 4
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p005",
+        "number": 5
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "satipaṭṭhānā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "sattā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "sattānaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "sāvajjā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "sāvatthiyaṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p001",
+        "number": 1
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "sevanā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "sevitabbā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "seyyathāpi",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "sikkhitabbaṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "sippañca",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "sokaparidevānaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "sotaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "sotaviññāṇaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn35.28",
+        "paragraphId": "sn35.28.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "subharo",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "subhāsitā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "suhujū",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "sukham",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "sukhaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p008",
+        "number": 8
+      }
+    ]
+  },
+  {
+    "token": "sukhino",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "sukhitattā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "sumanā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "suṇantu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "susikkhito",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "sutaṃ",
+    "count": 7,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p001",
+        "number": 1
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p001",
+        "number": 1
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p002",
+        "number": 2
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "sutamattaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "sūvaco",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "suvatthi",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "takkahetu",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "taṃ",
+    "count": 5,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p008",
+        "number": 8
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p005",
+        "number": 5
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "tapo",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "tasmātiha",
+    "count": 1,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "tassa",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "tathāgatena",
+    "count": 2,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p005",
+        "number": 5
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "tato",
+    "count": 5,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p004",
+        "number": 4
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p005",
+        "number": 5
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "tattha",
+    "count": 2,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p005",
+        "number": 5
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "te",
+    "count": 2,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p001",
+        "number": 1
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "tena",
+    "count": 2,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p004",
+        "number": 4
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "tesaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "tesūpasammati",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "titikkhā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "tumhe",
+    "count": 2,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p003",
+        "number": 3
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "tvaṃ",
+    "count": 5,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p004",
+        "number": 4
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p005",
+        "number": 5
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p005",
+        "number": 5
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p006",
+        "number": 6
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "ubhayamantarena",
+    "count": 1,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "ujū",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "upanayhanti",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p005",
+        "number": 5
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "upasamāya",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "upasampadā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "upasampajja",
+    "count": 2,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p006",
+        "number": 6
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "upaṭṭhānaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "va",
+    "count": 3,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p001",
+        "number": 1
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "vā",
+    "count": 13,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p006",
+        "number": 6
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p008",
+        "number": 8
+      },
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p008",
+        "number": 8
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p001",
+        "number": 1
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p005",
+        "number": 5
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "vācā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "vācaṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p003",
+        "number": 3
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "vadanti",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "vahato",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "vayadhammā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "vedanā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "vedanānupassī",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p005",
+        "number": 5
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "vedanāsu",
+    "count": 2,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p005",
+        "number": 5
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "veraṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p005",
+        "number": 5
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "viharatha",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p002",
+        "number": 2
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "viharathāti",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "viharati",
+    "count": 11,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p004",
+        "number": 4
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p005",
+        "number": 5
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p006",
+        "number": 6
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p007",
+        "number": 7
+      },
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p001",
+        "number": 1
+      },
+      {
+        "workId": "sn56.11",
+        "paragraphId": "sn56.11.p001",
+        "number": 1
+      },
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p001",
+        "number": 1
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p004",
+        "number": 4
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p005",
+        "number": 5
+      },
+      {
+        "workId": "dn16",
+        "paragraphId": "dn16.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "viharitabbaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "viheṭhayanto",
+    "count": 1,
+    "references": [
+      {
+        "workId": "dhp183",
+        "paragraphId": "dhp183.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "vinayo",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "vineyya",
+    "count": 4,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p004",
+        "number": 4
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p005",
+        "number": 5
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p006",
+        "number": 6
+      },
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p007",
+        "number": 7
+      }
+    ]
+  },
+  {
+    "token": "viññāṇaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "viññātaṃ",
+    "count": 3,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p002",
+        "number": 2
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "viññātamattaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "vipariṇamissati",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn21",
+        "paragraphId": "mn21.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "virāgaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "virajaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "visuddhiyā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p002",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "token": "vittaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "vo",
+    "count": 3,
+    "references": [
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p001",
+        "number": 1
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p003",
+        "number": 3
+      },
+      {
+        "workId": "mn22",
+        "paragraphId": "mn22.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "yā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p004",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "token": "yad",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "yadā",
+    "count": 2,
+    "references": [
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p003",
+        "number": 3
+      },
+      {
+        "workId": "an3.65",
+        "paragraphId": "an3.65.p005",
+        "number": 5
+      }
+    ]
+  },
+  {
+    "token": "yadaniccaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p008",
+        "number": 8
+      }
+    ]
+  },
+  {
+    "token": "yadidaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "mn10",
+        "paragraphId": "mn10.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "yaṃ",
+    "count": 2,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p003",
+        "number": 3
+      },
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p003",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "token": "yāni",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "yānīdha",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp6",
+        "paragraphId": "khp6.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "yantaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p001",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "token": "yassa",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp5",
+        "paragraphId": "khp5.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "yathā",
+    "count": 1,
+    "references": [
+      {
+        "workId": "khp9",
+        "paragraphId": "khp9.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "yato",
+    "count": 3,
+    "references": [
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p003",
+        "number": 3
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p005",
+        "number": 5
+      },
+      {
+        "workId": "ud1.10",
+        "paragraphId": "ud1.10.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "ye",
+    "count": 2,
+    "references": [
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p005",
+        "number": 5
+      },
+      {
+        "workId": "dhp1",
+        "paragraphId": "dhp1.p006",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "token": "yidaṃ",
+    "count": 1,
+    "references": [
+      {
+        "workId": "sn22.59",
+        "paragraphId": "sn22.59.p001",
+        "number": 1
+      }
+    ]
+  }
+]

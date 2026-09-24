@@ -1,0 +1,14 @@
+[
+  {
+    "id": "starter-corpus-2026-09",
+    "edition": "STARTER-CORPUS-2026-09",
+    "title": "MN 10 starter edition",
+    "status": "STARTER",
+    "language": "Pāḷi",
+    "sourceBasis": "Ancient canonical text; project-curated starter transcription and translations.",
+    "licenseStatus": "Underlying ancient text is public-domain material; individual source editions/transcriptions must be verified before redistribution.",
+    "provenance": "Digital Dhamma Library starter corpus — manually curated for Phase 1.2 research-reader testing.",
+    "isCriticalEdition": false,
+    "verification": "Requires edition-level verification before scholarly citation or redistribution."
+  }
+]

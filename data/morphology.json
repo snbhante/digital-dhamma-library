@@ -1,0 +1,135 @@
+[
+  {
+    "id": "dhamma",
+    "lemma": "dhamma",
+    "category": "STARTER_LEXEME",
+    "forms": [
+      "dhammaṃ",
+      "dhammā"
+    ],
+    "analysis": "noun; masculine/neuter depending on sense; context determines inflection",
+    "confidence": "starter",
+    "note": "Starter lexical-form index only; do not treat as a complete morphological parser or final grammatical analysis."
+  },
+  {
+    "id": "mettā",
+    "lemma": "mettā",
+    "category": "STARTER_LEXEME",
+    "forms": [
+      "metta",
+      "mettāya",
+      "mettācitta"
+    ],
+    "analysis": "feminine noun",
+    "confidence": "starter",
+    "note": "Starter lexical-form index only; do not treat as a complete morphological parser or final grammatical analysis."
+  },
+  {
+    "id": "dukkha",
+    "lemma": "dukkha",
+    "category": "STARTER_LEXEME",
+    "forms": [
+      "dukkhaṃ",
+      "dukkhatā"
+    ],
+    "analysis": "neuter noun",
+    "confidence": "starter",
+    "note": "Starter lexical-form index only; do not treat as a complete morphological parser or final grammatical analysis."
+  },
+  {
+    "id": "anicca",
+    "lemma": "anicca",
+    "category": "STARTER_LEXEME",
+    "forms": [
+      "aniccā",
+      "aniccatā"
+    ],
+    "analysis": "adjective / substantive adjective",
+    "confidence": "starter",
+    "note": "Starter lexical-form index only; do not treat as a complete morphological parser or final grammatical analysis."
+  },
+  {
+    "id": "anattā",
+    "lemma": "anattā",
+    "category": "STARTER_LEXEME",
+    "forms": [
+      "anatta",
+      "anattānaṃ"
+    ],
+    "analysis": "adjective / substantive adjective",
+    "confidence": "starter",
+    "note": "Starter lexical-form index only; do not treat as a complete morphological parser or final grammatical analysis."
+  },
+  {
+    "id": "nibbāna",
+    "lemma": "nibbāna",
+    "category": "STARTER_LEXEME",
+    "forms": [
+      "nibbānaṃ",
+      "nibbānadhātu"
+    ],
+    "analysis": "neuter noun",
+    "confidence": "starter",
+    "note": "Starter lexical-form index only; do not treat as a complete morphological parser or final grammatical analysis."
+  },
+  {
+    "id": "sacca",
+    "lemma": "sacca",
+    "category": "STARTER_LEXEME",
+    "forms": [
+      "saccaṃ",
+      "saccāni"
+    ],
+    "analysis": "neuter noun",
+    "confidence": "starter",
+    "note": "Starter lexical-form index only; do not treat as a complete morphological parser or final grammatical analysis."
+  },
+  {
+    "id": "paññā",
+    "lemma": "paññā",
+    "category": "STARTER_LEXEME",
+    "forms": [
+      "paññāya",
+      "paññavā"
+    ],
+    "analysis": "feminine noun",
+    "confidence": "starter",
+    "note": "Starter lexical-form index only; do not treat as a complete morphological parser or final grammatical analysis."
+  },
+  {
+    "id": "sīla",
+    "lemma": "sīla",
+    "category": "STARTER_LEXEME",
+    "forms": [
+      "sīlaṃ",
+      "sīlena"
+    ],
+    "analysis": "neuter noun",
+    "confidence": "starter",
+    "note": "Starter lexical-form index only; do not treat as a complete morphological parser or final grammatical analysis."
+  },
+  {
+    "id": "samādhi",
+    "lemma": "samādhi",
+    "category": "STARTER_LEXEME",
+    "forms": [
+      "samādhinā",
+      "samādhissa"
+    ],
+    "analysis": "masculine noun",
+    "confidence": "starter",
+    "note": "Starter lexical-form index only; do not treat as a complete morphological parser or final grammatical analysis."
+  },
+  {
+    "id": "sati",
+    "lemma": "sati",
+    "category": "STARTER_LEXEME",
+    "forms": [
+      "satimā",
+      "satiyā"
+    ],
+    "analysis": "feminine noun",
+    "confidence": "starter",
+    "note": "Starter lexical-form index only; do not treat as a complete morphological parser or final grammatical analysis."
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "mn10__related__mn21",
+    "from": "mn10",
+    "to": "mn21",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "mn10__related__sn56.11",
+    "from": "mn10",
+    "to": "sn56.11",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "mn21__related__mn10",
+    "from": "mn21",
+    "to": "mn10",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "mn21__related__sn22.59",
+    "from": "mn21",
+    "to": "sn22.59",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "mn22__related__mn10",
+    "from": "mn22",
+    "to": "mn10",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "mn22__related__sn22.59",
+    "from": "mn22",
+    "to": "sn22.59",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "sn56.11__related__mn10",
+    "from": "sn56.11",
+    "to": "mn10",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "sn56.11__related__sn22.59",
+    "from": "sn56.11",
+    "to": "sn22.59",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "sn22.59__related__mn22",
+    "from": "sn22.59",
+    "to": "mn22",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "sn22.59__related__sn56.11",
+    "from": "sn22.59",
+    "to": "sn56.11",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "sn35.28__related__mn10",
+    "from": "sn35.28",
+    "to": "mn10",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "sn35.28__related__sn56.11",
+    "from": "sn35.28",
+    "to": "sn56.11",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "an3.65__related__dhp183",
+    "from": "an3.65",
+    "to": "dhp183",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "khp5__related__mn10",
+    "from": "khp5",
+    "to": "mn10",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "khp5__related__sn56.11",
+    "from": "khp5",
+    "to": "sn56.11",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "khp6__related__sn56.11",
+    "from": "khp6",
+    "to": "sn56.11",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "khp9__related__mn10",
+    "from": "khp9",
+    "to": "mn10",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "dhp1__related__dhp183",
+    "from": "dhp1",
+    "to": "dhp183",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "dhp183__related__dhp1",
+    "from": "dhp183",
+    "to": "dhp1",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "dhp183__related__an3.65",
+    "from": "dhp183",
+    "to": "an3.65",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "ud1.10__related__mn10",
+    "from": "ud1.10",
+    "to": "mn10",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  },
+  {
+    "id": "dn16__related__sn56.11",
+    "from": "dn16",
+    "to": "sn56.11",
+    "relation": "research-related",
+    "note": "Curated navigation link for research exploration; not a claim of textual dependence."
+  }
+]

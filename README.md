@@ -56,7 +56,7 @@ supabase/
   workflows/
 ```
 
-## Phase 1.3 target
+## Phase 2 target
 
 The first milestone is a working public reader that can:
 
@@ -72,7 +72,7 @@ The first milestone is a working public reader that can:
 10. Keep reader preferences locally on the device.
 11. Validate data, typecheck, build, and deploy through GitHub Actions + GitHub Pages.
 
-Authentication, bookmarks, notes, collections, contributions, administration, full dictionaries, commentaries, and research APIs are planned for later phases. Phase 1.3 includes only a small starter dictionary and source registry so the research architecture can be tested early. The public corpus remains source-aware and license-aware from the start.
+Authentication, bookmarks, notes, collections, contributions, administration, full dictionaries, commentaries, and research APIs are planned for later phases. Phase 2 includes only a small starter dictionary and source registry so the research architecture can be tested early. The public corpus remains source-aware and license-aware from the start.
 
 ## Important legal rule
 
@@ -146,3 +146,10 @@ See:
 The software architecture/code in this repository is intended to be released under MIT unless a later project decision changes it.
 
 **Data files may have different licenses. Always check the dataset's own metadata before redistribution.**
+
+
+## Phase 2 Research Engine
+
+The current release adds an edition registry, translation registry, dictionary detail layer, exact Pāḷi occurrence index, starter morphology records, cross-reference graph, commentary metadata architecture, comparison reader, citation exports, and a forward-compatible Supabase/PostgreSQL research schema.
+
+Start the local research workbench at `/research/`.
