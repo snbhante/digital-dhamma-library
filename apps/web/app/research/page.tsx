@@ -20,9 +20,9 @@ const occurrenceCount = occurrences.reduce((sum, item) => sum + item.count, 0);
 
 export default function ResearchPage() {
   return <main className="shell">
-    <nav className="topbar"><Link href="/">← Digital Dhamma Library</Link><span>Phase 2.2 Research Engine</span></nav>
+    <nav className="topbar"><Link href="/">← Digital Dhamma Library</Link><span>Phase 2.3 Research Engine</span></nav>
     <header className="reader-header">
-      <p className="eyebrow">PHASE 2.2 · RESEARCH ENGINE</p>
+      <p className="eyebrow">PHASE 2.3 · RESEARCH ENGINE</p>
       <h1>Research Workbench</h1>
       <p>A source-aware foundation for editions, translations, dictionary research, word occurrences, morphology, sentence alignment, review status, and scholarly citation.</p>
     </header>
@@ -57,8 +57,8 @@ export default function ResearchPage() {
       <Link className="card" href="/dictionary-sources/"><span className="card-kicker">09</span><h3>Dictionary Sources</h3><p>Review adapter contracts and licensing status for future dictionary imports.</p><span className="card-link">Open sources →</span></Link>
       <Link className="card" href="/derivations/"><span className="card-kicker">10</span><h3>Compounds &amp; Forms</h3><p>Explore starter lexical-form and compound metadata.</p><span className="card-link">Open formation index →</span></Link>
       <Link className="card" href="/citations/"><span className="card-kicker">11</span><h3>Citation Profiles</h3><p>Review reusable plain, Markdown, BibTeX, APA-style, and Chicago-style templates.</p><span className="card-link">Open citation profiles →</span></Link>
-      <Link className="card" href="/review/"><span className="card-kicker">12</span><h3>Research Review Queue</h3><p>Review sentence alignments, occurrence assignments, and morphology analyses in-browser.</p><span className="card-link">Open review queue →</span></Link>
+      <Link className="card" href="/review/"><span className="card-kicker">12</span><h3>Research Review Queue</h3><p>Review sentence alignments, occurrence assignments, and morphology analyses in-browser.</p><span className="card-link">Open review queue →</span></Link><Link className="card" href="/workspace/"><span className="card-kicker">13</span><h3>My Research Workspace</h3><p>Save passages, private notes, research searches, and personal collections in a local-first workspace.</p><span className="card-link">Open workspace →</span></Link>
     </section>
-    <section className="section"><div className="notice"><strong>Research integrity:</strong> Phase 2.2 adds edition-witness metadata, sentence-level alignment review records, richer starter morphology provenance, citation profiles, and a browser-local research review queue. These features do not claim a complete critical edition, complete morphology engine, or authenticated scholarly verification. Future imports must retain source, edition, license, checksum, provenance, reviewer, and audit metadata.</div></section>
+    <section className="section"><div className="notice"><strong>Research integrity:</strong> Phase 2.3 adds edition-witness metadata, sentence-level alignment review records, richer starter morphology provenance, citation profiles, and a browser-local research review queue. These features do not claim a complete critical edition, complete morphology engine, or authenticated scholarly verification. Future imports must retain source, edition, license, checksum, provenance, reviewer, and audit metadata.</div></section>
   </main>;
 }

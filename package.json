@@ -1,7 +1,7 @@
 {
   "name": "digital-dhamma-library",
   "private": true,
-  "version": "0.7.0",
+  "version": "0.8.0",
   "packageManager": "npm@12.1.0",
   "engines": {
     "node": ">=24.21.0 <25",

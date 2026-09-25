@@ -206,3 +206,17 @@ h2 { font-size: clamp(1.8rem, 4vw, 3rem); margin: 0; }
 .review-editor select, .review-editor textarea { width: 100%; border: 1px solid var(--line); border-radius: 9px; padding: 10px 11px; background: var(--surface); color: var(--text); }
 .review-editor textarea { resize: vertical; line-height: 1.6; font-family: inherit; font-weight: 400; }
 .citation-template { white-space: pre-wrap; overflow-wrap: anywhere; border: 1px solid var(--line); background: var(--bg); border-radius: 10px; padding: 14px; line-height: 1.6; margin: 14px 0; font: .82rem/1.6 ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+/* Phase 2.3 personal research workspace */
+.paragraph-research-tools { display: inline-flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-left: 8px; }
+.paragraph-note-editor { flex-basis: 100%; min-width: min(520px, 100%); margin-top: 8px; padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.paragraph-note-editor textarea { width: 100%; border: 1px solid var(--line); border-radius: 8px; padding: 10px; resize: vertical; background: var(--surface-strong); color: var(--text); font: inherit; line-height: 1.6; }
+.workspace-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 18px; flex-wrap: wrap; padding: 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+.workspace-toolbar > div:first-child { display: grid; gap: 5px; }
+.workspace-card { min-height: 0; }
+.workspace-note { white-space: pre-wrap; line-height: 1.8; }
+.file-button { position: relative; overflow: hidden; cursor: pointer; }
+.file-button input { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
+.workspace-collections { margin-top: 18px; }
+@media (max-width: 700px) { .paragraph-research-tools { margin-left: 0; margin-top: 8px; } .paragraph-note-editor { min-width: 0; } }
+.workspace-select { border: 0; background: transparent; color: var(--text); padding: 0 4px; cursor: pointer; }

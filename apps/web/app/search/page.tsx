@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type FormEvent } from "react";
 import corpus from "../../../../data/corpus.json";
+import SaveSearchButton from "../../components/SaveSearchButton";
 
 type Work = (typeof corpus)[number];
 type SearchField = "all" | "pali" | "english" | "bangla" | "metadata";
@@ -130,7 +131,7 @@ export default function SearchPage() {
 
       <section className="section search-results" aria-live="polite">
         {!query ? <div className="notice"><strong>Search tips:</strong> use quotes for an exact phrase, for example <code>"sabbaṃ ādittaṃ"</code>. Filters can be combined.</div> : <>
-          <div className="section-heading"><div><p className="eyebrow">RESULTS</p><h2>{results.length} matching paragraph{results.length === 1 ? "" : "s"}</h2></div><span className="badge">“{query}”</span></div>
+          <div className="section-heading"><div><p className="eyebrow">RESULTS</p><h2>{results.length} matching paragraph{results.length === 1 ? "" : "s"}</h2></div><div className="reader-actions"><span className="badge">“{query}”</span>{query && <SaveSearchButton query={query} field={field} collection={collection} type={type} language={language} limit={limit} />}</div></div>
           {results.length === 0 ? <div className="notice">No matching paragraph was found with the current query and filters.</div> : <div className="result-list">{results.map((result) => <Link className="result-card" key={`${result.workId}-${result.paragraphId}`} href={`/read/${result.workId}/#${result.paragraphId}`}>
             <div className="result-meta"><span>{result.collection}</span><span>{result.paragraphId}</span><span>relevance {result.score}</span></div>
             <h3>{result.workTitle}</h3><p className="pali result-pali">{result.pali}</p>{result.english && <p>{result.english}</p>}{result.bangla && <p className="bangla">{result.bangla}</p>}<span className="card-link">Open paragraph →</span>

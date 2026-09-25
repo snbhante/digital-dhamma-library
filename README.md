@@ -1,3 +1,7 @@
+## Current release: Phase 2.3 / v0.8.0
+
+The current baseline includes a local-first personal research workspace for paragraph bookmarks, private notes, saved searches, and personal collections, with JSON export/import and an authenticated Supabase persistence target.
+
 # Digital Dhamma Library
 
 **Open Buddhist Digital Knowledge & Research Platform**

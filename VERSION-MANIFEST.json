@@ -1,29 +1,29 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-2.2",
-  "baseline_date": "2026-09-25",
-  "version": "0.7.0",
+  "release": "phase-2.3",
+  "baseline_date": "2026-09-26",
+  "version": "0.8.0",
   "runtime": {"node": "24.21.0", "channel": "LTS", "npm": "12.1.0"},
   "framework": {"next": "16.3.6", "react": "19.3.0", "react_dom": "19.3.0"},
   "language": {"typescript": "7.0.2"},
   "styling": {"tailwindcss": "4.3.0", "postcss": "@tailwindcss/postcss 4.3.0"},
   "features": [
-    "Phase 2.1 merged baseline",
-    "Edition witness registry with explicit non-bundled alternate witness slots",
-    "Sentence-level heuristic translation alignment records with review status",
-    "Richer starter morphology analysis records with provenance",
-    "Citation profiles for plain, Markdown, BibTeX, APA-style, and Chicago-style output",
-    "Browser-local research review queue for sentence alignments, occurrences, and morphology",
-    "Occurrence review status and analysis provenance metadata",
-    "Phase 2.2 Supabase review/provenance schema",
-    "Expanded research workbench routes"
+    "Phase 2.2 merged baseline",
+    "Local-first personal research workspace",
+    "Stable paragraph bookmarks",
+    "Private paragraph research notes",
+    "Saved advanced searches",
+    "Personal bookmark collections foundation",
+    "Workspace JSON export and import",
+    "Workspace local-data reset",
+    "Phase 2.3 Supabase collection persistence schema"
   ],
   "fixes": [
     "Preserves Phase 2.0.2 duplicate occurrence-reference fix",
     "Preserves static-export dynamicParams=false protections",
     "Preserves ASCII-safe dictionary URL slugs",
     "Preserves stable paragraph React keys and search-result deduplication",
-    "Sentence alignment records are explicitly heuristic/needs-review rather than presented as verified scholarship",
-    "Alternate-edition text is never fabricated or copied without provenance and license verification"
+    "Preserves Phase 2.2 research review/provenance integrity boundaries",
+    "Workspace data is isolated from canonical corpus JSON"
   ]
 }
