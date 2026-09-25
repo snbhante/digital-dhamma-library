@@ -1,0 +1,47 @@
+[
+  {
+    "id": "project-curated",
+    "title": "Project-curated starter dictionary adapter",
+    "sourceKind": "PROJECT_CURATED",
+    "status": "ACTIVE",
+    "licenseStatus": "Project-created records; verify each record before scholarly reuse.",
+    "mapping": "headword → variants → meanings → references",
+    "note": "Reference adapter contract for native project records."
+  },
+  {
+    "id": "dpd-adapter-template",
+    "title": "Digital Pāḷi Dictionary (DPD) adapter template",
+    "sourceKind": "EXTERNAL_DICTIONARY",
+    "status": "PLANNED",
+    "licenseStatus": "Not imported; licensing/redistribution terms must be verified before data ingestion.",
+    "mapping": "headword → senses → forms → grammar → references",
+    "note": "Adapter metadata only; no DPD dataset is bundled."
+  },
+  {
+    "id": "ped-adapter-template",
+    "title": "Pali-English Dictionary (PED) adapter template",
+    "sourceKind": "EXTERNAL_DICTIONARY",
+    "status": "PLANNED",
+    "licenseStatus": "Not imported; licensing/redistribution terms must be verified before data ingestion.",
+    "mapping": "headword → senses → grammatical notes → references",
+    "note": "Adapter metadata only; no protected database is bundled."
+  },
+  {
+    "id": "pea-adapter-template",
+    "title": "Pali-English Academy/PEA adapter template",
+    "sourceKind": "EXTERNAL_DICTIONARY",
+    "status": "PLANNED",
+    "licenseStatus": "Not imported; licensing/redistribution terms must be verified before data ingestion.",
+    "mapping": "headword → senses → examples → references",
+    "note": "Adapter metadata only; no protected database is bundled."
+  },
+  {
+    "id": "dppn-adapter-template",
+    "title": "Dictionary of Pali Proper Names adapter template",
+    "sourceKind": "REFERENCE_WORK",
+    "status": "PLANNED",
+    "licenseStatus": "Not imported; rights and source edition must be verified.",
+    "mapping": "name → person/place/entity → references",
+    "note": "Adapter metadata only."
+  }
+]

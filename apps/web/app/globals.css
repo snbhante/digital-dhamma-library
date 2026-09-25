@@ -186,3 +186,13 @@ h2 { font-size: clamp(1.8rem, 4vw, 3rem); margin: 0; }
 .notice.compact { padding: 12px 14px; margin-top: 12px; }
 .muted { color: var(--muted); }
 @media (max-width: 900px) { .comparison-table { overflow-x: auto; } .comparison-head, .comparison-row { min-width: 850px; } }
+
+/* Phase 2.1 research controls */
+.search-form select {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text);
+  padding: 13px 15px;
+  min-width: 190px;
+}

@@ -1,0 +1,279 @@
+[
+  {
+    "id": "mettacitta__compound",
+    "headword": "mettācitta",
+    "base": "mettā",
+    "components": [
+      "mettā",
+      "citta"
+    ],
+    "relation": "COMPOUND",
+    "confidence": "starter",
+    "analysis": "mettā + citta",
+    "note": "Starter compound metadata; consult a full Pāḷi grammar/commentary source before treating this as an authoritative derivation."
+  },
+  {
+    "id": "dhamma__dhammaṃ__form-of",
+    "headword": "dhammaṃ",
+    "base": "dhamma",
+    "components": [
+      "dhamma"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "noun; masculine/neuter depending on sense; context determines inflection",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "dhamma__dhammā__form-of",
+    "headword": "dhammā",
+    "base": "dhamma",
+    "components": [
+      "dhamma"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "noun; masculine/neuter depending on sense; context determines inflection",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "mettā__metta__form-of",
+    "headword": "metta",
+    "base": "mettā",
+    "components": [
+      "mettā"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "feminine noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "mettā__mettāya__form-of",
+    "headword": "mettāya",
+    "base": "mettā",
+    "components": [
+      "mettā"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "feminine noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "dukkha__dukkhaṃ__form-of",
+    "headword": "dukkhaṃ",
+    "base": "dukkha",
+    "components": [
+      "dukkha"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "neuter noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "dukkha__dukkhatā__form-of",
+    "headword": "dukkhatā",
+    "base": "dukkha",
+    "components": [
+      "dukkha"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "neuter noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "anicca__aniccā__form-of",
+    "headword": "aniccā",
+    "base": "anicca",
+    "components": [
+      "anicca"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "adjective / substantive adjective",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "anicca__aniccatā__form-of",
+    "headword": "aniccatā",
+    "base": "anicca",
+    "components": [
+      "anicca"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "adjective / substantive adjective",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "anattā__anatta__form-of",
+    "headword": "anatta",
+    "base": "anattā",
+    "components": [
+      "anattā"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "adjective / substantive adjective",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "anattā__anattānaṃ__form-of",
+    "headword": "anattānaṃ",
+    "base": "anattā",
+    "components": [
+      "anattā"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "adjective / substantive adjective",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "nibbāna__nibbānaṃ__form-of",
+    "headword": "nibbānaṃ",
+    "base": "nibbāna",
+    "components": [
+      "nibbāna"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "neuter noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "nibbāna__nibbānadhātu__form-of",
+    "headword": "nibbānadhātu",
+    "base": "nibbāna",
+    "components": [
+      "nibbāna"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "neuter noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "sacca__saccaṃ__form-of",
+    "headword": "saccaṃ",
+    "base": "sacca",
+    "components": [
+      "sacca"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "neuter noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "sacca__saccāni__form-of",
+    "headword": "saccāni",
+    "base": "sacca",
+    "components": [
+      "sacca"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "neuter noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "paññā__paññāya__form-of",
+    "headword": "paññāya",
+    "base": "paññā",
+    "components": [
+      "paññā"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "feminine noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "paññā__paññavā__form-of",
+    "headword": "paññavā",
+    "base": "paññā",
+    "components": [
+      "paññā"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "feminine noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "sīla__sīlaṃ__form-of",
+    "headword": "sīlaṃ",
+    "base": "sīla",
+    "components": [
+      "sīla"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "neuter noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "sīla__sīlena__form-of",
+    "headword": "sīlena",
+    "base": "sīla",
+    "components": [
+      "sīla"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "neuter noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "samādhi__samādhinā__form-of",
+    "headword": "samādhinā",
+    "base": "samādhi",
+    "components": [
+      "samādhi"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "masculine noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "samādhi__samādhissa__form-of",
+    "headword": "samādhissa",
+    "base": "samādhi",
+    "components": [
+      "samādhi"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "masculine noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "sati__satimā__form-of",
+    "headword": "satimā",
+    "base": "sati",
+    "components": [
+      "sati"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "feminine noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  },
+  {
+    "id": "sati__satiyā__form-of",
+    "headword": "satiyā",
+    "base": "sati",
+    "components": [
+      "sati"
+    ],
+    "relation": "FORM_OF",
+    "confidence": "starter",
+    "analysis": "feminine noun",
+    "note": "Starter lexical-form relation inherited from morphology index; not a complete inflectional parser."
+  }
+]

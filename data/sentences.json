@@ -1,0 +1,942 @@
+[
+  {
+    "id": "mn10.p001.s001",
+    "workId": "mn10",
+    "paragraphId": "mn10.p001",
+    "number": 1,
+    "pali": "Evaṃ me sutaṃ — ekaṃ samayaṃ bhagavā kurūsu viharati kammasadhammaṃ nāma kurūnaṃ nigamo.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn10.p002.s001",
+    "workId": "mn10",
+    "paragraphId": "mn10.p002",
+    "number": 1,
+    "pali": "Ekāyano ayaṃ, bhikkhave, maggo sattānaṃ visuddhiyā sokaparidevānaṃ samatikkamāya dukkhadomanassānaṃ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn10.p003.s001",
+    "workId": "mn10",
+    "paragraphId": "mn10.p003",
+    "number": 1,
+    "pali": "Yadidaṃ cattāro satipaṭṭhānā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn10.p003.s002",
+    "workId": "mn10",
+    "paragraphId": "mn10.p003",
+    "number": 2,
+    "pali": "Katame cattāro?",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn10.p004.s001",
+    "workId": "mn10",
+    "paragraphId": "mn10.p004",
+    "number": 1,
+    "pali": "Idha, bhikkhave, bhikkhu kāye kāyānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn10.p005.s001",
+    "workId": "mn10",
+    "paragraphId": "mn10.p005",
+    "number": 1,
+    "pali": "Vedanāsu vedanānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn10.p006.s001",
+    "workId": "mn10",
+    "paragraphId": "mn10.p006",
+    "number": 1,
+    "pali": "Citte cittānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn10.p007.s001",
+    "workId": "mn10",
+    "paragraphId": "mn10.p007",
+    "number": 1,
+    "pali": "Dhammesu dhammānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn21.p001.s001",
+    "workId": "mn21",
+    "paragraphId": "mn21.p001",
+    "number": 1,
+    "pali": "Evaṃ me sutaṃ — ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn21.p002.s001",
+    "workId": "mn21",
+    "paragraphId": "mn21.p002",
+    "number": 1,
+    "pali": "Mettacittā bhavissāma, na dosantarā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn21.p003.s001",
+    "workId": "mn21",
+    "paragraphId": "mn21.p003",
+    "number": 1,
+    "pali": "Na ceva pāpakaṃ vācaṃ bhāsissāma, na ca dosantarā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn21.p004.s001",
+    "workId": "mn21",
+    "paragraphId": "mn21.p004",
+    "number": 1,
+    "pali": "Karunacittā bhavissāma, na dosantarā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn21.p005.s001",
+    "workId": "mn21",
+    "paragraphId": "mn21.p005",
+    "number": 1,
+    "pali": "Mettacittā bhavissāma, na byāpannacittā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn21.p006.s001",
+    "workId": "mn21",
+    "paragraphId": "mn21.p006",
+    "number": 1,
+    "pali": "Tassa ca bhikkhave bhikkhuno evaṃ sikkhitabbaṃ: na ceva me cittaṃ vipariṇamissati, na ca pāpikaṃ vācaṃ bhāsissāmi.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn22.p001.s001",
+    "workId": "mn22",
+    "paragraphId": "mn22.p001",
+    "number": 1,
+    "pali": "Kullūpamaṃ vo, bhikkhave, dhammaṃ desessāmi nittharaṇatthāya no gahaṇatthāya.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn22.p002.s001",
+    "workId": "mn22",
+    "paragraphId": "mn22.p002",
+    "number": 1,
+    "pali": "Kullūpamo mayā, bhikkhave, dhammo desito nittharaṇatthāya no gahaṇatthāya.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn22.p003.s001",
+    "workId": "mn22",
+    "paragraphId": "mn22.p003",
+    "number": 1,
+    "pali": "Kullaṃ vo, bhikkhave, dhammaṃ desessāmi nittharaṇatthāya no gahaṇatthāya.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn22.p004.s001",
+    "workId": "mn22",
+    "paragraphId": "mn22.p004",
+    "number": 1,
+    "pali": "Dhammāpi vo pahātabbā pageva adhammā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn22.p005.s001",
+    "workId": "mn22",
+    "paragraphId": "mn22.p005",
+    "number": 1,
+    "pali": "Seyyathāpi, bhikkhave, puriso addhānamaggappaṭipanno puratthimāya disāya gaccheyya.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "mn22.p006.s001",
+    "workId": "mn22",
+    "paragraphId": "mn22.p006",
+    "number": 1,
+    "pali": "Nāvissajjeyya, bhikkhave, taṃ dhammaṃ gahaṇatthāya, na nittharaṇatthāya.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn56.11.p001.s001",
+    "workId": "sn56.11",
+    "paragraphId": "sn56.11.p001",
+    "number": 1,
+    "pali": "Evaṃ me sutaṃ — ekaṃ samayaṃ bhagavā bārāṇasiyaṃ viharati isipatane migadāye.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn56.11.p002.s001",
+    "workId": "sn56.11",
+    "paragraphId": "sn56.11.p002",
+    "number": 1,
+    "pali": "Dve me, bhikkhave, antā pabbajitena na sevitabbā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn56.11.p003.s001",
+    "workId": "sn56.11",
+    "paragraphId": "sn56.11.p003",
+    "number": 1,
+    "pali": "Kāmesu kāmasukhallikānuyogo hīno gammo pothujjaniko anariyo anatthasaṃhito.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn56.11.p004.s001",
+    "workId": "sn56.11",
+    "paragraphId": "sn56.11.p004",
+    "number": 1,
+    "pali": "Attakilamathānuyogo dukkho anariyo anatthasaṃhito.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn56.11.p005.s001",
+    "workId": "sn56.11",
+    "paragraphId": "sn56.11.p005",
+    "number": 1,
+    "pali": "Majjhimā paṭipadā tathāgatena abhisambuddhā cakkhukaraṇī ñāṇakaraṇī upasamāya abhiññāya sambodhāya nibbānāya saṃvattati.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn56.11.p006.s001",
+    "workId": "sn56.11",
+    "paragraphId": "sn56.11.p006",
+    "number": 1,
+    "pali": "Idaṃ dukkhaṃ ariyasaccaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn56.11.p007.s001",
+    "workId": "sn56.11",
+    "paragraphId": "sn56.11.p007",
+    "number": 1,
+    "pali": "Idaṃ dukkhasamudayaṃ ariyasaccaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn56.11.p008.s001",
+    "workId": "sn56.11",
+    "paragraphId": "sn56.11.p008",
+    "number": 1,
+    "pali": "Idaṃ dukkhanirodhaṃ ariyasaccaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn56.11.p009.s001",
+    "workId": "sn56.11",
+    "paragraphId": "sn56.11.p009",
+    "number": 1,
+    "pali": "Idaṃ dukkhanirodhagāminī paṭipadā ariyasaccaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn22.59.p001.s001",
+    "workId": "sn22.59",
+    "paragraphId": "sn22.59.p001",
+    "number": 1,
+    "pali": "Rūpaṃ, bhikkhave, anattā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn22.59.p001.s002",
+    "workId": "sn22.59",
+    "paragraphId": "sn22.59.p001",
+    "number": 2,
+    "pali": "Rūpañca hidaṃ, bhikkhave, attā abhavissa, na yidaṃ rūpaṃ ābādhāya saṃvatteyya.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn22.59.p002.s001",
+    "workId": "sn22.59",
+    "paragraphId": "sn22.59.p002",
+    "number": 1,
+    "pali": "Vedanā anattā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn22.59.p003.s001",
+    "workId": "sn22.59",
+    "paragraphId": "sn22.59.p003",
+    "number": 1,
+    "pali": "Saññā anattā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn22.59.p004.s001",
+    "workId": "sn22.59",
+    "paragraphId": "sn22.59.p004",
+    "number": 1,
+    "pali": "Saṅkhārā anattā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn22.59.p005.s001",
+    "workId": "sn22.59",
+    "paragraphId": "sn22.59.p005",
+    "number": 1,
+    "pali": "Viññāṇaṃ anattā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn22.59.p006.s001",
+    "workId": "sn22.59",
+    "paragraphId": "sn22.59.p006",
+    "number": 1,
+    "pali": "Taṃ kiṃ maññatha, bhikkhave, rūpaṃ niccaṃ vā aniccaṃ vā?",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn22.59.p007.s001",
+    "workId": "sn22.59",
+    "paragraphId": "sn22.59.p007",
+    "number": 1,
+    "pali": "Aniccaṃ, bhante.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn22.59.p008.s001",
+    "workId": "sn22.59",
+    "paragraphId": "sn22.59.p008",
+    "number": 1,
+    "pali": "Yadaniccaṃ dukkhaṃ vā taṃ sukhaṃ vā?",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn35.28.p001.s001",
+    "workId": "sn35.28",
+    "paragraphId": "sn35.28.p001",
+    "number": 1,
+    "pali": "Sabbaṃ, bhikkhave, ādittaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn35.28.p002.s001",
+    "workId": "sn35.28",
+    "paragraphId": "sn35.28.p002",
+    "number": 1,
+    "pali": "Kiñca, bhikkhave, sabbaṃ ādittaṃ?",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn35.28.p002.s002",
+    "workId": "sn35.28",
+    "paragraphId": "sn35.28.p002",
+    "number": 2,
+    "pali": "Cakkhu ādittaṃ, rūpā ādittā, cakkhuviññāṇaṃ ādittaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn35.28.p003.s001",
+    "workId": "sn35.28",
+    "paragraphId": "sn35.28.p003",
+    "number": 1,
+    "pali": "Sotaṃ ādittaṃ, saddā ādittā, sotaviññāṇaṃ ādittaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn35.28.p004.s001",
+    "workId": "sn35.28",
+    "paragraphId": "sn35.28.p004",
+    "number": 1,
+    "pali": "Ghānaṃ ādittaṃ, gandhā ādittā, ghānaviññāṇaṃ ādittaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn35.28.p005.s001",
+    "workId": "sn35.28",
+    "paragraphId": "sn35.28.p005",
+    "number": 1,
+    "pali": "Jivhā ādittā, rasā ādittā, jivhāviññāṇaṃ ādittaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn35.28.p006.s001",
+    "workId": "sn35.28",
+    "paragraphId": "sn35.28.p006",
+    "number": 1,
+    "pali": "Kāyo ādittō, phoṭṭhabbā ādittā, kāyaviññāṇaṃ ādittaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "sn35.28.p007.s001",
+    "workId": "sn35.28",
+    "paragraphId": "sn35.28.p007",
+    "number": 1,
+    "pali": "Mano ādittaṃ, dhammā ādittā, manoviññāṇaṃ ādittaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "an3.65.p001.s001",
+    "workId": "an3.65",
+    "paragraphId": "an3.65.p001",
+    "number": 1,
+    "pali": "Mā anussavena, mā paramparāya, mā itikirāya, mā piṭakasampadānena.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "an3.65.p002.s001",
+    "workId": "an3.65",
+    "paragraphId": "an3.65.p002",
+    "number": 1,
+    "pali": "Mā takkahetu, mā nayahetu, mā ākāraparivitakkena, mā diṭṭhinijjhānakkhantiya.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "an3.65.p003.s001",
+    "workId": "an3.65",
+    "paragraphId": "an3.65.p003",
+    "number": 1,
+    "pali": "Yadā tumhe, kālāmā, attanāva jāneyyātha: ime dhammā akusalā, ime dhammā sāvajjā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "an3.65.p004.s001",
+    "workId": "an3.65",
+    "paragraphId": "an3.65.p004",
+    "number": 1,
+    "pali": "Pahātabbāti, kālāmā, pahātabbaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "an3.65.p005.s001",
+    "workId": "an3.65",
+    "paragraphId": "an3.65.p005",
+    "number": 1,
+    "pali": "Yadā tumhe, kālāmā, attanāva jāneyyātha: ime dhammā kusalā, ime dhammā anavajjā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "an3.65.p006.s001",
+    "workId": "an3.65",
+    "paragraphId": "an3.65.p006",
+    "number": 1,
+    "pali": "Upasampajja viharathāti, kālāmā, upasampajja viharitabbaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp5.p001.s001",
+    "workId": "khp5",
+    "paragraphId": "khp5.p001",
+    "number": 1,
+    "pali": "Evaṃ me sutaṃ — ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp5.p002.s001",
+    "workId": "khp5",
+    "paragraphId": "khp5.p002",
+    "number": 1,
+    "pali": "Asevanā ca bālānaṃ paṇḍitānañca sevanā, pūjā ca pūjaneyyānaṃ, etaṃ maṅgalamuttamaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp5.p003.s001",
+    "workId": "khp5",
+    "paragraphId": "khp5.p003",
+    "number": 1,
+    "pali": "Patirūpadesavāso ca pubbe ca katapuññatā, attasammāpaṇidhi ca, etaṃ maṅgalamuttamaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp5.p004.s001",
+    "workId": "khp5",
+    "paragraphId": "khp5.p004",
+    "number": 1,
+    "pali": "Bāhusaccañca sippañca vinayo ca susikkhito, subhāsitā ca yā vācā, etaṃ maṅgalamuttamaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp5.p005.s001",
+    "workId": "khp5",
+    "paragraphId": "khp5.p005",
+    "number": 1,
+    "pali": "Mātāpitu upaṭṭhānaṃ puttadārassa saṅgaho, anākulā ca kammantā, etaṃ maṅgalamuttamaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp5.p006.s001",
+    "workId": "khp5",
+    "paragraphId": "khp5.p006",
+    "number": 1,
+    "pali": "Phuṭṭhassa lokadhammehi cittaṃ yassa na kampati, asokaṃ virajaṃ khemaṃ, etaṃ maṅgalamuttamaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp6.p001.s001",
+    "workId": "khp6",
+    "paragraphId": "khp6.p001",
+    "number": 1,
+    "pali": "Yānīdha bhūtāni samāgatāni, bhummāni vā yāni va antalikkhe.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp6.p002.s001",
+    "workId": "khp6",
+    "paragraphId": "khp6.p002",
+    "number": 1,
+    "pali": "Sabbeva bhūtā sumanā bhavantu, athopi sakkacca suṇantu bhāsitaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp6.p003.s001",
+    "workId": "khp6",
+    "paragraphId": "khp6.p003",
+    "number": 1,
+    "pali": "Yaṃ kiñci vittaṃ idha vā huraṃ vā, saggesu vā yaṃ ratanaṃ paṇītaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp6.p004.s001",
+    "workId": "khp6",
+    "paragraphId": "khp6.p004",
+    "number": 1,
+    "pali": "Na no samaṃ atthi tathāgatena, idampi buddhe ratanaṃ paṇītaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp6.p005.s001",
+    "workId": "khp6",
+    "paragraphId": "khp6.p005",
+    "number": 1,
+    "pali": "Khayaṃ virāgaṃ amataṃ paṇītaṃ, yad ajjhagā sakyamunī samāhito.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp6.p006.s001",
+    "workId": "khp6",
+    "paragraphId": "khp6.p006",
+    "number": 1,
+    "pali": "Idampi dhamme ratanaṃ paṇītaṃ, etena saccena suvatthi hotu.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp9.p001.s001",
+    "workId": "khp9",
+    "paragraphId": "khp9.p001",
+    "number": 1,
+    "pali": "Karaṇīyam atthakusalena, yantaṃ santaṃ padaṃ abhisamecca.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp9.p002.s001",
+    "workId": "khp9",
+    "paragraphId": "khp9.p002",
+    "number": 1,
+    "pali": "Sakko ujū ca suhujū ca, sūvaco cassa mudu anatimānī.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp9.p003.s001",
+    "workId": "khp9",
+    "paragraphId": "khp9.p003",
+    "number": 1,
+    "pali": "Santussako ca subharo ca, appakicco ca sallahukavutti.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp9.p004.s001",
+    "workId": "khp9",
+    "paragraphId": "khp9.p004",
+    "number": 1,
+    "pali": "Na paro paraṃ nikubbetha, nātimaññetha katthaci na kañci.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp9.p005.s001",
+    "workId": "khp9",
+    "paragraphId": "khp9.p005",
+    "number": 1,
+    "pali": "Sukhino vā khemino hontu, sabbe sattā bhavantu sukhitattā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp9.p006.s001",
+    "workId": "khp9",
+    "paragraphId": "khp9.p006",
+    "number": 1,
+    "pali": "Mātā yathā niyaṃ puttaṃ āyusā ekaputtam anurakkhe.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "khp9.p007.s001",
+    "workId": "khp9",
+    "paragraphId": "khp9.p007",
+    "number": 1,
+    "pali": "Evaṃ pi sabbabhūtesu mānasaṃ bhāvaye aparimāṇaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dhp1.p001.s001",
+    "workId": "dhp1",
+    "paragraphId": "dhp1.p001",
+    "number": 1,
+    "pali": "Manopubbaṅgamā dhammā, manoseṭṭhā manomayā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dhp1.p002.s001",
+    "workId": "dhp1",
+    "paragraphId": "dhp1.p002",
+    "number": 1,
+    "pali": "Manasā ce paduṭṭhena bhāsati vā karoti vā, tato naṃ dukkham anveti cakkaṃ va vahato padaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dhp1.p003.s001",
+    "workId": "dhp1",
+    "paragraphId": "dhp1.p003",
+    "number": 1,
+    "pali": "Manasā ce pasannena bhāsati vā karoti vā, tato naṃ sukham anveti chāyā va anapāyinī.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dhp1.p004.s001",
+    "workId": "dhp1",
+    "paragraphId": "dhp1.p004",
+    "number": 1,
+    "pali": "Akkocchi maṃ avadhi maṃ ajini maṃ ahāsi me.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dhp1.p005.s001",
+    "workId": "dhp1",
+    "paragraphId": "dhp1.p005",
+    "number": 1,
+    "pali": "Ye ca taṃ upanayhanti veraṃ tesaṃ na sammati.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dhp1.p006.s001",
+    "workId": "dhp1",
+    "paragraphId": "dhp1.p006",
+    "number": 1,
+    "pali": "Akkocchi maṃ avadhi maṃ ajini maṃ ahāsi me; ye taṃ na upanayhanti veraṃ tesūpasammati.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dhp183.p001.s001",
+    "workId": "dhp183",
+    "paragraphId": "dhp183.p001",
+    "number": 1,
+    "pali": "Sabbapāpassa akaraṇaṃ, kusalassa upasampadā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dhp183.p002.s001",
+    "workId": "dhp183",
+    "paragraphId": "dhp183.p002",
+    "number": 1,
+    "pali": "Sacittapariyodapanaṃ — etaṃ buddhāna sāsanaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dhp183.p003.s001",
+    "workId": "dhp183",
+    "paragraphId": "dhp183.p003",
+    "number": 1,
+    "pali": "Khantī paramaṃ tapo titikkhā, nibbānaṃ paramaṃ vadanti buddhā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dhp183.p004.s001",
+    "workId": "dhp183",
+    "paragraphId": "dhp183.p004",
+    "number": 1,
+    "pali": "Na hi pabbajito parūpaghātī, samaṇo hoti paraṃ viheṭhayanto.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dhp183.p005.s001",
+    "workId": "dhp183",
+    "paragraphId": "dhp183.p005",
+    "number": 1,
+    "pali": "Anūpavādo anūpaghāto, pātimokkhe ca saṃvaro.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "ud1.10.p001.s001",
+    "workId": "ud1.10",
+    "paragraphId": "ud1.10.p001",
+    "number": 1,
+    "pali": "Tasmātiha te, bāhiya, evaṃ sikkhitabbaṃ: diṭṭhamattaṃ bhavissati diṭṭhaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "ud1.10.p002.s001",
+    "workId": "ud1.10",
+    "paragraphId": "ud1.10.p002",
+    "number": 1,
+    "pali": "Sutamattaṃ bhavissati sutaṃ, mutamattaṃ bhavissati mutaṃ, viññātamattaṃ bhavissati viññātaṃ.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "ud1.10.p003.s001",
+    "workId": "ud1.10",
+    "paragraphId": "ud1.10.p003",
+    "number": 1,
+    "pali": "Yato kho te, bāhiya, diṭṭhamattaṃ diṭṭhaṃ bhavissati, sutaṃ sutaṃ bhavissati, mutaṃ mutaṃ bhavissati, viññātaṃ viññātaṃ bhavissati.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "ud1.10.p004.s001",
+    "workId": "ud1.10",
+    "paragraphId": "ud1.10.p004",
+    "number": 1,
+    "pali": "Tato tvaṃ, bāhiya, na tena.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "ud1.10.p005.s001",
+    "workId": "ud1.10",
+    "paragraphId": "ud1.10.p005",
+    "number": 1,
+    "pali": "Yato tvaṃ, bāhiya, na tena, tato tvaṃ, bāhiya, na tattha.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "ud1.10.p006.s001",
+    "workId": "ud1.10",
+    "paragraphId": "ud1.10.p006",
+    "number": 1,
+    "pali": "Yato tvaṃ, bāhiya, na tattha, tato tvaṃ, bāhiya, nevidha na huraṃ na ubhayamantarena.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dn16.p001.s001",
+    "workId": "dn16",
+    "paragraphId": "dn16.p001",
+    "number": 1,
+    "pali": "Vayadhammā saṅkhārā; appamādena sampādetha.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dn16.p002.s001",
+    "workId": "dn16",
+    "paragraphId": "dn16.p002",
+    "number": 1,
+    "pali": "Attadīpā, bhikkhave, viharatha attasaraṇā anaññasaraṇā, dhammadīpā dhammasaraṇā anaññasaraṇā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dn16.p003.s001",
+    "workId": "dn16",
+    "paragraphId": "dn16.p003",
+    "number": 1,
+    "pali": "Dhammadīpā viharatha dhammā saraṇā anaññasaraṇā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dn16.p004.s001",
+    "workId": "dn16",
+    "paragraphId": "dn16.p004",
+    "number": 1,
+    "pali": "Kāye kāyānupassī viharati ātāpī sampajāno satimā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dn16.p005.s001",
+    "workId": "dn16",
+    "paragraphId": "dn16.p005",
+    "number": 1,
+    "pali": "Vedanāsu vedanānupassī viharati ātāpī sampajāno satimā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  },
+  {
+    "id": "dn16.p006.s001",
+    "workId": "dn16",
+    "paragraphId": "dn16.p006",
+    "number": 1,
+    "pali": "Citte cittānupassī viharati ātāpī sampajāno satimā.",
+    "segmentationMethod": "PUNCTUATION_HEURISTIC",
+    "confidence": "starter",
+    "note": "Starter sentence segmentation derived from punctuation; paragraph IDs remain canonical and unchanged."
+  }
+]

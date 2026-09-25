@@ -31,3 +31,14 @@ Internet availability alone is never treated as permission to redistribute copyr
 - `sources.json` — stable source/provenance registry for future imports.
 
 All data remains subject to record-level provenance and license review.
+
+
+## Phase 2.1 research indexes
+
+- `sentences.json` — starter sentence segmentation; sentence IDs derive from immutable paragraph IDs.
+- `translation-alignments.json` — paragraph-level alignment records for project-curated English/Bangla translations.
+- `dictionary-sources.json` — adapter metadata only; no protected external dictionary corpus is bundled.
+- `derivations.json` — starter lexical-form/compound metadata with confidence and research notes.
+- `occurrences.json` — generated surface-token index with normalized form and optional starter lemma.
+
+These generated files should be rebuilt with `npm run build:research-index` rather than hand-edited.

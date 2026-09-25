@@ -56,7 +56,7 @@ supabase/
   workflows/
 ```
 
-## Phase 2 target
+## Current Phase 2.1 target
 
 The first milestone is a working public reader that can:
 
@@ -72,7 +72,7 @@ The first milestone is a working public reader that can:
 10. Keep reader preferences locally on the device.
 11. Validate data, typecheck, build, and deploy through GitHub Actions + GitHub Pages.
 
-Authentication, bookmarks, notes, collections, contributions, administration, full dictionaries, commentaries, and research APIs are planned for later phases. Phase 2 includes only a small starter dictionary and source registry so the research architecture can be tested early. The public corpus remains source-aware and license-aware from the start.
+Phase 2.1 now adds sentence segmentation, paragraph-level translation alignment, lemma-aware occurrence search, dictionary-source adapter contracts, and starter compound/form metadata. Authentication, bookmarks, notes, collections, contributions, administration, full dictionaries, commentaries, and research APIs remain later milestones. The public corpus remains source-aware and license-aware from the start.
 
 ## Important legal rule
 
@@ -153,3 +153,7 @@ The software architecture/code in this repository is intended to be released und
 The current release adds an edition registry, translation registry, dictionary detail layer, exact Pāḷi occurrence index, starter morphology records, cross-reference graph, commentary metadata architecture, comparison reader, citation exports, and a forward-compatible Supabase/PostgreSQL research schema.
 
 Start the local research workbench at `/research/`.
+
+## Phase 2.1 Research Engine
+
+The Phase 2.1 release (v0.6.0) adds sentence records, translation alignment records, lemma-aware occurrence indexing, dictionary source adapters, and starter lexical formation metadata. All generated indexes are reproducible with `npm run build:research-index`.

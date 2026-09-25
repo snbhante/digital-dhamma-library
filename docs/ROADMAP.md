@@ -20,15 +20,23 @@
 9. Citation export formats
 10. PostgreSQL/Supabase research schema
 
-## Phase 2.1 next implementation target
+## Phase 2.1 completed foundation
 
-- Add sentence segmentation without changing paragraph IDs
-- Add edition comparison across multiple editions
-- Add translation alignment records
-- Add dictionary-source adapters
-- Add lemma-aware occurrence search
-- Add Pāḷi compound/derivation metadata
-- Add citation templates (SuttaCentral-style IDs only where licensing/attribution allows; do not copy protected databases without permission)
+- Sentence segmentation without changing paragraph IDs
+- Translation alignment records
+- Dictionary-source adapter registry
+- Lemma-aware occurrence search
+- Starter Pāḷi compound/derivation metadata
+- Expanded research workbench routes
+
+## Phase 2.2 next implementation target
+
+- Add verified alternate-edition text records and true multi-edition comparison
+- Add sentence-level translation alignment review tools
+- Add richer morphology and sandhi/compound analysis with provenance
+- Add dictionary import adapters behind explicit license checks
+- Add citation templates and export profiles
+- Add research annotations and reviewer status to lexical/occurrence records
 
 ## Phase 3
 

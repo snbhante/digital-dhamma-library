@@ -1,8 +1,8 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-2.0.2",
+  "release": "phase-2.1",
   "baseline_date": "2026-09-25",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -33,7 +33,13 @@
     "Text comparison",
     "Plain/Markdown/BibTeX citation tools",
     "Phase 2 Supabase/PostgreSQL schema",
-    "Expanded validation"
+    "Expanded validation",
+    "Sentence segmentation index with immutable paragraph IDs",
+    "Paragraph-level translation alignment records",
+    "Lemma-aware Pāḷi occurrence index",
+    "Dictionary source adapter registry",
+    "Starter compound and lexical-form metadata",
+    "Expanded research workbench routes"
   ],
   "fixes": [
     "Static-export dynamic routes explicitly use dynamicParams=false",
@@ -41,6 +47,8 @@
     "Search results are deduplicated by stable work/paragraph identity",
     "Reader paragraph React keys are globally unique within rendered work context",
     "Occurrence index references are deduplicated by stable work/paragraph identity",
-    "Occurrence validation rejects duplicate paragraph references and verifies paragraphCount"
+    "Occurrence validation rejects duplicate paragraph references and verifies paragraphCount",
+    "Occurrence index now stores normalized token and starter lemma metadata",
+    "Data validation covers sentence, alignment, adapter, and derivation records"
   ]
 }
