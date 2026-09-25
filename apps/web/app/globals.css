@@ -196,3 +196,13 @@ h2 { font-size: clamp(1.8rem, 4vw, 3rem); margin: 0; }
   padding: 13px 15px;
   min-width: 190px;
 }
+
+/* Phase 2.2 research review and provenance UI */
+.review-workbench { padding-bottom: 80px; }
+.review-controls { padding-top: 24px; padding-bottom: 24px; }
+.review-card { min-height: 0; }
+.review-editor { display: grid; gap: 12px; margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line); }
+.review-editor label { display: grid; gap: 7px; color: var(--muted); font-size: .78rem; font-weight: 700; }
+.review-editor select, .review-editor textarea { width: 100%; border: 1px solid var(--line); border-radius: 9px; padding: 10px 11px; background: var(--surface); color: var(--text); }
+.review-editor textarea { resize: vertical; line-height: 1.6; font-family: inherit; font-weight: 400; }
+.citation-template { white-space: pre-wrap; overflow-wrap: anywhere; border: 1px solid var(--line); background: var(--bg); border-radius: 10px; padding: 14px; line-height: 1.6; margin: 14px 0; font: .82rem/1.6 ui-monospace, SFMono-Regular, Menlo, monospace; }

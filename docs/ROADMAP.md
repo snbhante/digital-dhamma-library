@@ -29,14 +29,23 @@
 - Starter Pāḷi compound/derivation metadata
 - Expanded research workbench routes
 
-## Phase 2.2 next implementation target
+## Phase 2.2 completed foundation
 
-- Add verified alternate-edition text records and true multi-edition comparison
-- Add sentence-level translation alignment review tools
-- Add richer morphology and sandhi/compound analysis with provenance
-- Add dictionary import adapters behind explicit license checks
-- Add citation templates and export profiles
-- Add research annotations and reviewer status to lexical/occurrence records
+- Edition witness registry with explicit non-bundled alternate-witness slots
+- Sentence-level heuristic translation alignment records with review status
+- Richer starter morphology analysis records with provenance
+- Citation templates and export profiles
+- Browser-local research review queue and annotation notes
+- Supabase-ready authenticated research annotation schema
+
+## Phase 2.3 next implementation target
+
+- Import at least one independently verified alternate edition only after source/license/checksum review
+- Add true witness-to-witness variant display and diffing
+- Add sentence alignment editor with persistent authenticated review records
+- Expand morphology with auditable sandhi/compound rules and source citations
+- Add dictionary import adapters with per-source license gates and import manifests
+- Add citation export bundles and reproducible research snapshots
 
 ## Phase 3
 

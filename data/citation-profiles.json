@@ -1,0 +1,37 @@
+[
+  {
+    "id": "plain",
+    "label": "Plain citation",
+    "format": "plain",
+    "template": "{workTitle}, {paragraphId} ({edition}) — {url}",
+    "note": "Compact human-readable citation."
+  },
+  {
+    "id": "markdown",
+    "label": "Markdown",
+    "format": "markdown",
+    "template": "[{workTitle}, {paragraphId}]({url}) — {edition}",
+    "note": "Markdown-compatible citation."
+  },
+  {
+    "id": "bibtex",
+    "label": "BibTeX",
+    "format": "bibtex",
+    "template": "@misc{{{key}, title={{ {workTitle} }}, note={{ {paragraphId}; {edition} }}, url={{ {url} }}}}",
+    "note": "Minimal BibTeX record for a stable paragraph URL."
+  },
+  {
+    "id": "apa",
+    "label": "APA-style web citation",
+    "format": "apa",
+    "template": "Digital Dhamma Library. ({year}). {workTitle}, {paragraphId}. {edition}. {url}",
+    "note": "Project profile; adapt author/editor details when a verified edition record is cited."
+  },
+  {
+    "id": "chicago",
+    "label": "Chicago-style note",
+    "format": "chicago",
+    "template": "Digital Dhamma Library, “{workTitle},” {paragraphId}, {edition}, {url}.",
+    "note": "Project profile; add verified editor/publisher details when available."
+  }
+]

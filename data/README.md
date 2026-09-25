@@ -42,3 +42,13 @@ All data remains subject to record-level provenance and license review.
 - `occurrences.json` — generated surface-token index with normalized form and optional starter lemma.
 
 These generated files should be rebuilt with `npm run build:research-index` rather than hand-edited.
+
+## Phase 2.2 research review layers
+
+- `edition-witnesses.json` — bundled starter witness records plus explicit metadata-only slots for future independently verified alternate editions.
+- `sentence-alignments.json` — heuristic sentence-level alignment records with explicit `NEEDS_REVIEW` status.
+- `morphology-analyses.json` — starter lemma/form analysis records with provenance and review status.
+- `citation-profiles.json` — reusable citation templates.
+- `review-queue.json` — generated review queue for sentence alignments, occurrences, and morphology analyses.
+
+Phase 2.2 does not fabricate alternate-edition readings. Review decisions made in the static browser UI are local until the authenticated Supabase annotation workflow is enabled.

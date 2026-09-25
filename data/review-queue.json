@@ -1,0 +1,4634 @@
+[
+  {
+    "id": "project-english-2026-09__mn10.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn10.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn10.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn10.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn10.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn10.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn10.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn10.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn10.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn10.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn10.p003.s002",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn10.p003.s002",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn10.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn10.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn10.p003.s002",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn10.p003.s002",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn10.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn10.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn10.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn10.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn10.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn10.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn10.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn10.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn10.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn10.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn10.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn10.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn10.p007.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn10.p007.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn10.p007.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn10.p007.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn21.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn21.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn21.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn21.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn21.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn21.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn21.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn21.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn21.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn21.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn21.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn21.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn21.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn21.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn21.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn21.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn21.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn21.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn21.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn21.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn21.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn21.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn21.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn21.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn22.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn22.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn22.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn22.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn22.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn22.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn22.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn22.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn22.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn22.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn22.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn22.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn22.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn22.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn22.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn22.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn22.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn22.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn22.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn22.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__mn22.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__mn22.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__mn22.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__mn22.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn56.11.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn56.11.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn56.11.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn56.11.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn56.11.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn56.11.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn56.11.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn56.11.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn56.11.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn56.11.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn56.11.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn56.11.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn56.11.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn56.11.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn56.11.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn56.11.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn56.11.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn56.11.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn56.11.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn56.11.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn56.11.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn56.11.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn56.11.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn56.11.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn56.11.p007.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn56.11.p007.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn56.11.p007.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn56.11.p007.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn56.11.p008.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn56.11.p008.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn56.11.p008.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn56.11.p008.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn56.11.p009.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn56.11.p009.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn56.11.p009.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn56.11.p009.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn22.59.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn22.59.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn22.59.p001.s002",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn22.59.p001.s002",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn22.59.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn22.59.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn22.59.p001.s002",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn22.59.p001.s002",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn22.59.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn22.59.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn22.59.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn22.59.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn22.59.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn22.59.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn22.59.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn22.59.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn22.59.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn22.59.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn22.59.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn22.59.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn22.59.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn22.59.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn22.59.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn22.59.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn22.59.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn22.59.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn22.59.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn22.59.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn22.59.p007.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn22.59.p007.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn22.59.p007.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn22.59.p007.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn22.59.p008.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn22.59.p008.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn22.59.p008.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn22.59.p008.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn35.28.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn35.28.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn35.28.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn35.28.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn35.28.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn35.28.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn35.28.p002.s002",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn35.28.p002.s002",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn35.28.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn35.28.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn35.28.p002.s002",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn35.28.p002.s002",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn35.28.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn35.28.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn35.28.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn35.28.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn35.28.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn35.28.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn35.28.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn35.28.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn35.28.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn35.28.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn35.28.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn35.28.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn35.28.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn35.28.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn35.28.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn35.28.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__sn35.28.p007.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__sn35.28.p007.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__sn35.28.p007.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__sn35.28.p007.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__an3.65.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__an3.65.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__an3.65.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__an3.65.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__an3.65.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__an3.65.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__an3.65.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__an3.65.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__an3.65.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__an3.65.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__an3.65.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__an3.65.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__an3.65.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__an3.65.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__an3.65.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__an3.65.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__an3.65.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__an3.65.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__an3.65.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__an3.65.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__an3.65.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__an3.65.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__an3.65.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__an3.65.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp5.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp5.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp5.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp5.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp5.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp5.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp5.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp5.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp5.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp5.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp5.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp5.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp5.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp5.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp5.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp5.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp5.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp5.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp5.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp5.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp5.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp5.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp5.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp5.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp6.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp6.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp6.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp6.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp6.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp6.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp6.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp6.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp6.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp6.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp6.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp6.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp6.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp6.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp6.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp6.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp6.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp6.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp6.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp6.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp6.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp6.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp6.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp6.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp9.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp9.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp9.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp9.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp9.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp9.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp9.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp9.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp9.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp9.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp9.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp9.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp9.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp9.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp9.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp9.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp9.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp9.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp9.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp9.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp9.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp9.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp9.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp9.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__khp9.p007.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__khp9.p007.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__khp9.p007.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__khp9.p007.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dhp1.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dhp1.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dhp1.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dhp1.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dhp1.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dhp1.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dhp1.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dhp1.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dhp1.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dhp1.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dhp1.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dhp1.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dhp1.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dhp1.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dhp1.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dhp1.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dhp1.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dhp1.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dhp1.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dhp1.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dhp1.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dhp1.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dhp1.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dhp1.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dhp183.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dhp183.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dhp183.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dhp183.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dhp183.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dhp183.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dhp183.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dhp183.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dhp183.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dhp183.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dhp183.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dhp183.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dhp183.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dhp183.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dhp183.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dhp183.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dhp183.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dhp183.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dhp183.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dhp183.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__ud1.10.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__ud1.10.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__ud1.10.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__ud1.10.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__ud1.10.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__ud1.10.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__ud1.10.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__ud1.10.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__ud1.10.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__ud1.10.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__ud1.10.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__ud1.10.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__ud1.10.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__ud1.10.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__ud1.10.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__ud1.10.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__ud1.10.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__ud1.10.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__ud1.10.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__ud1.10.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__ud1.10.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__ud1.10.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__ud1.10.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__ud1.10.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dn16.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dn16.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dn16.p001.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dn16.p001.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dn16.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dn16.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dn16.p002.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dn16.p002.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dn16.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dn16.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dn16.p003.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dn16.p003.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dn16.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dn16.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dn16.p004.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dn16.p004.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dn16.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dn16.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dn16.p005.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dn16.p005.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-english-2026-09__dn16.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-english-2026-09__dn16.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "project-bangla-2026-09__dn16.p006.s001",
+    "entityType": "SENTENCE_ALIGNMENT",
+    "entityId": "project-bangla-2026-09__dn16.p006.s001",
+    "status": "NEEDS_REVIEW",
+    "priority": "NORMAL",
+    "note": "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+  },
+  {
+    "id": "occurrence__ābādhāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "ābādhāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__abhavissa",
+    "entityType": "OCCURRENCE",
+    "entityId": "abhavissa",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__abhijjhādomanassaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "abhijjhādomanassaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__abhiññāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "abhiññāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__abhisambuddhā",
+    "entityType": "OCCURRENCE",
+    "entityId": "abhisambuddhā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__abhisamecca",
+    "entityType": "OCCURRENCE",
+    "entityId": "abhisamecca",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__addhānamaggappaṭipanno",
+    "entityType": "OCCURRENCE",
+    "entityId": "addhānamaggappaṭipanno",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__adhammā",
+    "entityType": "OCCURRENCE",
+    "entityId": "adhammā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__adhigamāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "adhigamāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__āditt",
+    "entityType": "OCCURRENCE",
+    "entityId": "āditt",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ādittā",
+    "entityType": "OCCURRENCE",
+    "entityId": "ādittā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ādittaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "ādittaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ahāsi",
+    "entityType": "OCCURRENCE",
+    "entityId": "ahāsi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ajini",
+    "entityType": "OCCURRENCE",
+    "entityId": "ajini",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ajjhagā",
+    "entityType": "OCCURRENCE",
+    "entityId": "ajjhagā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__akaraṇaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "akaraṇaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ākāraparivitakkena",
+    "entityType": "OCCURRENCE",
+    "entityId": "ākāraparivitakkena",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__akkocchi",
+    "entityType": "OCCURRENCE",
+    "entityId": "akkocchi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__akusalā",
+    "entityType": "OCCURRENCE",
+    "entityId": "akusalā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__amataṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "amataṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anākulā",
+    "entityType": "OCCURRENCE",
+    "entityId": "anākulā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anaññasaraṇā",
+    "entityType": "OCCURRENCE",
+    "entityId": "anaññasaraṇā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anapāyinī",
+    "entityType": "OCCURRENCE",
+    "entityId": "anapāyinī",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anariyo",
+    "entityType": "OCCURRENCE",
+    "entityId": "anariyo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anāthapiṇḍikassa",
+    "entityType": "OCCURRENCE",
+    "entityId": "anāthapiṇḍikassa",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anatimānī",
+    "entityType": "OCCURRENCE",
+    "entityId": "anatimānī",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anattā",
+    "entityType": "OCCURRENCE",
+    "entityId": "anattā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anatthasaṃhito",
+    "entityType": "OCCURRENCE",
+    "entityId": "anatthasaṃhito",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anavajjā",
+    "entityType": "OCCURRENCE",
+    "entityId": "anavajjā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__aniccaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "aniccaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__antā",
+    "entityType": "OCCURRENCE",
+    "entityId": "antā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__antalikkhe",
+    "entityType": "OCCURRENCE",
+    "entityId": "antalikkhe",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anūpaghāto",
+    "entityType": "OCCURRENCE",
+    "entityId": "anūpaghāto",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anūpavādo",
+    "entityType": "OCCURRENCE",
+    "entityId": "anūpavādo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anurakkhe",
+    "entityType": "OCCURRENCE",
+    "entityId": "anurakkhe",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anussavena",
+    "entityType": "OCCURRENCE",
+    "entityId": "anussavena",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__anveti",
+    "entityType": "OCCURRENCE",
+    "entityId": "anveti",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__aparimāṇaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "aparimāṇaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__appakicco",
+    "entityType": "OCCURRENCE",
+    "entityId": "appakicco",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__appamādena",
+    "entityType": "OCCURRENCE",
+    "entityId": "appamādena",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ārāme",
+    "entityType": "OCCURRENCE",
+    "entityId": "ārāme",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ariyasaccaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "ariyasaccaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__asevanā",
+    "entityType": "OCCURRENCE",
+    "entityId": "asevanā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__asokaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "asokaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ātāpī",
+    "entityType": "OCCURRENCE",
+    "entityId": "ātāpī",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__athopi",
+    "entityType": "OCCURRENCE",
+    "entityId": "athopi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__attā",
+    "entityType": "OCCURRENCE",
+    "entityId": "attā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__attadīpā",
+    "entityType": "OCCURRENCE",
+    "entityId": "attadīpā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__attakilamathānuyogo",
+    "entityType": "OCCURRENCE",
+    "entityId": "attakilamathānuyogo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__attanāva",
+    "entityType": "OCCURRENCE",
+    "entityId": "attanāva",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__attasammāpaṇidhi",
+    "entityType": "OCCURRENCE",
+    "entityId": "attasammāpaṇidhi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__attasaraṇā",
+    "entityType": "OCCURRENCE",
+    "entityId": "attasaraṇā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__atthakusalena",
+    "entityType": "OCCURRENCE",
+    "entityId": "atthakusalena",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__atthaṅgamāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "atthaṅgamāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__atthi",
+    "entityType": "OCCURRENCE",
+    "entityId": "atthi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__avadhi",
+    "entityType": "OCCURRENCE",
+    "entityId": "avadhi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ayaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "ayaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__āyusā",
+    "entityType": "OCCURRENCE",
+    "entityId": "āyusā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bāhiya",
+    "entityType": "OCCURRENCE",
+    "entityId": "bāhiya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bāhusaccañca",
+    "entityType": "OCCURRENCE",
+    "entityId": "bāhusaccañca",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bālānaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "bālānaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bārāṇasiyaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "bārāṇasiyaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhagavā",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhagavā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhante",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhante",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhāsati",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhāsati",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhāsissāma",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhāsissāma",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhāsissāmi",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhāsissāmi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhāsitaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhāsitaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhavantu",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhavantu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhāvaye",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhāvaye",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhavissāma",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhavissāma",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhavissati",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhavissati",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhikkhave",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhikkhave",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhikkhu",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhikkhu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhikkhuno",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhikkhuno",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhummāni",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhummāni",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhūtā",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhūtā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__bhūtāni",
+    "entityType": "OCCURRENCE",
+    "entityId": "bhūtāni",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__buddhā",
+    "entityType": "OCCURRENCE",
+    "entityId": "buddhā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__buddhāna",
+    "entityType": "OCCURRENCE",
+    "entityId": "buddhāna",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__buddhe",
+    "entityType": "OCCURRENCE",
+    "entityId": "buddhe",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__byāpannacittā",
+    "entityType": "OCCURRENCE",
+    "entityId": "byāpannacittā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ca",
+    "entityType": "OCCURRENCE",
+    "entityId": "ca",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__cakkaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "cakkaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__cakkhu",
+    "entityType": "OCCURRENCE",
+    "entityId": "cakkhu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__cakkhukaraṇī",
+    "entityType": "OCCURRENCE",
+    "entityId": "cakkhukaraṇī",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__cakkhuviññāṇaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "cakkhuviññāṇaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__cassa",
+    "entityType": "OCCURRENCE",
+    "entityId": "cassa",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__cattāro",
+    "entityType": "OCCURRENCE",
+    "entityId": "cattāro",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ce",
+    "entityType": "OCCURRENCE",
+    "entityId": "ce",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ceva",
+    "entityType": "OCCURRENCE",
+    "entityId": "ceva",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__chāyā",
+    "entityType": "OCCURRENCE",
+    "entityId": "chāyā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__cittaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "cittaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__cittānupassī",
+    "entityType": "OCCURRENCE",
+    "entityId": "cittānupassī",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__citte",
+    "entityType": "OCCURRENCE",
+    "entityId": "citte",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__desessāmi",
+    "entityType": "OCCURRENCE",
+    "entityId": "desessāmi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__desito",
+    "entityType": "OCCURRENCE",
+    "entityId": "desito",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dhammā",
+    "entityType": "OCCURRENCE",
+    "entityId": "dhammā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dhammadīpā",
+    "entityType": "OCCURRENCE",
+    "entityId": "dhammadīpā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dhammaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "dhammaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dhammānupassī",
+    "entityType": "OCCURRENCE",
+    "entityId": "dhammānupassī",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dhammāpi",
+    "entityType": "OCCURRENCE",
+    "entityId": "dhammāpi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dhammasaraṇā",
+    "entityType": "OCCURRENCE",
+    "entityId": "dhammasaraṇā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dhamme",
+    "entityType": "OCCURRENCE",
+    "entityId": "dhamme",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dhammesu",
+    "entityType": "OCCURRENCE",
+    "entityId": "dhammesu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dhammo",
+    "entityType": "OCCURRENCE",
+    "entityId": "dhammo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__disāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "disāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__diṭṭhaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "diṭṭhaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__diṭṭhamattaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "diṭṭhamattaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__diṭṭhinijjhānakkhantiya",
+    "entityType": "OCCURRENCE",
+    "entityId": "diṭṭhinijjhānakkhantiya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dosantarā",
+    "entityType": "OCCURRENCE",
+    "entityId": "dosantarā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dukkhadomanassānaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "dukkhadomanassānaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dukkham",
+    "entityType": "OCCURRENCE",
+    "entityId": "dukkham",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dukkhaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "dukkhaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dukkhanirodhagāminī",
+    "entityType": "OCCURRENCE",
+    "entityId": "dukkhanirodhagāminī",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dukkhanirodhaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "dukkhanirodhaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dukkhasamudayaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "dukkhasamudayaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dukkho",
+    "entityType": "OCCURRENCE",
+    "entityId": "dukkho",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__dve",
+    "entityType": "OCCURRENCE",
+    "entityId": "dve",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ekaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "ekaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ekaputtam",
+    "entityType": "OCCURRENCE",
+    "entityId": "ekaputtam",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ekāyano",
+    "entityType": "OCCURRENCE",
+    "entityId": "ekāyano",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__etaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "etaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__etena",
+    "entityType": "OCCURRENCE",
+    "entityId": "etena",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__evaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "evaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__gaccheyya",
+    "entityType": "OCCURRENCE",
+    "entityId": "gaccheyya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__gahaṇatthāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "gahaṇatthāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__gammo",
+    "entityType": "OCCURRENCE",
+    "entityId": "gammo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__gandhā",
+    "entityType": "OCCURRENCE",
+    "entityId": "gandhā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ghānaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "ghānaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ghānaviññāṇaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "ghānaviññāṇaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__hi",
+    "entityType": "OCCURRENCE",
+    "entityId": "hi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__hidaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "hidaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__hīno",
+    "entityType": "OCCURRENCE",
+    "entityId": "hīno",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__hontu",
+    "entityType": "OCCURRENCE",
+    "entityId": "hontu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__hoti",
+    "entityType": "OCCURRENCE",
+    "entityId": "hoti",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__hotu",
+    "entityType": "OCCURRENCE",
+    "entityId": "hotu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__huraṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "huraṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__idaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "idaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__idampi",
+    "entityType": "OCCURRENCE",
+    "entityId": "idampi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__idha",
+    "entityType": "OCCURRENCE",
+    "entityId": "idha",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ime",
+    "entityType": "OCCURRENCE",
+    "entityId": "ime",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__isipatane",
+    "entityType": "OCCURRENCE",
+    "entityId": "isipatane",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__itikirāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "itikirāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__jāneyyātha",
+    "entityType": "OCCURRENCE",
+    "entityId": "jāneyyātha",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__jetavane",
+    "entityType": "OCCURRENCE",
+    "entityId": "jetavane",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__jivhā",
+    "entityType": "OCCURRENCE",
+    "entityId": "jivhā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__jivhāviññāṇaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "jivhāviññāṇaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kālāmā",
+    "entityType": "OCCURRENCE",
+    "entityId": "kālāmā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kāmasukhallikānuyogo",
+    "entityType": "OCCURRENCE",
+    "entityId": "kāmasukhallikānuyogo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kāmesu",
+    "entityType": "OCCURRENCE",
+    "entityId": "kāmesu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kammantā",
+    "entityType": "OCCURRENCE",
+    "entityId": "kammantā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kammasadhammaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "kammasadhammaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kampati",
+    "entityType": "OCCURRENCE",
+    "entityId": "kampati",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kañci",
+    "entityType": "OCCURRENCE",
+    "entityId": "kañci",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__karaṇīyam",
+    "entityType": "OCCURRENCE",
+    "entityId": "karaṇīyam",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__karoti",
+    "entityType": "OCCURRENCE",
+    "entityId": "karoti",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__karunacittā",
+    "entityType": "OCCURRENCE",
+    "entityId": "karunacittā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__katame",
+    "entityType": "OCCURRENCE",
+    "entityId": "katame",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__katapuññatā",
+    "entityType": "OCCURRENCE",
+    "entityId": "katapuññatā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__katthaci",
+    "entityType": "OCCURRENCE",
+    "entityId": "katthaci",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kāyānupassī",
+    "entityType": "OCCURRENCE",
+    "entityId": "kāyānupassī",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kāyaviññāṇaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "kāyaviññāṇaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kāye",
+    "entityType": "OCCURRENCE",
+    "entityId": "kāye",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kāyo",
+    "entityType": "OCCURRENCE",
+    "entityId": "kāyo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__khantī",
+    "entityType": "OCCURRENCE",
+    "entityId": "khantī",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__khayaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "khayaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__khemaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "khemaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__khemino",
+    "entityType": "OCCURRENCE",
+    "entityId": "khemino",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kho",
+    "entityType": "OCCURRENCE",
+    "entityId": "kho",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kiṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "kiṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kiñca",
+    "entityType": "OCCURRENCE",
+    "entityId": "kiñca",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kiñci",
+    "entityType": "OCCURRENCE",
+    "entityId": "kiñci",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kullaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "kullaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kullūpamaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "kullūpamaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kullūpamo",
+    "entityType": "OCCURRENCE",
+    "entityId": "kullūpamo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kurūnaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "kurūnaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kurūsu",
+    "entityType": "OCCURRENCE",
+    "entityId": "kurūsu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kusalā",
+    "entityType": "OCCURRENCE",
+    "entityId": "kusalā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__kusalassa",
+    "entityType": "OCCURRENCE",
+    "entityId": "kusalassa",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__lokadhammehi",
+    "entityType": "OCCURRENCE",
+    "entityId": "lokadhammehi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__loke",
+    "entityType": "OCCURRENCE",
+    "entityId": "loke",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__mā",
+    "entityType": "OCCURRENCE",
+    "entityId": "mā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__maggo",
+    "entityType": "OCCURRENCE",
+    "entityId": "maggo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__majjhimā",
+    "entityType": "OCCURRENCE",
+    "entityId": "majjhimā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__maṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "maṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__manasā",
+    "entityType": "OCCURRENCE",
+    "entityId": "manasā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__mānasaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "mānasaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__maṅgalamuttamaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "maṅgalamuttamaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__maññatha",
+    "entityType": "OCCURRENCE",
+    "entityId": "maññatha",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__mano",
+    "entityType": "OCCURRENCE",
+    "entityId": "mano",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__manomayā",
+    "entityType": "OCCURRENCE",
+    "entityId": "manomayā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__manopubbaṅgamā",
+    "entityType": "OCCURRENCE",
+    "entityId": "manopubbaṅgamā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__manoseṭṭhā",
+    "entityType": "OCCURRENCE",
+    "entityId": "manoseṭṭhā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__manoviññāṇaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "manoviññāṇaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__mātā",
+    "entityType": "OCCURRENCE",
+    "entityId": "mātā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__mātāpitu",
+    "entityType": "OCCURRENCE",
+    "entityId": "mātāpitu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__mayā",
+    "entityType": "OCCURRENCE",
+    "entityId": "mayā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__me",
+    "entityType": "OCCURRENCE",
+    "entityId": "me",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__mettacittā",
+    "entityType": "OCCURRENCE",
+    "entityId": "mettacittā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__migadāye",
+    "entityType": "OCCURRENCE",
+    "entityId": "migadāye",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__mudu",
+    "entityType": "OCCURRENCE",
+    "entityId": "mudu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__mutaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "mutaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__mutamattaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "mutamattaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__na",
+    "entityType": "OCCURRENCE",
+    "entityId": "na",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__naṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "naṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__nāma",
+    "entityType": "OCCURRENCE",
+    "entityId": "nāma",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ñāṇakaraṇī",
+    "entityType": "OCCURRENCE",
+    "entityId": "ñāṇakaraṇī",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__nātimaññetha",
+    "entityType": "OCCURRENCE",
+    "entityId": "nātimaññetha",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__nāvissajjeyya",
+    "entityType": "OCCURRENCE",
+    "entityId": "nāvissajjeyya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__nayahetu",
+    "entityType": "OCCURRENCE",
+    "entityId": "nayahetu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ñāyassa",
+    "entityType": "OCCURRENCE",
+    "entityId": "ñāyassa",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__nevidha",
+    "entityType": "OCCURRENCE",
+    "entityId": "nevidha",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__nibbānaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "nibbānaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__nibbānassa",
+    "entityType": "OCCURRENCE",
+    "entityId": "nibbānassa",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__nibbānāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "nibbānāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__niccaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "niccaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__nigamo",
+    "entityType": "OCCURRENCE",
+    "entityId": "nigamo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__nikubbetha",
+    "entityType": "OCCURRENCE",
+    "entityId": "nikubbetha",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__nittharaṇatthāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "nittharaṇatthāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__niyaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "niyaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__no",
+    "entityType": "OCCURRENCE",
+    "entityId": "no",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pabbajitena",
+    "entityType": "OCCURRENCE",
+    "entityId": "pabbajitena",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pabbajito",
+    "entityType": "OCCURRENCE",
+    "entityId": "pabbajito",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__padaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "padaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__paduṭṭhena",
+    "entityType": "OCCURRENCE",
+    "entityId": "paduṭṭhena",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pageva",
+    "entityType": "OCCURRENCE",
+    "entityId": "pageva",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pahātabbā",
+    "entityType": "OCCURRENCE",
+    "entityId": "pahātabbā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pahātabbaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "pahātabbaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pahātabbāti",
+    "entityType": "OCCURRENCE",
+    "entityId": "pahātabbāti",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__paṇḍitānañca",
+    "entityType": "OCCURRENCE",
+    "entityId": "paṇḍitānañca",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__paṇītaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "paṇītaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pāpakaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "pāpakaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pāpikaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "pāpikaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__paraṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "paraṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__paramaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "paramaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__paramparāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "paramparāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__paro",
+    "entityType": "OCCURRENCE",
+    "entityId": "paro",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__parūpaghātī",
+    "entityType": "OCCURRENCE",
+    "entityId": "parūpaghātī",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pasannena",
+    "entityType": "OCCURRENCE",
+    "entityId": "pasannena",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pātimokkhe",
+    "entityType": "OCCURRENCE",
+    "entityId": "pātimokkhe",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__paṭipadā",
+    "entityType": "OCCURRENCE",
+    "entityId": "paṭipadā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__patirūpadesavāso",
+    "entityType": "OCCURRENCE",
+    "entityId": "patirūpadesavāso",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__phoṭṭhabbā",
+    "entityType": "OCCURRENCE",
+    "entityId": "phoṭṭhabbā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__phuṭṭhassa",
+    "entityType": "OCCURRENCE",
+    "entityId": "phuṭṭhassa",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pi",
+    "entityType": "OCCURRENCE",
+    "entityId": "pi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__piṭakasampadānena",
+    "entityType": "OCCURRENCE",
+    "entityId": "piṭakasampadānena",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pothujjaniko",
+    "entityType": "OCCURRENCE",
+    "entityId": "pothujjaniko",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pubbe",
+    "entityType": "OCCURRENCE",
+    "entityId": "pubbe",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pūjā",
+    "entityType": "OCCURRENCE",
+    "entityId": "pūjā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__pūjaneyyānaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "pūjaneyyānaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__puratthimāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "puratthimāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__puriso",
+    "entityType": "OCCURRENCE",
+    "entityId": "puriso",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__puttadārassa",
+    "entityType": "OCCURRENCE",
+    "entityId": "puttadārassa",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__puttaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "puttaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__rasā",
+    "entityType": "OCCURRENCE",
+    "entityId": "rasā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ratanaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "ratanaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__rūpā",
+    "entityType": "OCCURRENCE",
+    "entityId": "rūpā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__rūpaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "rūpaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__rūpañca",
+    "entityType": "OCCURRENCE",
+    "entityId": "rūpañca",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sabbabhūtesu",
+    "entityType": "OCCURRENCE",
+    "entityId": "sabbabhūtesu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sabbaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "sabbaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sabbapāpassa",
+    "entityType": "OCCURRENCE",
+    "entityId": "sabbapāpassa",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sabbe",
+    "entityType": "OCCURRENCE",
+    "entityId": "sabbe",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sabbeva",
+    "entityType": "OCCURRENCE",
+    "entityId": "sabbeva",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__saccena",
+    "entityType": "OCCURRENCE",
+    "entityId": "saccena",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sacchikiriyāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "sacchikiriyāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sacittapariyodapanaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "sacittapariyodapanaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__saddā",
+    "entityType": "OCCURRENCE",
+    "entityId": "saddā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__saggesu",
+    "entityType": "OCCURRENCE",
+    "entityId": "saggesu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sakkacca",
+    "entityType": "OCCURRENCE",
+    "entityId": "sakkacca",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sakko",
+    "entityType": "OCCURRENCE",
+    "entityId": "sakko",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sakyamunī",
+    "entityType": "OCCURRENCE",
+    "entityId": "sakyamunī",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sallahukavutti",
+    "entityType": "OCCURRENCE",
+    "entityId": "sallahukavutti",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__samāgatāni",
+    "entityType": "OCCURRENCE",
+    "entityId": "samāgatāni",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__samāhito",
+    "entityType": "OCCURRENCE",
+    "entityId": "samāhito",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__samaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "samaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__samaṇo",
+    "entityType": "OCCURRENCE",
+    "entityId": "samaṇo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__samatikkamāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "samatikkamāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__samayaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "samayaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sambodhāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "sambodhāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sammati",
+    "entityType": "OCCURRENCE",
+    "entityId": "sammati",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sampādetha",
+    "entityType": "OCCURRENCE",
+    "entityId": "sampādetha",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sampajāno",
+    "entityType": "OCCURRENCE",
+    "entityId": "sampajāno",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__saṃvaro",
+    "entityType": "OCCURRENCE",
+    "entityId": "saṃvaro",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__saṃvattati",
+    "entityType": "OCCURRENCE",
+    "entityId": "saṃvattati",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__saṃvatteyya",
+    "entityType": "OCCURRENCE",
+    "entityId": "saṃvatteyya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__saṅgaho",
+    "entityType": "OCCURRENCE",
+    "entityId": "saṅgaho",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__saṅkhārā",
+    "entityType": "OCCURRENCE",
+    "entityId": "saṅkhārā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__saññā",
+    "entityType": "OCCURRENCE",
+    "entityId": "saññā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__santaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "santaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__santussako",
+    "entityType": "OCCURRENCE",
+    "entityId": "santussako",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__saraṇā",
+    "entityType": "OCCURRENCE",
+    "entityId": "saraṇā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sāsanaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "sāsanaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__satimā",
+    "entityType": "OCCURRENCE",
+    "entityId": "satimā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__satipaṭṭhānā",
+    "entityType": "OCCURRENCE",
+    "entityId": "satipaṭṭhānā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sattā",
+    "entityType": "OCCURRENCE",
+    "entityId": "sattā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sattānaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "sattānaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sāvajjā",
+    "entityType": "OCCURRENCE",
+    "entityId": "sāvajjā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sāvatthiyaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "sāvatthiyaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sevanā",
+    "entityType": "OCCURRENCE",
+    "entityId": "sevanā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sevitabbā",
+    "entityType": "OCCURRENCE",
+    "entityId": "sevitabbā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__seyyathāpi",
+    "entityType": "OCCURRENCE",
+    "entityId": "seyyathāpi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sikkhitabbaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "sikkhitabbaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sippañca",
+    "entityType": "OCCURRENCE",
+    "entityId": "sippañca",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sokaparidevānaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "sokaparidevānaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sotaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "sotaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sotaviññāṇaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "sotaviññāṇaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__subharo",
+    "entityType": "OCCURRENCE",
+    "entityId": "subharo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__subhāsitā",
+    "entityType": "OCCURRENCE",
+    "entityId": "subhāsitā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__suhujū",
+    "entityType": "OCCURRENCE",
+    "entityId": "suhujū",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sukham",
+    "entityType": "OCCURRENCE",
+    "entityId": "sukham",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sukhaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "sukhaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sukhino",
+    "entityType": "OCCURRENCE",
+    "entityId": "sukhino",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sukhitattā",
+    "entityType": "OCCURRENCE",
+    "entityId": "sukhitattā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sumanā",
+    "entityType": "OCCURRENCE",
+    "entityId": "sumanā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__suṇantu",
+    "entityType": "OCCURRENCE",
+    "entityId": "suṇantu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__susikkhito",
+    "entityType": "OCCURRENCE",
+    "entityId": "susikkhito",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sutaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "sutaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sutamattaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "sutamattaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__sūvaco",
+    "entityType": "OCCURRENCE",
+    "entityId": "sūvaco",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__suvatthi",
+    "entityType": "OCCURRENCE",
+    "entityId": "suvatthi",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__takkahetu",
+    "entityType": "OCCURRENCE",
+    "entityId": "takkahetu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__taṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "taṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__tapo",
+    "entityType": "OCCURRENCE",
+    "entityId": "tapo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__tasmātiha",
+    "entityType": "OCCURRENCE",
+    "entityId": "tasmātiha",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__tassa",
+    "entityType": "OCCURRENCE",
+    "entityId": "tassa",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__tathāgatena",
+    "entityType": "OCCURRENCE",
+    "entityId": "tathāgatena",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__tato",
+    "entityType": "OCCURRENCE",
+    "entityId": "tato",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__tattha",
+    "entityType": "OCCURRENCE",
+    "entityId": "tattha",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__te",
+    "entityType": "OCCURRENCE",
+    "entityId": "te",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__tena",
+    "entityType": "OCCURRENCE",
+    "entityId": "tena",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__tesaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "tesaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__tesūpasammati",
+    "entityType": "OCCURRENCE",
+    "entityId": "tesūpasammati",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__titikkhā",
+    "entityType": "OCCURRENCE",
+    "entityId": "titikkhā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__tumhe",
+    "entityType": "OCCURRENCE",
+    "entityId": "tumhe",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__tvaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "tvaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ubhayamantarena",
+    "entityType": "OCCURRENCE",
+    "entityId": "ubhayamantarena",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ujū",
+    "entityType": "OCCURRENCE",
+    "entityId": "ujū",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__upanayhanti",
+    "entityType": "OCCURRENCE",
+    "entityId": "upanayhanti",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__upasamāya",
+    "entityType": "OCCURRENCE",
+    "entityId": "upasamāya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__upasampadā",
+    "entityType": "OCCURRENCE",
+    "entityId": "upasampadā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__upasampajja",
+    "entityType": "OCCURRENCE",
+    "entityId": "upasampajja",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__upaṭṭhānaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "upaṭṭhānaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__va",
+    "entityType": "OCCURRENCE",
+    "entityId": "va",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vā",
+    "entityType": "OCCURRENCE",
+    "entityId": "vā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vācā",
+    "entityType": "OCCURRENCE",
+    "entityId": "vācā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vācaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "vācaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vadanti",
+    "entityType": "OCCURRENCE",
+    "entityId": "vadanti",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vahato",
+    "entityType": "OCCURRENCE",
+    "entityId": "vahato",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vayadhammā",
+    "entityType": "OCCURRENCE",
+    "entityId": "vayadhammā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vedanā",
+    "entityType": "OCCURRENCE",
+    "entityId": "vedanā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vedanānupassī",
+    "entityType": "OCCURRENCE",
+    "entityId": "vedanānupassī",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vedanāsu",
+    "entityType": "OCCURRENCE",
+    "entityId": "vedanāsu",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__veraṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "veraṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__viharatha",
+    "entityType": "OCCURRENCE",
+    "entityId": "viharatha",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__viharathāti",
+    "entityType": "OCCURRENCE",
+    "entityId": "viharathāti",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__viharati",
+    "entityType": "OCCURRENCE",
+    "entityId": "viharati",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__viharitabbaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "viharitabbaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__viheṭhayanto",
+    "entityType": "OCCURRENCE",
+    "entityId": "viheṭhayanto",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vinayo",
+    "entityType": "OCCURRENCE",
+    "entityId": "vinayo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vineyya",
+    "entityType": "OCCURRENCE",
+    "entityId": "vineyya",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__viññāṇaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "viññāṇaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__viññātaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "viññātaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__viññātamattaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "viññātamattaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vipariṇamissati",
+    "entityType": "OCCURRENCE",
+    "entityId": "vipariṇamissati",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__virāgaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "virāgaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__virajaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "virajaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__visuddhiyā",
+    "entityType": "OCCURRENCE",
+    "entityId": "visuddhiyā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vittaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "vittaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__vo",
+    "entityType": "OCCURRENCE",
+    "entityId": "vo",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__yā",
+    "entityType": "OCCURRENCE",
+    "entityId": "yā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__yad",
+    "entityType": "OCCURRENCE",
+    "entityId": "yad",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__yadā",
+    "entityType": "OCCURRENCE",
+    "entityId": "yadā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__yadaniccaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "yadaniccaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__yadidaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "yadidaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__yaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "yaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__yāni",
+    "entityType": "OCCURRENCE",
+    "entityId": "yāni",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__yānīdha",
+    "entityType": "OCCURRENCE",
+    "entityId": "yānīdha",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__yantaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "yantaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__yassa",
+    "entityType": "OCCURRENCE",
+    "entityId": "yassa",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__yathā",
+    "entityType": "OCCURRENCE",
+    "entityId": "yathā",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__yato",
+    "entityType": "OCCURRENCE",
+    "entityId": "yato",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__ye",
+    "entityType": "OCCURRENCE",
+    "entityId": "ye",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "occurrence__yidaṃ",
+    "entityType": "OCCURRENCE",
+    "entityId": "yidaṃ",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "morphology__anattā__analysis",
+    "entityType": "MORPHOLOGY_ANALYSIS",
+    "entityId": "anattā__analysis",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "morphology__dhammā__analysis",
+    "entityType": "MORPHOLOGY_ANALYSIS",
+    "entityId": "dhammā__analysis",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "morphology__dhammaṃ__analysis",
+    "entityType": "MORPHOLOGY_ANALYSIS",
+    "entityId": "dhammaṃ__analysis",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "morphology__dukkhaṃ__analysis",
+    "entityType": "MORPHOLOGY_ANALYSIS",
+    "entityId": "dukkhaṃ__analysis",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "morphology__nibbānaṃ__analysis",
+    "entityType": "MORPHOLOGY_ANALYSIS",
+    "entityId": "nibbānaṃ__analysis",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  },
+  {
+    "id": "morphology__satimā__analysis",
+    "entityType": "MORPHOLOGY_ANALYSIS",
+    "entityId": "satimā__analysis",
+    "status": "UNREVIEWED",
+    "priority": "NORMAL",
+    "note": ""
+  }
+]

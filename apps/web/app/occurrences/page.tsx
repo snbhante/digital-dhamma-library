@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import occurrences from "../../../../data/occurrences.json";
 
 type Mode = "surface" | "lemma" | "both";
@@ -9,6 +9,11 @@ type Mode = "surface" | "lemma" | "both";
 export default function OccurrencesPage() {
   const [query, setQuery] = useState("");
   const [mode, setMode] = useState<Mode>("both");
+
+  useEffect(() => {
+    const initial = new URLSearchParams(window.location.search).get("q") ?? "";
+    if (initial) setQuery(initial);
+  }, []);
   const results = useMemo(() => {
     const q = query.normalize("NFKC").toLocaleLowerCase().trim();
     if (!q) return occurrences.slice(0, 80);

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "anattā__analysis",
+    "token": "anattā",
+    "normalized": "anattā",
+    "lemma": "anattā",
+    "analysisType": "LEXICAL_FORM",
+    "grammar": "adjective / substantive adjective",
+    "sourceRecord": "anattā",
+    "confidence": "starter",
+    "reviewStatus": "UNREVIEWED",
+    "reviewNote": "",
+    "provenance": "Project-curated starter morphology index; not a complete Pāḷi morphological parser."
+  },
+  {
+    "id": "dhammā__analysis",
+    "token": "dhammā",
+    "normalized": "dhammā",
+    "lemma": "dhamma",
+    "analysisType": "LEXICAL_FORM",
+    "grammar": "noun; masculine/neuter depending on sense; context determines inflection",
+    "sourceRecord": "dhamma",
+    "confidence": "starter",
+    "reviewStatus": "UNREVIEWED",
+    "reviewNote": "",
+    "provenance": "Project-curated starter morphology index; not a complete Pāḷi morphological parser."
+  },
+  {
+    "id": "dhammaṃ__analysis",
+    "token": "dhammaṃ",
+    "normalized": "dhammaṃ",
+    "lemma": "dhamma",
+    "analysisType": "LEXICAL_FORM",
+    "grammar": "noun; masculine/neuter depending on sense; context determines inflection",
+    "sourceRecord": "dhamma",
+    "confidence": "starter",
+    "reviewStatus": "UNREVIEWED",
+    "reviewNote": "",
+    "provenance": "Project-curated starter morphology index; not a complete Pāḷi morphological parser."
+  },
+  {
+    "id": "dukkhaṃ__analysis",
+    "token": "dukkhaṃ",
+    "normalized": "dukkhaṃ",
+    "lemma": "dukkha",
+    "analysisType": "LEXICAL_FORM",
+    "grammar": "neuter noun",
+    "sourceRecord": "dukkha",
+    "confidence": "starter",
+    "reviewStatus": "UNREVIEWED",
+    "reviewNote": "",
+    "provenance": "Project-curated starter morphology index; not a complete Pāḷi morphological parser."
+  },
+  {
+    "id": "nibbānaṃ__analysis",
+    "token": "nibbānaṃ",
+    "normalized": "nibbānaṃ",
+    "lemma": "nibbāna",
+    "analysisType": "LEXICAL_FORM",
+    "grammar": "neuter noun",
+    "sourceRecord": "nibbāna",
+    "confidence": "starter",
+    "reviewStatus": "UNREVIEWED",
+    "reviewNote": "",
+    "provenance": "Project-curated starter morphology index; not a complete Pāḷi morphological parser."
+  },
+  {
+    "id": "satimā__analysis",
+    "token": "satimā",
+    "normalized": "satimā",
+    "lemma": "sati",
+    "analysisType": "LEXICAL_FORM",
+    "grammar": "feminine noun",
+    "sourceRecord": "sati",
+    "confidence": "starter",
+    "reviewStatus": "UNREVIEWED",
+    "reviewNote": "",
+    "provenance": "Project-curated starter morphology index; not a complete Pāḷi morphological parser."
+  }
+]

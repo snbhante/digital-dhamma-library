@@ -81,7 +81,7 @@ for (const work of corpus) {
 }
 const occurrences = [...occurrenceMap.entries()]
   .sort(([a], [b]) => a.localeCompare(b))
-  .map(([, record]) => ({ token: record.token, normalized: record.normalized, lemma: record.lemma, count: record.count, paragraphCount: record.references.size, references: [...record.references.values()] }));
+  .map(([, record]) => ({ token: record.token, normalized: record.normalized, lemma: record.lemma, count: record.count, paragraphCount: record.references.size, references: [...record.references.values()], reviewStatus: "UNREVIEWED", reviewNote: "", analysisSource: record.lemma ? "starter-morphology-index" : "token-index", analysisConfidence: record.lemma ? "starter" : "unassigned" }));
 
 const sentences = [];
 for (const work of corpus) {
@@ -146,6 +146,109 @@ for (const item of morphology) {
   }
 }
 
+
+const splitSentences = (text) => (text ?? "").trim().split(/(?<=[.!?।])\s+/).map((item) => item.trim()).filter(Boolean);
+const sentenceByParagraph = new Map();
+for (const sentence of sentences) {
+  const list = sentenceByParagraph.get(sentence.paragraphId) ?? [];
+  list.push(sentence);
+  sentenceByParagraph.set(sentence.paragraphId, list);
+}
+const sentenceAlignments = [];
+for (const work of corpus) {
+  for (const paragraph of work.paragraphs) {
+    const sourceSentences = sentenceByParagraph.get(paragraph.id) ?? [];
+    for (const [translationId, language, key] of [["project-english-2026-09", "English", "english"], ["project-bangla-2026-09", "বাংলা", "bangla"]]) {
+      const targetSentences = splitSentences(paragraph[key]);
+      const count = Math.max(sourceSentences.length, targetSentences.length);
+      for (let index = 0; index < count; index += 1) {
+        const source = sourceSentences[index];
+        const target = targetSentences[index] ?? "";
+        sentenceAlignments.push({
+          id: `${translationId}__${source?.id ?? `${paragraph.id}.s${String(index + 1).padStart(3, "0")}`}`,
+          translationId,
+          language,
+          workId: work.id,
+          paragraphId: paragraph.id,
+          sourceSentenceId: source?.id ?? null,
+          translationSentenceNumber: index + 1,
+          sourcePali: source?.pali ?? "",
+          translationText: target,
+          alignmentType: source && target ? "SENTENCE_1_TO_1_HEURISTIC" : "UNALIGNED",
+          confidence: source && target && sourceSentences.length === targetSentences.length ? "heuristic" : "starter",
+          reviewStatus: "NEEDS_REVIEW",
+          reviewNote: "Generated from punctuation-based sentence segmentation and ordinal matching; human review required."
+        });
+      }
+    }
+  }
+}
+
+const editionWitnesses = [];
+for (const work of corpus) {
+  editionWitnesses.push({
+    id: `${work.id}__${work.edition.toLowerCase().replaceAll("_", "-")}`,
+    workId: work.id,
+    editionId: work.edition.toLowerCase().replaceAll("_", "-"),
+    editionLabel: work.edition,
+    role: "PRIMARY_STARTER",
+    textStatus: "BUNDLED",
+    verificationStatus: "STARTER",
+    independentWitness: false,
+    paragraphCount: work.paragraphs.length,
+    sourceProvenance: work.source.provenance,
+    licenseStatus: work.source.licenseStatus,
+    note: "Only the project-curated starter witness is bundled. No independent alternate-edition text is invented or copied into this release."
+  });
+  editionWitnesses.push({
+    id: `${work.id}__alternate-witness-template`,
+    workId: work.id,
+    editionId: null,
+    editionLabel: "External alternate-edition witness (template)",
+    role: "ALTERNATE_TEMPLATE",
+    textStatus: "NOT_BUNDLED",
+    verificationStatus: "PLANNED",
+    independentWitness: true,
+    paragraphCount: 0,
+    sourceProvenance: "Metadata-only slot for a future independently sourced edition witness.",
+    licenseStatus: "Must be verified before import or redistribution.",
+    note: "Import only after source, edition identity, license, checksum, and reviewer verification are recorded."
+  });
+}
+
+const morphologyAnalyses = [];
+for (const occurrence of occurrences) {
+  if (!occurrence.lemma) continue;
+  const sourceRecord = morphology.find((item) => item.lemma === occurrence.lemma);
+  morphologyAnalyses.push({
+    id: `${occurrence.normalized}__analysis`,
+    token: occurrence.token,
+    normalized: occurrence.normalized,
+    lemma: occurrence.lemma,
+    analysisType: sourceRecord ? "LEXICAL_FORM" : "TOKEN_LEMMA",
+    grammar: sourceRecord?.analysis ?? null,
+    sourceRecord: sourceRecord?.id ?? null,
+    confidence: "starter",
+    reviewStatus: "UNREVIEWED",
+    reviewNote: "",
+    provenance: "Project-curated starter morphology index; not a complete Pāḷi morphological parser."
+  });
+}
+
+const citationProfiles = [
+  { id: "plain", label: "Plain citation", format: "plain", template: "{workTitle}, {paragraphId} ({edition}) — {url}", note: "Compact human-readable citation." },
+  { id: "markdown", label: "Markdown", format: "markdown", template: "[{workTitle}, {paragraphId}]({url}) — {edition}", note: "Markdown-compatible citation." },
+  { id: "bibtex", label: "BibTeX", format: "bibtex", template: "@misc{{{key}, title={{ {workTitle} }}, note={{ {paragraphId}; {edition} }}, url={{ {url} }}}}", note: "Minimal BibTeX record for a stable paragraph URL." },
+  { id: "apa", label: "APA-style web citation", format: "apa", template: "Digital Dhamma Library. ({year}). {workTitle}, {paragraphId}. {edition}. {url}", note: "Project profile; adapt author/editor details when a verified edition record is cited." },
+  { id: "chicago", label: "Chicago-style note", format: "chicago", template: "Digital Dhamma Library, “{workTitle},” {paragraphId}, {edition}, {url}.", note: "Project profile; add verified editor/publisher details when available." }
+];
+
+const reviewQueue = [
+  ...sentenceAlignments.map((item) => ({ id: item.id, entityType: "SENTENCE_ALIGNMENT", entityId: item.id, status: item.reviewStatus, priority: "NORMAL", note: item.reviewNote })),
+  ...occurrences.map((item) => ({ id: `occurrence__${item.token}`, entityType: "OCCURRENCE", entityId: item.token, status: item.reviewStatus, priority: "NORMAL", note: item.reviewNote })),
+  ...morphologyAnalyses.map((item) => ({ id: `morphology__${item.id}`, entityType: "MORPHOLOGY_ANALYSIS", entityId: item.id, status: item.reviewStatus, priority: "NORMAL", note: item.reviewNote }))
+];
+
 writeJson("data/editions.json", editions);
 writeJson("data/translations.json", translations);
 writeJson("data/morphology.json", morphology);
@@ -155,5 +258,10 @@ writeJson("data/sentences.json", sentences);
 writeJson("data/translation-alignments.json", translationAlignments);
 writeJson("data/dictionary-sources.json", dictionarySources);
 writeJson("data/derivations.json", derivations);
+writeJson("data/edition-witnesses.json", editionWitnesses);
+writeJson("data/sentence-alignments.json", sentenceAlignments);
+writeJson("data/morphology-analyses.json", morphologyAnalyses);
+writeJson("data/citation-profiles.json", citationProfiles);
+writeJson("data/review-queue.json", reviewQueue);
 
-console.log(`Research indexes generated: ${editions.length} editions, ${translations.length} translations, ${morphology.length} morphology records, ${occurrences.length} indexed tokens, ${sentences.length} sentence records, ${translationAlignments.length} translation alignments, ${dictionarySources.length} dictionary adapters, ${derivations.length} derivation records, ${crossReferences.length} cross-reference links.`);
+console.log(`Research indexes generated: ${editions.length} editions, ${translations.length} translations, ${morphology.length} morphology records, ${occurrences.length} indexed tokens, ${sentences.length} sentence records, ${sentenceAlignments.length} sentence alignments, ${translationAlignments.length} paragraph alignments, ${dictionarySources.length} dictionary adapters, ${morphologyAnalyses.length} morphology analyses, ${editionWitnesses.length} edition witness records, ${citationProfiles.length} citation profiles, ${reviewQueue.length} review queue records, ${derivations.length} derivation records, ${crossReferences.length} cross-reference links.`);

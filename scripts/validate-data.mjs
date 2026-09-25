@@ -25,9 +25,14 @@ const sentences = readJson("data/sentences.json");
 const alignments = readJson("data/translation-alignments.json");
 const dictionarySources = readJson("data/dictionary-sources.json");
 const derivations = readJson("data/derivations.json");
+const editionWitnesses = readJson("data/edition-witnesses.json");
+const sentenceAlignments = readJson("data/sentence-alignments.json");
+const morphologyAnalyses = readJson("data/morphology-analyses.json");
+const citationProfiles = readJson("data/citation-profiles.json");
+const reviewQueue = readJson("data/review-queue.json");
 const errors = [];
 
-for (const [value, label] of [[corpus,"Corpus"],[dictionary,"Dictionary"],[sources,"Sources"],[editions,"Editions"],[translations,"Translations"],[morphology,"Morphology"],[occurrences,"Occurrences"],[crossReferences,"Cross-references"],[commentaries,"Commentaries"],[sentences,"Sentences"],[alignments,"Translation alignments"],[dictionarySources,"Dictionary sources"],[derivations,"Derivations"]]) requireArray(value,label,errors);
+for (const [value, label] of [[corpus,"Corpus"],[dictionary,"Dictionary"],[sources,"Sources"],[editions,"Editions"],[translations,"Translations"],[morphology,"Morphology"],[occurrences,"Occurrences"],[crossReferences,"Cross-references"],[commentaries,"Commentaries"],[sentences,"Sentences"],[alignments,"Translation alignments"],[dictionarySources,"Dictionary sources"],[derivations,"Derivations"],[editionWitnesses,"Edition witnesses"],[sentenceAlignments,"Sentence alignments"],[morphologyAnalyses,"Morphology analyses"],[citationProfiles,"Citation profiles"],[reviewQueue,"Review queue"]]) requireArray(value,label,errors);
 
 const workIds = new Set();
 const paragraphIds = new Set();
@@ -56,7 +61,7 @@ for (const entry of dictionary) {
   for (const meaning of entry.meanings) if (!meaning.english || !meaning.bangla) errors.push(`Dictionary entry ${entry.id}: meaning requires English and Bangla.`);
 }
 
-uniqueIdCheck(sources,"Sources",errors); uniqueIdCheck(editions,"Editions",errors); uniqueIdCheck(translations,"Translations",errors); uniqueIdCheck(morphology,"Morphology",errors); uniqueIdCheck(sentences,"Sentences",errors); uniqueIdCheck(alignments,"Translation alignments",errors); uniqueIdCheck(dictionarySources,"Dictionary sources",errors); uniqueIdCheck(derivations,"Derivations",errors);
+uniqueIdCheck(sources,"Sources",errors); uniqueIdCheck(editions,"Editions",errors); uniqueIdCheck(translations,"Translations",errors); uniqueIdCheck(morphology,"Morphology",errors); uniqueIdCheck(sentences,"Sentences",errors); uniqueIdCheck(alignments,"Translation alignments",errors); uniqueIdCheck(dictionarySources,"Dictionary sources",errors); uniqueIdCheck(derivations,"Derivations",errors); uniqueIdCheck(editionWitnesses,"Edition witnesses",errors); uniqueIdCheck(sentenceAlignments,"Sentence alignments",errors); uniqueIdCheck(morphologyAnalyses,"Morphology analyses",errors); uniqueIdCheck(citationProfiles,"Citation profiles",errors); uniqueIdCheck(reviewQueue,"Review queue",errors);
 
 for (const edition of editions) if (!edition.edition || !edition.status || !edition.licenseStatus || !edition.provenance || !edition.comparisonRole) errors.push(`Edition ${edition.id ?? "<unknown>"} is incomplete.`);
 for (const t of translations) if (!t.language || !t.label || !t.licenseStatus) errors.push(`Translation ${t.id ?? "<unknown>"} is incomplete.`);
@@ -74,6 +79,7 @@ for (const o of occurrences) {
     referenceIds.add(referenceId);
   }
   if (typeof o.paragraphCount !== "number" || o.paragraphCount !== referenceIds.size) errors.push(`Occurrence ${o.token}: paragraphCount must equal unique reference count.`);
+  if (!["UNREVIEWED", "NEEDS_REVIEW", "VERIFIED", "REJECTED"].includes(o.reviewStatus)) errors.push(`Occurrence ${o.token}: invalid reviewStatus.`);
 }
 
 const sentenceIds = new Set();
@@ -93,10 +99,35 @@ for (const a of alignments) {
   if (!workIds.has(a.workId) || !paragraphIds.has(a.paragraphId)) errors.push(`Translation alignment ${a.id}: unknown work/paragraph.`);
 }
 
+
+const sentenceIdSet = new Set(sentences.map((item) => item.id));
+for (const a of sentenceAlignments) {
+  if (!a.translationId || !a.workId || !a.paragraphId || !a.alignmentType || !a.reviewStatus) errors.push(`Sentence alignment ${a.id ?? "<unknown>"} is incomplete.`);
+  if (!translationIds.has(a.translationId)) errors.push(`Sentence alignment ${a.id}: unknown translation ${a.translationId}`);
+  if (!workIds.has(a.workId) || !paragraphIds.has(a.paragraphId)) errors.push(`Sentence alignment ${a.id}: unknown work/paragraph.`);
+  if (a.sourceSentenceId && !sentenceIdSet.has(a.sourceSentenceId)) errors.push(`Sentence alignment ${a.id}: unknown source sentence ${a.sourceSentenceId}`);
+  if (!["NEEDS_REVIEW", "VERIFIED", "REJECTED", "UNREVIEWED"].includes(a.reviewStatus)) errors.push(`Sentence alignment ${a.id}: invalid reviewStatus.`);
+}
+for (const witness of editionWitnesses) {
+  if (!witness.workId || !witness.role || !witness.textStatus || !witness.verificationStatus) errors.push(`Edition witness ${witness.id ?? "<unknown>"} is incomplete.`);
+  if (!workIds.has(witness.workId)) errors.push(`Edition witness ${witness.id}: unknown work ${witness.workId}`);
+}
+for (const analysis of morphologyAnalyses) {
+  if (!analysis.id || !analysis.token || !analysis.lemma || !analysis.confidence || !analysis.provenance) errors.push(`Morphology analysis ${analysis.id ?? "<unknown>"} is incomplete.`);
+  if (!["UNREVIEWED", "NEEDS_REVIEW", "VERIFIED", "REJECTED"].includes(analysis.reviewStatus)) errors.push(`Morphology analysis ${analysis.id}: invalid reviewStatus.`);
+}
+for (const profile of citationProfiles) {
+  if (!profile.id || !profile.label || !profile.format || !profile.template) errors.push(`Citation profile ${profile.id ?? "<unknown>"} is incomplete.`);
+}
+for (const item of reviewQueue) {
+  if (!item.id || !item.entityType || !item.entityId || !item.status) errors.push(`Review queue item ${item.id ?? "<unknown>"} is incomplete.`);
+  if (!["UNREVIEWED", "NEEDS_REVIEW", "VERIFIED", "REJECTED"].includes(item.status)) errors.push(`Review queue item ${item.id}: invalid status.`);
+}
+
 const refIds = new Set();
 for (const ref of crossReferences) { if (!ref.id || !ref.from || !ref.to || !ref.relation) errors.push("Cross-reference is incomplete."); if (refIds.has(ref.id)) errors.push(`Duplicate cross-reference id: ${ref.id}`); refIds.add(ref.id); if (!workIds.has(ref.from) || !workIds.has(ref.to)) errors.push(`Cross-reference ${ref.id}: unknown target.`); }
 
 if (errors.length) { console.error("Data validation failed:"); for (const error of errors) console.error(`- ${error}`); process.exit(1); }
 const paragraphCount = corpus.reduce((sum, work) => sum + work.paragraphs.length, 0);
 const occurrenceCount = occurrences.reduce((sum, item) => sum + item.count, 0);
-console.log(`Data validation passed: ${corpus.length} work(s), ${paragraphCount} paragraph(s), ${sentences.length} sentence(s), ${dictionary.length} dictionary entries, ${sources.length} source records, ${editions.length} edition(s), ${translations.length} translation resource(s), ${alignments.length} translation alignments, ${morphology.length} morphology records, ${occurrences.length} indexed tokens / ${occurrenceCount} occurrences, ${derivations.length} derivation records, ${dictionarySources.length} dictionary adapters, ${crossReferences.length} cross-reference links.`);
+console.log(`Data validation passed: ${corpus.length} work(s), ${paragraphCount} paragraph(s), ${sentences.length} sentence(s), ${dictionary.length} dictionary entries, ${sources.length} source records, ${editions.length} edition(s), ${translations.length} translation resource(s), ${alignments.length} paragraph alignments, ${sentenceAlignments.length} sentence alignments, ${morphology.length} morphology records, ${morphologyAnalyses.length} morphology analyses, ${occurrences.length} indexed tokens / ${occurrenceCount} occurrences, ${editionWitnesses.length} edition witness records, ${citationProfiles.length} citation profiles, ${reviewQueue.length} review queue records, ${derivations.length} derivation records, ${dictionarySources.length} dictionary adapters, ${crossReferences.length} cross-reference links.`);

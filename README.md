@@ -156,4 +156,4 @@ Start the local research workbench at `/research/`.
 
 ## Phase 2.1 Research Engine
 
-The Phase 2.1 release (v0.6.0) adds sentence records, translation alignment records, lemma-aware occurrence indexing, dictionary source adapters, and starter lexical formation metadata. All generated indexes are reproducible with `npm run build:research-index`.
+The Phase 2.2 release (v0.7.0) adds edition-witness provenance, sentence-level heuristic alignment review records, richer starter morphology provenance, citation profiles, and a browser-local research review queue. All generated indexes are reproducible with `npm run build:research-index`.
