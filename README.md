@@ -1,4 +1,4 @@
-## Current release: Phase 2.4.1 / v0.9.1
+## Current release: Phase 2.4.2 / v0.9.2
 
 The current baseline includes a local-first personal research workspace for paragraph bookmarks, private notes, saved searches, and personal collections, with JSON export/import and an authenticated Supabase persistence target.
 

@@ -1,4 +1,4 @@
-# Phase 2.4.1 Guide
+# Phase 2.4.2 Guide
 
 ## Reader experience
 

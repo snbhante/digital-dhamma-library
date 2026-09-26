@@ -1,8 +1,8 @@
-# Phase 2.4.1 — Reader Polish, Manifest Fix & Citation UI
+# Phase 2.4.2 — Reader Polish, Manifest Fix & Citation UI
 
-Version: `0.9.1`
+Version: `0.9.2`
 
-Phase 2.4.1 keeps the complete Phase 2.4 baseline and fixes the reported manifest, reader-theme, and paragraph citation-action issues without changing canonical text IDs or the local research workspace schema.
+Phase 2.4.2 keeps the complete Phase 2.4 baseline and fixes the reported manifest, reader-theme, and paragraph citation-action issues without changing canonical text IDs or the local research workspace schema.
 
 ## Changes in 2.4.1
 
