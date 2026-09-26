@@ -1,8 +1,8 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-2.4.2",
+  "release": "phase-2.4.3",
   "baseline_date": "2026-09-26",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -47,5 +47,6 @@
     "Reader tools no longer use a hard-coded light background in dark mode",
     "Citation formats are grouped into an accessible details/summary dropdown",
     "All primary page surfaces expose a skip-to-content target"
-  ]
+  ],
+  "releaseSummary": "Phase 2.4.3 fixes the Next.js 16.3.6 + TypeScript 7 typecheck incompatibility by pinning TypeScript 6.0.3, using next typegen before tsc, and treating next-env.d.ts as generated."
 }

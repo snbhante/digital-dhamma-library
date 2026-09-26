@@ -1,7 +1,7 @@
 {
   "name": "@digital-dhamma-library/web",
   "private": true,
-  "version": "0.9.2",
+  "version": "0.9.3",
   "engines": {
     "node": ">=24.21.0 <25",
     "npm": ">=12.1.0"
@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "next typegen && tsc --noEmit"
   },
   "dependencies": {
     "next": "16.3.6",
@@ -22,6 +22,6 @@
     "@types/react-dom": "^19.0.0",
     "@tailwindcss/postcss": "4.3.0",
     "tailwindcss": "4.3.0",
-    "typescript": "7.0.2"
+    "typescript": "6.0.3"
   }
 }
