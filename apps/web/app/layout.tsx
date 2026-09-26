@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   },
   description: "Open Buddhist Digital Knowledge & Research Platform",
   metadataBase: new URL("https://snbhante.github.io/digital-dhamma-library/"),
-  manifest: "/manifest.webmanifest",
+  manifest: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/manifest.webmanifest`,
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

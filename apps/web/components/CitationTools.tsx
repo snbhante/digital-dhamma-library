@@ -46,11 +46,16 @@ export default function CitationTools({ workTitle, workId, paragraphId, edition 
   }
 
   return <div className="citation-tools">
-    <button className="small-button" onClick={() => copy(values.plain ?? "", "Citation")}>Copy</button>
-    <button className="small-button" onClick={() => copy(values.markdown ?? "", "Markdown")}>Markdown</button>
-    <button className="small-button" onClick={() => copy(values.bibtex ?? "", "BibTeX")}>BibTeX</button>
-    <button className="small-button" onClick={() => copy(values.apa ?? "", "APA")}>APA</button>
-    <button className="small-button" onClick={() => copy(values.chicago ?? "", "Chicago")}>Chicago</button>
+    <details className="citation-menu">
+      <summary className="small-button citation-menu-trigger">Citation ▾</summary>
+      <div className="citation-menu-panel" aria-label="Citation formats">
+        <button className="small-button" type="button" onClick={() => copy(values.plain ?? "", "Citation")}>Copy citation</button>
+        <button className="small-button" type="button" onClick={() => copy(values.markdown ?? "", "Markdown")}>Markdown</button>
+        <button className="small-button" type="button" onClick={() => copy(values.bibtex ?? "", "BibTeX")}>BibTeX</button>
+        <button className="small-button" type="button" onClick={() => copy(values.apa ?? "", "APA")}>APA</button>
+        <button className="small-button" type="button" onClick={() => copy(values.chicago ?? "", "Chicago")}>Chicago</button>
+      </div>
+    </details>
     {status && <span className="tool-status" role="status">{status}</span>}
   </div>;
 }

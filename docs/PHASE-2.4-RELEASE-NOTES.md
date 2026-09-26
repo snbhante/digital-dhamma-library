@@ -1,10 +1,17 @@
-# Phase 2.4 — Research Experience & Offline Reader
+# Phase 2.4.1 — Reader Polish, Manifest Fix & Citation UI
 
-Version: `0.9.0`
+Version: `0.9.1`
 
-Phase 2.4 merges the complete Phase 2.3 baseline and adds a static-hosting-friendly reader experience without changing canonical text IDs or the local research workspace schema.
+Phase 2.4.1 keeps the complete Phase 2.4 baseline and fixes the reported manifest, reader-theme, and paragraph citation-action issues without changing canonical text IDs or the local research workspace schema.
 
-## New features
+## Changes in 2.4.1
+
+- Replaced the public manifest file with the Next.js `app/manifest.ts` metadata convention and an explicit base-path-aware metadata link. This prevents `/manifest.webmanifest` 404s when the app is deployed under GitHub Pages.
+- Added explicit **Light / Dark** controls to the reader toolbar and synchronized them with the global theme preference through the `ddl-theme-changed` event.
+- Made reader surfaces theme-aware: the reader toolbar and translation text now use CSS variables rather than hard-coded light-theme colors.
+- Replaced the five inline citation-format buttons in each paragraph header with an accessible compact **Citation ▾** dropdown.
+
+## Phase 2.4 baseline features
 
 - Installable PWA metadata and service worker for offline-friendly caching.
 - Reading progress bar on every work reader.

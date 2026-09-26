@@ -1,8 +1,8 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-2.4",
+  "release": "phase-2.4.1",
   "baseline_date": "2026-09-26",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -23,6 +23,9 @@
   "features": [
     "Phase 2.3 merged baseline",
     "Installable PWA metadata and service worker",
+    "Metadata-route manifest compatible with Next.js static export and GitHub Pages base paths",
+    "Reader-level light/dark theme controls synchronized with the global theme",
+    "Compact citation-format dropdown in paragraph citation actions",
     "Per-work local reading progress",
     "Local recent-reading history and continue-reading home section",
     "Global command palette with Ctrl/Cmd+K",
@@ -40,6 +43,9 @@
     "Workspace data is isolated from canonical corpus JSON",
     "Preserves Phase 2.3 workspace storage key for local-data continuity",
     "Service worker registration is scoped to the GitHub Pages base path",
+    "Replaced public manifest link with the Next.js manifest metadata convention to prevent 404 fetches",
+    "Reader tools no longer use a hard-coded light background in dark mode",
+    "Citation formats are grouped into an accessible details/summary dropdown",
     "All primary page surfaces expose a skip-to-content target"
   ]
 }

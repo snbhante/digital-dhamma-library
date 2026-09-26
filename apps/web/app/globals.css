@@ -11,6 +11,7 @@
   --accent-dark: #513b1e;
   --accent-soft: #eee5d4;
   --shadow: 0 14px 40px rgb(60 46 25 / 0.08);
+  --translation: #4c473e;
 }
 
 * { box-sizing: border-box; }
@@ -105,10 +106,10 @@ h2 { font-size: clamp(1.8rem, 4vw, 3rem); margin: 0; }
 }
 .text-button:hover { color: var(--accent-dark); text-decoration: underline; }
 .pali { font-size: clamp(1.12rem, 2vw, 1.38rem); line-height: 2; }
-.translation { font-size: 1rem; line-height: 1.8; color: #4c473e; }
+.translation { font-size: 1rem; line-height: 1.8; color: var(--translation); }
 .bangla { font-family: "Noto Serif Bengali", "Noto Serif", serif; }
 .citation { display: flex; gap: 8px; color: var(--muted); font: .75rem/1.4 ui-monospace, monospace; }
-.reader-tools { position: sticky; top: 0; z-index: 20; display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; padding: 12px 14px; margin-bottom: 10px; border: 1px solid var(--line); border-radius: 12px; background: rgb(255 253 248 / .94); backdrop-filter: blur(12px); box-shadow: var(--shadow); }
+.reader-tools { position: sticky; top: 0; z-index: 20; display: flex; justify-content: space-between; gap: 14px; flex-wrap: wrap; padding: 12px 14px; margin-bottom: 10px; border: 1px solid var(--line); border-radius: 12px; background: color-mix(in srgb, var(--surface) 94%, transparent); color: var(--text); backdrop-filter: blur(12px); box-shadow: var(--shadow); }
 .tool-group { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; color: var(--muted); font-size: .82rem; }
 .tool-group strong { color: var(--text); font-size: .78rem; letter-spacing: .03em; }
 .tool-group label { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; }
@@ -174,8 +175,15 @@ h2 { font-size: clamp(1.8rem, 4vw, 3rem); margin: 0; }
 .reader-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
 .small-button { border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 8px; padding: 7px 10px; text-decoration: none; cursor: pointer; font: inherit; }
 .small-button:hover { border-color: var(--accent); }
+.small-button.is-active { background: var(--accent); color: #fff; border-color: var(--accent); }
 .citation-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
-.citation-tools { display: flex; gap: 5px; align-items: center; flex-wrap: wrap; }
+.citation-tools { display: inline-flex; gap: 5px; align-items: center; flex-wrap: wrap; position: relative; }
+.citation-menu { position: relative; }
+.citation-menu > summary { list-style: none; }
+.citation-menu > summary::-webkit-details-marker { display: none; }
+.citation-menu-trigger { display: inline-flex; align-items: center; gap: 5px; }
+.citation-menu-panel { position: absolute; right: 0; top: calc(100% + 7px); z-index: 35; display: grid; gap: 6px; min-width: 155px; padding: 8px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); box-shadow: var(--shadow); }
+.citation-menu-panel .small-button { width: 100%; text-align: left; }
 .tool-status { color: var(--accent); font-size: .75rem; font-weight: 700; }
 .comparison-table { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; margin-bottom: 90px; }
 .comparison-head, .comparison-row { display: grid; grid-template-columns: 110px 1.2fr 1fr 1fr; gap: 0; }
@@ -218,7 +226,7 @@ h2 { font-size: clamp(1.8rem, 4vw, 3rem); margin: 0; }
 .file-button { position: relative; overflow: hidden; cursor: pointer; }
 .file-button input { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
 .workspace-collections { margin-top: 18px; }
-@media (max-width: 700px) { .paragraph-research-tools { margin-left: 0; margin-top: 8px; } .paragraph-note-editor { min-width: 0; } }
+@media (max-width: 700px) { .paragraph-research-tools { margin-left: 0; margin-top: 8px; } .paragraph-note-editor { min-width: 0; } .citation-menu-panel { left: 0; right: auto; } }
 .workspace-select { border: 0; background: transparent; color: var(--text); padding: 0 4px; cursor: pointer; }
 
 /* Phase 2.4 reader experience + PWA */
@@ -233,6 +241,7 @@ html[data-theme="dark"] {
   --accent-dark: #e2bc7e;
   --accent-soft: #3a3023;
   --shadow: 0 14px 40px rgb(0 0 0 / 0.25);
+  --translation: #d2c9bb;
 }
 
 .skip-link {

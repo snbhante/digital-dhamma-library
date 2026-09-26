@@ -1,7 +1,8 @@
-const CACHE = "ddl-static-v0.9.0";
+const CACHE = "ddl-static-v0.9.1";
+const BASE_PATH = new URL("./", self.location.href).pathname;
 const SHELL = [
-  "/digital-dhamma-library/",
-  "/digital-dhamma-library/manifest.webmanifest"
+  BASE_PATH,
+  `${BASE_PATH}manifest.webmanifest`
 ];
 
 self.addEventListener("install", (event) => {
@@ -26,6 +27,6 @@ self.addEventListener("fetch", (event) => {
         caches.open(CACHE).then((cache) => cache.put(request, copy)).catch(() => undefined);
         return response;
       })
-      .catch(() => caches.match(request).then((cached) => cached || caches.match("/digital-dhamma-library/")))
+      .catch(() => caches.match(request).then((cached) => cached || caches.match(BASE_PATH)))
   );
 });

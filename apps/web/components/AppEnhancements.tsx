@@ -7,14 +7,14 @@ export default function AppEnhancements() {
   const router = useRouter();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const [dark, setDark] = useState(false);
+  const [theme, setTheme] = useState<"light" | "dark">("light");
 
   useEffect(() => {
     const saved = window.localStorage.getItem("ddl-theme");
     const prefersDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches ?? false;
-    const nextDark = saved ? saved === "dark" : prefersDark;
-    setDark(nextDark);
-    document.documentElement.dataset.theme = nextDark ? "dark" : "light";
+    const nextTheme: "light" | "dark" = saved === "light" || saved === "dark" ? saved : prefersDark ? "dark" : "light";
+    setTheme(nextTheme);
+    document.documentElement.dataset.theme = nextTheme;
 
     if ("serviceWorker" in navigator) {
       const base = window.location.pathname.startsWith("/digital-dhamma-library") ? "/digital-dhamma-library/" : "/";
@@ -41,10 +41,11 @@ export default function AppEnhancements() {
   }, [router]);
 
   function toggleTheme() {
-    const next = !dark;
-    setDark(next);
-    document.documentElement.dataset.theme = next ? "dark" : "light";
-    window.localStorage.setItem("ddl-theme", next ? "dark" : "light");
+    const next: "light" | "dark" = theme === "dark" ? "light" : "dark";
+    setTheme(next);
+    document.documentElement.dataset.theme = next;
+    window.localStorage.setItem("ddl-theme", next);
+    window.dispatchEvent(new CustomEvent("ddl-theme-changed", { detail: next }));
   }
 
   const commands = [
@@ -58,7 +59,7 @@ export default function AppEnhancements() {
   return <>
     <div className="global-tools" aria-label="Application tools">
       <button className="small-button" onClick={() => setOpen(true)} title="Command palette (Ctrl+K)">⌘K</button>
-      <button className="small-button" onClick={toggleTheme} title="Toggle theme" aria-label="Toggle theme">{dark ? "☀" : "☾"}</button>
+      <button className="small-button" onClick={toggleTheme} title="Toggle theme" aria-label="Toggle theme">{theme === "dark" ? "☀" : "☾"}</button>
     </div>
     {open && <div className="command-overlay" role="dialog" aria-modal="true" aria-label="Command palette" onMouseDown={(event) => { if (event.target === event.currentTarget) setOpen(false); }}>
       <div className="command-panel">

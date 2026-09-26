@@ -1,4 +1,4 @@
-# Phase 2.4 Guide
+# Phase 2.4.1 Guide
 
 ## Reader experience
 
@@ -15,11 +15,15 @@
 
 ## Theme
 
-Use the floating sun/moon control. The choice is stored under `ddl-theme` in browser localStorage.
+Use either the floating sun/moon control or the **Light / Dark** controls inside the reader toolbar. Both controls share the `ddl-theme` browser localStorage preference and stay synchronized.
+
+## Citation actions
+
+Paragraph headers now keep citation actions compact. Open **Citation ▾** to choose Copy citation, Markdown, BibTeX, APA, or Chicago. The menu is keyboard-accessible through the native `details/summary` interaction.
 
 ## PWA/offline behavior
 
-The deployed GitHub Pages site registers `public/sw.js`. The worker uses a network-first strategy and falls back to cached responses when the network is unavailable. It is intentionally conservative: it does not claim that every research resource is permanently available offline.
+The deployed GitHub Pages site registers `public/sw.js`. The worker derives its own base path from its registration URL, so the same service worker works both at local `/` development paths and under the GitHub Pages `/digital-dhamma-library/` base path. It uses a network-first strategy and falls back to cached responses when the network is unavailable. It is intentionally conservative: it does not claim that every research resource is permanently available offline.
 
 ## Data continuity
 
