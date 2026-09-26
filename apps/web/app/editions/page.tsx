@@ -3,7 +3,7 @@ import editions from "../../../../data/editions.json";
 import corpus from "../../../../data/corpus.json";
 
 export default function EditionsPage() {
-  return <main className="shell">
+  return <main id="main-content" className="shell">
     <nav className="topbar"><Link href="/research/">← Research Workbench</Link><span>Editions</span></nav>
     <header className="reader-header"><p className="eyebrow">EDITION MANAGEMENT</p><h1>Text Editions</h1><p>Edition identity is kept separate from individual work records so the same canonical work can later have multiple verified editions.</p></header>
     <section className="section grid">{editions.map((edition) => {

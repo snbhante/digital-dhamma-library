@@ -1,4 +1,4 @@
-## Current release: Phase 2.3 / v0.8.0
+## Current release: Phase 2.4 / v0.9.0
 
 The current baseline includes a local-first personal research workspace for paragraph bookmarks, private notes, saved searches, and personal collections, with JSON export/import and an authenticated Supabase persistence target.
 
@@ -161,3 +161,8 @@ Start the local research workbench at `/research/`.
 ## Phase 2.1 Research Engine
 
 The Phase 2.2 release (v0.7.0) adds edition-witness provenance, sentence-level heuristic alignment review records, richer starter morphology provenance, citation profiles, and a browser-local research review queue. All generated indexes are reproducible with `npm run build:research-index`.
+
+
+### Phase 2.4
+
+See `docs/PHASE-2.4-RELEASE-NOTES.md` and `docs/PHASE-2.4-GUIDE.md` for the offline-friendly reader, reading progress, recent reading history, command palette, theme preference, and accessibility enhancements.

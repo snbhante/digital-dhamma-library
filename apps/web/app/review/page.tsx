@@ -2,7 +2,7 @@ import Link from "next/link";
 import ReviewWorkbench from "../../components/ReviewWorkbench";
 
 export default function ReviewPage() {
-  return <main className="shell">
+  return <main id="main-content" className="shell">
     <nav className="topbar"><Link href="/research/">← Research Workbench</Link><span>Review Queue</span></nav>
     <header className="reader-header"><p className="eyebrow">PHASE 2.3 · RESEARCH REVIEW</p><h1>Research Review Queue</h1><p>Review sentence alignments, occurrence/lemma assignments, and morphology analyses without changing canonical corpus text. Browser-local review notes prepare the project for authenticated editorial workflows in Phase 3/4.</p></header>
     <ReviewWorkbench />

@@ -1,22 +1,35 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-2.3",
+  "release": "phase-2.4",
   "baseline_date": "2026-09-26",
-  "version": "0.8.0",
-  "runtime": {"node": "24.21.0", "channel": "LTS", "npm": "12.1.0"},
-  "framework": {"next": "16.3.6", "react": "19.3.0", "react_dom": "19.3.0"},
-  "language": {"typescript": "7.0.2"},
-  "styling": {"tailwindcss": "4.3.0", "postcss": "@tailwindcss/postcss 4.3.0"},
+  "version": "0.9.0",
+  "runtime": {
+    "node": "24.21.0",
+    "channel": "LTS",
+    "npm": "12.1.0"
+  },
+  "framework": {
+    "next": "16.3.6",
+    "react": "19.3.0",
+    "react_dom": "19.3.0"
+  },
+  "language": {
+    "typescript": "7.0.2"
+  },
+  "styling": {
+    "tailwindcss": "4.3.0",
+    "postcss": "@tailwindcss/postcss 4.3.0"
+  },
   "features": [
-    "Phase 2.2 merged baseline",
-    "Local-first personal research workspace",
-    "Stable paragraph bookmarks",
-    "Private paragraph research notes",
-    "Saved advanced searches",
-    "Personal bookmark collections foundation",
-    "Workspace JSON export and import",
-    "Workspace local-data reset",
-    "Phase 2.3 Supabase collection persistence schema"
+    "Phase 2.3 merged baseline",
+    "Installable PWA metadata and service worker",
+    "Per-work local reading progress",
+    "Local recent-reading history and continue-reading home section",
+    "Global command palette with Ctrl/Cmd+K",
+    "Slash shortcut to research search",
+    "Persistent light/dark theme preference",
+    "Accessible skip-to-content navigation",
+    "All Phase 2.3 personal workspace and research-engine features retained"
   ],
   "fixes": [
     "Preserves Phase 2.0.2 duplicate occurrence-reference fix",
@@ -24,6 +37,9 @@
     "Preserves ASCII-safe dictionary URL slugs",
     "Preserves stable paragraph React keys and search-result deduplication",
     "Preserves Phase 2.2 research review/provenance integrity boundaries",
-    "Workspace data is isolated from canonical corpus JSON"
+    "Workspace data is isolated from canonical corpus JSON",
+    "Preserves Phase 2.3 workspace storage key for local-data continuity",
+    "Service worker registration is scoped to the GitHub Pages base path",
+    "All primary page surfaces expose a skip-to-content target"
   ]
 }

@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import corpus from "../../../../../data/corpus.json";
 import ReaderView from "../../../components/ReaderView";
+import ReadingProgress from "../../../components/ReadingProgress";
+import RecentReadTracker from "../../../components/RecentReadTracker";
 
 type Work = (typeof corpus)[number];
 
@@ -19,7 +21,9 @@ export default async function WorkPage({ params }: { params: Promise<{ workId: s
   const previous = workIndex > 0 ? corpus[workIndex - 1] : undefined;
   const next = workIndex < corpus.length - 1 ? corpus[workIndex + 1] : undefined;
 
-  return <main className="reader-shell">
+  return <main id="main-content" className="reader-shell">
+    <ReadingProgress workId={work.id} />
+    <RecentReadTracker workId={work.id} title={work.title} collection={work.collection} />
     <nav className="topbar"><Link href="/">← Digital Dhamma Library</Link><div className="topbar-actions"><Link href="/search/">Search</Link><span>{work.collection}</span></div></nav>
     <header className="reader-header">
       <p className="eyebrow">{work.id.toUpperCase()}</p><h1>{work.title}</h1><p>{work.description}</p>

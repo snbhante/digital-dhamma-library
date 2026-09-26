@@ -22,7 +22,7 @@ export default async function DictionaryEntryPage({ params }: { params: Promise<
   const lemmaOccurrences = occurrences.filter((item) => item.lemma === entry.headword.toLowerCase());
   const entryDerivations = derivations.filter((item) => item.base.toLowerCase() === entry.headword.toLowerCase() || item.headword.toLowerCase() === entry.headword.toLowerCase());
 
-  return <main className="shell">
+  return <main id="main-content" className="shell">
     <nav className="topbar"><Link href="/dictionary/">← Dictionary</Link><span>{entry.headword}</span></nav>
     <header className="reader-header"><p className="eyebrow">LEXICAL RECORD</p><h1>{entry.headword}</h1><p>{entry.note}</p></header>
     <section className="section grid">

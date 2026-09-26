@@ -107,7 +107,7 @@ export default function SearchPage() {
   }
 
   return (
-    <main className="shell search-page">
+    <main id="main-content" className="shell search-page">
       <nav className="topbar"><Link href="/">← Digital Dhamma Library</Link><span>Research Search</span></nav>
       <header className="reader-header search-header">
         <p className="eyebrow">PHASE 1.3 RESEARCH SEARCH</p>

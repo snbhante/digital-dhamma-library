@@ -24,7 +24,7 @@ export default function OccurrencesPage() {
     }).slice(0, 120);
   }, [query, mode]);
 
-  return <main className="shell">
+  return <main id="main-content" className="shell">
     <nav className="topbar"><Link href="/research/">← Research Workbench</Link><span>Occurrences</span></nav>
     <header className="reader-header">
       <p className="eyebrow">PĀḶI OCCURRENCE INDEX</p>

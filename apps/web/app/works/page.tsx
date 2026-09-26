@@ -10,7 +10,7 @@ export default function WorksPage() {
   const collections = useMemo(() => [...new Set(corpus.map((w) => w.collection))].sort(), []);
   const types = useMemo(() => [...new Set(corpus.map((w) => w.type))].sort(), []);
   const works = useMemo(() => corpus.filter((w) => (collection === "all" || w.collection === collection) && (type === "all" || w.type === type)), [collection,type]);
-  return <main className="shell search-page">
+  return <main id="main-content" className="shell search-page">
     <nav className="topbar"><Link href="/">← Digital Dhamma Library</Link><span>Library Index</span></nav>
     <header className="reader-header search-header"><p className="eyebrow">LIBRARY INDEX</p><h1>Works</h1><p>Browse the structured research corpus by collection and record type.</p></header>
     <section className="filters" aria-label="Library filters">

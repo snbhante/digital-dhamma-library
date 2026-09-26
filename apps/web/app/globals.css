@@ -220,3 +220,48 @@ h2 { font-size: clamp(1.8rem, 4vw, 3rem); margin: 0; }
 .workspace-collections { margin-top: 18px; }
 @media (max-width: 700px) { .paragraph-research-tools { margin-left: 0; margin-top: 8px; } .paragraph-note-editor { min-width: 0; } }
 .workspace-select { border: 0; background: transparent; color: var(--text); padding: 0 4px; cursor: pointer; }
+
+/* Phase 2.4 reader experience + PWA */
+html[data-theme="dark"] {
+  --bg: #171614;
+  --surface: #211f1b;
+  --surface-strong: #28251f;
+  --text: #eee8dc;
+  --muted: #b7afa1;
+  --line: #403b33;
+  --accent: #d0a86c;
+  --accent-dark: #e2bc7e;
+  --accent-soft: #3a3023;
+  --shadow: 0 14px 40px rgb(0 0 0 / 0.25);
+}
+
+.skip-link {
+  position: fixed; left: 12px; top: 12px; z-index: 100;
+  transform: translateY(-180%); background: var(--accent); color: white;
+  padding: 10px 14px; border-radius: 8px; text-decoration: none; font-weight: 700;
+}
+.skip-link:focus { transform: translateY(0); }
+.global-tools {
+  position: fixed; right: 16px; bottom: 16px; z-index: 40;
+  display: flex; gap: 7px; padding: 7px; border: 1px solid var(--line);
+  border-radius: 12px; background: color-mix(in srgb, var(--surface) 92%, transparent);
+  backdrop-filter: blur(10px); box-shadow: var(--shadow);
+}
+.command-overlay {
+  position: fixed; inset: 0; z-index: 90; display: grid; place-items: start center;
+  padding: 10vh 16px 16px; background: rgb(0 0 0 / .42);
+}
+.command-panel {
+  width: min(680px, 100%); border: 1px solid var(--line); border-radius: 16px;
+  background: var(--surface); color: var(--text); box-shadow: 0 30px 90px rgb(0 0 0 / .28); padding: 18px;
+}
+.command-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.command-list { display: grid; gap: 7px; margin-top: 14px; }
+.command-item { display: flex; justify-content: space-between; gap: 12px; width: 100%; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-strong); color: var(--text); padding: 12px 13px; cursor: pointer; text-align: left; }
+.command-item:hover, .command-item:focus-visible { border-color: var(--accent); outline: none; }
+kbd { border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 5px; padding: 1px 5px; font: .75rem ui-monospace, monospace; }
+.command-current { color: var(--muted); font: .72rem ui-monospace, monospace; overflow-wrap: anywhere; margin-bottom: 0; }
+.reading-progress { position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 80; background: transparent; pointer-events: none; }
+.reading-progress > div { height: 100%; background: var(--accent); transition: width .12s linear; }
+.compact-section { padding-top: 24px; }
+@media (max-width: 650px) { .global-tools { right: 10px; bottom: 10px; } .command-overlay { padding-top: 6vh; } }
