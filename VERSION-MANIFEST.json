@@ -1,8 +1,8 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-2.4.3",
-  "baseline_date": "2026-09-26",
-  "version": "0.9.3",
+  "release": "phase-2.4.4",
+  "baseline_date": "2026-09-27",
+  "version": "0.9.4",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -14,7 +14,7 @@
     "react_dom": "19.3.0"
   },
   "language": {
-    "typescript": "7.0.2"
+    "typescript": "6.0.3"
   },
   "styling": {
     "tailwindcss": "4.3.0",
@@ -22,8 +22,8 @@
   },
   "features": [
     "Phase 2.3 merged baseline",
-    "Installable PWA metadata and service worker",
-    "Metadata-route manifest compatible with Next.js static export and GitHub Pages base paths",
+    "Static public PWA manifest and service worker",
+    "Base-path-aware manifest link for GitHub Pages",
     "Reader-level light/dark theme controls synchronized with the global theme",
     "Compact citation-format dropdown in paragraph citation actions",
     "Per-work local reading progress",
@@ -43,10 +43,13 @@
     "Workspace data is isolated from canonical corpus JSON",
     "Preserves Phase 2.3 workspace storage key for local-data continuity",
     "Service worker registration is scoped to the GitHub Pages base path",
-    "Replaced public manifest link with the Next.js manifest metadata convention to prevent 404 fetches",
+    "Uses one canonical public manifest instead of a duplicate Next.js metadata route",
+    "Static manifest uses relative start_url and scope for root and GitHub Pages deployments",
     "Reader tools no longer use a hard-coded light background in dark mode",
     "Citation formats are grouped into an accessible details/summary dropdown",
-    "All primary page surfaces expose a skip-to-content target"
+    "All primary page surfaces expose a skip-to-content target",
+    "TypeScript is pinned to 6.0.3 for the Next.js 16.3.6 integration",
+    "next typegen runs before external tsc validation"
   ],
-  "releaseSummary": "Phase 2.4.3 fixes the Next.js 16.3.6 + TypeScript 7 typecheck incompatibility by pinning TypeScript 6.0.3, using next typegen before tsc, and treating next-env.d.ts as generated."
+  "releaseSummary": "Phase 2.4.4 fixes the Next.js static-export production build failure at /manifest.webmanifest by removing the duplicate app/manifest.ts metadata route and retaining a single static public PWA manifest. It also retains the Phase 2.4.3 TypeScript 6.0.3/typegen fix."
 }

@@ -1,4 +1,6 @@
-## Current release: Phase 2.4.3 / v0.9.3
+## Current release: Phase 2.4.4 / v0.9.4
+
+Phase 2.4.4 fixes the Next.js 16.3.6 static-export build failure at `/manifest.webmanifest` by using one canonical static public PWA manifest. It also retains the Phase 2.4.3 TypeScript 6.0.3 and `next typegen && tsc --noEmit` typecheck fix.
 
 The current baseline includes a local-first personal research workspace for paragraph bookmarks, private notes, saved searches, and personal collections, with JSON export/import and an authenticated Supabase persistence target.
 
