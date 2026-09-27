@@ -1,6 +1,6 @@
-## Current release: Phase 2.4.4 / v0.9.4
+## Current release: Phase 2.4.5 / v0.9.5
 
-Phase 2.4.4 fixes the Next.js 16.3.6 static-export build failure at `/manifest.webmanifest` by using one canonical static public PWA manifest. It also retains the Phase 2.4.3 TypeScript 6.0.3 and `next typegen && tsc --noEmit` typecheck fix.
+Phase 2.4.5 hardens the Next.js 16.3.6 static-export PWA manifest fix. The project keeps one canonical static public manifest and now automatically removes stale `app/manifest.*` metadata routes and generated `.next/` output before typecheck/build, so overlaying the ZIP on an older checkout cannot leave the failing manifest route behind. It also retains the Phase 2.4.3 TypeScript 6.0.3 and `next typegen && tsc --noEmit` typecheck fix.
 
 The current baseline includes a local-first personal research workspace for paragraph bookmarks, private notes, saved searches, and personal collections, with JSON export/import and an authenticated Supabase persistence target.
 

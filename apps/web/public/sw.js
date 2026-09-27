@@ -1,4 +1,4 @@
-const CACHE = "ddl-static-v0.9.4";
+const CACHE = "ddl-static-v0.9.5";
 const BASE_PATH = new URL("./", self.location.href).pathname;
 const SHELL = [
   BASE_PATH,
