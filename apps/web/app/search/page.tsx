@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState, type FormEvent } from "react";
 import corpus from "../../../../data/corpus.json";
 import SaveSearchButton from "../../components/SaveSearchButton";
+import SiteBrand from "../../components/SiteBrand";
 
 type Work = (typeof corpus)[number];
 type SearchField = "all" | "pali" | "english" | "bangla" | "metadata";
@@ -108,7 +109,7 @@ export default function SearchPage() {
 
   return (
     <main id="main-content" className="shell search-page">
-      <nav className="topbar"><Link href="/">← Digital Dhamma Library</Link><span>Research Search</span></nav>
+      <nav className="topbar"><SiteBrand compact /><span>Research Search</span></nav>
       <header className="reader-header search-header">
         <p className="eyebrow">PHASE 1.3 RESEARCH SEARCH</p>
         <h1>Search the Dhamma</h1>

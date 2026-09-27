@@ -1,12 +1,213 @@
 {
+  "lang": "en",
+  "dir": "ltr",
   "name": "Digital Dhamma Library",
   "short_name": "Dhamma Library",
-  "description": "Open Buddhist Digital Knowledge & Research Platform",
+  "description": "An open Buddhist digital knowledge and research library for reading, searching, studying, and researching Pāḷi texts and source-aware records.",
+  "categories": [
+    "education",
+    "books",
+    "reference",
+    "lifestyle"
+  ],
+  "theme_color": "#71552c",
+  "background_color": "#f7f5ef",
   "start_url": "./",
   "scope": "./",
+  "id": "./?homescreen=1",
   "display": "standalone",
-  "background_color": "#f7f5ef",
-  "theme_color": "#71552c",
-  "lang": "en",
-  "icons": []
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "assets/branding/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/branding/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/branding/icon-maskable.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search the Dhamma",
+      "short_name": "Search",
+      "description": "Search Pāḷi, translations, metadata, and research records.",
+      "url": "./search/",
+      "icons": [
+        {
+          "src": "assets/shortcuts/search.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Research Workbench",
+      "short_name": "Research",
+      "description": "Open edition, alignment, morphology, citation, and review tools.",
+      "url": "./research/",
+      "icons": [
+        {
+          "src": "assets/shortcuts/research.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Dictionary",
+      "short_name": "Dictionary",
+      "description": "Browse the Pāḷi dictionary and lexical research resources.",
+      "url": "./dictionary/",
+      "icons": [
+        {
+          "src": "assets/shortcuts/dictionary.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "My Research Workspace",
+      "short_name": "Workspace",
+      "description": "Open bookmarks, notes, collections, history, and saved research.",
+      "url": "./workspace/",
+      "icons": [
+        {
+          "src": "assets/shortcuts/workspace.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/screenshots/home-wide.svg",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "Digital Dhamma Library home and search experience"
+    },
+    {
+      "src": "assets/screenshots/research-wide.svg",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "Research Workbench with source-aware Buddhist research tools"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "file_handlers": [
+    {
+      "action": "./handle-audio-file/",
+      "accept": {
+        "audio/wav": [
+          ".wav"
+        ],
+        "audio/x-wav": [
+          ".wav"
+        ],
+        "audio/mpeg": [
+          ".mp3"
+        ],
+        "audio/mp4": [
+          ".mp4",
+          ".m4a"
+        ],
+        "audio/aac": [
+          ".adts",
+          ".aac"
+        ],
+        "audio/ogg": [
+          ".ogg"
+        ],
+        "application/ogg": [
+          ".ogg"
+        ],
+        "audio/webm": [
+          ".webm"
+        ],
+        "audio/flac": [
+          ".flac"
+        ],
+        "audio/mid": [
+          ".rmi",
+          ".mid"
+        ]
+      }
+    }
+  ],
+  "launch_handler": {
+    "client_mode": [
+      "focus-existing",
+      "auto"
+    ]
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+dhamma",
+      "url": "./protocol-handler/?url=%s"
+    },
+    {
+      "protocol": "web+tipitaka",
+      "url": "./protocol-handler/?url=%s"
+    }
+  ],
+  "share_target": {
+    "action": "./share-target/",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "name",
+      "text": "description",
+      "url": "link",
+      "files": [
+        {
+          "name": "texts",
+          "accept": [
+            "text/plain",
+            "text/html",
+            ".txt",
+            ".html",
+            ".md"
+          ]
+        },
+        {
+          "name": "audio",
+          "accept": [
+            "audio/*",
+            ".mp3",
+            ".wav",
+            ".ogg",
+            ".flac"
+          ]
+        },
+        {
+          "name": "images",
+          "accept": [
+            "image/svg+xml",
+            "image/*",
+            ".svg"
+          ]
+        }
+      ]
+    }
+  }
 }

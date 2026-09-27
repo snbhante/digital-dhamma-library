@@ -1,0 +1,9 @@
+<svg aria-labelledby="title" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<title id="a">Digital Dhamma Library</title>
+<rect width="512" height="512" fill="#71552c"/>
+<circle cx="256" cy="170" r="88" fill="#f5e8c8"/>
+<path d="m256 70c-10 50-46 80-92 104 46 1 76 21 92 60 16-39 46-59 92-60-46-24-82-54-92-104z" fill="#d3a65e"/>
+<path d="m256 88v146m0-99-42 28m42-28 42 28m-42 13-50 25m50-25 50 25" fill="none" stroke="#71552c" stroke-linecap="round" stroke-width="9"/>
+<rect x="86" y="278" width="340" height="128" rx="28" fill="#ead5aa"/>
+<path d="m125 314h262m-262 27h216m-216 27h245" opacity=".82" stroke="#71552c" stroke-linecap="round" stroke-width="9"/>
+</svg>

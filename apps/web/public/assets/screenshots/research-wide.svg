@@ -1,0 +1,27 @@
+<svg aria-labelledby="title desc" role="img" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+<title id="a">Research Workbench</title>
+<desc id="b">Source-aware Buddhist text research</desc>
+<rect width="1280" height="720" fill="#f7f5ef"/>
+<rect width="1280" height="360" fill="#71552c"/>
+<circle cx="1070" cy="125" r="90" fill="#f5e8c8" opacity=".18"/>
+<path d="m1070 25c-10 52-45 80-90 103 45 2 74 22 90 60 16-38 45-58 90-60-45-23-80-51-90-103z" fill="#f5e8c8" opacity=".75"/>
+<text x="80" y="118" fill="#f5e8c8" font-family="Georgia,serif" font-size="26" letter-spacing="5">OPEN BUDDHIST DIGITAL KNOWLEDGE</text>
+<text x="80" y="205" fill="#fffdf8" font-family="Georgia,serif" font-size="62" font-weight="700">Source-aware Buddhist text research</text>
+<text x="80" y="258" fill="#f5e8c8" font-family="Arial,sans-serif" font-size="26">Research Workbench</text>
+<rect x="80" y="300" width="500" height="48" rx="24" fill="#fffdf8" opacity=".96"/>
+<circle cx="108" cy="324" r="11" fill="none" stroke="#71552c" stroke-width="5"/>
+<path d="m116 332 10 10" stroke="#71552c" stroke-linecap="round" stroke-width="5"/>
+<text x="142" y="333" fill="#716b60" font-family="Arial,sans-serif" font-size="18">Search the Dhamma…</text>
+<rect x="80" y="430" width="235" height="150" rx="20" fill="#fffdf8" stroke="#ded8cb"/>
+<text x="105" y="490" fill="#201d18" font-family="Georgia,serif" font-size="22">Edition witnesses</text>
+<text x="105" y="525" fill="#716b60" font-family="Arial,sans-serif" font-size="15">Explore resource</text>
+<rect x="350" y="430" width="235" height="150" rx="20" fill="#fffdf8" stroke="#ded8cb"/>
+<text x="375" y="490" fill="#201d18" font-family="Georgia,serif" font-size="22">Translation alignment</text>
+<text x="375" y="525" fill="#716b60" font-family="Arial,sans-serif" font-size="15">Explore resource</text>
+<rect x="620" y="430" width="235" height="150" rx="20" fill="#fffdf8" stroke="#ded8cb"/>
+<text x="645" y="490" fill="#201d18" font-family="Georgia,serif" font-size="22">Morphology</text>
+<text x="645" y="525" fill="#716b60" font-family="Arial,sans-serif" font-size="15">Explore resource</text>
+<rect x="890" y="430" width="235" height="150" rx="20" fill="#fffdf8" stroke="#ded8cb"/>
+<text x="915" y="490" fill="#201d18" font-family="Georgia,serif" font-size="22">Citations</text>
+<text x="915" y="525" fill="#716b60" font-family="Arial,sans-serif" font-size="15">Explore resource</text>
+</svg>

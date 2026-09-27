@@ -1,8 +1,8 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-2.4.5",
+  "release": "phase-2.5",
   "baseline_date": "2026-09-27",
-  "version": "0.9.5",
+  "version": "0.10.0",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -32,7 +32,15 @@
     "Slash shortcut to research search",
     "Persistent light/dark theme preference",
     "Accessible skip-to-content navigation",
-    "All Phase 2.3 personal workspace and research-engine features retained"
+    "All Phase 2.3 personal workspace and research-engine features retained",
+    "Complete source-aware PWA manifest properties with relative GitHub Pages URLs",
+    "Optimized SVG project logo, favicon, standard and maskable app icons",
+    "Optimized SVG PWA shortcut icons and discovery screenshots",
+    "Optimized SVG social banner and project poster assets",
+    "PWA audio file handler using Launch Handler API",
+    "PWA protocol handlers for web+dhamma and web+tipitaka",
+    "Service-worker-backed PWA share target with IndexedDB handoff",
+    "Project branding integrated into home and primary navigation surfaces"
   ],
   "fixes": [
     "Preserves Phase 2.0.2 duplicate occurrence-reference fix",
@@ -52,7 +60,11 @@
     "next typegen runs before external tsc validation",
     "Pre-build cleanup removes stale app/manifest.* metadata routes left by overlaying an older release",
     "Pre-build cleanup removes stale .next output before static export",
-    "Pre-build validation checks the canonical public PWA manifest before Next.js build"
+    "Pre-build validation checks the canonical public PWA manifest before Next.js build",
+    "Pre-build validation verifies every manifest-referenced public asset",
+    "Pre-build validation verifies PWA handler pages exist",
+    "Service worker cache version advanced for Phase 2.5 assets and share handling",
+    "PWA URLs remain relative/base-path-safe for GitHub Pages"
   ],
-  "releaseSummary": "Phase 2.4.5 hardens the manifest build fix: the project uses the static public PWA manifest as the canonical manifest and automatically removes stale app/manifest.* metadata routes and generated .next output before typecheck/build. This specifically addresses older checkouts where overlaying a ZIP does not delete files removed by the new release. The Phase 2.4.3 TypeScript 6.0.3/typegen fix is retained."
+  "releaseSummary": "Phase 2.5 expands the static PWA into a fully branded Digital Dhamma Library installation surface. The release adds a complete project-specific manifest, optimized SVG logos/icons/screenshots/banner/poster assets, PWA shortcuts, audio file handling, custom protocol handlers, and a service-worker-backed share target suitable for static GitHub Pages hosting. The Phase 2.4.5 manifest migration/build protections and Phase 2.4.3 TypeScript/typegen fix remain intact."
 }

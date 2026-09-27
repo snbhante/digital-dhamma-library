@@ -1,0 +1,23 @@
+<svg aria-labelledby="title desc" role="img" viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+<title id="b">Digital Dhamma Library poster</title>
+<desc id="c">A vertical project poster for the Digital Dhamma Library.</desc>
+<defs>
+<linearGradient id="a" y2="1">
+<stop stop-color="#f7f5ef" offset="0"/>
+<stop stop-color="#eadfca" offset="1"/>
+</linearGradient>
+</defs>
+<rect width="1080" height="1350" fill="url(#a)"/>
+<rect x="54" y="54" width="972" height="1242" rx="44" fill="none" stroke="#71552c" stroke-width="5"/>
+<circle cx="540" cy="365" r="178" fill="#71552c"/>
+<path d="m540 178c-18 86-76 135-148 174 76 2 126 38 148 102 22-64 72-100 148-102-72-39-130-88-148-174z" fill="#f3dfb3"/>
+<path d="m540 198v256m0-196-70 47m70-47 70 47m-70 21-82 42m82-42 82 42" fill="none" stroke="#71552c" stroke-linecap="round" stroke-width="13"/>
+<g transform="rotate(-5 540 700)">
+<rect x="265" y="620" width="550" height="210" rx="34" fill="#71552c"/>
+<rect x="290" y="645" width="500" height="160" rx="24" fill="#ead5aa"/>
+<path d="m340 690h400m-400 40h330m-330 40h380" opacity=".78" stroke="#71552c" stroke-linecap="round" stroke-width="12"/>
+</g>
+<text x="540" y="960" fill="#3f2f19" font-family="Georgia,serif" font-size="62" font-weight="700" text-anchor="middle">Digital Dhamma Library</text>
+<text x="540" y="1025" fill="#71552c" font-family="Arial,sans-serif" font-size="28" letter-spacing="4" text-anchor="middle">READ · SEARCH · STUDY · RESEARCH</text>
+<text x="540" y="1115" fill="#716b60" font-family="Georgia,serif" font-size="25" text-anchor="middle">Open Buddhist Digital Knowledge &amp; Research Platform</text>
+</svg>

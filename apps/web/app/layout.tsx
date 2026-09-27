@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   description: "Open Buddhist Digital Knowledge & Research Platform",
   metadataBase: new URL("https://snbhante.github.io/digital-dhamma-library/"),
   manifest: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/manifest.webmanifest`,
+  icons: {
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/assets/branding/favicon.svg`,
+    shortcut: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/assets/branding/favicon.svg`,
+    apple: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/assets/branding/icon-192.svg`,
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

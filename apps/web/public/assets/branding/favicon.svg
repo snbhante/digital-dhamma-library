@@ -1,0 +1,25 @@
+<svg aria-labelledby="title desc" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<title id="c">Digital Dhamma Library</title>
+<desc id="d">A stylized palm-leaf manuscript with a Bodhi leaf and rising sun, representing Buddhist texts and digital knowledge.</desc>
+<defs>
+<linearGradient id="b" y2="1">
+<stop stop-color="#8a6a38" offset="0"/>
+<stop stop-color="#513b1e" offset="1"/>
+</linearGradient>
+<linearGradient id="a" y2="1">
+<stop stop-color="#f3dfb3" offset="0"/>
+<stop stop-color="#c79a54" offset="1"/>
+</linearGradient>
+</defs>
+<rect width="512" height="512" rx="112" fill="url(#b)"/>
+<circle cx="256" cy="168" r="82" fill="#f5e8c8" opacity=".96"/>
+<path d="m256 72c-9 48-44 76-89 99 45 2 73 20 89 57 16-37 44-55 89-57-45-23-80-51-89-99z" fill="url(#a)"/>
+<path d="m256 84v133m0-85-38 27m38-27 38 27m-38 12-49 24m49-24 49 24" fill="none" opacity=".8" stroke="#8a6a38" stroke-linecap="round" stroke-width="8"/>
+<g transform="rotate(-6 256 330)">
+<rect x="92" y="268" width="328" height="132" rx="22" fill="#e9d3a6" stroke="#f9edcf" stroke-width="8"/>
+<path d="m126 305h260m-260 25h212m-212 25h242" opacity=".8" stroke="#8b6b3c" stroke-linecap="round" stroke-width="8"/>
+<circle cx="156" cy="376" r="7" fill="#8b6b3c"/>
+<circle cx="356" cy="376" r="7" fill="#8b6b3c"/>
+</g>
+<path d="m124 425h264" opacity=".72" stroke="#f6e9c8" stroke-linecap="round" stroke-width="10"/>
+</svg>

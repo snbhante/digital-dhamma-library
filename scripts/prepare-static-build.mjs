@@ -50,4 +50,21 @@ for (const field of ["name", "short_name", "start_url", "scope", "display"]) {
   }
 }
 
-console.log("Static build preparation passed: public/manifest.webmanifest is the canonical PWA manifest.");
+const referencedAssets = [
+  ...(manifest.icons || []).map((item) => item.src),
+  ...(manifest.shortcuts || []).flatMap((item) => (item.icons || []).map((icon) => icon.src)),
+  ...(manifest.screenshots || []).map((item) => item.src),
+];
+for (const asset of referencedAssets) {
+  const assetPath = path.resolve(path.dirname(publicManifest), asset);
+  if (!assetPath.startsWith(path.resolve(path.dirname(publicManifest)) + path.sep) || !fs.existsSync(assetPath)) {
+    throw new Error(`PWA manifest references a missing or unsafe public asset: ${asset}`);
+  }
+}
+
+for (const route of ["handle-audio-file", "share-target", "protocol-handler"]) {
+  const page = path.join(appDir, route, "page.tsx");
+  if (!fs.existsSync(page)) throw new Error(`PWA manifest route is missing: ${path.relative(repoRoot, page)}`);
+}
+
+console.log(`Static build preparation passed: public/manifest.webmanifest is canonical and ${referencedAssets.length} referenced PWA assets were verified.`);

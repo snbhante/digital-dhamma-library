@@ -4,6 +4,7 @@ import corpus from "../../../../../data/corpus.json";
 import ReaderView from "../../../components/ReaderView";
 import ReadingProgress from "../../../components/ReadingProgress";
 import RecentReadTracker from "../../../components/RecentReadTracker";
+import SiteBrand from "../../../components/SiteBrand";
 
 type Work = (typeof corpus)[number];
 
@@ -24,7 +25,7 @@ export default async function WorkPage({ params }: { params: Promise<{ workId: s
   return <main id="main-content" className="reader-shell">
     <ReadingProgress workId={work.id} />
     <RecentReadTracker workId={work.id} title={work.title} collection={work.collection} />
-    <nav className="topbar"><Link href="/">← Digital Dhamma Library</Link><div className="topbar-actions"><Link href="/search/">Search</Link><span>{work.collection}</span></div></nav>
+    <nav className="topbar"><SiteBrand compact /><div className="topbar-actions"><Link href="/search/">Search</Link><span>{work.collection}</span></div></nav>
     <header className="reader-header">
       <p className="eyebrow">{work.id.toUpperCase()}</p><h1>{work.title}</h1><p>{work.description}</p>
       <div className="metadata"><span>Language: {work.language}</span><span>Type: {work.type}</span><span>Edition: {work.edition}</span><span>{work.paragraphs.length} paragraphs</span></div><div className="reader-actions"><Link className="small-button" href={`/compare/${work.id}/`}>Compare texts</Link><Link className="small-button" href={`/search/?q=${encodeURIComponent(work.id)}`}>Research this work</Link></div><div className="source-note"><strong>Provenance:</strong> {work.source.provenance}<br /><strong>Rights note:</strong> {work.source.licenseStatus}</div>

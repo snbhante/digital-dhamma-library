@@ -14,13 +14,14 @@ import derivations from "../../../../data/derivations.json";
 import witnesses from "../../../../data/edition-witnesses.json";
 import citationProfiles from "../../../../data/citation-profiles.json";
 import reviewQueue from "../../../../data/review-queue.json";
+import SiteBrand from "../../components/SiteBrand";
 
 const paragraphCount = corpus.reduce((sum, work) => sum + work.paragraphs.length, 0);
 const occurrenceCount = occurrences.reduce((sum, item) => sum + item.count, 0);
 
 export default function ResearchPage() {
   return <main id="main-content" className="shell">
-    <nav className="topbar"><Link href="/">← Digital Dhamma Library</Link><span>Phase 2.4 Research Engine</span></nav>
+    <nav className="topbar"><SiteBrand compact /><span>Phase 2.4 Research Engine</span></nav>
     <header className="reader-header">
       <p className="eyebrow">PHASE 2.4 · RESEARCH ENGINE</p>
       <h1>Research Workbench</h1>

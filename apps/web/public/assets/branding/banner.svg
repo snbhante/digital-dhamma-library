@@ -1,0 +1,26 @@
+<svg aria-labelledby="title desc" role="img" viewBox="0 0 1600 600" xmlns="http://www.w3.org/2000/svg">
+<title id="c">Digital Dhamma Library</title>
+<desc id="d">A calm Buddhist digital library banner with a Bodhi leaf and palm-leaf manuscript.</desc>
+<defs>
+<linearGradient id="a" y2="1">
+<stop stop-color="#71552c" offset="0"/>
+<stop stop-color="#3f2f19" offset="1"/>
+</linearGradient>
+<linearGradient id="b" y2="1">
+<stop stop-color="#f3dfb3" offset="0"/>
+<stop stop-color="#c79a54" offset="1"/>
+</linearGradient>
+</defs>
+<rect width="1600" height="600" fill="url(#a)"/>
+<circle cx="1300" cy="150" r="190" fill="#f5e8c8" opacity=".08"/>
+<path d="m1300 18c-20 92-80 144-165 188 85 2 140 40 165 110 25-70 80-108 165-110-85-44-145-96-165-188z" fill="url(#b)" opacity=".92"/>
+<path d="m1300 38v278m0-211-78 52m78-52 78 52m-78 23-92 46m92-46 92 46" fill="none" opacity=".8" stroke="#71552c" stroke-linecap="round" stroke-width="14"/>
+<g transform="rotate(-5 1230 430)">
+<rect x="1010" y="330" width="450" height="170" rx="28" fill="#ead5aa"/>
+<path d="m1055 375h360m-360 35h300m-300 35h345" opacity=".75" stroke="#71552c" stroke-linecap="round" stroke-width="12"/>
+</g>
+<text x="90" y="190" fill="#f3dfb3" font-family="Georgia,serif" font-size="34" letter-spacing="7">OPEN BUDDHIST DIGITAL KNOWLEDGE</text>
+<text x="90" y="295" fill="#fffdf8" font-family="Georgia,serif" font-size="78" font-weight="700">Digital Dhamma Library</text>
+<text x="90" y="360" fill="#ead5aa" font-family="Arial,sans-serif" font-size="30">Read · Search · Study · Research · Connect the Dhamma</text>
+<rect x="90" y="420" width="430" height="5" rx="2.5" fill="#d3a65e"/>
+</svg>

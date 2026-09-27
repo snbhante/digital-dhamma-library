@@ -17,7 +17,8 @@ export default function AppEnhancements() {
     document.documentElement.dataset.theme = nextTheme;
 
     if ("serviceWorker" in navigator) {
-      const base = window.location.pathname.startsWith("/digital-dhamma-library") ? "/digital-dhamma-library/" : "/";
+      const configuredBase = process.env.NEXT_PUBLIC_BASE_PATH || "";
+      const base = `${configuredBase}/`.replace(/\/+/g, "/");
       navigator.serviceWorker.register(`${base}sw.js`, { scope: base }).catch(() => {});
     }
   }, []);
