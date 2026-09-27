@@ -67,4 +67,16 @@ for (const route of ["handle-audio-file", "share-target", "protocol-handler"]) {
   if (!fs.existsSync(page)) throw new Error(`PWA manifest route is missing: ${path.relative(repoRoot, page)}`);
 }
 
+// GitHub Pages uses output: "export", so the share-target route must not
+// consume request-time searchParams in a Server Component. The service worker
+// persists the POST payload in IndexedDB and the client component reads the
+// query string after hydration. Guard this contract to prevent a regression
+// that would make next build fail during prerendering.
+const shareTargetPage = fs.readFileSync(path.join(appDir, "share-target", "page.tsx"), "utf8");
+if (/\bsearchParams\b/.test(shareTargetPage) || /export\s+default\s+async\s+function/.test(shareTargetPage)) {
+  throw new Error(
+    "The /share-target page must remain a static Server Component; read its query string in a Client Component instead of using the searchParams page prop."
+  );
+}
+
 console.log(`Static build preparation passed: public/manifest.webmanifest is canonical and ${referencedAssets.length} referenced PWA assets were verified.`);

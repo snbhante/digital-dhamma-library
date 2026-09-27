@@ -1,4 +1,4 @@
-const CACHE = "ddl-static-v0.10.0";
+const CACHE = "ddl-static-v0.10.1";
 const BASE_PATH = new URL("./", self.location.href).pathname;
 const SHELL = [BASE_PATH, `${BASE_PATH}manifest.webmanifest`];
 const SHARE_DB = "digital-dhamma-library";

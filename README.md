@@ -1,6 +1,6 @@
-## Current release: Phase 2.5 / v0.10.0
+## Current release: Phase 2.5.1 / v0.10.1
 
-Phase 2.5 expands the PWA layer with a complete, source-aware web app manifest, optimized SVG branding, icons, shortcuts, screenshots, audio file handling, protocol handlers, and a service-worker-backed share target. It retains the Phase 2.4.5 static-export manifest migration guard and the Phase 2.4.3 TypeScript 6.0.3/typegen fix.
+Phase 2.5.1 hardens the PWA layer with a complete, source-aware web app manifest, optimized SVG branding, icons, shortcuts, screenshots, audio file handling, protocol handlers, and a service-worker-backed share target. It retains the Phase 2.4.5 static-export manifest migration guard and the Phase 2.4.3 TypeScript 6.0.3/typegen fix.
 
 The current baseline includes a local-first personal research workspace for paragraph bookmarks, private notes, saved searches, and personal collections, with JSON export/import and an authenticated Supabase persistence target.
 
@@ -168,3 +168,9 @@ The Phase 2.2 release (v0.7.0) adds edition-witness provenance, sentence-level h
 ### Phase 2.4
 
 See `docs/PHASE-2.4-RELEASE-NOTES.md` and `docs/PHASE-2.4-GUIDE.md` for the offline-friendly reader, reading progress, recent reading history, command palette, theme preference, and accessibility enhancements.
+
+
+### Phase 2.5.1
+- Fixes `/share-target/` static-export prerendering by moving query-string access into the Client Component.
+- Adds a pre-build regression guard that rejects request-time `searchParams` usage in the share-target Server Component.
+- Retains all Phase 2.5 PWA manifest, SVG branding, file-handler, protocol-handler, and service-worker share features.

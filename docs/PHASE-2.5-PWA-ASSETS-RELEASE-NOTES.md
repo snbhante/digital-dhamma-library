@@ -1,4 +1,4 @@
-# Phase 2.5 / v0.10.0 — PWA Manifest, Branding & SVG Assets
+# Phase 2.5.1 / v0.10.1 — PWA Static Share Target Fix
 
 ## Scope
 
@@ -50,10 +50,17 @@ The same logo is exposed on the home surface and selected primary navigation bar
 
 ## Version
 
-- Release: `phase-2.5`
-- Version: `0.10.0`
+- Release: `phase-2.5.1`
+- Version: `0.10.1`
 - Next.js: `16.3.6`
 - React: `19.3.0`
 - TypeScript: `6.0.3`
 - Node.js: `24.21.0`
 - npm: `12.1.0`
+
+
+## Phase 2.5.1 build fix
+
+The `/share-target/` route is part of the static GitHub Pages export. The previous implementation read the App Router `searchParams` page prop in a Server Component, which caused Next.js to treat the route as request-time dynamic during prerendering. The route is now a plain static Server Component, while `ShareTargetReceiver` reads `window.location.search` after hydration and loads the IndexedDB record written by the service worker.
+
+This keeps the share-target flow functional without introducing server-side rendering requirements. A pre-build guard also checks that the route does not regress to Server Component `searchParams` usage.

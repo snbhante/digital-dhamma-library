@@ -1,8 +1,8 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-2.5",
+  "release": "phase-2.5.1",
   "baseline_date": "2026-09-27",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -40,7 +40,8 @@
     "PWA audio file handler using Launch Handler API",
     "PWA protocol handlers for web+dhamma and web+tipitaka",
     "Service-worker-backed PWA share target with IndexedDB handoff",
-    "Project branding integrated into home and primary navigation surfaces"
+    "Project branding integrated into home and primary navigation surfaces",
+    "Static-export-safe PWA share target with client-side query and IndexedDB handoff"
   ],
   "fixes": [
     "Preserves Phase 2.0.2 duplicate occurrence-reference fix",
@@ -64,7 +65,9 @@
     "Pre-build validation verifies every manifest-referenced public asset",
     "Pre-build validation verifies PWA handler pages exist",
     "Service worker cache version advanced for Phase 2.5 assets and share handling",
-    "PWA URLs remain relative/base-path-safe for GitHub Pages"
+    "PWA URLs remain relative/base-path-safe for GitHub Pages",
+    "Fixes /share-target prerender failure by removing Server Component searchParams usage",
+    "Pre-build regression guard rejects request-time searchParams usage in the static share-target route"
   ],
-  "releaseSummary": "Phase 2.5 expands the static PWA into a fully branded Digital Dhamma Library installation surface. The release adds a complete project-specific manifest, optimized SVG logos/icons/screenshots/banner/poster assets, PWA shortcuts, audio file handling, custom protocol handlers, and a service-worker-backed share target suitable for static GitHub Pages hosting. The Phase 2.4.5 manifest migration/build protections and Phase 2.4.3 TypeScript/typegen fix remain intact."
+  "releaseSummary": "Phase 2.5.1 hardens the Phase 2.5 PWA layer for static GitHub Pages export. The release preserves the complete manifest, optimized SVG branding, shortcuts, screenshots, audio file handling, protocol handlers, and service-worker-backed share target, while fixing the /share-target prerender failure by moving query-string access into the client and adding a regression guard."
 }
