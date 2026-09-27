@@ -64,3 +64,8 @@ The same logo is exposed on the home surface and selected primary navigation bar
 The `/share-target/` route is part of the static GitHub Pages export. The previous implementation read the App Router `searchParams` page prop in a Server Component, which caused Next.js to treat the route as request-time dynamic during prerendering. The route is now a plain static Server Component, while `ShareTargetReceiver` reads `window.location.search` after hydration and loads the IndexedDB record written by the service worker.
 
 This keeps the share-target flow functional without introducing server-side rendering requirements. A pre-build guard also checks that the route does not regress to Server Component `searchParams` usage.
+
+
+## Phase 2.5.2 installed-app icon follow-up
+
+The installed-app icon set is now backed by PNG resources rather than relying on SVG manifest icons. The original SVG branding remains in the repository for web design use. See `docs/PHASE-2.5.2-PWA-ICON-BRANDING-FIX.md`.

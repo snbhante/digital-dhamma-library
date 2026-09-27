@@ -62,6 +62,29 @@ for (const asset of referencedAssets) {
   }
 }
 
+// Installed-app and launcher pipelines have broader support for raster PNG
+// icons than SVG. Keep a small regression guard so a future manifest edit
+// cannot silently remove the production icon set.
+const requiredPngIcons = [
+  "assets/branding/icon-192.png",
+  "assets/branding/icon-512.png",
+  "assets/branding/icon-maskable-512.png",
+  "assets/branding/icon-128.png",
+  "assets/branding/icon-96.png",
+  "assets/branding/icon-48.png",
+  "assets/branding/icon-32.png",
+  "assets/branding/favicon.ico",
+];
+for (const asset of requiredPngIcons) {
+  const assetPath = path.join(path.dirname(publicManifest), asset);
+  if (!fs.existsSync(assetPath)) {
+    throw new Error(`Required raster branding asset is missing: ${asset}`);
+  }
+}
+if ((manifest.icons || []).some((icon) => !String(icon.src || "").toLowerCase().endsWith(".png"))) {
+  throw new Error("The PWA installation icon set must use PNG assets; keep SVG files for web-only branding instead.");
+}
+
 for (const route of ["handle-audio-file", "share-target", "protocol-handler"]) {
   const page = path.join(appDir, route, "page.tsx");
   if (!fs.existsSync(page)) throw new Error(`PWA manifest route is missing: ${path.relative(repoRoot, page)}`);

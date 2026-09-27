@@ -1,6 +1,6 @@
-## Current release: Phase 2.5.1 / v0.10.1
+## Current release: Phase 2.5.2 / v0.10.2
 
-Phase 2.5.1 hardens the PWA layer with a complete, source-aware web app manifest, optimized SVG branding, icons, shortcuts, screenshots, audio file handling, protocol handlers, and a service-worker-backed share target. It retains the Phase 2.4.5 static-export manifest migration guard and the Phase 2.4.3 TypeScript 6.0.3/typegen fix.
+Phase 2.5.2 hardens installed-app branding with PNG PWA/launcher icons, PNG shortcut icons, raster favicon/Apple touch icon fallbacks, and a refreshed service-worker cache. It retains the Phase 2.5.1 static-export share-target fix and the complete research/PWA baseline.
 
 The current baseline includes a local-first personal research workspace for paragraph bookmarks, private notes, saved searches, and personal collections, with JSON export/import and an authenticated Supabase persistence target.
 

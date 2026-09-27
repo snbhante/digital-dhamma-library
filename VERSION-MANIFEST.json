@@ -1,8 +1,8 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-2.5.1",
+  "release": "phase-2.5.2",
   "baseline_date": "2026-09-27",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -41,7 +41,10 @@
     "PWA protocol handlers for web+dhamma and web+tipitaka",
     "Service-worker-backed PWA share target with IndexedDB handoff",
     "Project branding integrated into home and primary navigation surfaces",
-    "Static-export-safe PWA share target with client-side query and IndexedDB handoff"
+    "Static-export-safe PWA share target with client-side query and IndexedDB handoff",
+    "PNG PWA installation icons for Chromium/Windows app installation and launcher surfaces",
+    "PNG shortcut icons for installed-app shortcuts",
+    "Raster favicon and Apple touch icon fallbacks for browser and mobile home-screen branding"
   ],
   "fixes": [
     "Preserves Phase 2.0.2 duplicate occurrence-reference fix",
@@ -67,7 +70,10 @@
     "Service worker cache version advanced for Phase 2.5 assets and share handling",
     "PWA URLs remain relative/base-path-safe for GitHub Pages",
     "Fixes /share-target prerender failure by removing Server Component searchParams usage",
-    "Pre-build regression guard rejects request-time searchParams usage in the static share-target route"
+    "Pre-build regression guard rejects request-time searchParams usage in the static share-target route",
+    "Replaces manifest SVG app icons with PNG icons to improve installed-app icon discovery across Chromium/Windows surfaces",
+    "Adds 32/48/96/128/180/192/256/512 PNG branding sizes plus a multi-size favicon.ico",
+    "Advances service-worker cache so existing installed clients can receive the new icon assets"
   ],
-  "releaseSummary": "Phase 2.5.1 hardens the Phase 2.5 PWA layer for static GitHub Pages export. The release preserves the complete manifest, optimized SVG branding, shortcuts, screenshots, audio file handling, protocol handlers, and service-worker-backed share target, while fixing the /share-target prerender failure by moving query-string access into the client and adding a regression guard."
+  "releaseSummary": "Phase 2.5.2 hardens installed-app branding by providing PNG PWA icons, PNG shortcut icons, raster favicon/Apple touch icons, and a bumped service-worker cache. The existing Phase 2.5.1 static share-target fix and all research/data features are retained."
 }

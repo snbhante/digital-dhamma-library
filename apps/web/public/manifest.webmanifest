@@ -24,22 +24,46 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "assets/branding/icon-192.svg",
+      "src": "assets/branding/icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "assets/branding/icon-512.svg",
+      "src": "assets/branding/icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "assets/branding/icon-maskable.svg",
+      "src": "assets/branding/icon-maskable-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "maskable"
+    },
+    {
+      "src": "assets/branding/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/branding/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/branding/icon-48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/branding/icon-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "shortcuts": [
@@ -50,9 +74,9 @@
       "url": "./search/",
       "icons": [
         {
-          "src": "assets/shortcuts/search.svg",
+          "src": "assets/shortcuts/search.png",
           "sizes": "96x96",
-          "type": "image/svg+xml"
+          "type": "image/png"
         }
       ]
     },
@@ -63,9 +87,9 @@
       "url": "./research/",
       "icons": [
         {
-          "src": "assets/shortcuts/research.svg",
+          "src": "assets/shortcuts/research.png",
           "sizes": "96x96",
-          "type": "image/svg+xml"
+          "type": "image/png"
         }
       ]
     },
@@ -76,9 +100,9 @@
       "url": "./dictionary/",
       "icons": [
         {
-          "src": "assets/shortcuts/dictionary.svg",
+          "src": "assets/shortcuts/dictionary.png",
           "sizes": "96x96",
-          "type": "image/svg+xml"
+          "type": "image/png"
         }
       ]
     },
@@ -89,9 +113,9 @@
       "url": "./workspace/",
       "icons": [
         {
-          "src": "assets/shortcuts/workspace.svg",
+          "src": "assets/shortcuts/workspace.png",
           "sizes": "96x96",
-          "type": "image/svg+xml"
+          "type": "image/png"
         }
       ]
     }
