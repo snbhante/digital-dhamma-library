@@ -47,6 +47,15 @@
 - Add dictionary import adapters with per-source license gates and import manifests
 - Add citation export bundles and reproducible research snapshots
 
+## Phase 2.6 / v0.11.0 completed
+
+Reader UX and responsible responsive layout:
+- Large/medium/small responsive breakpoints across desktop, laptop, tablet, and mobile.
+- Contextual paragraph actions with hover, keyboard focus, click, and touch activation.
+- Compact action panel for citation, bookmark, and note controls.
+- Accessible overlay note editor with Escape-to-close and mobile-safe sizing.
+- Build-time UI regression checks.
+
 ## Phase 3
 
 Authenticated user platform: Supabase Auth, profile, bookmarks, notes, collections, history, saved searches.

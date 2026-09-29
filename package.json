@@ -1,7 +1,7 @@
 {
   "name": "digital-dhamma-library",
   "private": true,
-  "version": "0.10.2",
+  "version": "0.11.0",
   "packageManager": "npm@12.1.0",
   "engines": {
     "node": ">=24.21.0 <25",
@@ -9,11 +9,12 @@
   },
   "scripts": {
     "dev": "npm --workspace @digital-dhamma-library/web run dev",
-    "build": "npm run prepare:static-build && npm run build:research-index && npm run validate:data && npm --workspace @digital-dhamma-library/web run build",
-    "typecheck": "npm run prepare:static-build && npm run typecheck --workspaces --if-present",
+    "build": "npm run prepare:static-build && npm run validate:ui && npm run build:research-index && npm run validate:data && npm --workspace @digital-dhamma-library/web run build",
+    "typecheck": "npm run prepare:static-build && npm run validate:ui && npm run typecheck --workspaces --if-present",
     "validate:data": "node scripts/validate-data.mjs",
     "build:research-index": "node scripts/build-research-index.mjs",
-    "prepare:static-build": "node scripts/prepare-static-build.mjs"
+    "prepare:static-build": "node scripts/prepare-static-build.mjs",
+    "validate:ui": "node scripts/validate-ui.mjs"
   },
   "workspaces": [
     "apps/*",

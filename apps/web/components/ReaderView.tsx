@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import CopyCitationButton from "./CopyCitationButton";
 import CitationTools from "./CitationTools";
 import ParagraphResearchTools from "./ParagraphResearchTools";
+import ParagraphActions from "./ParagraphActions";
 
 type Paragraph = { id: string; number: number; pali: string; english?: string; bangla?: string };
 type Work = { id: string; title: string; edition: string; paragraphs: Paragraph[] };
@@ -15,6 +16,7 @@ export default function ReaderView({ work }: { work: Work }) {
   const [scale, setScale] = useState(1);
   const [lineHeight, setLineHeight] = useState(1.95);
   const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [activeParagraphId, setActiveParagraphId] = useState<string | null>(null);
 
   useEffect(() => {
     const savedTheme = window.localStorage.getItem("ddl-theme");
@@ -84,8 +86,27 @@ export default function ReaderView({ work }: { work: Work }) {
     </div>
 
     <section className="text-column" aria-label={`${work.title} text`} style={paragraphStyle}>
-      {uniqueParagraphs.map((paragraph) => <article className="paragraph" id={paragraph.id} key={`${work.id}-${paragraph.id}`}>
-        <div className="paragraph-head"><div className="paragraph-id">{paragraph.id}</div><div className="citation-actions"><CopyCitationButton workTitle={work.title} paragraphId={paragraph.id} edition={work.edition} /><CitationTools workTitle={work.title} workId={work.id} paragraphId={paragraph.id} edition={work.edition} /><ParagraphResearchTools workId={work.id} workTitle={work.title} paragraphId={paragraph.id} /></div></div>
+      {uniqueParagraphs.map((paragraph) => <article
+        className={`paragraph${activeParagraphId === paragraph.id ? " is-action-target" : ""}`}
+        id={paragraph.id}
+        key={`${work.id}-${paragraph.id}`}
+        onClick={(event) => {
+          const target = event.target as HTMLElement;
+          if (target.closest("a, button, input, textarea, select, summary, label")) return;
+          setActiveParagraphId((current) => current === paragraph.id ? null : paragraph.id);
+        }}
+      >
+        <div className="paragraph-head">
+          <div className="paragraph-id">{paragraph.id}</div>
+          <ParagraphActions
+            open={activeParagraphId === paragraph.id}
+            onToggle={() => setActiveParagraphId((current) => current === paragraph.id ? null : paragraph.id)}
+          >
+            <CopyCitationButton workTitle={work.title} paragraphId={paragraph.id} edition={work.edition} />
+            <CitationTools workTitle={work.title} workId={work.id} paragraphId={paragraph.id} edition={work.edition} />
+            <ParagraphResearchTools workId={work.id} workTitle={work.title} paragraphId={paragraph.id} />
+          </ParagraphActions>
+        </div>
         {showPali && <p className="pali reader-pali">{paragraph.pali}</p>}
         {showEnglish && paragraph.english && <p className="translation">{paragraph.english}</p>}
         {showBangla && paragraph.bangla && <p className="translation bangla">{paragraph.bangla}</p>}

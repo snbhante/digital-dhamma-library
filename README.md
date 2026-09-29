@@ -1,6 +1,6 @@
-## Current release: Phase 2.5.2 / v0.10.2
+## Current release: Phase 2.6 / v0.11.0
 
-Phase 2.5.2 hardens installed-app branding with PNG PWA/launcher icons, PNG shortcut icons, raster favicon/Apple touch icon fallbacks, and a refreshed service-worker cache. It retains the Phase 2.5.1 static-export share-target fix and the complete research/PWA baseline.
+Phase 2.6 / v0.11.0 adds a responsive layout system across large desktop, desktop, laptop, tablet, mobile, and compact-mobile widths; contextual paragraph actions that work with hover, keyboard focus, click, and touch; and an accessible overlay note editor. It retains the complete Phase 2.5.2 PWA branding and research baseline.
 
 The current baseline includes a local-first personal research workspace for paragraph bookmarks, private notes, saved searches, and personal collections, with JSON export/import and an authenticated Supabase persistence target.
 
@@ -174,3 +174,12 @@ See `docs/PHASE-2.4-RELEASE-NOTES.md` and `docs/PHASE-2.4-GUIDE.md` for the offl
 - Fixes `/share-target/` static-export prerendering by moving query-string access into the Client Component.
 - Adds a pre-build regression guard that rejects request-time `searchParams` usage in the share-target Server Component.
 - Retains all Phase 2.5 PWA manifest, SVG branding, file-handler, protocol-handler, and service-worker share features.
+
+
+### Phase 2.6 / v0.11.0
+- Adds a responsive layout matrix for large desktop, desktop/laptop, tablet, mobile, and compact-mobile screens.
+- Adds contextual paragraph actions: hover on pointer devices, keyboard focus, and click/touch activation on touch devices.
+- Groups citation, bookmark, and note actions into a compact paragraph action panel.
+- Replaces the inline paragraph note editor with an accessible modal overlay supporting Escape-to-close, focus placement, delete, cancel, and save.
+- Preserves the Phase 2.3 local-first workspace storage key so existing bookmarks, notes, saved searches, and collections are not discarded.
+- Adds a static UI regression validator to the build/typecheck workflow.
