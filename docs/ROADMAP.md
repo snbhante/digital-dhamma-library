@@ -58,6 +58,10 @@ Reader UX and responsible responsive layout:
 
 ## Phase 3 / v0.12.0 completed
 
+## Phase 3 / v0.12.2 maintenance fix
+
+- Resolved a Next.js static pre-rendering crash in GitHub Actions CI pipelines caused by `@supabase/ssr` validation errors when environment variables are missing.
+
 ## Phase 3 / v0.12.1 maintenance fix
 
 - Fixed strict TypeScript control-flow narrowing in the authenticated account profile save callback.

@@ -1,4 +1,6 @@
-## Current release: Phase 3 / v0.12.1
+## Current release: Phase 3 / v0.12.2
+
+Phase 3 / v0.12.2 resolves a GitHub Actions CI failure by gracefully handling missing Supabase environment variables during Next.js static prerendering, allowing the pipeline to build and deploy cleanly.
 
 Phase 3 / v0.12.0 added Workspace 2.0: optional Supabase authentication, researcher profiles, local-first cloud synchronization, versioned private workspace snapshots, and account-aware workspace controls. It retains the complete v0.11 responsive reader, contextual paragraph actions, note overlay, PWA branding, research engine, and local workspace baseline.
 
@@ -184,6 +186,11 @@ See `docs/PHASE-2.4-RELEASE-NOTES.md` and `docs/PHASE-2.4-GUIDE.md` for the offl
 - Preserves the Phase 2.3 local-first workspace storage key so existing bookmarks, notes, saved searches, and collections are not discarded.
 - Adds a static UI regression validator to the build/typecheck workflow.
 
+
+### Phase 3 / v0.12.2 — GitHub Actions CI fix
+
+- Safely bypasses `@supabase/ssr` validation errors when Next.js attempts to statically pre-render pages in a CI environment where `NEXT_PUBLIC_SUPABASE_URL` is unavailable.
+- Provides dummy fallback URLs in `apps/web/utils/supabase/client.ts` strictly to satisfy the build-time requirements of Next.js static generation without affecting runtime client behavior.
 
 ### Phase 3 / v0.12.1 — Workspace 2.0 maintenance fix
 
