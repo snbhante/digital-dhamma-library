@@ -2,7 +2,7 @@
   "project": "digital-dhamma-library",
   "release": "phase-3",
   "baseline_date": "2026-09-29",
-  "version": "0.12.2",
+  "version": "0.12.3",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -94,7 +94,8 @@
     "Never requires a service-role or secret Supabase key in the public client",
     "Preserves the existing v0.8.0 workspace storage key for local continuity",
     "Fixes AccountPanel TypeScript closure narrowing by capturing the authenticated session after the render guard before passing it to upsertProfile.",
-    "Fixes Next.js static build in CI by providing a dummy Supabase client configuration when environment variables are missing."
+    "Fixes Next.js static build in CI by providing a dummy Supabase client configuration when environment variables are missing.",
+    "Synchronizes CI verification workflow (ci.yml) to mirror the production build variables for Supabase."
   ],
-  "releaseSummary": "Phase 3 / v0.12.2 is a maintenance release that fixes a Next.js static pre-rendering crash in GitHub Actions by safely bypassing @supabase/ssr strict validation when CI environment variables are missing."
+  "releaseSummary": "Phase 3 / v0.12.3 aligns the CI workflow configuration with the production GitHub Pages deployment, ensuring that Supabase repository variables are consistently provided to all Next.js build environments."
 }
