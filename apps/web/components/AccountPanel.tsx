@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { FormEvent } from "react";
-import { getProfile, upsertProfile, type Profile } from "../lib/supabase";
+import { getProfile, upsertProfile, getFallbackName, type Profile } from "../lib/supabase";
 import { useAuth } from "./AuthProvider";
 
 export default function AccountPanel() {
@@ -20,7 +20,8 @@ export default function AccountPanel() {
     if (!session) return;
     getProfile(session).then((value) => {
       setProfile(value);
-      setDisplayName(value?.display_name ?? (typeof user?.user_metadata?.display_name === "string" ? user.user_metadata.display_name : ""));
+      const meta = user?.user_metadata || {};
+      setDisplayName(value?.display_name ?? (typeof meta.display_name === "string" ? meta.display_name : typeof meta.full_name === "string" ? meta.full_name : typeof meta.name === "string" ? meta.name : ""));
       setBio(value?.bio ?? "");
       setLocale(value?.locale ?? "en");
       setIsPublic(value?.is_public ?? false);
@@ -31,11 +32,13 @@ export default function AccountPanel() {
   if (!configured) return <div className="notice">Supabase is not configured. Your workspace remains local-first.</div>;
   if (!session || !user) return <div className="notice"><strong>You are not signed in.</strong> <Link href="/auth/">Sign in</Link> to enable cloud workspace sync.</div>;
 
+  const activeSession = session;
+
   async function save(event: FormEvent) {
     event.preventDefault();
     setStatus(""); setError("");
     try {
-      const next = await upsertProfile(session, { display_name: displayName.trim() || null, avatar_url: profile?.avatar_url ?? null, bio: bio.trim() || null, locale, is_public: isPublic });
+      const next = await upsertProfile(activeSession, { display_name: displayName.trim() || null, avatar_url: profile?.avatar_url ?? null, bio: bio.trim() || null, locale, is_public: isPublic });
       setProfile(next);
       setStatus("Profile saved.");
     } catch (value) {
@@ -46,7 +49,7 @@ export default function AccountPanel() {
   return <div className="account-grid">
     <section className="card account-card">
       <span className="card-kicker">ACCOUNT</span>
-      <h2>{displayName || user.email || "Researcher"}</h2>
+      <h2>{displayName || getFallbackName(user.email)}</h2>
       <p>{user.email}</p>
       <div className="actions"><Link className="button primary" href="/workspace/">Open workspace</Link><button className="button" type="button" onClick={() => signOut()}>Sign out</button></div>
     </section>

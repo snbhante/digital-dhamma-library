@@ -35,4 +35,9 @@ if (/export const dynamic|searchParams|cookies\(/.test(`${authPage}\n${accountPa
   throw new Error("Workspace 2.0 account routes must remain static-export safe.");
 }
 
-console.log("Workspace 2.0 validation passed: auth/profile surfaces, cloud snapshot migration, static-export safety, and public-key security boundaries are present.");
+const accountPanel = fs.readFileSync(path.join(root, "apps/web/components/AccountPanel.tsx"), "utf8");
+if (!/const activeSession = session;/.test(accountPanel) || !/upsertProfile\(activeSession,/.test(accountPanel)) {
+  throw new Error("AccountPanel must capture the authenticated session before using it inside the nested save callback.");
+}
+
+console.log("Workspace 2.0 validation passed: auth/profile surfaces, cloud snapshot migration, static-export safety, public-key security boundaries, and AccountPanel TypeScript narrowing guard are present.");

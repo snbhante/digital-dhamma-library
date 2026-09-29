@@ -2,7 +2,7 @@
   "project": "digital-dhamma-library",
   "release": "phase-3",
   "baseline_date": "2026-09-29",
-  "version": "0.12.0",
+  "version": "0.12.1",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -92,7 +92,8 @@
     "Locks background scrolling while the note overlay is open",
     "Preserves GitHub Pages static export by keeping authentication browser-side",
     "Never requires a service-role or secret Supabase key in the public client",
-    "Preserves the existing v0.8.0 workspace storage key for local continuity"
+    "Preserves the existing v0.8.0 workspace storage key for local continuity",
+    "Fixes AccountPanel TypeScript closure narrowing by capturing the authenticated session after the render guard before passing it to upsertProfile."
   ],
-  "releaseSummary": "Phase 3 / v0.12.0 introduces Workspace 2.0: optional Supabase authentication, researcher profiles, private cloud workspace snapshots, deterministic local/cloud merge, and synchronized personal research state while preserving the GitHub Pages static architecture and all prior reader, research, PWA, and responsive UI features."
+  "releaseSummary": "Phase 3 / v0.12.1 is a maintenance release that fixes the TypeScript narrowing failure in the authenticated AccountPanel save handler while preserving the complete v0.12.0 Workspace 2.0 architecture and static GitHub Pages deployment model."
 }

@@ -6,6 +6,7 @@ import {
   readWorkspace,
   targetIdForParagraph,
   writeWorkspace,
+  emptyWorkspace,
   type WorkspaceState,
 } from "../lib/workspace";
 
@@ -17,13 +18,14 @@ type Props = {
 
 export default function ParagraphResearchTools({ workId, workTitle, paragraphId }: Props) {
   const targetId = targetIdForParagraph(workId, paragraphId);
-  const [state, setState] = useState<WorkspaceState>(() => readWorkspace());
+  const [state, setState] = useState<WorkspaceState>(emptyWorkspace);
   const [noteOpen, setNoteOpen] = useState(false);
   const [note, setNote] = useState("");
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {
     const refresh = () => setState(readWorkspace());
+    refresh();
     window.addEventListener("ddl-workspace-updated", refresh);
     return () => window.removeEventListener("ddl-workspace-updated", refresh);
   }, []);

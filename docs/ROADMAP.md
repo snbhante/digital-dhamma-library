@@ -58,6 +58,12 @@ Reader UX and responsible responsive layout:
 
 ## Phase 3 / v0.12.0 completed
 
+## Phase 3 / v0.12.1 maintenance fix
+
+- Fixed strict TypeScript control-flow narrowing in the authenticated account profile save callback.
+- Added a workspace validator regression guard for the authenticated-session capture pattern.
+
+
 Workspace 2.0:
 - Optional browser-side Supabase authentication for GitHub Pages/static deployment.
 - Researcher profile management.

@@ -59,3 +59,9 @@ Because `NEXT_PUBLIC_*` values are embedded during the static build, add these r
 - `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
 
 The Pages workflow passes these variables into the Next.js build. Do not add a service-role/secret key to the workflow or any `NEXT_PUBLIC_*` variable.
+
+## v0.12.1 maintenance fix
+
+The Workspace 2.0 account screen had a strict TypeScript control-flow issue: `session` was narrowed by a render-time guard, but the nested asynchronous `save()` function could not safely retain that narrowing when passing the value to `upsertProfile()`. The fix captures the already-authenticated session in `activeSession` immediately after the guard and uses that value inside `save()`.
+
+This is a compile-time fix only. It does not change the Supabase API contract, RLS policy, browser session storage, workspace merge behavior, or static GitHub Pages deployment architecture.

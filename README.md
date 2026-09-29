@@ -1,6 +1,6 @@
-## Current release: Phase 3 / v0.12.0
+## Current release: Phase 3 / v0.12.1
 
-Phase 3 / v0.12.0 adds Workspace 2.0: optional Supabase authentication, researcher profiles, local-first cloud synchronization, versioned private workspace snapshots, and account-aware workspace controls. It retains the complete v0.11 responsive reader, contextual paragraph actions, note overlay, PWA branding, research engine, and local workspace baseline.
+Phase 3 / v0.12.0 added Workspace 2.0: optional Supabase authentication, researcher profiles, local-first cloud synchronization, versioned private workspace snapshots, and account-aware workspace controls. It retains the complete v0.11 responsive reader, contextual paragraph actions, note overlay, PWA branding, research engine, and local workspace baseline.
 
 The current baseline includes a local-first personal research workspace for paragraph bookmarks, private notes, saved searches, and personal collections, with JSON export/import and an authenticated Supabase persistence target.
 
@@ -184,6 +184,13 @@ See `docs/PHASE-2.4-RELEASE-NOTES.md` and `docs/PHASE-2.4-GUIDE.md` for the offl
 - Preserves the Phase 2.3 local-first workspace storage key so existing bookmarks, notes, saved searches, and collections are not discarded.
 - Adds a static UI regression validator to the build/typecheck workflow.
 
+
+### Phase 3 / v0.12.1 — Workspace 2.0 maintenance fix
+
+- Fixes the TypeScript `code 2` failure reported from `apps/web/components/AccountPanel.tsx` when calling `upsertProfile(session, ...)` from the nested `save()` handler.
+- The authenticated session is captured after the existing `!session || !user` render guard, preserving strict TypeScript narrowing inside the callback.
+- Adds a regression check to `scripts/validate-workspace.mjs` so the closure-safe pattern is retained in future edits.
+- No Supabase schema, authentication flow, local workspace key, PWA behavior, or GitHub Pages static-export architecture is changed.
 
 ### Phase 3 / v0.12.0 — Workspace 2.0
 

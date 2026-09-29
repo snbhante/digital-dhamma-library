@@ -632,6 +632,7 @@ kbd { border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 5p
 .success-notice { border-color: #5f8b68; }
 .account-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
 .account-card { min-height: 0; }
+.account-card h2 { overflow-wrap: anywhere; }
 .workspace-sync-status { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; margin: 14px 0 4px; padding: 10px 13px; border: 1px solid var(--line); border-radius: 11px; background: var(--surface); font-size: .86rem; }
 .workspace-sync-status.synced span:first-child { color: #5f8b68; }
 .workspace-sync-status.error { border-color: #b64b4b; }

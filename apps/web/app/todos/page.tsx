@@ -1,11 +1,20 @@
-import { createClient } from '../../utils/supabase/server'
-import { cookies } from 'next/headers'
+"use client";
 
-export default async function Page() {
-  const cookieStore = await cookies()
-  const supabase = createClient(cookieStore)
+import { useEffect, useState } from 'react'
+import { createClient } from '../../utils/supabase/client'
 
-  const { data: todos } = await supabase.from('todos').select()
+export default function Page() {
+  const [todos, setTodos] = useState<any[] | null>(null)
+  const supabase = createClient()
+
+  useEffect(() => {
+    const fetchTodos = async () => {
+      const { data } = await supabase.from('todos').select()
+      setTodos(data)
+    }
+    
+    fetchTodos()
+  }, [])
 
   return (
     <ul>

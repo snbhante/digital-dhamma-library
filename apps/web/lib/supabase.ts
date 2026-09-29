@@ -27,6 +27,15 @@ const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process
 
 export const supabaseConfigured = Boolean(SUPABASE_URL && SUPABASE_KEY);
 
+export function getFallbackName(email?: string): string {
+  if (!email) return "Researcher";
+  const username = email.split("@")[0] || "";
+  if (username.length > 10) {
+    return `${username.slice(0, 5)}...${username.slice(-4)}`;
+  }
+  return username || "Researcher";
+}
+
 function headers(accessToken?: string, extra: Record<string, string> = {}) {
   return {
     apikey: SUPABASE_KEY,
