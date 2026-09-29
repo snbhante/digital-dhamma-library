@@ -45,6 +45,8 @@ jobs:
       - name: Build Next.js
         env:
           NEXT_PUBLIC_BASE_PATH: /digital-dhamma-library
+          NEXT_PUBLIC_SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ vars.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
         run: npm run build
 
       - name: Setup GitHub Pages

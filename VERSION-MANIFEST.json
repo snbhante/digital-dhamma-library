@@ -1,8 +1,8 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-2.6",
+  "release": "phase-3",
   "baseline_date": "2026-09-29",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -50,7 +50,14 @@
     "Compact paragraph action panel for citation, bookmark, and note controls",
     "Accessible paragraph note overlay with focus management and Escape-to-close",
     "Mobile-safe note overlay with safe-area padding and dynamic viewport sizing",
-    "Static responsive/UI regression validator integrated into build and typecheck"
+    "Static responsive/UI regression validator integrated into build and typecheck",
+    "Phase 3 Workspace 2.0 optional Supabase authentication for static GitHub Pages deployment",
+    "Researcher account and profile management",
+    "Local-first workspace continuity with authenticated cloud synchronization",
+    "Private versioned workspace snapshot with Supabase RLS",
+    "Deterministic local/cloud merge for bookmarks, notes, searches, and collections",
+    "Debounced background workspace synchronization and manual Sync now control",
+    "Workspace v2 JSON export/import"
   ],
   "fixes": [
     "Preserves Phase 2.0.2 duplicate occurrence-reference fix",
@@ -82,7 +89,10 @@
     "Advances service-worker cache so existing installed clients can receive the new icon assets",
     "Preserves Phase 2.3 workspace storage key for local-data continuity during v0.11",
     "Prevents paragraph action clicks from interfering with links and form controls",
-    "Locks background scrolling while the note overlay is open"
+    "Locks background scrolling while the note overlay is open",
+    "Preserves GitHub Pages static export by keeping authentication browser-side",
+    "Never requires a service-role or secret Supabase key in the public client",
+    "Preserves the existing v0.8.0 workspace storage key for local continuity"
   ],
-  "releaseSummary": "Phase 2.6 / v0.11.0 improves the reader with a responsive layout matrix and contextual paragraph actions that adapt to pointer, keyboard, click, and touch input. Paragraph notes now use an accessible overlay editor while preserving the existing local-first workspace data and all Phase 2.5.2 PWA/research features."
+  "releaseSummary": "Phase 3 / v0.12.0 introduces Workspace 2.0: optional Supabase authentication, researcher profiles, private cloud workspace snapshots, deterministic local/cloud merge, and synchronized personal research state while preserving the GitHub Pages static architecture and all prior reader, research, PWA, and responsive UI features."
 }

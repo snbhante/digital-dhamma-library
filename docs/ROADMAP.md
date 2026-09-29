@@ -56,9 +56,15 @@ Reader UX and responsible responsive layout:
 - Accessible overlay note editor with Escape-to-close and mobile-safe sizing.
 - Build-time UI regression checks.
 
-## Phase 3
+## Phase 3 / v0.12.0 completed
 
-Authenticated user platform: Supabase Auth, profile, bookmarks, notes, collections, history, saved searches.
+Workspace 2.0:
+- Optional browser-side Supabase authentication for GitHub Pages/static deployment.
+- Researcher profile management.
+- Local-first workspace continuity with the existing storage key.
+- Private authenticated workspace snapshot persistence protected by RLS.
+- Deterministic local/cloud merge and debounced background synchronization.
+- Manual sync, account settings, and v2 workspace export/import.
 
 ## Phase 4
 
