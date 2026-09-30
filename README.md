@@ -1,6 +1,6 @@
-## Current release: Phase 3 / v0.12.3
+## Current release: Phase 3 / v0.12.4
 
-Phase 3 / v0.12.3 synchronizes the GitHub Actions CI workflow with the production deployment environment, ensuring Supabase repository variables are properly passed during CI testing and validation.
+Phase 3 / v0.12.4 is a minor documentation and configuration update that adds explicit Supabase placeholder strings to the local environment template (`.env.example`), ensuring clearer onboarding for new developers configuring Workspace 2.0.
 
 Phase 3 / v0.12.0 added Workspace 2.0: optional Supabase authentication, researcher profiles, local-first cloud synchronization, versioned private workspace snapshots, and account-aware workspace controls. It retains the complete v0.11 responsive reader, contextual paragraph actions, note overlay, PWA branding, research engine, and local workspace baseline.
 
@@ -186,6 +186,10 @@ See `docs/PHASE-2.4-RELEASE-NOTES.md` and `docs/PHASE-2.4-GUIDE.md` for the offl
 - Preserves the Phase 2.3 local-first workspace storage key so existing bookmarks, notes, saved searches, and collections are not discarded.
 - Adds a static UI regression validator to the build/typecheck workflow.
 
+
+### Phase 3 / v0.12.4 — Environment configuration placeholders
+
+- Updated `.env.example` with clear dummy format placeholders for `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` to guide local developer setup.
 
 ### Phase 3 / v0.12.3 — GitHub Actions CI alignment
 

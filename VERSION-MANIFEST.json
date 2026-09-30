@@ -1,8 +1,8 @@
 {
   "project": "digital-dhamma-library",
   "release": "phase-3",
-  "baseline_date": "2026-09-29",
-  "version": "0.12.3",
+  "baseline_date": "2026-09-30",
+  "version": "0.12.4",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -95,7 +95,8 @@
     "Preserves the existing v0.8.0 workspace storage key for local continuity",
     "Fixes AccountPanel TypeScript closure narrowing by capturing the authenticated session after the render guard before passing it to upsertProfile.",
     "Fixes Next.js static build in CI by providing a dummy Supabase client configuration when environment variables are missing.",
-    "Synchronizes CI verification workflow (ci.yml) to mirror the production build variables for Supabase."
+    "Synchronizes CI verification workflow (ci.yml) to mirror the production build variables for Supabase.",
+    "Updates .env.example with explicit dummy placeholders for Supabase configuration to guide developers."
   ],
-  "releaseSummary": "Phase 3 / v0.12.3 aligns the CI workflow configuration with the production GitHub Pages deployment, ensuring that Supabase repository variables are consistently provided to all Next.js build environments."
+  "releaseSummary": "Phase 3 / v0.12.4 is a minor documentation update that introduces explicit Supabase placeholder strings in the local environment template, ensuring clearer onboarding for new developers configuring Workspace 2.0."
 }
