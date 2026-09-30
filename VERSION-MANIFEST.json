@@ -2,7 +2,7 @@
   "project": "digital-dhamma-library",
   "release": "phase-3",
   "baseline_date": "2026-09-30",
-  "version": "0.12.4",
+  "version": "0.12.5",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -57,7 +57,8 @@
     "Private versioned workspace snapshot with Supabase RLS",
     "Deterministic local/cloud merge for bookmarks, notes, searches, and collections",
     "Debounced background workspace synchronization and manual Sync now control",
-    "Workspace v2 JSON export/import"
+    "Workspace v2 JSON export/import",
+    "Local JSON export and import mobility for the Research Review Queue"
   ],
   "fixes": [
     "Preserves Phase 2.0.2 duplicate occurrence-reference fix",
@@ -98,5 +99,5 @@
     "Synchronizes CI verification workflow (ci.yml) to mirror the production build variables for Supabase.",
     "Updates .env.example with explicit dummy placeholders for Supabase configuration to guide developers."
   ],
-  "releaseSummary": "Phase 3 / v0.12.4 is a minor documentation update that introduces explicit Supabase placeholder strings in the local environment template, ensuring clearer onboarding for new developers configuring Workspace 2.0."
+  "releaseSummary": "Phase 3 / v0.12.5 introduces local JSON export and import capabilities to the Research Review Queue workbench, unlocking data mobility for offline editorial reviews before the authenticated Phase 4 editorial platform is introduced."
 }

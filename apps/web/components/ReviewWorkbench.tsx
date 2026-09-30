@@ -71,6 +71,39 @@ export default function ReviewWorkbench() {
     return occurrences.find((record) => record.token === item.entityId);
   }
 
+  function exportReviews() {
+    const data = JSON.stringify(state, null, 2);
+    const blob = new Blob([data], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `ddl-research-reviews-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  function importReviews() {
+    const input = document.createElement("input");
+    input.type = "file";
+    input.accept = "application/json";
+    input.onchange = async (e) => {
+      const file = (e.target as HTMLInputElement).files?.[0];
+      if (!file) return;
+      try {
+        const text = await file.text();
+        const imported = JSON.parse(text);
+        if (typeof imported !== "object" || imported === null) throw new Error("Invalid review state format.");
+        setState((current) => ({ ...current, ...imported }));
+        alert("Research reviews imported and merged successfully.");
+      } catch (error) {
+        alert("Failed to import reviews. Please ensure the file is a valid JSON export from the Digital Dhamma Library review queue.");
+      }
+    };
+    input.click();
+  }
+
   return <div className="review-workbench">
     <div className="stats-grid">
       {(Object.keys(counts) as Status[]).map((status) => <div className="stat-card" key={status}><strong>{counts[status]}</strong><span>{label(status)}</span></div>)}
@@ -80,6 +113,8 @@ export default function ReviewWorkbench() {
         <input aria-label="Search review queue" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search token, sentence, or review note…" />
         <select aria-label="Review status" value={filter} onChange={(e) => setFilter(e.target.value as typeof filter)}><option value="ALL">All statuses</option><option value="UNREVIEWED">Unreviewed</option><option value="NEEDS_REVIEW">Needs review</option><option value="VERIFIED">Verified</option><option value="REJECTED">Rejected</option></select>
         <select aria-label="Review entity type" value={type} onChange={(e) => setType(e.target.value)}><option value="ALL">All research types</option><option value="SENTENCE_ALIGNMENT">Sentence alignment</option><option value="OCCURRENCE">Occurrence</option><option value="MORPHOLOGY_ANALYSIS">Morphology analysis</option></select>
+        <button className="small-button" type="button" onClick={exportReviews}>Export reviews</button>
+        <button className="small-button" type="button" onClick={importReviews}>Import reviews</button>
       </div>
       <p className="muted">Review decisions are stored locally in this browser in Phase 2.2. Canonical Git data is not modified by this UI.</p>
     </section>

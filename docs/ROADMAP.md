@@ -58,6 +58,10 @@ Reader UX and responsible responsive layout:
 
 ## Phase 3 / v0.12.0 completed
 
+## Phase 3 / v0.12.5 feature
+
+- Added JSON export and import capabilities to the Research Review Queue workbench.
+
 ## Phase 3 / v0.12.4 documentation update
 
 - Updated `.env.example` with Supabase configuration format placeholders.

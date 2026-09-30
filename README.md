@@ -1,6 +1,6 @@
-## Current release: Phase 3 / v0.12.4
+## Current release: Phase 3 / v0.12.5
 
-Phase 3 / v0.12.4 is a minor documentation and configuration update that adds explicit Supabase placeholder strings to the local environment template (`.env.example`), ensuring clearer onboarding for new developers configuring Workspace 2.0.
+Phase 3 / v0.12.5 introduces local JSON export and import capabilities to the Research Review Queue workbench. This unlocks data mobility for offline editorial reviews, allowing researchers to safely export their unauthenticated, local review decisions (for sentence alignments, morphology, and occurrences) to disk, and import them across browsers or machines before the fully authenticated Phase 4 editorial platform is introduced.
 
 Phase 3 / v0.12.0 added Workspace 2.0: optional Supabase authentication, researcher profiles, local-first cloud synchronization, versioned private workspace snapshots, and account-aware workspace controls. It retains the complete v0.11 responsive reader, contextual paragraph actions, note overlay, PWA branding, research engine, and local workspace baseline.
 
@@ -186,6 +186,10 @@ See `docs/PHASE-2.4-RELEASE-NOTES.md` and `docs/PHASE-2.4-GUIDE.md` for the offl
 - Preserves the Phase 2.3 local-first workspace storage key so existing bookmarks, notes, saved searches, and collections are not discarded.
 - Adds a static UI regression validator to the build/typecheck workflow.
 
+
+### Phase 3 / v0.12.5 — Research Review Queue mobility
+
+- Added local JSON export and import actions to the `/review` workbench to facilitate sharing and backup of editorial review states.
 
 ### Phase 3 / v0.12.4 — Environment configuration placeholders
 
