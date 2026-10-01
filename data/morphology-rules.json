@@ -1,0 +1,12 @@
+[
+  {
+    "id": "morphology-rule-template",
+    "status": "TEMPLATE",
+    "ruleType": "SANDHI_OR_COMPOUND",
+    "input": null,
+    "output": null,
+    "analysis": null,
+    "source": null,
+    "reviewStatus": "UNREVIEWED"
+  }
+]

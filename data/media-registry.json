@@ -1,0 +1,23 @@
+[
+  {
+    "id": "media-registry-root",
+    "type": "REGISTRY",
+    "status": "ARCHITECTURE_ONLY",
+    "title": "Digital Dhamma Library media registry",
+    "note": "Media records must retain source URL, creator, license, checksum where applicable, target paragraph/work, and publication status. No copyrighted media is bundled by this release."
+  },
+  {
+    "id": "audio-paragraph-template",
+    "type": "AUDIO_TEMPLATE",
+    "status": "TEMPLATE",
+    "targetPattern": "{workId}.{paragraphId}",
+    "licenseStatus": "VERIFY_BEFORE_REDISTRIBUTION"
+  },
+  {
+    "id": "video-study-template",
+    "type": "VIDEO_TEMPLATE",
+    "status": "TEMPLATE",
+    "targetPattern": "{workId}",
+    "licenseStatus": "EXTERNAL_LINK_OR_VERIFIED_LICENSE"
+  }
+]

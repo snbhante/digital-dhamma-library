@@ -1,0 +1,5 @@
+import Link from "next/link";
+import media from "../../../../data/media-registry.json";
+import SiteBrand from "../../components/SiteBrand";
+
+export default function MediaPage() { return <main id="main-content" className="shell"><nav className="topbar"><SiteBrand compact /><Link href="/research/">← Research Workbench</Link></nav><header className="reader-header"><p className="eyebrow">MEDIA REGISTRY</p><h1>Audio, video &amp; image records</h1><p>Registry-first media architecture for future Dhamma recitation, study recordings, illustrations, and external resources. This release does not bundle unverified copyrighted media.</p></header><section className="section grid">{media.map((item) => <article className="card" key={item.id}><span className="card-kicker">{item.type}</span><h3>{item.title}</h3><p>{item.note}</p><p className="muted">Status: {item.status}</p></article>)}</section><section className="section"><div className="notice"><strong>Required metadata:</strong> creator, source URL, license, checksum where applicable, target work/paragraph, language, duration/dimensions, and publication status.</div></section></main>; }

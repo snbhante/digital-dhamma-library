@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "mode": "citation-first",
+  "currentImplementation": "local-deterministic-retrieval",
+  "rules": [
+    "Return stable paragraph IDs with every retrieved passage.",
+    "Separate source text, translation, dictionary metadata, and commentary registry records.",
+    "Do not fabricate commentary, citations, editions, page numbers, or doctrinal claims.",
+    "If a requested source is absent, say that it is absent from the current dataset.",
+    "Future RAG/LLM integration must preserve source spans and citation provenance."
+  ]
+}

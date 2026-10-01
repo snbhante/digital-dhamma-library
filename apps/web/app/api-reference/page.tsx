@@ -1,0 +1,5 @@
+import Link from "next/link";
+import api from "../../../../data/api-capabilities.json";
+import SiteBrand from "../../components/SiteBrand";
+
+export default function ApiReferencePage() { return <main id="main-content" className="shell"><nav className="topbar"><SiteBrand compact /><Link href="/research/">← Research Workbench</Link></nav><header className="reader-header"><p className="eyebrow">PUBLIC API CONTRACT</p><h1>API reference foundation</h1><p>Versioned endpoint contract prepared for a future hosted API. The current GitHub Pages deployment remains static and does not expose these endpoints itself.</p></header><section className="section"><div className="result-list">{api.plannedEndpoints.map((endpoint) => <article className="result-card" key={endpoint.path}><div className="result-meta"><span>{endpoint.method}</span><span>/v{api.version.split(".")[0]}</span></div><h3>{endpoint.path}</h3><p>{endpoint.description}</p></article>)}</div></section><section className="section"><div className="notice"><strong>Deployment boundary:</strong> {api.security}</div></section></main>; }

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "commentary-segment-template-mn10-p002",
+    "workId": "mn10",
+    "paragraphId": "mn10.p002",
+    "commentaryId": "commentary-segment-template",
+    "status": "TEMPLATE",
+    "text": null,
+    "note": "Reserved segment slot. No commentary text is redistributed in v0.13.0."
+  }
+]

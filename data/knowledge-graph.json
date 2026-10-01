@@ -1,0 +1,7 @@
+[
+  {"id":"kg-mn10-mn21","from":"mn10","to":"mn21","relation":"research-related","confidence":"curated"},
+  {"id":"kg-mn10-sn5611","from":"mn10","to":"sn56.11","relation":"research-related","confidence":"curated"},
+  {"id":"kg-mn21-sn2259","from":"mn21","to":"sn22.59","relation":"research-related","confidence":"curated"},
+  {"id":"kg-sn5611-sn2259","from":"sn56.11","to":"sn22.59","relation":"research-related","confidence":"curated"},
+  {"id":"kg-dhp183-an365","from":"dhp183","to":"an3.65","relation":"research-related","confidence":"curated"}
+]

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "states": ["DRAFT", "SUBMITTED", "IN_REVIEW", "CHANGES_REQUESTED", "APPROVED", "PUBLISHED", "REJECTED"],
+  "submissionKinds": ["TRANSLATION", "TRANSCRIPTION", "DICTIONARY", "COMMENTARY_METADATA", "CITATION", "SOURCE_METADATA", "MEDIA_METADATA", "CORRECTION"],
+  "reviewPrinciples": [
+    "Preserve source text and provenance.",
+    "Never publish an unverified license claim.",
+    "Never silently replace a canonical text with a contributor edit.",
+    "Keep stable IDs and audit history.",
+    "Separate draft, review, approval, and publication states."
+  ]
+}

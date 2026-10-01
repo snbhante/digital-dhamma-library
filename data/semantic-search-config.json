@@ -1,0 +1,7 @@
+{
+  "version": "0.1-foundation",
+  "currentMode": "deterministic-lexical",
+  "reservedModes": ["bm25", "embedding", "hybrid"],
+  "rankingSignals": ["term-frequency", "phrase-match", "field-match", "stable-id", "source-confidence"],
+  "guardrails": ["Never replace exact-source search with an opaque semantic score.", "Keep source paragraph IDs visible.", "Allow users to inspect the underlying record before using a research result as evidence."]
+}

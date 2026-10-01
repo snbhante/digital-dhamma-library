@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ocr-correction-template",
+    "status": "TEMPLATE",
+    "targetId": null,
+    "sourceReading": null,
+    "proposedReading": null,
+    "confidence": "UNREVIEWED",
+    "note": "OCR corrections must retain the original reading, proposed correction, image/source reference, reviewer, and publication status."
+  }
+]

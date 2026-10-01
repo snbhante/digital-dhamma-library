@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "release": "v0.13.0",
+  "reader": {
+    "defaultTab": "text",
+    "tabs": ["text", "translation", "commentary", "dictionary", "notes", "related"],
+    "urlState": ["p", "tab"],
+    "mobileDrawer": true,
+    "stableParagraphAnchors": true
+  },
+  "search": {
+    "version": "2.0",
+    "supports": ["phrase", "terms", "metadata", "lemma", "collection", "work", "language", "translation-presence", "stable-paragraph-link"],
+    "querySyntax": ["lemma:mettā", "work:mn10", "collection:Majjhima", "language:English", "has:translation", "has:commentary"]
+  },
+  "comparison": {
+    "bundledWitnessOnly": true,
+    "variantDiff": "enabled when verified alternate witness text exists",
+    "noInventedVariants": true
+  },
+  "editorial": {
+    "workflow": ["draft", "submitted", "in_review", "changes_requested", "approved", "published", "rejected"],
+    "roles": ["CONTRIBUTOR", "TRANSLATOR", "RESEARCHER", "EDITOR", "MODERATOR", "ADMIN", "SUPER_ADMIN"]
+  },
+  "future": {
+    "media": "registry-first",
+    "api": "static OpenAPI contract; hosted API requires a server/runtime beyond GitHub Pages",
+    "knowledgeGraph": "curated edge registry",
+    "semanticSearch": "architecture reserved; current search remains deterministic client-side"
+  }
+}

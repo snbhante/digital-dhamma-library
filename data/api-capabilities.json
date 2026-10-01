@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "status": "CONTRACT_ONLY",
+  "deployment": "github-pages-static",
+  "availableClientData": ["corpus", "dictionary", "occurrences", "translations", "alignments", "citations", "commentary-registry", "cross-references"],
+  "plannedEndpoints": [
+    {"method":"GET","path":"/v1/works","description":"List public works"},
+    {"method":"GET","path":"/v1/works/{workId}","description":"Fetch a stable work record"},
+    {"method":"GET","path":"/v1/paragraphs/{paragraphId}","description":"Fetch a stable paragraph record"},
+    {"method":"GET","path":"/v1/search","description":"Search indexed public research data"},
+    {"method":"GET","path":"/v1/dictionary/{slug}","description":"Fetch a dictionary record"},
+    {"method":"GET","path":"/v1/citations/{paragraphId}","description":"Generate reproducible citation formats"}
+  ],
+  "security": "A production hosted API must add authentication, rate limiting, logging, CORS policy, versioning, and abuse controls. GitHub Pages does not provide an API runtime."
+}
