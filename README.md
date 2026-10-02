@@ -1,6 +1,6 @@
-## Current release: Phase 4 / v0.13.0
+## Current release: Phase 4.1 / v0.13.1
 
-Phase 4 / v0.13.0 officially begins the Editorial Platform rollout. This release adds the Supabase database migrations to establish Role-Based Access Control (RBAC), user profiles, the official cloud-synchronized Review Queue, and comprehensive audit logging. It bridges the gap between individual, local-first research reviews and the future authenticated, collaborative editorial dashboard.
+Phase 4 / v0.13.1 consolidates the Editorial Platform rollout. This release adds the Supabase database migrations to establish Role-Based Access Control (RBAC), user profiles, the official cloud-synchronized Review Queue, and comprehensive audit logging. It bridges the gap between individual, local-first research reviews and the future authenticated, collaborative editorial dashboard.
 
 Phase 3 / v0.12.0 added Workspace 2.0: optional Supabase authentication, researcher profiles, local-first cloud synchronization, versioned private workspace snapshots, and account-aware workspace controls. It retains the complete v0.11 responsive reader, contextual paragraph actions, note overlay, PWA branding, research engine, and local workspace baseline.
 

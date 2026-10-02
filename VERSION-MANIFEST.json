@@ -2,7 +2,7 @@
   "project": "digital-dhamma-library",
   "release": "phase-4",
   "baseline_date": "2026-09-30",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -59,7 +59,17 @@
     "Debounced background workspace synchronization and manual Sync now control",
     "Workspace v2 JSON export/import",
     "Local JSON export and import mobility for the Research Review Queue",
-    "Phase 4 authenticated RBAC editorial platform Supabase schema"
+    "Phase 4 authenticated RBAC editorial platform Supabase schema",
+    "Canonical 9-role Supabase RBAC architecture with permission-based authorization",
+    "Automatic profile and READER role provisioning for new authenticated users",
+    "Authenticated researcher dashboard with roles and effective permissions",
+    "Administration foundation with users, roles, audit, editorial, media, and source entry points",
+    "Contributor editorial submission client and RLS-protected workflow",
+    "Account lifecycle states ACTIVE/SUSPENDED/DEACTIVATED",
+    "Audit RPC foundation for authorized staff",
+    "GitHub Pages static-hosting auth boundary with no service-role browser credential",
+    "Phase 4–7 master roadmap and auth architecture documentation",
+    "Removed incompatible Next.js middleware from static-export deployment path"
   ],
   "fixes": [
     "Preserves Phase 2.0.2 duplicate occurrence-reference fix",
@@ -100,5 +110,5 @@
     "Synchronizes CI verification workflow (ci.yml) to mirror the production build variables for Supabase.",
     "Updates .env.example with explicit dummy placeholders for Supabase configuration to guide developers."
   ],
-  "releaseSummary": "Phase 4 / v0.13.0 begins the editorial platform rollout by defining the Supabase database migrations for Role-Based Access Control (RBAC), contributor profiles, official global review queues, and secure audit logging."
+  "releaseSummary": "Phase 4 / v0.13.1 begins the editorial platform rollout by defining the Supabase database migrations for Role-Based Access Control (RBAC), contributor profiles, official global review queues, and secure audit logging."
 }
