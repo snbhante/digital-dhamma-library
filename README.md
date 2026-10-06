@@ -1,6 +1,6 @@
-## Current release: Phase 4 / v0.13.0
+## Current release: Phase 4.2 / v0.14.0
 
-Phase 4 / v0.13.0 officially begins the Editorial Platform rollout. This release adds the Supabase database migrations to establish Role-Based Access Control (RBAC), user profiles, the official cloud-synchronized Review Queue, and comprehensive audit logging. It bridges the gap between individual, local-first research reviews and the future authenticated, collaborative editorial dashboard.
+Phase 4.2 / v0.14.0 consolidates the Auth/RBAC editorial architecture, removes the unsupported static-export middleware path, upgrades Next.js to 16.3.8, and establishes the next contributor/reviewer/admin roadmap. This release adds the Supabase database migrations to establish Role-Based Access Control (RBAC), user profiles, the official cloud-synchronized Review Queue, and comprehensive audit logging. It bridges the gap between individual, local-first research reviews and the future authenticated, collaborative editorial dashboard.
 
 Phase 3 / v0.12.0 added Workspace 2.0: optional Supabase authentication, researcher profiles, local-first cloud synchronization, versioned private workspace snapshots, and account-aware workspace controls. It retains the complete v0.11 responsive reader, contextual paragraph actions, note overlay, PWA branding, research engine, and local workspace baseline.
 
@@ -187,7 +187,7 @@ See `docs/PHASE-2.4-RELEASE-NOTES.md` and `docs/PHASE-2.4-GUIDE.md` for the offl
 - Adds a static UI regression validator to the build/typecheck workflow.
 
 
-### Phase 4 / v0.13.0 — Editorial Platform Schema
+### Phase 4.2 / v0.14.0 — Auth/RBAC + Editorial Platform Consolidation
 
 - Implemented `0007_phase_4_editorial.sql` Supabase migration defining the `profiles`, `editorial_reviews`, and `audit_logs` schema, secured with strict Row-Level Security (RLS) and custom Role-Based Access Control (`user_role`).
 

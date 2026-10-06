@@ -1,7 +1,7 @@
 {
   "name": "digital-dhamma-library",
   "private": true,
-  "version": "0.13.0",
+  "version": "0.14.0",
   "packageManager": "npm@12.1.0",
   "engines": {
     "node": ">=24.21.0 <25",
@@ -15,7 +15,10 @@
     "build:research-index": "node scripts/build-research-index.mjs",
     "prepare:static-build": "node scripts/prepare-static-build.mjs",
     "validate:ui": "node scripts/validate-ui.mjs",
-    "validate:workspace": "node scripts/validate-workspace.mjs"
+    "validate:workspace": "node scripts/validate-workspace.mjs",
+    "security:audit": "npm audit --audit-level=high",
+    "validate:release": "npm run validate:architecture && npm run validate:ui && npm run validate:workspace && npm run prepare:static-build && npm run build:research-index && npm run validate:data && npm run security:audit && npm run typecheck && npm run build",
+    "validate:architecture": "node scripts/validate-architecture.mjs"
   },
   "workspaces": [
     "apps/*",

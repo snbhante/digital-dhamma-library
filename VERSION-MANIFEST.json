@@ -1,15 +1,15 @@
 {
   "project": "digital-dhamma-library",
-  "release": "phase-4",
-  "baseline_date": "2026-09-30",
-  "version": "0.13.0",
+  "release": "phase-4.2",
+  "baseline_date": "2026-10-06",
+  "version": "0.14.0",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
     "npm": "12.1.0"
   },
   "framework": {
-    "next": "16.3.6",
+    "next": "16.3.8",
     "react": "19.3.0",
     "react_dom": "19.3.0"
   },
@@ -59,7 +59,15 @@
     "Debounced background workspace synchronization and manual Sync now control",
     "Workspace v2 JSON export/import",
     "Local JSON export and import mobility for the Research Review Queue",
-    "Phase 4 authenticated RBAC editorial platform Supabase schema"
+    "Phase 4 authenticated RBAC editorial platform Supabase schema",
+    "Phase 4.2 canonical Auth/RBAC control plane with 9 roles and permission registry",
+    "Authenticated dashboard and administration foundation",
+    "Contributor/editorial submission client flow with RLS-enforced authorization",
+    "Audit RPC and account lifecycle protection foundation",
+    "Static-export-safe authentication with no middleware/proxy dependency",
+    "Next.js 16.3.8 security patch release",
+    "High-severity dependency audit gate in CI",
+    "Release validation and security documentation for static GitHub Pages + Supabase architecture"
   ],
   "fixes": [
     "Preserves Phase 2.0.2 duplicate occurrence-reference fix",
@@ -98,7 +106,13 @@
     "Fixes AccountPanel TypeScript closure narrowing by capturing the authenticated session after the render guard before passing it to upsertProfile.",
     "Fixes Next.js static build in CI by providing a dummy Supabase client configuration when environment variables are missing.",
     "Synchronizes CI verification workflow (ci.yml) to mirror the production build variables for Supabase.",
-    "Updates .env.example with explicit dummy placeholders for Supabase configuration to guide developers."
+    "Updates .env.example with explicit dummy placeholders for Supabase configuration to guide developers.",
+    "Removes deprecated root middleware convention instead of migrating to unsupported Proxy under output: export",
+    "Removes unused Supabase middleware helper from the static-hosted client",
+    "Consolidates Phase 4 migrations to a unique 0001-0008 sequence",
+    "Fixes missing editorial Auth/RBAC exports used by EditorialWorkbench",
+    "Updates Next.js from 16.3.6 to patched 16.3.8",
+    "Adds high-severity npm audit enforcement to CI"
   ],
-  "releaseSummary": "Phase 4 / v0.13.0 begins the editorial platform rollout by defining the Supabase database migrations for Role-Based Access Control (RBAC), contributor profiles, official global review queues, and secure audit logging."
+  "releaseSummary": "Phase 4.2 / v0.14.0 merges the Auth/RBAC architecture into the latest Phase 4 baseline, removes unsupported middleware from the GitHub Pages static-export path, upgrades Next.js to 16.3.8, and establishes the next contributor/editorial/admin roadmap."
 }

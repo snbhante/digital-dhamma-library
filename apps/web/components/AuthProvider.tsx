@@ -3,6 +3,8 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import {
   getCurrentUser,
+  getUserPermissions,
+  getUserRoles,
   readAuthSession,
   refreshAuthSession,
   signIn as apiSignIn,
@@ -12,12 +14,17 @@ import {
   type AuthSession,
   type AuthUser,
 } from "../lib/supabase";
+import type { Permission, UserRole } from "../lib/authz";
 
-type AuthContextValue = {
+export type AuthContextValue = {
   configured: boolean;
   loading: boolean;
+  authorizationLoading: boolean;
   session: AuthSession | null;
   user: AuthUser | null;
+  roles: UserRole[];
+  permissions: Permission[];
+  refreshAuthorization: () => Promise<void>;
   signIn: (email: string, password: string) => Promise<void>;
   signUp: (email: string, password: string, displayName?: string) => Promise<{ confirmed: boolean }>;
   signOut: () => Promise<void>;
@@ -28,6 +35,31 @@ const AuthContext = createContext<AuthContextValue | null>(null);
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [session, setSession] = useState<AuthSession | null>(null);
   const [loading, setLoading] = useState(true);
+  const [authorizationLoading, setAuthorizationLoading] = useState(false);
+  const [roles, setRoles] = useState<UserRole[]>([]);
+  const [permissions, setPermissions] = useState<Permission[]>([]);
+
+  async function loadAuthorization(nextSession: AuthSession | null) {
+    if (!nextSession) {
+      setRoles([]);
+      setPermissions([]);
+      return;
+    }
+    setAuthorizationLoading(true);
+    try {
+      const [nextRoles, nextPermissions] = await Promise.all([
+        getUserRoles(nextSession),
+        getUserPermissions(nextSession),
+      ]);
+      setRoles(nextRoles);
+      setPermissions(nextPermissions);
+    } catch {
+      setRoles([]);
+      setPermissions([]);
+    } finally {
+      setAuthorizationLoading(false);
+    }
+  }
 
   useEffect(() => {
     let cancelled = false;
@@ -49,11 +81,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       }
       if (!cancelled) {
         setSession(current);
+        await loadAuthorization(current);
         setLoading(false);
       }
     }
-    restore();
-    const refresh = () => setSession(readAuthSession());
+    void restore();
+    const refresh = () => {
+      const next = readAuthSession();
+      setSession(next);
+      void loadAuthorization(next);
+    };
     window.addEventListener("ddl-auth-updated", refresh);
     return () => { cancelled = true; window.removeEventListener("ddl-auth-updated", refresh); };
   }, []);
@@ -61,22 +98,32 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const value = useMemo<AuthContextValue>(() => ({
     configured: supabaseConfigured,
     loading,
+    authorizationLoading,
     session,
     user: session?.user ?? null,
+    roles,
+    permissions,
+    refreshAuthorization: async () => loadAuthorization(session),
     async signIn(email, password) {
       const next = await apiSignIn(email.trim(), password);
       setSession(next);
+      await loadAuthorization(next);
     },
     async signUp(email, password, displayName) {
       const result = await apiSignUp(email.trim(), password, displayName?.trim());
-      if (result.session) setSession(result.session);
+      if (result.session) {
+        setSession(result.session);
+        await loadAuthorization(result.session);
+      }
       return { confirmed: Boolean(result.session) };
     },
     async signOut() {
       await apiSignOut(session);
       setSession(null);
+      setRoles([]);
+      setPermissions([]);
     },
-  }), [loading, session]);
+  }), [loading, authorizationLoading, session, roles, permissions]);
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }

@@ -1,7 +1,7 @@
 {
   "name": "@digital-dhamma-library/web",
   "private": true,
-  "version": "0.13.0",
+  "version": "0.14.0",
   "engines": {
     "node": ">=24.21.0 <25",
     "npm": ">=12.1.0"
@@ -14,7 +14,7 @@
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.117.2",
-    "next": "16.3.6",
+    "next": "16.3.8",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },

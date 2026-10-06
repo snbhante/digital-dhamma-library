@@ -19,7 +19,19 @@ export type Profile = {
   bio: string | null;
   locale: string;
   is_public: boolean;
+  interface_language: string;
+  public_profile: boolean;
+  preferences: Record<string, unknown>;
+  contributor_handle?: string | null;
+  account_status?: "ACTIVE" | "SUSPENDED" | "DEACTIVATED";
+  suspension_reason?: string | null;
+  last_seen_at?: string | null;
 };
+
+export type { Permission, PermissionKey, UserRole, UserRoleName } from "./authz";
+import type { Permission, UserRole } from "./authz";
+
+export type ProfileUpdate = Pick<Profile, "display_name" | "avatar_url" | "bio" | "locale" | "is_public" | "interface_language" | "public_profile" | "preferences" | "contributor_handle">;
 
 const STORAGE_KEY = "digital-dhamma-library:auth:v1";
 const SUPABASE_URL = (process.env.NEXT_PUBLIC_SUPABASE_URL || "").replace(/\/$/, "");
@@ -147,17 +159,61 @@ export async function signOut(session: AuthSession | null) {
 }
 
 export async function getProfile(session: AuthSession) {
-  const rows = await request<Profile[]>(`/rest/v1/profiles?select=id,display_name,avatar_url,bio,locale,is_public&id=eq.${encodeURIComponent(session.user.id)}&limit=1`, { method: "GET" }, session.access_token);
+  const rows = await request<Profile[]>(`/rest/v1/profiles?select=id,display_name,avatar_url,bio,locale,is_public,interface_language,public_profile,preferences,contributor_handle,account_status,suspension_reason,last_seen_at&id=eq.${encodeURIComponent(session.user.id)}&limit=1`, { method: "GET" }, session.access_token);
   return rows[0] ?? null;
 }
 
-export async function upsertProfile(session: AuthSession, profile: Omit<Profile, "id">) {
+export async function upsertProfile(session: AuthSession, profile: ProfileUpdate) {
   const rows = await request<Profile[]>(`/rest/v1/profiles?on_conflict=id`, {
     method: "POST",
     headers: { Prefer: "resolution=merge-duplicates,return=representation" },
     body: JSON.stringify([{ id: session.user.id, ...profile }]),
   }, session.access_token);
   return rows[0] ?? { id: session.user.id, ...profile };
+}
+
+
+export async function getUserRoles(session: AuthSession): Promise<UserRole[]> {
+  const rows = await request<Array<{ role_id: string }>>(`/rest/v1/user_roles?select=role_id&user_id=eq.${encodeURIComponent(session.user.id)}`, { method: "GET" }, session.access_token);
+  const roleIds = Array.from(new Set(rows.map((row) => row.role_id).filter(Boolean)));
+  if (!roleIds.length) return [];
+  const encoded = roleIds.join(",");
+  return request<UserRole[]>(`/rest/v1/roles?select=id,name,description&id=in.(${encoded})`, { method: "GET" }, session.access_token);
+}
+
+export async function getUserPermissions(session: AuthSession): Promise<Permission[]> {
+  const roleRows = await request<Array<{ role_id: string }>>(`/rest/v1/user_roles?select=role_id&user_id=eq.${encodeURIComponent(session.user.id)}`, { method: "GET" }, session.access_token);
+  const roleIds = Array.from(new Set(roleRows.map((row) => row.role_id).filter(Boolean)));
+  if (!roleIds.length) return [];
+  const roleIdsQuery = roleIds.join(",");
+  const mappingRows = await request<Array<{ permission_id: string }>>(`/rest/v1/role_permissions?select=permission_id&role_id=in.(${roleIdsQuery})`, { method: "GET" }, session.access_token);
+  const permissionIds = Array.from(new Set(mappingRows.map((row) => row.permission_id).filter(Boolean)));
+  if (!permissionIds.length) return [];
+  return request<Permission[]>(`/rest/v1/permissions?select=id,key,description&id=in.(${permissionIds.join(",")})`, { method: "GET" }, session.access_token);
+}
+
+export type EditorialSubmission = {
+  id: string;
+  contributor_id: string;
+  target_id: string;
+  kind: string;
+  title: string;
+  body: string;
+  status: "DRAFT" | "SUBMITTED" | "IN_REVIEW" | "CHANGES_REQUESTED" | "APPROVED" | "PUBLISHED" | "REJECTED";
+  created_at: string;
+  updated_at: string;
+};
+
+export async function createEditorialSubmission(
+  session: AuthSession,
+  submission: Pick<EditorialSubmission, "target_id" | "kind" | "title" | "body">,
+) {
+  const rows = await request<EditorialSubmission[]>(`/rest/v1/editorial_submissions`, {
+    method: "POST",
+    headers: { Prefer: "return=representation" },
+    body: JSON.stringify([{ contributor_id: session.user.id, ...submission, status: "SUBMITTED" }]),
+  }, session.access_token);
+  return rows[0] ?? null;
 }
 
 export type WorkspaceSnapshot = {
