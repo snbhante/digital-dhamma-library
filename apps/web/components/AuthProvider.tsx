@@ -2,8 +2,16 @@
 
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import {
+<<<<<<< HEAD
   getUserPermissions,
   getUserRoles,
+=======
+  getCurrentUser,
+  getUserPermissions,
+  getUserRoles,
+  readAuthSession,
+  refreshAuthSession,
+>>>>>>> 944bc1664cf331ee879a66a64402d67bc4227e2a
   signIn as apiSignIn,
   signOut as apiSignOut,
   signUp as apiSignUp,
@@ -11,7 +19,10 @@ import {
   type AuthSession,
   type AuthUser,
 } from "../lib/supabase";
+<<<<<<< HEAD
 import { supabaseBrowserClient } from "../lib/supabaseBrowser";
+=======
+>>>>>>> 944bc1664cf331ee879a66a64402d67bc4227e2a
 import type { Permission, UserRole } from "../lib/authz";
 
 export type AuthContextValue = {
@@ -41,7 +52,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     if (!nextSession) {
       setRoles([]);
       setPermissions([]);
+<<<<<<< HEAD
       setAuthorizationLoading(false);
+=======
+>>>>>>> 944bc1664cf331ee879a66a64402d67bc4227e2a
       return;
     }
     setAuthorizationLoading(true);
@@ -62,6 +76,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     let cancelled = false;
+<<<<<<< HEAD
     if (!supabaseConfigured) {
       setLoading(false);
       return;
@@ -93,6 +108,38 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       cancelled = true;
       listener.subscription.unsubscribe();
     };
+=======
+    async function restore() {
+      if (!supabaseConfigured) {
+        setLoading(false);
+        return;
+      }
+      let current = readAuthSession();
+      try {
+        if (current && current.expires_at * 1000 < Date.now() + 60_000) current = await refreshAuthSession(current);
+        if (current) {
+          const user = await getCurrentUser(current);
+          current = { ...current, user };
+        }
+      } catch {
+        current = null;
+        localStorage.removeItem("digital-dhamma-library:auth:v1");
+      }
+      if (!cancelled) {
+        setSession(current);
+        await loadAuthorization(current);
+        setLoading(false);
+      }
+    }
+    void restore();
+    const refresh = () => {
+      const next = readAuthSession();
+      setSession(next);
+      void loadAuthorization(next);
+    };
+    window.addEventListener("ddl-auth-updated", refresh);
+    return () => { cancelled = true; window.removeEventListener("ddl-auth-updated", refresh); };
+>>>>>>> 944bc1664cf331ee879a66a64402d67bc4227e2a
   }, []);
 
   const value = useMemo<AuthContextValue>(() => ({

@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+## Current release: Phase 4.1 / v0.13.1
+
+Phase 4 / v0.13.1 consolidates the Editorial Platform rollout. This release adds the Supabase database migrations to establish Role-Based Access Control (RBAC), user profiles, the official cloud-synchronized Review Queue, and comprehensive audit logging. It bridges the gap between individual, local-first research reviews and the future authenticated, collaborative editorial dashboard.
+
+Phase 3 / v0.12.0 added Workspace 2.0: optional Supabase authentication, researcher profiles, local-first cloud synchronization, versioned private workspace snapshots, and account-aware workspace controls. It retains the complete v0.11 responsive reader, contextual paragraph actions, note overlay, PWA branding, research engine, and local workspace baseline.
+
+The current baseline includes a local-first personal research workspace for paragraph bookmarks, private notes, saved searches, and personal collections, with JSON export/import and an authenticated Supabase persistence target.
+
+>>>>>>> 944bc1664cf331ee879a66a64402d67bc4227e2a
 # Digital Dhamma Library
 
 **Current release: v0.14.1 / Phase 4.3**

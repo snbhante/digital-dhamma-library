@@ -1,6 +1,10 @@
 # Digital Dhamma Library — Master Roadmap
 
+<<<<<<< HEAD
 ## Current baseline — v0.14.0 / Phase 4.2
+=======
+## Current baseline — v0.13.1 / Phase 4.1
+>>>>>>> 944bc1664cf331ee879a66a64402d67bc4227e2a
 
 ### Completed and retained
 
