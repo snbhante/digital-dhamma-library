@@ -1,0 +1,128 @@
+{
+  "version": "1.0",
+  "roles": [
+    "GUEST",
+    "READER",
+    "CONTRIBUTOR",
+    "TRANSLATOR",
+    "RESEARCHER",
+    "EDITOR",
+    "MODERATOR",
+    "ADMIN",
+    "SUPER_ADMIN"
+  ],
+  "permissions": [
+    "content.read",
+    "content.create",
+    "content.edit",
+    "content.review",
+    "content.publish",
+    "content.delete",
+    "dictionary.read",
+    "dictionary.edit",
+    "media.create",
+    "media.edit",
+    "media.delete",
+    "user.read",
+    "user.edit",
+    "user.suspend",
+    "role.assign",
+    "comment.moderate",
+    "source.manage",
+    "license.manage",
+    "audit.read"
+  ],
+  "assignments": {
+    "GUEST": [
+      "content.read",
+      "dictionary.read"
+    ],
+    "READER": [
+      "content.read",
+      "dictionary.read"
+    ],
+    "CONTRIBUTOR": [
+      "content.read",
+      "content.create",
+      "content.edit",
+      "dictionary.read",
+      "media.create"
+    ],
+    "TRANSLATOR": [
+      "content.read",
+      "content.create",
+      "content.edit",
+      "dictionary.read"
+    ],
+    "RESEARCHER": [
+      "content.read",
+      "content.create",
+      "content.edit",
+      "dictionary.read"
+    ],
+    "EDITOR": [
+      "content.read",
+      "content.create",
+      "content.edit",
+      "content.review",
+      "content.publish",
+      "content.delete",
+      "dictionary.read",
+      "dictionary.edit",
+      "media.create",
+      "media.edit",
+      "media.delete",
+      "source.manage",
+      "license.manage"
+    ],
+    "MODERATOR": [
+      "content.read",
+      "content.review",
+      "dictionary.read",
+      "media.edit",
+      "comment.moderate"
+    ],
+    "ADMIN": [
+      "content.read",
+      "content.create",
+      "content.edit",
+      "content.review",
+      "content.publish",
+      "content.delete",
+      "dictionary.read",
+      "dictionary.edit",
+      "media.create",
+      "media.edit",
+      "media.delete",
+      "user.read",
+      "user.edit",
+      "user.suspend",
+      "role.assign",
+      "comment.moderate",
+      "source.manage",
+      "license.manage",
+      "audit.read"
+    ],
+    "SUPER_ADMIN": [
+      "content.read",
+      "content.create",
+      "content.edit",
+      "content.review",
+      "content.publish",
+      "content.delete",
+      "dictionary.read",
+      "dictionary.edit",
+      "media.create",
+      "media.edit",
+      "media.delete",
+      "user.read",
+      "user.edit",
+      "user.suspend",
+      "role.assign",
+      "comment.moderate",
+      "source.manage",
+      "license.manage",
+      "audit.read"
+    ]
+  }
+}

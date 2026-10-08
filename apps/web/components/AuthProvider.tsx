@@ -2,11 +2,8 @@
 
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import {
-  getCurrentUser,
   getUserPermissions,
   getUserRoles,
-  readAuthSession,
-  refreshAuthSession,
   signIn as apiSignIn,
   signOut as apiSignOut,
   signUp as apiSignUp,
@@ -14,6 +11,7 @@ import {
   type AuthSession,
   type AuthUser,
 } from "../lib/supabase";
+import { supabaseBrowserClient } from "../lib/supabaseBrowser";
 import type { Permission, UserRole } from "../lib/authz";
 
 export type AuthContextValue = {
@@ -43,6 +41,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     if (!nextSession) {
       setRoles([]);
       setPermissions([]);
+      setAuthorizationLoading(false);
       return;
     }
     setAuthorizationLoading(true);
@@ -63,36 +62,37 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     let cancelled = false;
-    async function restore() {
-      if (!supabaseConfigured) {
-        setLoading(false);
-        return;
-      }
-      let current = readAuthSession();
-      try {
-        if (current && current.expires_at * 1000 < Date.now() + 60_000) current = await refreshAuthSession(current);
-        if (current) {
-          const user = await getCurrentUser(current);
-          current = { ...current, user };
-        }
-      } catch {
-        current = null;
-        localStorage.removeItem("digital-dhamma-library:auth:v1");
-      }
-      if (!cancelled) {
-        setSession(current);
-        await loadAuthorization(current);
-        setLoading(false);
-      }
+    if (!supabaseConfigured) {
+      setLoading(false);
+      return;
     }
-    void restore();
-    const refresh = () => {
-      const next = readAuthSession();
-      setSession(next);
-      void loadAuthorization(next);
+
+    const supabase = supabaseBrowserClient();
+
+    supabase.auth.getSession().then(async ({ data }) => {
+      if (cancelled) return;
+      setSession(data.session);
+      await loadAuthorization(data.session);
+      if (!cancelled) setLoading(false);
+    }).catch(() => {
+      if (!cancelled) {
+        setSession(null);
+        setRoles([]);
+        setPermissions([]);
+        setLoading(false);
+      }
+    });
+
+    const { data: listener } = supabase.auth.onAuthStateChange((_event, nextSession) => {
+      if (cancelled) return;
+      setSession(nextSession);
+      setTimeout(() => { void loadAuthorization(nextSession); }, 0);
+    });
+
+    return () => {
+      cancelled = true;
+      listener.subscription.unsubscribe();
     };
-    window.addEventListener("ddl-auth-updated", refresh);
-    return () => { cancelled = true; window.removeEventListener("ddl-auth-updated", refresh); };
   }, []);
 
   const value = useMemo<AuthContextValue>(() => ({

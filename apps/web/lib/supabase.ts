@@ -1,16 +1,10 @@
-export type AuthUser = {
-  id: string;
-  email?: string;
-  user_metadata?: Record<string, unknown>;
-  app_metadata?: Record<string, unknown>;
-};
+import { createBrowserClient } from "@supabase/ssr";
+import type { Session, User } from "@supabase/supabase-js";
+import { supabaseBrowserClient, supabaseConfigured } from "./supabaseBrowser";
+import type { Permission, UserRole } from "./authz";
 
-export type AuthSession = {
-  access_token: string;
-  refresh_token: string;
-  expires_at: number;
-  user: AuthUser;
-};
+export type AuthUser = User;
+export type AuthSession = Session;
 
 export type Profile = {
   id: string;
@@ -28,168 +22,140 @@ export type Profile = {
   last_seen_at?: string | null;
 };
 
+export type ProfileUpdate = Pick<
+  Profile,
+  | "display_name"
+  | "avatar_url"
+  | "bio"
+  | "locale"
+  | "is_public"
+  | "interface_language"
+  | "public_profile"
+  | "preferences"
+  | "contributor_handle"
+>;
+
+export { supabaseConfigured };
 export type { Permission, PermissionKey, UserRole, UserRoleName } from "./authz";
-import type { Permission, UserRole } from "./authz";
 
-export type ProfileUpdate = Pick<Profile, "display_name" | "avatar_url" | "bio" | "locale" | "is_public" | "interface_language" | "public_profile" | "preferences" | "contributor_handle">;
+function client() {
+  return supabaseBrowserClient();
+}
 
-const STORAGE_KEY = "digital-dhamma-library:auth:v1";
-const SUPABASE_URL = (process.env.NEXT_PUBLIC_SUPABASE_URL || "").replace(/\/$/, "");
-const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
-
-export const supabaseConfigured = Boolean(SUPABASE_URL && SUPABASE_KEY);
+function assertSession(session: AuthSession) {
+  if (!session?.user?.id) throw new Error("A signed-in Supabase session is required.");
+}
 
 export function getFallbackName(email?: string): string {
   if (!email) return "Researcher";
   const username = email.split("@")[0] || "";
-  if (username.length > 10) {
-    return `${username.slice(0, 5)}...${username.slice(-4)}`;
-  }
+  if (username.length > 10) return `${username.slice(0, 5)}...${username.slice(-4)}`;
   return username || "Researcher";
 }
 
-function headers(accessToken?: string, extra: Record<string, string> = {}) {
-  return {
-    apikey: SUPABASE_KEY,
-    "Content-Type": "application/json",
-    ...(accessToken ? { Authorization: `Bearer ${accessToken}` } : {}),
-    ...extra,
-  };
-}
-
-function decodeJwtPayload(token: string): Record<string, unknown> | null {
-  try {
-    const payload = token.split(".")[1];
-    if (!payload) return null;
-    const normalized = payload.replace(/-/g, "+").replace(/_/g, "/");
-    return JSON.parse(decodeURIComponent(atob(normalized).split("").map((char) => `%${(`00${char.charCodeAt(0).toString(16)}`).slice(-2)}`).join(""))) as Record<string, unknown>;
-  } catch {
-    return null;
-  }
-}
-
-function sessionFromResponse(value: Record<string, unknown>): AuthSession | null {
-  const accessToken = typeof value.access_token === "string" ? value.access_token : "";
-  const refreshToken = typeof value.refresh_token === "string" ? value.refresh_token : "";
-  const user = value.user as AuthUser | undefined;
-  if (!accessToken || !refreshToken || !user?.id) return null;
-  const expiresIn = typeof value.expires_in === "number" ? value.expires_in : 3600;
-  const payload = decodeJwtPayload(accessToken);
-  const exp = typeof payload?.exp === "number" ? payload.exp : Math.floor(Date.now() / 1000) + expiresIn;
-  return { access_token: accessToken, refresh_token: refreshToken, expires_at: exp, user };
-}
-
-export function readAuthSession(): AuthSession | null {
-  if (typeof window === "undefined" || !supabaseConfigured) return null;
-  try {
-    const raw = window.localStorage.getItem(STORAGE_KEY);
-    if (!raw) return null;
-    const value = JSON.parse(raw) as AuthSession;
-    if (!value?.access_token || !value?.refresh_token || !value?.user?.id) return null;
-    return value;
-  } catch {
-    return null;
-  }
-}
-
-export function writeAuthSession(session: AuthSession | null) {
-  if (typeof window === "undefined") return;
-  if (!session) window.localStorage.removeItem(STORAGE_KEY);
-  else window.localStorage.setItem(STORAGE_KEY, JSON.stringify(session));
-  window.dispatchEvent(new CustomEvent("ddl-auth-updated"));
-}
-
-async function request<T>(path: string, init: RequestInit = {}, accessToken?: string): Promise<T> {
-  if (!supabaseConfigured) throw new Error("Supabase is not configured.");
-  const response = await fetch(`${SUPABASE_URL}${path}`, {
-    ...init,
-    headers: headers(accessToken, (init.headers || {}) as Record<string, string>),
-  });
-  const text = await response.text();
-  let body: unknown = null;
-  try { body = text ? JSON.parse(text) : null; } catch { body = text; }
-  if (!response.ok) {
-    const message = typeof body === "object" && body && "message" in body ? String((body as { message: unknown }).message) : `Supabase request failed (${response.status}).`;
-    throw new Error(message);
-  }
-  return body as T;
-}
-
 export async function signIn(email: string, password: string) {
-  const value = await request<Record<string, unknown>>(`/auth/v1/token?grant_type=password`, {
-    method: "POST",
-    body: JSON.stringify({ email, password }),
-  });
-  const session = sessionFromResponse(value);
-  if (!session) throw new Error("Sign-in succeeded without a usable session.");
-  writeAuthSession(session);
-  return session;
+  if (!supabaseConfigured) throw new Error("Supabase is not configured.");
+  const { data, error } = await client().auth.signInWithPassword({ email, password });
+  if (error) throw error;
+  if (!data.session) throw new Error("Sign-in succeeded without a usable session.");
+  return data.session;
 }
 
 export async function signUp(email: string, password: string, displayName?: string) {
-  const value = await request<Record<string, unknown>>(`/auth/v1/signup`, {
-    method: "POST",
-    body: JSON.stringify({ email, password, data: displayName ? { display_name: displayName } : undefined }),
+  if (!supabaseConfigured) throw new Error("Supabase is not configured.");
+  const { data, error } = await client().auth.signUp({
+    email,
+    password,
+    options: { data: displayName ? { display_name: displayName } : undefined },
   });
-  const session = sessionFromResponse(value);
-  if (session) writeAuthSession(session);
-  return { session, user: (value.user as AuthUser | undefined) ?? null };
+  if (error) throw error;
+  return { session: data.session, user: data.user };
 }
 
 export async function refreshAuthSession(session: AuthSession) {
-  const value = await request<Record<string, unknown>>(`/auth/v1/token?grant_type=refresh_token`, {
-    method: "POST",
-    body: JSON.stringify({ refresh_token: session.refresh_token }),
-  });
-  const refreshed = sessionFromResponse(value);
-  if (!refreshed) throw new Error("Session refresh returned no usable session.");
-  writeAuthSession(refreshed);
-  return refreshed;
+  assertSession(session);
+  const { data, error } = await client().auth.refreshSession({ refresh_token: session.refresh_token });
+  if (error) throw error;
+  if (!data.session) throw new Error("Session refresh returned no usable session.");
+  return data.session;
 }
 
 export async function getCurrentUser(session: AuthSession) {
-  return request<AuthUser>(`/auth/v1/user`, { method: "GET" }, session.access_token);
+  assertSession(session);
+  const { data, error } = await client().auth.getUser(session.access_token);
+  if (error) throw error;
+  return data.user;
 }
 
 export async function signOut(session: AuthSession | null) {
-  if (session) {
-    try { await request<unknown>(`/auth/v1/logout`, { method: "POST" }, session.access_token); } catch { /* local session is still cleared */ }
-  }
-  writeAuthSession(null);
+  if (!supabaseConfigured) return;
+  const { error } = await client().auth.signOut();
+  if (error && session) throw error;
 }
 
 export async function getProfile(session: AuthSession) {
-  const rows = await request<Profile[]>(`/rest/v1/profiles?select=id,display_name,avatar_url,bio,locale,is_public,interface_language,public_profile,preferences,contributor_handle,account_status,suspension_reason,last_seen_at&id=eq.${encodeURIComponent(session.user.id)}&limit=1`, { method: "GET" }, session.access_token);
-  return rows[0] ?? null;
+  assertSession(session);
+  const { data, error } = await client()
+    .from("profiles")
+    .select("id,display_name,avatar_url,bio,locale,is_public,interface_language,public_profile,preferences,contributor_handle,account_status,suspension_reason,last_seen_at")
+    .eq("id", session.user.id)
+    .maybeSingle();
+  if (error) throw error;
+  return data as Profile | null;
 }
 
 export async function upsertProfile(session: AuthSession, profile: ProfileUpdate) {
-  const rows = await request<Profile[]>(`/rest/v1/profiles?on_conflict=id`, {
-    method: "POST",
-    headers: { Prefer: "resolution=merge-duplicates,return=representation" },
-    body: JSON.stringify([{ id: session.user.id, ...profile }]),
-  }, session.access_token);
-  return rows[0] ?? { id: session.user.id, ...profile };
+  assertSession(session);
+  const { data, error } = await client()
+    .from("profiles")
+    .upsert({ id: session.user.id, ...profile }, { onConflict: "id" })
+    .select("id,display_name,avatar_url,bio,locale,is_public,interface_language,public_profile,preferences,contributor_handle,account_status,suspension_reason,last_seen_at")
+    .single();
+  if (error) throw error;
+  return data as Profile;
 }
 
-
 export async function getUserRoles(session: AuthSession): Promise<UserRole[]> {
-  const rows = await request<Array<{ role_id: string }>>(`/rest/v1/user_roles?select=role_id&user_id=eq.${encodeURIComponent(session.user.id)}`, { method: "GET" }, session.access_token);
-  const roleIds = Array.from(new Set(rows.map((row) => row.role_id).filter(Boolean)));
+  assertSession(session);
+  const { data: assignments, error: assignmentError } = await client()
+    .from("user_roles")
+    .select("role_id")
+    .eq("user_id", session.user.id);
+  if (assignmentError) throw assignmentError;
+  const roleIds = Array.from(new Set((assignments ?? []).map((row) => row.role_id).filter(Boolean)));
   if (!roleIds.length) return [];
-  const encoded = roleIds.join(",");
-  return request<UserRole[]>(`/rest/v1/roles?select=id,name,description&id=in.(${encoded})`, { method: "GET" }, session.access_token);
+  const { data, error } = await client()
+    .from("roles")
+    .select("id,name,description")
+    .in("id", roleIds);
+  if (error) throw error;
+  return (data ?? []) as UserRole[];
 }
 
 export async function getUserPermissions(session: AuthSession): Promise<Permission[]> {
-  const roleRows = await request<Array<{ role_id: string }>>(`/rest/v1/user_roles?select=role_id&user_id=eq.${encodeURIComponent(session.user.id)}`, { method: "GET" }, session.access_token);
-  const roleIds = Array.from(new Set(roleRows.map((row) => row.role_id).filter(Boolean)));
+  assertSession(session);
+  const { data: assignments, error: assignmentError } = await client()
+    .from("user_roles")
+    .select("role_id")
+    .eq("user_id", session.user.id);
+  if (assignmentError) throw assignmentError;
+  const roleIds = Array.from(new Set((assignments ?? []).map((row) => row.role_id).filter(Boolean)));
   if (!roleIds.length) return [];
-  const roleIdsQuery = roleIds.join(",");
-  const mappingRows = await request<Array<{ permission_id: string }>>(`/rest/v1/role_permissions?select=permission_id&role_id=in.(${roleIdsQuery})`, { method: "GET" }, session.access_token);
-  const permissionIds = Array.from(new Set(mappingRows.map((row) => row.permission_id).filter(Boolean)));
+
+  const { data: mappings, error: mappingError } = await client()
+    .from("role_permissions")
+    .select("permission_id")
+    .in("role_id", roleIds);
+  if (mappingError) throw mappingError;
+  const permissionIds = Array.from(new Set((mappings ?? []).map((row) => row.permission_id).filter(Boolean)));
   if (!permissionIds.length) return [];
-  return request<Permission[]>(`/rest/v1/permissions?select=id,key,description&id=in.(${permissionIds.join(",")})`, { method: "GET" }, session.access_token);
+
+  const { data, error } = await client()
+    .from("permissions")
+    .select("id,key,description")
+    .in("id", permissionIds);
+  if (error) throw error;
+  return (data ?? []) as Permission[];
 }
 
 export type EditorialSubmission = {
@@ -208,12 +174,14 @@ export async function createEditorialSubmission(
   session: AuthSession,
   submission: Pick<EditorialSubmission, "target_id" | "kind" | "title" | "body">,
 ) {
-  const rows = await request<EditorialSubmission[]>(`/rest/v1/editorial_submissions`, {
-    method: "POST",
-    headers: { Prefer: "return=representation" },
-    body: JSON.stringify([{ contributor_id: session.user.id, ...submission, status: "SUBMITTED" }]),
-  }, session.access_token);
-  return rows[0] ?? null;
+  assertSession(session);
+  const { data, error } = await client()
+    .from("editorial_submissions")
+    .insert({ contributor_id: session.user.id, ...submission })
+    .select("id,contributor_id,target_id,kind,title,body,status,created_at,updated_at")
+    .single();
+  if (error) throw error;
+  return data as EditorialSubmission;
 }
 
 export type WorkspaceSnapshot = {
@@ -223,15 +191,104 @@ export type WorkspaceSnapshot = {
 };
 
 export async function getWorkspaceSnapshot(session: AuthSession) {
-  const rows = await request<WorkspaceSnapshot[]>(`/rest/v1/workspace_snapshots?select=state,schema_version,updated_at&user_id=eq.${encodeURIComponent(session.user.id)}&limit=1`, { method: "GET" }, session.access_token);
-  return rows[0] ?? null;
+  assertSession(session);
+  const { data, error } = await client()
+    .from("workspace_snapshots")
+    .select("state,schema_version,updated_at")
+    .eq("user_id", session.user.id)
+    .maybeSingle();
+  if (error) throw error;
+  return data as WorkspaceSnapshot | null;
 }
 
 export async function saveWorkspaceSnapshot(session: AuthSession, state: unknown) {
-  const rows = await request<WorkspaceSnapshot[]>(`/rest/v1/workspace_snapshots?on_conflict=user_id`, {
-    method: "POST",
-    headers: { Prefer: "resolution=merge-duplicates,return=representation" },
-    body: JSON.stringify([{ user_id: session.user.id, state, schema_version: 2 }]),
-  }, session.access_token);
-  return rows[0] ?? null;
+  assertSession(session);
+  const { data, error } = await client()
+    .from("workspace_snapshots")
+    .upsert({ user_id: session.user.id, state, schema_version: 2 }, { onConflict: "user_id" })
+    .select("state,schema_version,updated_at")
+    .single();
+  if (error) throw error;
+  return data as WorkspaceSnapshot;
+}
+
+export type AdminProfile = Profile & { email?: string | null };
+
+export async function listAdminProfiles(session: AuthSession) {
+  assertSession(session);
+  const { data, error } = await client()
+    .from("profiles")
+    .select("id,display_name,avatar_url,bio,locale,is_public,interface_language,public_profile,preferences,contributor_handle,account_status,suspension_reason,last_seen_at,created_at,updated_at")
+    .order("created_at", { ascending: false })
+    .limit(200);
+  if (error) throw error;
+  return (data ?? []) as AdminProfile[];
+}
+
+export async function adminAssignRole(session: AuthSession, userId: string, roleName: string) {
+  assertSession(session);
+  const { error } = await client().rpc("admin_assign_role", { p_user_id: userId, p_role_name: roleName });
+  if (error) throw error;
+}
+
+export async function adminRevokeRole(session: AuthSession, userId: string, roleName: string) {
+  assertSession(session);
+  const { error } = await client().rpc("admin_revoke_role", { p_user_id: userId, p_role_name: roleName });
+  if (error) throw error;
+}
+
+export async function adminSetAccountStatus(session: AuthSession, userId: string, status: Profile["account_status"], reason?: string) {
+  assertSession(session);
+  const { error } = await client().rpc("admin_set_account_status", {
+    p_user_id: userId,
+    p_status: status,
+    p_reason: reason ?? null,
+  });
+  if (error) throw error;
+}
+
+export async function listAdminAuditLogs(session: AuthSession) {
+  assertSession(session);
+  const { data, error } = await client()
+    .from("audit_logs")
+    .select("id,actor_id,action,entity_type,entity_id,old_value,new_value,reason,created_at")
+    .order("created_at", { ascending: false })
+    .limit(200);
+  if (error) throw error;
+  return data ?? [];
+}
+
+export type EditorialSubmissionRecord = EditorialSubmission;
+
+export async function listEditorialSubmissions(session: AuthSession) {
+  assertSession(session);
+  const { data, error } = await client()
+    .from("editorial_submissions")
+    .select("id,contributor_id,target_id,kind,title,body,status,created_at,updated_at")
+    .order("updated_at", { ascending: false })
+    .limit(200);
+  if (error) throw error;
+  return (data ?? []) as EditorialSubmissionRecord[];
+}
+
+export async function reviewEditorialSubmission(session: AuthSession, submissionId: string, decision: "APPROVE" | "REQUEST_CHANGES" | "REJECT" | "COMMENT", note?: string) {
+  assertSession(session);
+  const { data, error } = await client().rpc("editorial_review_submission", {
+    p_submission_id: submissionId,
+    p_decision: decision,
+    p_note: note ?? null,
+  });
+  if (error) throw error;
+  return data as EditorialSubmissionRecord;
+}
+
+export async function listAdminUserRoles(session: AuthSession) {
+  assertSession(session);
+  const { data, error } = await client()
+    .from("user_roles")
+    .select("user_id,role_id,assigned_at,assigned_by")
+    .order("assigned_at", { ascending: false })
+    .limit(1000);
+  if (error) throw error;
+  return data ?? [];
 }
