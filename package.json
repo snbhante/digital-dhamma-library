@@ -1,11 +1,7 @@
 {
   "name": "digital-dhamma-library",
   "private": true,
-<<<<<<< HEAD
-  "version": "0.14.1",
-=======
-  "version": "0.13.1",
->>>>>>> 944bc1664cf331ee879a66a64402d67bc4227e2a
+  "version": "0.14.0",
   "packageManager": "npm@12.1.0",
   "engines": {
     "node": ">=24.21.0 <25",

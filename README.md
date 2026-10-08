@@ -1,22 +1,12 @@
-<<<<<<< HEAD
-=======
-## Current release: Phase 4.1 / v0.13.1
+## Current release: Phase 4.2 / v0.14.0
 
-Phase 4 / v0.13.1 consolidates the Editorial Platform rollout. This release adds the Supabase database migrations to establish Role-Based Access Control (RBAC), user profiles, the official cloud-synchronized Review Queue, and comprehensive audit logging. It bridges the gap between individual, local-first research reviews and the future authenticated, collaborative editorial dashboard.
+Phase 4.2 / v0.14.0 consolidates the Auth/RBAC editorial architecture, removes the unsupported static-export middleware path, upgrades Next.js to 16.3.8, and establishes the next contributor/reviewer/admin roadmap. This release adds the Supabase database migrations to establish Role-Based Access Control (RBAC), user profiles, the official cloud-synchronized Review Queue, and comprehensive audit logging. It bridges the gap between individual, local-first research reviews and the future authenticated, collaborative editorial dashboard.
 
 Phase 3 / v0.12.0 added Workspace 2.0: optional Supabase authentication, researcher profiles, local-first cloud synchronization, versioned private workspace snapshots, and account-aware workspace controls. It retains the complete v0.11 responsive reader, contextual paragraph actions, note overlay, PWA branding, research engine, and local workspace baseline.
 
 The current baseline includes a local-first personal research workspace for paragraph bookmarks, private notes, saved searches, and personal collections, with JSON export/import and an authenticated Supabase persistence target.
 
->>>>>>> 944bc1664cf331ee879a66a64402d67bc4227e2a
 # Digital Dhamma Library
-
-**Current release: v0.14.1 / Phase 4.3**
-
-The production deployment profile is **GitHub Pages static export + Supabase browser client + PostgreSQL RLS/RBAC**. Request-time Next.js Middleware/Proxy and server-only Supabase secrets are deliberately outside this deployment profile.
-
-v0.14.1 hardens the authentication/editorial architecture, fixes the incompatible duplicate `0007` migration chain, adds a canonical nine-role permission matrix, adds database-protected administrative RPCs and authenticated editorial review transitions, and removes local credentials/generated repository state from release archives.
-
 
 **Open Buddhist Digital Knowledge & Research Platform**
 

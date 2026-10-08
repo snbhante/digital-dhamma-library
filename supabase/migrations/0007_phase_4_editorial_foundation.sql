@@ -1,5 +1,3 @@
--- Phase 4 canonical foundation migration (0007).
--- This file is the only active 0007 migration. The older incompatible Phase 4 draft is archived under docs/archive/migrations/.
 -- Phase 4 foundation: authenticated contribution workflow and media metadata registry.
 create or replace function public.has_role(role_name text)
 returns boolean

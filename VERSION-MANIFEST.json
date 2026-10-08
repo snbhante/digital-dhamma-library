@@ -1,14 +1,8 @@
 {
   "project": "digital-dhamma-library",
-<<<<<<< HEAD
-  "release": "phase-4.3",
-  "baseline_date": "2026-10-08",
-  "version": "0.14.1",
-=======
-  "release": "phase-4",
-  "baseline_date": "2026-09-30",
-  "version": "0.13.1",
->>>>>>> 944bc1664cf331ee879a66a64402d67bc4227e2a
+  "release": "phase-4.2",
+  "baseline_date": "2026-10-06",
+  "version": "0.14.0",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -66,7 +60,6 @@
     "Workspace v2 JSON export/import",
     "Local JSON export and import mobility for the Research Review Queue",
     "Phase 4 authenticated RBAC editorial platform Supabase schema",
-<<<<<<< HEAD
     "Phase 4.2 canonical Auth/RBAC control plane with 9 roles and permission registry",
     "Authenticated dashboard and administration foundation",
     "Contributor/editorial submission client flow with RLS-enforced authorization",
@@ -74,27 +67,7 @@
     "Static-export-safe authentication with no middleware/proxy dependency",
     "Next.js 16.3.8 security patch release",
     "High-severity dependency audit gate in CI",
-    "Release validation and security documentation for static GitHub Pages + Supabase architecture",
-    "Phase 4.3 canonical RBAC permission matrix for all nine roles",
-    "Browser-safe Supabase Auth client using @supabase/ssr createBrowserClient",
-    "Supabase Auth state listener instead of hand-rolled access/refresh-token storage",
-    "RLS-protected administrative user lifecycle RPCs",
-    "RLS-protected role assignment/revocation RPCs",
-    "Authenticated editorial review queue with database-validated state transitions",
-    "Append-only administrative audit explorer",
-    "Release-safe removal of .git, .env.local, generated build state, and stale middleware/server artifacts"
-=======
-    "Canonical 9-role Supabase RBAC architecture with permission-based authorization",
-    "Automatic profile and READER role provisioning for new authenticated users",
-    "Authenticated researcher dashboard with roles and effective permissions",
-    "Administration foundation with users, roles, audit, editorial, media, and source entry points",
-    "Contributor editorial submission client and RLS-protected workflow",
-    "Account lifecycle states ACTIVE/SUSPENDED/DEACTIVATED",
-    "Audit RPC foundation for authorized staff",
-    "GitHub Pages static-hosting auth boundary with no service-role browser credential",
-    "Phase 4–7 master roadmap and auth architecture documentation",
-    "Removed incompatible Next.js middleware from static-export deployment path"
->>>>>>> 944bc1664cf331ee879a66a64402d67bc4227e2a
+    "Release validation and security documentation for static GitHub Pages + Supabase architecture"
   ],
   "fixes": [
     "Preserves Phase 2.0.2 duplicate occurrence-reference fix",
@@ -139,17 +112,7 @@
     "Consolidates Phase 4 migrations to a unique 0001-0008 sequence",
     "Fixes missing editorial Auth/RBAC exports used by EditorialWorkbench",
     "Updates Next.js from 16.3.6 to patched 16.3.8",
-    "Adds high-severity npm audit enforcement to CI",
-    "Removes duplicate/incompatible active 0007 migration numbering",
-    "Archives the incompatible legacy Phase 4 draft migration",
-    "Prevents ADMIN permission starvation by seeding a complete role-permission matrix",
-    "Removes dummy Supabase credentials from browser client fallback",
-    "Removes unused /todos sample route that queried a non-existent table",
-    "Stops shipping local Supabase credential files in release archives"
+    "Adds high-severity npm audit enforcement to CI"
   ],
-<<<<<<< HEAD
   "releaseSummary": "Phase 4.2 / v0.14.0 merges the Auth/RBAC architecture into the latest Phase 4 baseline, removes unsupported middleware from the GitHub Pages static-export path, upgrades Next.js to 16.3.8, and establishes the next contributor/editorial/admin roadmap."
-=======
-  "releaseSummary": "Phase 4 / v0.13.1 begins the editorial platform rollout by defining the Supabase database migrations for Role-Based Access Control (RBAC), contributor profiles, official global review queues, and secure audit logging."
->>>>>>> 944bc1664cf331ee879a66a64402d67bc4227e2a
 }
