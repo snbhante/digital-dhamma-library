@@ -55,6 +55,7 @@ npm run validate:release
 ## 5. Link Supabase
 
 ```powershell
+npm install -g supabase
 supabase login
 supabase link --project-ref YOUR_PROJECT_REF
 supabase migration list
