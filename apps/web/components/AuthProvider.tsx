@@ -18,6 +18,7 @@ export type AuthContextValue = {
   configured: boolean;
   loading: boolean;
   authorizationLoading: boolean;
+  authorizationError: string | null;
   session: AuthSession | null;
   user: AuthUser | null;
   roles: UserRole[];
@@ -34,17 +35,20 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [session, setSession] = useState<AuthSession | null>(null);
   const [loading, setLoading] = useState(true);
   const [authorizationLoading, setAuthorizationLoading] = useState(false);
+  const [authorizationError, setAuthorizationError] = useState<string | null>(null);
   const [roles, setRoles] = useState<UserRole[]>([]);
   const [permissions, setPermissions] = useState<Permission[]>([]);
 
   async function loadAuthorization(nextSession: AuthSession | null) {
     if (!nextSession) {
+      setAuthorizationError(null);
       setRoles([]);
       setPermissions([]);
       setAuthorizationLoading(false);
       return;
     }
     setAuthorizationLoading(true);
+    setAuthorizationError(null);
     try {
       const [nextRoles, nextPermissions] = await Promise.all([
         getUserRoles(nextSession),
@@ -52,7 +56,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       ]);
       setRoles(nextRoles);
       setPermissions(nextPermissions);
-    } catch {
+    } catch (value) {
+      const record = value && typeof value === "object" ? value as Record<string, unknown> : null;
+      const message = value instanceof Error ? value.message : typeof record?.message === "string" ? record.message : typeof record?.details === "string" ? record.details : "Could not load role and permission records.";
+      setAuthorizationError(message);
       setRoles([]);
       setPermissions([]);
     } finally {
@@ -99,6 +106,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     configured: supabaseConfigured,
     loading,
     authorizationLoading,
+    authorizationError,
     session,
     user: session?.user ?? null,
     roles,
@@ -122,8 +130,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setSession(null);
       setRoles([]);
       setPermissions([]);
+      setAuthorizationError(null);
     },
-  }), [loading, authorizationLoading, session, roles, permissions]);
+  }), [loading, authorizationLoading, authorizationError, session, roles, permissions]);
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }

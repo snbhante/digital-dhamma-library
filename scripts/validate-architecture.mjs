@@ -11,8 +11,8 @@ const rootPkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf
 const webPkg = JSON.parse(fs.readFileSync(path.join(web, "package.json"), "utf8"));
 const lock = JSON.parse(fs.readFileSync(path.join(root, "package-lock.json"), "utf8"));
 
-if (rootPkg.version !== "0.14.1") failures.push(`root package version is ${rootPkg.version}, expected 0.14.1`);
-if (webPkg.version !== "0.14.1") failures.push(`web package version is ${webPkg.version}, expected 0.14.1`);
+if (rootPkg.version !== "0.15.0") failures.push(`root package version is ${rootPkg.version}, expected 0.15.0`);
+if (webPkg.version !== "0.15.0") failures.push(`web package version is ${webPkg.version}, expected 0.15.0`);
 if (webPkg.dependencies?.next !== "16.3.8") failures.push(`Next.js dependency is ${webPkg.dependencies?.next}, expected 16.3.8`);
 if (lock.packages?.["apps/web"]?.dependencies?.next !== "16.3.8") failures.push("package-lock apps/web Next.js version is not 16.3.8");
 if (lock.packages?.["node_modules/next"]?.version !== "16.3.8") failures.push("package-lock node_modules/next is not 16.3.8");
@@ -59,4 +59,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Architecture validation passed: v0.14.1, Next.js 16.3.8, static-export boundary, migration numbering, security boundaries, and release hygiene are consistent.");
+console.log("Architecture validation passed: v0.15.0, Next.js 16.3.8, static-export boundary, migration numbering, security boundaries, and release hygiene are consistent.");

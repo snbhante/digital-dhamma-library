@@ -12,7 +12,7 @@ import {
   listAdminUserRoles,
   type AdminProfile,
 } from "../../../lib/supabase";
-import { USER_ROLES } from "../../../lib/authz";
+import { USER_ROLES, hasPermission } from "../../../lib/authz";
 
 type Assignment = { user_id: string; role_id: string; assigned_at: string; assigned_by: string | null };
 
@@ -38,7 +38,7 @@ export default function AdminUsersPage() {
     return users.filter((user) => !q || `${user.display_name ?? ""} ${user.contributor_handle ?? ""} ${user.id}`.toLowerCase().includes(q));
   }, [users, query]);
 
-  const canAssign = permissions.some((permission) => String(permission) === "role.assign");
+  const canAssign = hasPermission(permissions, "role.assign");
 
   async function changeRole(userId: string, role: string, action: "assign" | "revoke") {
     if (!session) return;
@@ -77,7 +77,6 @@ export default function AdminUsersPage() {
             {canAssign && <div className="actions">
               {USER_ROLES.filter((role) => role !== "GUEST" && role !== "READER").map((role) => {
                 const roleId = assignments.find((a) => a.user_id === user.id)?.role_id;
-                const key = `${role.toLowerCase()}`;
                 return <button className="small-button" key={role} type="button" disabled={Boolean(busy)} title={roleId ? `Assign ${role}` : undefined} onClick={() => void changeRole(user.id, role, "assign")}>{busy === `assign:${user.id}:${role}` ? "…" : `+ ${role}`}</button>;
               })}
               {roles.some((r) => r.name === "SUPER_ADMIN") && <button className="small-button" type="button" disabled={Boolean(busy)} onClick={() => void changeStatus(user.id, user.account_status === "SUSPENDED" ? "ACTIVE" : "SUSPENDED")}>{busy === `status:${user.id}` ? "…" : user.account_status === "SUSPENDED" ? "Reactivate" : "Suspend"}</button>}

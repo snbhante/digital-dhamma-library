@@ -6,8 +6,22 @@ import type { FormEvent } from "react";
 import { getProfile, upsertProfile, getFallbackName, type Profile } from "../lib/supabase";
 import { useAuth } from "./AuthProvider";
 
+function describeSupabaseError(value: unknown, fallback: string): string {
+  if (value instanceof Error && value.message) return value.message;
+  if (value && typeof value === "object") {
+    const record = value as Record<string, unknown>;
+    const message = typeof record.message === "string" ? record.message : "";
+    const code = typeof record.code === "string" ? record.code : "";
+    const details = typeof record.details === "string" ? record.details : "";
+    const hint = typeof record.hint === "string" ? record.hint : "";
+    const parts = [code, message, details, hint].filter(Boolean);
+    if (parts.length) return parts.join(" — ");
+  }
+  return fallback;
+}
+
 export default function AccountPanel() {
-  const { configured, loading, session, user, roles, permissions, signOut } = useAuth();
+  const { configured, loading, session, user, roles, permissions, authorizationError, signOut } = useAuth();
   const [profile, setProfile] = useState<Profile | null>(null);
   const [displayName, setDisplayName] = useState("");
   const [bio, setBio] = useState("");
@@ -25,7 +39,7 @@ export default function AccountPanel() {
       setBio(value?.bio ?? "");
       setLocale(value?.interface_language ?? value?.locale ?? "en");
       setIsPublic(value?.public_profile ?? value?.is_public ?? false);
-    }).catch((value) => setError(value instanceof Error ? value.message : "Could not load profile."));
+    }).catch((value) => setError(describeSupabaseError(value, "Could not load profile. Check that Supabase migrations 0001–0009 have been applied and the profiles SELECT policy is active.")));
   }, [session, user]);
 
   if (loading) return <div className="notice">Loading account…</div>;
@@ -42,7 +56,7 @@ export default function AccountPanel() {
       setProfile(next);
       setStatus("Profile saved.");
     } catch (value) {
-      setError(value instanceof Error ? value.message : "Could not save profile.");
+      setError(describeSupabaseError(value, "Could not save profile. Check the profiles table columns, UPDATE/INSERT policies, and applied migrations."));
     }
   }
 
@@ -51,7 +65,7 @@ export default function AccountPanel() {
       <span className="card-kicker">ACCOUNT</span>
       <h2>{displayName || getFallbackName(user.email)}</h2>
       <p>{user.email}</p>
-      <div className="actions"><Link className="button primary" href="/workspace/">Open workspace</Link><Link className="button" href="/dashboard/">Dashboard</Link><button className="button" type="button" onClick={() => signOut()}>Sign out</button></div><p className="muted">Roles: {roles.length ? roles.map((role) => role.name).join(", ") : "READER role pending"} · Permissions: {permissions.length}</p>
+      <div className="actions"><Link className="button primary" href="/workspace/">Open workspace</Link><Link className="button" href="/dashboard/">Dashboard</Link><button className="button" type="button" onClick={() => signOut()}>Sign out</button></div><p className="muted">Roles: {roles.length ? roles.map((role) => role.name).join(", ") : "READER role pending"} · Permissions: {permissions.length}</p>{authorizationError && <div className="notice error-notice" role="alert">Could not load role/permission data: {authorizationError}. Verify migrations 0001–0009, user_roles/role_permissions RLS, and the signed-in user role assignment.</div>}
     </section>
     <section className="card account-card">
       <span className="card-kicker">PROFILE</span>
