@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { spawnSync } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -11,8 +12,8 @@ const rootPkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf
 const webPkg = JSON.parse(fs.readFileSync(path.join(web, "package.json"), "utf8"));
 const lock = JSON.parse(fs.readFileSync(path.join(root, "package-lock.json"), "utf8"));
 
-if (rootPkg.version !== "0.15.0") failures.push(`root package version is ${rootPkg.version}, expected 0.15.0`);
-if (webPkg.version !== "0.15.0") failures.push(`web package version is ${webPkg.version}, expected 0.15.0`);
+if (rootPkg.version !== "0.15.1") failures.push(`root package version is ${rootPkg.version}, expected 0.15.1`);
+if (webPkg.version !== "0.15.1") failures.push(`web package version is ${webPkg.version}, expected 0.15.1`);
 if (webPkg.dependencies?.next !== "16.3.8") failures.push(`Next.js dependency is ${webPkg.dependencies?.next}, expected 16.3.8`);
 if (lock.packages?.["apps/web"]?.dependencies?.next !== "16.3.8") failures.push("package-lock apps/web Next.js version is not 16.3.8");
 if (lock.packages?.["node_modules/next"]?.version !== "16.3.8") failures.push("package-lock node_modules/next is not 16.3.8");
@@ -45,8 +46,27 @@ function walk(dir) {
 }
 for (const dir of sourceRoots) walk(dir);
 
-if (exists(path.join(root, ".env.local")) || exists(path.join(web, ".env.local"))) failures.push("local environment credential file is present in release tree");
+// A developer may legitimately keep .env.local in the working tree. Do not
+// fail merely because it exists: require ignore rules and ensure no real env
+// files are committed to Git. Release ZIPs are separately sanitized at packaging.
+const gitignorePath = path.join(root, ".gitignore");
 if (!exists(path.join(root, ".env.example"))) failures.push(".env.example is missing");
+if (!exists(gitignorePath)) {
+  failures.push(".gitignore is missing; local environment files cannot be safely excluded");
+} else {
+  const ignoreText = fs.readFileSync(gitignorePath, "utf8");
+  if (!/^\s*\.env\.\*\s*$/m.test(ignoreText)) failures.push(".gitignore must ignore .env.* files");
+  if (!/^\s*!\.env\.example\s*$/m.test(ignoreText)) failures.push(".gitignore must explicitly allow .env.example");
+}
+const gitTracked = spawnSync("git", ["ls-files", "-z"], { cwd: root, encoding: "buffer", windowsHide: true });
+if (!gitTracked.error && gitTracked.status === 0) {
+  const trackedPaths = gitTracked.stdout.toString("utf8").split("\0").filter(Boolean);
+  const trackedEnvFiles = trackedPaths.filter((file) => {
+    const base = path.posix.basename(file.replaceAll("\\", "/"));
+    return base.startsWith(".env") && base !== ".env.example";
+  });
+  if (trackedEnvFiles.length) failures.push(`credential/environment files are tracked by Git: ${trackedEnvFiles.join(", ")}`);
+}
 if (!exists(path.join(root, "supabase", "migrations", "0009_phase_4_3_admin_control_plane.sql"))) failures.push("Phase 4.3 admin control-plane migration is missing");
 
 const nextConfig = fs.readFileSync(path.join(web, "next.config.ts"), "utf8");
@@ -59,4 +79,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Architecture validation passed: v0.15.0, Next.js 16.3.8, static-export boundary, migration numbering, security boundaries, and release hygiene are consistent.");
+console.log("Architecture validation passed: v0.15.1, Next.js 16.3.8, static-export boundary, migration numbering, security boundaries, and environment-file hygiene are consistent.");

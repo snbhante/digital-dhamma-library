@@ -7,10 +7,9 @@ next-env.d.ts
 out/
 *.tsbuildinfo
 
-# Local environment
+# Local environment and credentials
 .env
-.env.local
-.env.*.local
+.env.*
 !.env.example
 
 # OS / editor
