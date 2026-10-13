@@ -1,21 +1,24 @@
 import { createBrowserClient } from "@supabase/ssr";
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || "";
-
+/**
+ * Browser-only Supabase client factory.
+ *
+ * Never substitute a dummy URL/key: doing so hides missing GitHub Actions
+ * configuration and produces requests to a non-existent project. Public pages
+ * may build without Supabase, but code that requests this client must fail with
+ * an actionable configuration error.
+ */
 export const createClient = () => {
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim() || "";
+  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY?.trim() || "";
+
   if (!supabaseUrl || !supabaseKey) {
-    // Return a dummy client or handle it gracefully if needed, 
-    // but @supabase/ssr createBrowserClient will throw if url/key are missing.
-    // Wait, let's just pass dummy values during build?
-    // Let's pass a dummy URL so it doesn't throw at build time.
-    return createBrowserClient(
-      supabaseUrl || "https://dummy.supabase.co",
-      supabaseKey || "dummy_key",
+    throw new Error(
+      "Supabase is not configured. Set NEXT_PUBLIC_SUPABASE_URL and " +
+      "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY in .env.local for development " +
+      "and GitHub Actions Variables for GitHub Pages."
     );
   }
-  return createBrowserClient(
-    supabaseUrl,
-    supabaseKey,
-  );
+
+  return createBrowserClient(supabaseUrl, supabaseKey);
 };

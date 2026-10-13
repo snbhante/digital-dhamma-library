@@ -12,8 +12,8 @@ const rootPkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf
 const webPkg = JSON.parse(fs.readFileSync(path.join(web, "package.json"), "utf8"));
 const lock = JSON.parse(fs.readFileSync(path.join(root, "package-lock.json"), "utf8"));
 
-if (rootPkg.version !== "0.15.1") failures.push(`root package version is ${rootPkg.version}, expected 0.15.1`);
-if (webPkg.version !== "0.15.1") failures.push(`web package version is ${webPkg.version}, expected 0.15.1`);
+if (rootPkg.version !== "0.15.2") failures.push(`root package version is ${rootPkg.version}, expected 0.15.2`);
+if (webPkg.version !== "0.15.2") failures.push(`web package version is ${webPkg.version}, expected 0.15.2`);
 if (webPkg.dependencies?.next !== "16.3.8") failures.push(`Next.js dependency is ${webPkg.dependencies?.next}, expected 16.3.8`);
 if (lock.packages?.["apps/web"]?.dependencies?.next !== "16.3.8") failures.push("package-lock apps/web Next.js version is not 16.3.8");
 if (lock.packages?.["node_modules/next"]?.version !== "16.3.8") failures.push("package-lock node_modules/next is not 16.3.8");
@@ -68,6 +68,25 @@ if (!gitTracked.error && gitTracked.status === 0) {
   if (trackedEnvFiles.length) failures.push(`credential/environment files are tracked by Git: ${trackedEnvFiles.join(", ")}`);
 }
 if (!exists(path.join(root, "supabase", "migrations", "0009_phase_4_3_admin_control_plane.sql"))) failures.push("Phase 4.3 admin control-plane migration is missing");
+if (!exists(path.join(root, "supabase", "migrations", "0010_auth_profile_backfill.sql"))) failures.push("Auth profile backfill migration is missing");
+
+const browserClientPath = path.join(web, "utils", "supabase", "client.ts");
+if (exists(browserClientPath)) {
+  const browserClientText = fs.readFileSync(browserClientPath, "utf8");
+  if (/dummy\.supabase\.co|dummy_key/i.test(browserClientText)) failures.push("Supabase browser client must not fall back to a dummy URL/key");
+}
+const pagesWorkflowPath = path.join(root, ".github", "workflows", "pages.yml");
+if (exists(pagesWorkflowPath)) {
+  const pagesWorkflowText = fs.readFileSync(pagesWorkflowPath, "utf8");
+  if (!/Verify Supabase public configuration/.test(pagesWorkflowText)) failures.push("GitHub Pages workflow must validate Supabase public configuration before building");
+}
+const profileMigrationPath = path.join(root, "supabase", "migrations", "0010_auth_profile_backfill.sql");
+if (exists(profileMigrationPath)) {
+  const profileMigrationText = fs.readFileSync(profileMigrationPath, "utf8");
+  for (const column of ["interface_language", "public_profile", "preferences", "contributor_handle"]) {
+    if (!profileMigrationText.includes(column)) failures.push(`Auth profile migration does not ensure profiles.${column}`);
+  }
+}
 
 const nextConfig = fs.readFileSync(path.join(web, "next.config.ts"), "utf8");
 if (!/output:\s*["']export["']/.test(nextConfig)) failures.push("Next.js static export is not enabled");
@@ -79,4 +98,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Architecture validation passed: v0.15.1, Next.js 16.3.8, static-export boundary, migration numbering, security boundaries, and environment-file hygiene are consistent.");
+console.log("Architecture validation passed: v0.15.2, Next.js 16.3.8, static-export boundary, migration numbering, security boundaries, and environment-file hygiene are consistent.");

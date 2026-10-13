@@ -42,6 +42,16 @@ jobs:
       - name: Type check
         run: npm run typecheck
 
+      - name: Verify Supabase public configuration
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ vars.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
+        run: |
+          test -n "$NEXT_PUBLIC_SUPABASE_URL" || (echo "::error::Set Actions Variable NEXT_PUBLIC_SUPABASE_URL"; exit 1)
+          test -n "$NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY" || (echo "::error::Set Actions Variable NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY"; exit 1)
+          case "$NEXT_PUBLIC_SUPABASE_URL" in https://*.supabase.co) ;; *) echo "::error::NEXT_PUBLIC_SUPABASE_URL must be your HTTPS Supabase project URL"; exit 1 ;; esac
+          case "$NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY" in sb_publishable_*) ;; *) echo "::warning::Key does not use the current sb_publishable_ prefix; verify it is a publishable/anon key, never a secret/service_role key." ;; esac
+
       - name: Build Next.js
         env:
           NEXT_PUBLIC_BASE_PATH: /digital-dhamma-library

@@ -1,0 +1,40 @@
+{
+  "project": "Digital Dhamma Library",
+  "version": "0.15.2",
+  "release_archive_policy": {
+    "exclude": [
+      ".git/",
+      "node_modules/",
+      "**/.next/",
+      "**/out/",
+      ".env.local",
+      ".env.production",
+      "other real .env files"
+    ],
+    "include": [
+      ".env.example",
+      "SETUP&GUIDLINE.md",
+      "docs/RELEASE-NOTES-V0.15.2.md",
+      "docs/VALIDATION-REPORT-V0.15.2.md"
+    ]
+  },
+  "changes": [
+    "supabase/migrations/0010_auth_profile_backfill.sql",
+    "apps/web/utils/supabase/client.ts",
+    ".github/workflows/pages.yml",
+    "scripts/validate-architecture.mjs",
+    "SETUP&GUIDLINE.md",
+    "docs/RELEASE-NOTES-V0.15.2.md",
+    "docs/VALIDATION-REPORT-V0.15.2.md"
+  ],
+  "validation": {
+    "architecture": "passed",
+    "ui": "passed",
+    "workspace": "passed",
+    "data": "passed",
+    "typecheck": "blocked_dependency_install_incomplete",
+    "production_build": "not_run",
+    "live_supabase": "not_verified",
+    "live_github_pages": "not_verified"
+  }
+}
