@@ -44,6 +44,7 @@ git --version
 
 ```powershell
 Copy-Item .env.example .env.local
+Copy-Item .env.local apps/web/.env.local
 ```
 
 `.env.local`-এ:
