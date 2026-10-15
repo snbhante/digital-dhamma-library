@@ -16,6 +16,10 @@ type Props = {
   paragraphId: string;
 };
 
+function StarIcon() { return <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="m12 3 2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3Z"/></svg>; }
+function StarFilledIcon() { return <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="currentColor"><path d="m12 3 2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3Z"/></svg>; }
+function EditIcon() { return <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="m14 5 5 5M4 20l4.5-1 10-10a2.1 2.1 0 0 0-3-3l-10 10L4 20Z"/></svg>; }
+
 export default function ParagraphResearchTools({ workId, workTitle, paragraphId }: Props) {
   const targetId = targetIdForParagraph(workId, paragraphId);
   const [state, setState] = useState<WorkspaceState>(emptyWorkspace);
@@ -144,10 +148,10 @@ export default function ParagraphResearchTools({ workId, workTitle, paragraphId 
           onClick={toggleBookmark}
           aria-pressed={bookmarked}
         >
-          {bookmarked ? "★ Saved" : "☆ Save"}
+          {bookmarked ? <><StarFilledIcon /> Saved</> : <><StarIcon /> Save</>}
         </button>
         <button className="small-button" type="button" onClick={openNote}>
-          {existingNote ? "✎ Edit note" : "✎ Note"}
+          {existingNote ? <><EditIcon /> Edit note</> : <><EditIcon /> Note</>}
         </button>
       </div>
 

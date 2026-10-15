@@ -1,0 +1,50 @@
+{
+  "project": "Digital Dhamma Library",
+  "version": "0.16.0",
+  "release_archive_policy": {
+    "exclude": [
+      ".git/",
+      "node_modules/",
+      "**/.next/",
+      "**/out/",
+      ".env.local",
+      ".env.production",
+      "other real .env files"
+    ],
+    "include": [
+      ".env.example",
+      "SETUP&GUIDELINE.md",
+      "docs/roadmap/ROADMAP-PHASED-V0.16.0.md",
+      "docs/RELEASE-NOTES-V0.16.0.md",
+      "docs/validation/VALIDATION-REPORT-V0.16.0.md"
+    ]
+  },
+  "changes": [
+    "apps/web/components/SearchBox.tsx",
+    "apps/web/app/search/page.tsx",
+    "apps/web/components/SaveSearchButton.tsx",
+    "apps/web/components/AccountPanel.tsx",
+    "apps/web/components/UserAvatar.tsx",
+    "apps/web/components/AuthStatus.tsx",
+    "apps/web/components/DashboardPanel.tsx",
+    "apps/web/app/globals.css",
+    "supabase/migrations/20261015093600_profile_avatar_storage.sql",
+    "scripts/validate-architecture.mjs",
+    "SETUP&GUIDELINE.md",
+    "docs/roadmap/ROADMAP-PHASED-V0.16.0.md",
+    "docs/RELEASE-NOTES-V0.16.0.md",
+    "docs/validation/VALIDATION-REPORT-V0.16.0.md"
+  ],
+  "validation": {
+    "architecture": "passed",
+    "ui": "passed",
+    "workspace": "passed",
+    "research_index": "passed",
+    "data": "passed",
+    "typecheck": "blocked_dependency_install_incomplete_and_runtime_below_project_requirement",
+    "dependency_audit": "not_run_registry_dns_failure",
+    "production_build": "not_run_dependencies_unavailable",
+    "live_supabase": "not_verified",
+    "live_github_pages": "not_verified"
+  }
+}

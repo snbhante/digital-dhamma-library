@@ -11,6 +11,8 @@ const required = [
   "apps/web/lib/supabase.ts",
   "apps/web/lib/workspaceSync.ts",
   "supabase/migrations/0006_phase_3_workspace_2.sql",
+  "supabase/migrations/20261015093600_profile_avatar_storage.sql",
+  "apps/web/components/UserAvatar.tsx",
   ".env.example",
 ];
 
@@ -40,4 +42,11 @@ if (!/const activeSession = session;/.test(accountPanel) || !/upsertProfile\(act
   throw new Error("AccountPanel must capture the authenticated session before using it inside the nested save callback.");
 }
 
-console.log("Workspace 2.0 validation passed: auth/profile surfaces, cloud snapshot migration, static-export safety, public-key security boundaries, and AccountPanel TypeScript narrowing guard are present.");
+const avatarMigration = fs.readFileSync(path.join(root, "supabase/migrations/20261015093600_profile_avatar_storage.sql"), "utf8");
+for (const marker of ["avatars", "storage.foldername(name)", "auth.uid()", "file_size_limit"]) {
+  if (!avatarMigration.includes(marker)) throw new Error(`Avatar storage migration is missing security/configuration marker: ${marker}`);
+}
+if (!accountPanel.includes("setIsEditing") || !accountPanel.includes("Role") || !accountPanel.includes("Permissions") || !accountPanel.includes("preferences: { ...(profile?.preferences ?? {}), gender }")) {
+  throw new Error("AccountPanel must support explicit profile edit mode, visible roles/permissions, and gender preference persistence.");
+}
+console.log("Workspace validation passed: auth/profile surfaces, cloud snapshot migration, avatar storage policies, edit-mode profile, gender preference, and public-key security boundaries are present.");

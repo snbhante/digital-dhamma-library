@@ -45,7 +45,7 @@ export default function OccurrencesPage() {
         <div className="result-meta"><span>{item.count} token occurrence{item.count===1?"":"s"} · {item.paragraphCount} paragraph{item.paragraphCount===1?"":"s"}</span></div>
         <h3 className="pali">{item.token}</h3>
         <p><strong>Lemma:</strong> <span className="pali">{item.lemma || "Not indexed"}</span></p>
-        <div className="result-list">{item.references.slice(0,8).map(ref=><Link className="result-card" key={`${ref.workId}-${ref.paragraphId}`} href={`/read/${ref.workId}/#${ref.paragraphId}`}><span>{ref.paragraphId}</span><strong>Open →</strong></Link>)}</div>
+        <div className="result-list occurrence-reference-list">{item.references.slice(0,8).map(ref=><Link className="result-card occurrence-reference-card" key={`${ref.workId}-${ref.paragraphId}`} href={`/read/${ref.workId}/#${ref.paragraphId}`}><span>{ref.paragraphId}</span><strong>Open →</strong></Link>)}</div>
       </article>)}
     </section>
   </main>;

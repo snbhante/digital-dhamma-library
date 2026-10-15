@@ -12,8 +12,8 @@ const rootPkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf
 const webPkg = JSON.parse(fs.readFileSync(path.join(web, "package.json"), "utf8"));
 const lock = JSON.parse(fs.readFileSync(path.join(root, "package-lock.json"), "utf8"));
 
-if (rootPkg.version !== "0.15.2") failures.push(`root package version is ${rootPkg.version}, expected 0.15.2`);
-if (webPkg.version !== "0.15.2") failures.push(`web package version is ${webPkg.version}, expected 0.15.2`);
+if (rootPkg.version !== "0.16.0") failures.push(`root package version is ${rootPkg.version}, expected 0.16.0`);
+if (webPkg.version !== "0.16.0") failures.push(`web package version is ${webPkg.version}, expected 0.16.0`);
 if (webPkg.dependencies?.next !== "16.3.8") failures.push(`Next.js dependency is ${webPkg.dependencies?.next}, expected 16.3.8`);
 if (lock.packages?.["apps/web"]?.dependencies?.next !== "16.3.8") failures.push("package-lock apps/web Next.js version is not 16.3.8");
 if (lock.packages?.["node_modules/next"]?.version !== "16.3.8") failures.push("package-lock node_modules/next is not 16.3.8");
@@ -69,6 +69,8 @@ if (!gitTracked.error && gitTracked.status === 0) {
 }
 if (!exists(path.join(root, "supabase", "migrations", "0009_phase_4_3_admin_control_plane.sql"))) failures.push("Phase 4.3 admin control-plane migration is missing");
 if (!exists(path.join(root, "supabase", "migrations", "0010_auth_profile_backfill.sql"))) failures.push("Auth profile backfill migration is missing");
+if (!exists(path.join(root, "supabase", "migrations", "20261015093600_profile_avatar_storage.sql"))) failures.push("Profile avatar storage migration is missing");
+if (!exists(path.join(web, "components", "UserAvatar.tsx"))) failures.push("Shared user avatar component is missing");
 
 const browserClientPath = path.join(web, "utils", "supabase", "client.ts");
 if (exists(browserClientPath)) {
@@ -98,4 +100,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log("Architecture validation passed: v0.15.2, Next.js 16.3.8, static-export boundary, migration numbering, security boundaries, and environment-file hygiene are consistent.");
+console.log("Architecture validation passed: v0.16.0, Next.js 16.3.8, static-export boundary, migration numbering, security boundaries, and environment-file hygiene are consistent.");

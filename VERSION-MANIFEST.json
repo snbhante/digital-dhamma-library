@@ -1,8 +1,8 @@
 {
   "project": "digital-dhamma-library",
-  "release": "ui-refinement-and-setup-diagnostics",
-  "baseline_date": "2026-10-08",
-  "version": "0.15.1",
+  "release": "reliability-and-research-ux",
+  "baseline_date": "2026-10-15",
+  "version": "0.16.0",
   "runtime": {
     "node": "24.21.0",
     "channel": "LTS",
@@ -80,7 +80,18 @@
     "Refined responsive Account and researcher Dashboard cards",
     "Advanced Research Reader responsive sidebar, tab, and parallel-text layout refinements",
     "Supabase profile errors expose PostgREST code, message, details, and hint",
-    "v0.15.0 setup and guideline for Supabase, GitHub Actions, Pages, validation, and release"
+    "v0.15.0 setup and guideline for Supabase, GitHub Actions, Pages, validation, and release",
+    "Single primary search action on home page with dedicated advanced search route",
+    "Accessible Search Settings modal for field, collection, type, language, and result limit",
+    "Save-search naming modal for browser-local research workspace",
+    "Profile avatar upload to Supabase Storage with MIME/size validation",
+    "Per-user avatar storage policies and public avatar bucket migration",
+    "Gender-aware default profile avatars using profile preferences",
+    "Read-only profile display with explicit edit mode",
+    "Separated role and effective permission presentation on Account",
+    "Avatar-based global account navigation and Dashboard identity",
+    "Dashboard stat-to-identity spacing refinement",
+    "Phased roadmap, v0.16.0 release notes, and validation evidence checklist"
   ],
   "fixes": [
     "Preserves Phase 2.0.2 duplicate occurrence-reference fix",
@@ -135,5 +146,5 @@
     "Corrects admin user role-assignment permission check to use typed hasPermission helper",
     "Release ZIP excludes local environment credentials and generated directories"
   ],
-  "releaseSummary": "v0.15.0 refines landing navigation, account/dashboard/advanced-reader UI, improves Supabase profile diagnostics, and documents setup, validation, GitHub Pages deployment, and release workflow."
+  "releaseSummary": "v0.16.0 improves search and account UX, adds profile avatar storage and gender-aware fallback avatars, clarifies role/permission presentation, refines dashboard spacing, and documents phased roadmap and release validation."
 }

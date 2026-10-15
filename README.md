@@ -1,10 +1,10 @@
 # Digital Dhamma Library
 
-**Current release: v0.14.1 / Phase 4.3**
+**Current source baseline: v0.16.0 / Reliability & Research UX**
 
 The production deployment profile is **GitHub Pages static export + Supabase browser client + PostgreSQL RLS/RBAC**. Request-time Next.js Middleware/Proxy and server-only Supabase secrets are deliberately outside this deployment profile.
 
-v0.14.1 hardens the authentication/editorial architecture, fixes the incompatible duplicate `0007` migration chain, adds a canonical nine-role permission matrix, adds database-protected administrative RPCs and authenticated editorial review transitions, and removes local credentials/generated repository state from release archives.
+v0.16.0 refines search controls and profile management, adds avatar storage and gender-aware fallback avatars, clarifies role/permission presentation, improves dashboard spacing, and documents the phased roadmap and validation gates. See [`SETUP&GUIDELINE.md`](./SETUP%26GUIDELINE.md) for setup, migration, GitHub Pages deployment, validation, and release instructions.
 
 
 **Open Buddhist Digital Knowledge & Research Platform**

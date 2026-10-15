@@ -1,7 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
-import Link from "next/link";
+import { useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 
 export default function SearchBox() {
@@ -15,17 +14,10 @@ export default function SearchBox() {
   }
 
   return (
-    <form className="search-form" onSubmit={submit} role="search">
+    <form className="search-form home-search-form" onSubmit={submit} role="search">
       <label className="sr-only" htmlFor="global-search">Search the Dhamma Library</label>
-      <input
-        id="global-search"
-        value={query}
-        onChange={(event) => setQuery(event.target.value)}
-        placeholder="Search Pāḷi, English, বাংলা, titles…"
-        autoComplete="off"
-      />
+      <input id="global-search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search Pāḷi, English, বাংলা, titles…" autoComplete="off" />
       <button className="button primary" type="submit">Search</button>
-      <Link className="button" href="/search/">Advanced search</Link>
     </form>
   );
 }

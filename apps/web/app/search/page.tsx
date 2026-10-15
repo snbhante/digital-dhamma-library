@@ -29,6 +29,7 @@ export default function SearchPage() {
   const [type, setType] = useState("all");
   const [language, setLanguage] = useState("all");
   const [limit, setLimit] = useState("100");
+  const [settingsOpen, setSettingsOpen] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -42,6 +43,13 @@ export default function SearchPage() {
     setLanguage(params.get("language") || "all");
     setLimit(params.get("limit") || "100");
   }, []);
+
+  useEffect(() => {
+    if (!settingsOpen) return;
+    const closeOnEscape = (event: KeyboardEvent) => { if (event.key === "Escape") setSettingsOpen(false); };
+    window.addEventListener("keydown", closeOnEscape);
+    return () => window.removeEventListener("keydown", closeOnEscape);
+  }, [settingsOpen]);
 
   const collections = useMemo(() => [...new Set(corpus.map((work) => work.collection))].sort(), []);
   const types = useMemo(() => [...new Set(corpus.map((work) => work.type))].sort(), []);
@@ -116,19 +124,27 @@ export default function SearchPage() {
         <p>Search titles, metadata, Pāḷi, English, and বাংলা with phrase matching, filters, and lightweight relevance ordering.</p>
       </header>
 
-      <form className="search-form large" onSubmit={submit} role="search">
+      <form className="search-form large search-controls" onSubmit={submit} role="search">
         <label className="sr-only" htmlFor="corpus-search">Search corpus</label>
         <input id="corpus-search" value={input} onChange={(event) => setInput(event.target.value)} placeholder={'Try: satipaṭṭhāna, "nibbāna", দুঃখ, MN 10…'} autoFocus />
         <button className="button primary" type="submit">Search</button>
+        <button className="button" type="button" aria-haspopup="dialog" aria-expanded={settingsOpen} onClick={() => setSettingsOpen(true)} aria-label="Search settings" title="Search settings"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-1.7 2.94-.08-.02a1.7 1.7 0 0 0-1.78.3l-.07.05h-3.4l-.04-.08a1.7 1.7 0 0 0-1.46-1.02 1.7 1.7 0 0 0-1.2.39l-.07.06-2.94-1.7.02-.08a1.7 1.7 0 0 0-.3-1.78l-.05-.07v-3.4l.08-.04a1.7 1.7 0 0 0 1.02-1.46 1.7 1.7 0 0 0-.39-1.2l-.06-.07 1.7-2.94.08.02a1.7 1.7 0 0 0 1.78-.3l.07-.05h3.4l.04.08a1.7 1.7 0 0 0 1.46 1.02 1.7 1.7 0 0 0 1.2-.39l.07-.06 2.94 1.7-.02.08a1.7 1.7 0 0 0 .3 1.78l.05.07v3.4z"/></svg></button>
       </form>
 
-      <section className="filters" aria-label="Search filters">
-        <label>Field<select value={field} onChange={(e) => setField(e.target.value as SearchField)}><option value="all">All fields</option><option value="pali">Pāḷi</option><option value="english">English</option><option value="bangla">বাংলা</option><option value="metadata">Metadata</option></select></label>
-        <label>Collection<select value={collection} onChange={(e) => setCollection(e.target.value)}><option value="all">All collections</option>{collections.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
-        <label>Type<select value={type} onChange={(e) => setType(e.target.value)}><option value="all">All types</option>{types.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
-        <label>Language<select value={language} onChange={(e) => setLanguage(e.target.value)}><option value="all">All languages</option>{languages.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
-        <label>Limit<select value={limit} onChange={(e) => setLimit(e.target.value)}><option value="25">25</option><option value="50">50</option><option value="100">100</option><option value="250">250</option></select></label>
-      </section>
+      {settingsOpen && <div className="modal-backdrop" onMouseDown={(event) => { if (event.target === event.currentTarget) setSettingsOpen(false); }}>
+        <section className="modal-card" role="dialog" aria-modal="true" aria-labelledby="search-settings-title">
+          <div className="modal-heading"><div><p className="eyebrow">REFINE RESULTS</p><h2 id="search-settings-title">Search settings</h2></div><button type="button" className="icon-button" onClick={() => setSettingsOpen(false)} aria-label="Close dialog">×</button></div>
+          <p className="muted">Choose which records and languages to include. Settings affect the current result set.</p>
+          <section className="filters modal-filters" aria-label="Search filters">
+            <label>Field<select value={field} onChange={(e) => setField(e.target.value as SearchField)}><option value="all">All fields</option><option value="pali">Pāḷi</option><option value="english">English</option><option value="bangla">বাংলা</option><option value="metadata">Metadata</option></select></label>
+            <label>Collection<select value={collection} onChange={(e) => setCollection(e.target.value)}><option value="all">All collections</option>{collections.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
+            <label>Type<select value={type} onChange={(e) => setType(e.target.value)}><option value="all">All types</option>{types.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
+            <label>Language<select value={language} onChange={(e) => setLanguage(e.target.value)}><option value="all">All languages</option>{languages.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
+            <label>Result limit<select value={limit} onChange={(e) => setLimit(e.target.value)}><option value="25">25 results</option><option value="50">50 results</option><option value="100">100 results</option><option value="250">250 results</option></select></label>
+          </section>
+          <div className="modal-actions"><button className="button primary" type="button" onClick={() => { setSettingsOpen(false); const params = new URLSearchParams(); if (query) params.set("q", query); if (field !== "all") params.set("field", field); if (collection !== "all") params.set("collection", collection); if (type !== "all") params.set("type", type); if (language !== "all") params.set("language", language); if (limit !== "100") params.set("limit", limit); router.replace(params.toString() ? `/search/?${params.toString()}` : "/search/"); }}>Apply settings</button><button className="button" type="button" onClick={() => { setField("all"); setCollection("all"); setType("all"); setLanguage("all"); setLimit("100"); }}>Reset filters</button><button className="button" type="button" onClick={() => setSettingsOpen(false)}>Close</button></div>
+        </section>
+      </div>}
 
       <section className="section search-results" aria-live="polite">
         {!query ? <div className="notice"><strong>Search tips:</strong> use quotes for an exact phrase, for example <code>"sabbaṃ ādittaṃ"</code>. Filters can be combined.</div> : <>
